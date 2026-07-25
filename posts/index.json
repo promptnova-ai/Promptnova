@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-07-25-prompts-virales.html",
+    "title": "Prompts Virales",
+    "description": "Crea contenido viral con prompts avanzados en redes sociales",
+    "date": "2026-07-25",
+    "tags": [
+      "prompts",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Ejemplo 1: 'Crea una publicación para Instagram que promueva un nuevo producto de belleza, incluyendo una imagen de una modelo sonriendo y utilizando el producto, con un texto que incluya las palabras clave \"belleza\", \"natural\" y \"eficaz\".\"",
+      "Ejemplo 2: 'Genera un tuit que hable sobre la importancia de reducir el uso de plásticos en nuestro día a día, incluyendo una estadística sobre el impacto del plástico en el medio ambiente y una llamada a la acción para que los usuarios compartan sus propias acciones para reducir el uso de plásticos.\"",
+      "Ejemplo 3: 'Crea una publicación para Facebook que promueva un evento de caridad, incluyendo una imagen de un voluntario ayudando a alguien en necesidad, con un texto que incluya las palabras clave \"caridad\", \"voluntariado\" y \"comunidad\".\""
+    ]
+  },
+  {
     "slug": "2026-07-25-ia-para-seo.html",
     "title": "IA para SEO",
     "description": "Aprende a posicionar tu contenido con IA y prompts",
@@ -1742,24 +1760,6 @@
       "Resumen del texto: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de sistemas capaces de realizar tareas que normalmente requieren la inteligencia humana, como la comprensión del lenguaje, el reconocimiento de patrones y la toma de decisiones.\"",
       "Genera un artículo sobre los beneficios de la meditación para la salud mental.",
       "Traduce el texto \"La inteligencia artificial es una rama de la informática\" al francés."
-    ]
-  },
-  {
-    "slug": "2026-06-19-prompts-creativos.html",
-    "title": "Prompts Creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos y mejora tu habilidad para generar ideas innovadoras",
-    "date": "2026-06-19",
-    "tags": [
-      "diseño gráfico",
-      "prompt engineering",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cómo sería un mundo donde la tecnología y la naturaleza coexisten en armonía? Genera una descripción de este mundo y crea un concepto visual que lo represente.",
-      "Diseña un sistema de transporte público que combine la eficiencia y la sostenibilidad. ¿Cómo podrías integrar la tecnología para hacer que este sistema sea más accesible y atractivo para los usuarios?",
-      "Crea un personaje que represente la fusión de la creatividad y la innovación. ¿Cuáles serían sus características y habilidades? ¿Cómo podría este personaje inspirar a otros a pensar de manera creativa y encontrar soluciones innovadoras?"
     ]
   }
 ]
