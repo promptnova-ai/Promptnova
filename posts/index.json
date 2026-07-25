@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-25-errores-en-prompts.html",
+    "title": "Errores en Prompts",
+    "description": "Evita errores comunes al escribir prompts para IA",
+    "date": "2026-07-25",
+    "tags": [
+      "prompts",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre perros.",
+      "Escribe un artículo de 500 palabras sobre las características y beneficios de tener perros como mascotas.",
+      "Escribe un texto sobre la importancia del ejercicio físico.",
+      "Escribe un texto de 300 palabras sobre la importancia del ejercicio físico para la salud mental, dirigido a un público joven y con un tono motivador.",
+      "Escribe un artículo sobre tecnología.",
+      "Escribe un artículo de 700 palabras sobre las tendencias actuales en inteligencia artificial y su aplicación en la industria del transporte."
+    ]
+  },
+  {
     "slug": "2026-07-25-prompts-virales.html",
     "title": "Prompts Virales",
     "description": "Crea contenido viral con prompts avanzados en redes sociales",
@@ -1742,24 +1763,6 @@
       "Diseña un logotipo para una empresa de tecnología que se especializa en inteligencia artificial. El logotipo debe incluir un elemento que represente la inteligencia artificial y otro que represente la innovación.",
       "Crea un cartel para una campaña publicitaria de una marca de ropa sostenible. El cartel debe incluir una imagen que muestre la importancia de la sostenibilidad en la moda y un eslogan que refleje el compromiso de la marca con el medio ambiente.",
       "Desarrolla un folleto para una empresa de viajes que ofrece paquetes turísticos ecológicos. El folleto debe incluir información sobre los destinos turísticos, las actividades que se pueden realizar y los beneficios de elegir paquetes ecológicos."
-    ]
-  },
-  {
-    "slug": "2026-06-19-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Guía para dominar ChatGPT en tu trabajo diario y mejorar la productividad",
-    "date": "2026-06-19",
-    "tags": [
-      "ChatGPT",
-      "Productividad",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Resumen del texto: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de sistemas capaces de realizar tareas que normalmente requieren la inteligencia humana, como la comprensión del lenguaje, el reconocimiento de patrones y la toma de decisiones.\"",
-      "Genera un artículo sobre los beneficios de la meditación para la salud mental.",
-      "Traduce el texto \"La inteligencia artificial es una rama de la informática\" al francés."
     ]
   }
 ]
