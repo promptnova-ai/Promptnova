@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-07-26-imagenes-ia-perfectas.html",
+    "title": "Imágenes IA Perfectas",
+    "description": "Descubre cómo crear imágenes perfectas con IA utilizando prompts efectivos",
+    "date": "2026-07-26",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes Generadas"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Generar una imagen de un paisaje de montaña con un lago en el fondo y un cielo nublado",
+      "Crea una imagen de un retrato de una mujer con el cabello largo y oscuro, con un vestido rojo y un fondo de flores",
+      "Generar una imagen de una ciudad futurista con edificios altos y vehículos voladores"
+    ]
+  },
+  {
     "slug": "2026-07-25-errores-en-prompts.html",
     "title": "Errores en Prompts",
     "description": "Evita errores comunes al escribir prompts para IA",
@@ -1745,24 +1763,6 @@
       "\"Escribe un informe de ventas para el tercer trimestre\"",
       "\"Clasifica los siguientes clientes en categorías: VIP, estándar, básico\"",
       "\"Genera un plan de marketing para el lanzamiento de un nuevo producto\""
-    ]
-  },
-  {
-    "slug": "2026-06-20-prompts-creativos.html",
-    "title": "Prompts Creativos",
-    "description": "Descubre los mejores prompts para diseñadores gráficos",
-    "date": "2026-06-20",
-    "tags": [
-      "diseño gráfico",
-      "prompt engineering",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especializa en inteligencia artificial. El logotipo debe incluir un elemento que represente la inteligencia artificial y otro que represente la innovación.",
-      "Crea un cartel para una campaña publicitaria de una marca de ropa sostenible. El cartel debe incluir una imagen que muestre la importancia de la sostenibilidad en la moda y un eslogan que refleje el compromiso de la marca con el medio ambiente.",
-      "Desarrolla un folleto para una empresa de viajes que ofrece paquetes turísticos ecológicos. El folleto debe incluir información sobre los destinos turísticos, las actividades que se pueden realizar y los beneficios de elegir paquetes ecológicos."
     ]
   }
 ]
