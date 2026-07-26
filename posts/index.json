@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-07-26-escribiendo-emails-profesionales.html",
+    "title": "Escribiendo Emails Profesionales",
+    "description": "Aprende a escribir emails profesionales con IA y mejora tu comunicación",
+    "date": "2026-07-26",
+    "tags": [
+      "IA",
+      "Emails Profesionales",
+      "Comunicación Efectiva"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un email de presentación para un nuevo cliente, incluyendo una breve descripción de nuestra empresa y nuestros servicios.\"",
+      "Ejemplo 2: \"Redacta un email de seguimiento para un cliente que ha solicitado información adicional sobre nuestros productos, incluyendo una respuesta detallada a sus preguntas.\"",
+      "Ejemplo 3: \"Crea un email de agradecimiento para un cliente que ha realizado una compra, incluyendo una oferta especial para su próxima compra.\""
+    ]
+  },
+  {
     "slug": "2026-07-26-escribe-prompts-infalibles.html",
     "title": "Escribe Prompts Infalibles",
     "description": "Aprende a crear prompts efectivos para IA con ejemplos prácticos",
@@ -1743,24 +1761,6 @@
       "Define el concepto de inteligencia artificial y proporciona un ejemplo de su aplicación en la industria.",
       "Explica el proceso de fotosíntesis en plantas y describe su importancia en el ecosistema.",
       "Describe las diferencias entre un sistema operativo de código abierto y uno propietario, y proporciona ejemplos de cada tipo."
-    ]
-  },
-  {
-    "slug": "2026-06-21-errores-comunes-al-escribir-prompts.html",
-    "title": "Errores comunes al escribir prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-06-21",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Ejemplo de prompt claro: \"Escribe un artículo de 500 palabras sobre los beneficios del ejercicio físico para la salud mental, incluyendo estadísticas y estudios recientes.\"",
-      "Ejemplo de prompt específico: \"Escribe un artículo de 300 palabras sobre la importancia de la educación formal en la sociedad actual, incluyendo estadísticas sobre la tasa de graduación y el impacto en la economía.\"",
-      "Ejemplo de prompt neutro: \"Escribe un artículo de 400 palabras sobre el impacto del cambio climático en la economía global, incluyendo perspectivas de expertos y estadísticas objetivas.\""
     ]
   }
 ]
