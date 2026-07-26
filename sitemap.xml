@@ -16,6 +16,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-escribe-prompts-infalibles.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-imagenes-ia-perfectas.html</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -458,11 +463,6 @@
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-21-errores-comunes-al-escribir-prompts.html</loc>
     <lastmod>2026-06-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-20-automatiza-tu-negocio.html</loc>
-    <lastmod>2026-06-20</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-07-26-escribe-prompts-infalibles.html",
+    "title": "Escribe Prompts Infalibles",
+    "description": "Aprende a crear prompts efectivos para IA con ejemplos prácticos",
+    "date": "2026-07-26",
+    "tags": [
+      "IA",
+      "Prompt Engineering",
+      "Escribir Prompts"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Escribe un breve resumen de la novela \"Don Quijote de la Mancha\" de Miguel de Cervantes.",
+      "Describe un día soleado en una playa tropical, incluyendo los sonidos y olores que se experimentarían.",
+      "Resumen el artículo \"El Impacto del Cambio Climático en los Ecosistemas Marinos\" publicado en la revista científica Nature.",
+      "Traduce el texto \"La inteligencia artificial es una rama de la informática que se ocupa del diseño y desarrollo de algoritmos que permiten a las máquinas realizar tareas que normalmente requerirían inteligencia humana\" del español al inglés."
+    ]
+  },
+  {
     "slug": "2026-07-26-imagenes-ia-perfectas.html",
     "title": "Imágenes IA Perfectas",
     "description": "Descubre cómo crear imágenes perfectas con IA utilizando prompts efectivos",
@@ -1742,27 +1761,6 @@
       "Ejemplo de prompt claro: \"Escribe un artículo de 500 palabras sobre los beneficios del ejercicio físico para la salud mental, incluyendo estadísticas y estudios recientes.\"",
       "Ejemplo de prompt específico: \"Escribe un artículo de 300 palabras sobre la importancia de la educación formal en la sociedad actual, incluyendo estadísticas sobre la tasa de graduación y el impacto en la economía.\"",
       "Ejemplo de prompt neutro: \"Escribe un artículo de 400 palabras sobre el impacto del cambio climático en la economía global, incluyendo perspectivas de expertos y estadísticas objetivas.\""
-    ]
-  },
-  {
-    "slug": "2026-06-20-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-06-20",
-    "tags": [
-      "Inteligencia Artificial",
-      "Automatización",
-      "Negocios"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "\"Escribe un artículo de 500 palabras sobre los beneficios de la automatización de negocios\"",
-      "\"¿Cuál es el proceso de solicitud de un crédito para pequeñas empresas?\"",
-      "\"Clasifica los siguientes productos en categorías: electrónica, ropa, hogar\"",
-      "\"Escribe un informe de ventas para el tercer trimestre\"",
-      "\"Clasifica los siguientes clientes en categorías: VIP, estándar, básico\"",
-      "\"Genera un plan de marketing para el lanzamiento de un nuevo producto\""
     ]
   }
 ]
