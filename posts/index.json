@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-07-27-imagenes-perfectas-con-ia.html",
+    "title": "Imágenes perfectas con IA",
+    "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
+    "date": "2026-07-27",
+    "tags": [
+      "Inteligencia Artificial",
+      "IA",
+      "Imágenes generadas"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro, rodeado de árboles y una cabaña en la distancia.",
+      "Crea una imagen de un retrato de una persona sonriente con ojos azules y cabello rubio, con un fondo de color beige.",
+      "Genera una imagen de una ciudad futurista con rascacielos y coches voladores, con un cielo nublado y una luna llena en el horizonte."
+    ]
+  },
+  {
     "slug": "2026-07-27-domina-chatgpt.html",
     "title": "Domina ChatGPT",
     "description": "Aprende a usar ChatGPT en tu trabajo diario con esta guía práctica",
@@ -1747,24 +1765,6 @@
       "¿Cuáles son las ventajas y desventajas de utilizar una herramienta de gestión de proyectos en línea?",
       "¿Cuáles son las tendencias actuales en la industria de la tecnología?",
       "Resumen el informe \"La situación actual de la economía global\" en 300 palabras."
-    ]
-  },
-  {
-    "slug": "2026-06-21-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-06-21",
-    "tags": [
-      "ChatGPT",
-      "prompts",
-      "asistente personal"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es la definición de inteligencia artificial?",
-      "Proporciona un resumen de las noticias más recientes sobre tecnología.",
-      "¿Cuáles son los mejores consejos para mejorar la productividad en el trabajo?"
     ]
   }
 ]
