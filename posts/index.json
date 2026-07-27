@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-27-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a usar ChatGPT en tu trabajo diario con esta guía práctica",
+    "date": "2026-07-27",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Configura mi perfil de usuario con el nombre \"John Doe\" y el cargo \"Desarrollador de software\".",
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento en su próxima compra.",
+      "Genera un informe de ventas para el mes de enero, incluyendo los productos más vendidos y los ingresos totales.",
+      "Traduce el texto \"Hola, ¿cómo estás?\" del español al inglés.",
+      "Escribe un resumen de 100 palabras sobre el libro \"El señor de los anillos\".",
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento del {porcentaje}% en su próxima compra.",
+      "¿Cuál es el estado de mi solicitud de informe de ventas?"
+    ]
+  },
+  {
     "slug": "2026-07-26-escribiendo-emails-profesionales.html",
     "title": "Escribiendo Emails Profesionales",
     "description": "Aprende a escribir emails profesionales con IA y mejora tu comunicación",
@@ -1743,24 +1765,6 @@
       "¿Cuál es la definición de inteligencia artificial?",
       "Proporciona un resumen de las noticias más recientes sobre tecnología.",
       "¿Cuáles son los mejores consejos para mejorar la productividad en el trabajo?"
-    ]
-  },
-  {
-    "slug": "2026-06-21-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts personalizados",
-    "date": "2026-06-21",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Define el concepto de inteligencia artificial y proporciona un ejemplo de su aplicación en la industria.",
-      "Explica el proceso de fotosíntesis en plantas y describe su importancia en el ecosistema.",
-      "Describe las diferencias entre un sistema operativo de código abierto y uno propietario, y proporciona ejemplos de cada tipo."
     ]
   }
 ]
