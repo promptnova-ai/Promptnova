@@ -193,7 +193,7 @@ function savePost(data, topic) {
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <base href="/Promptnova/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${data.title} | PromptNova</title>
   <meta name="description" content="${data.description}">
