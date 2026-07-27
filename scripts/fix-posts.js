@@ -11,7 +11,7 @@ for (const file of files) {
   let html = fs.readFileSync(filepath, "utf8");
 
   // Saltar si ya está completamente actualizado
-  if (html.includes('<base href="/Promptnova/">') && html.includes('class="post-container"')) {
+ if (html.includes('<base href="/">') && html.includes('class="post-container"')) {
     console.log(`⏭️  Ya actualizado: ${file}`);
     continue;
   }
@@ -39,7 +39,7 @@ for (const file of files) {
   html = html.replace(/<base href="[^"]*">\s*/g, "");
 
   // 6. Insertar base href + fuentes + CSS + AdSense justo después de <meta charset>
-  const newLinks = `  <base href="/Promptnova/">
+ const newLinks = `  <base href="/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
