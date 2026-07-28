@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-28-prompts-virales.html",
+    "title": "Prompts Virales",
+    "description": "Aprende a crear contenido viral con prompts avanzados",
+    "date": "2026-07-28",
+    "tags": [
+      "prompts",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "\"Escribe un título atractivo para un video de un gato jugando con un láser\"",
+      "\"Crea un post para Instagram sobre un nuevo producto de belleza, incluyendo una imagen y un llamado a la acción\"",
+      "\"Desarrolla un guión para un video de YouTube sobre cómo hacer un truco de magia, incluyendo un intro y un outro\"",
+      "\"Utiliza palabras clave relevantes en tus prompts para mejorar la visibilidad en los motores de búsqueda\"",
+      "\"Asegúrate de que tus prompts sean lo suficientemente específicos como para generar contenido relevante\"",
+      "\"Experimenta con diferentes tipos de prompts para encontrar lo que funciona mejor para tu audiencia\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-07-28-imagenes-con-ia.html",
     "title": "Imágenes con IA",
     "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial y prompts",
@@ -1746,27 +1768,6 @@
       "Genera un resumen de 100 palabras del texto siguiente: \"La inteligencia artificial es un campo en constante evolución...\"",
       "Traduce el texto siguiente del inglés al español: \"Hello, how are you?\"",
       "Genera 5 ideas para un proyecto de marketing para un nuevo producto"
-    ]
-  },
-  {
-    "slug": "2026-06-22-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera efectiva con prompts",
-    "date": "2026-06-22",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "¿Cuáles son los principales conceptos de la teoría de la relatividad de Einstein?",
-      "Explica la diferencia entre la fotosíntesis y la respiración celular.",
-      "Desarrolla un plan de estudio para aprender a programar en Python en 3 meses.",
-      "¿Cuál es el impacto del cambio climático en la biodiversidad de los ecosistemas terrestres?",
-      "Desarrolla un plan de acción para reducir la contaminación del aire en las ciudades.",
-      "Explica la relación entre la salud mental y el bienestar físico."
     ]
   }
 ]
