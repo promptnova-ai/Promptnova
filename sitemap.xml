@@ -2,18 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/privacidad.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/terminos.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-28-evita-errores-comunes.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-27-imagenes-perfectas-con-ia.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-27-domina-chatgpt.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-escribiendo-emails-profesionales.html</loc>
@@ -448,21 +463,6 @@
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-22-prompts-infalibles.html</loc>
     <lastmod>2026-06-22</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-22-domina-chatgpt.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-21-asistente-personal.html</loc>
-    <lastmod>2026-06-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-21-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-06-21</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

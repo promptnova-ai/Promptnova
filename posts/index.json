@@ -1,5 +1,66 @@
 [
   {
+    "slug": "2026-07-28-evita-errores-comunes.html",
+    "title": "Evita errores comunes",
+    "description": "Aprende a escribir prompts efectivos para IA",
+    "date": "2026-07-28",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "¿Cuáles son las ventajas y desventajas de utilizar redes neuronales en el análisis de datos financieros?",
+      "Desarrolla un plan de marketing para lanzar un nuevo producto de tecnología en el mercado latinoamericano.",
+      "Explica la diferencia entre aprendizaje supervisado y no supervisado en el contexto del aprendizaje automático.",
+      "¿Qué pasa con la IA?",
+      "Desarrolla un plan para todo.",
+      "Explica todo sobre aprendizaje automático."
+    ]
+  },
+  {
+    "slug": "2026-07-27-imagenes-perfectas-con-ia.html",
+    "title": "Imágenes perfectas con IA",
+    "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
+    "date": "2026-07-27",
+    "tags": [
+      "Inteligencia Artificial",
+      "IA",
+      "Imágenes generadas"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro, rodeado de árboles y una cabaña en la distancia.",
+      "Crea una imagen de un retrato de una persona sonriente con ojos azules y cabello rubio, con un fondo de color beige.",
+      "Genera una imagen de una ciudad futurista con rascacielos y coches voladores, con un cielo nublado y una luna llena en el horizonte."
+    ]
+  },
+  {
+    "slug": "2026-07-27-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a usar ChatGPT en tu trabajo diario con esta guía práctica",
+    "date": "2026-07-27",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Configura mi perfil de usuario con el nombre \"John Doe\" y el cargo \"Desarrollador de software\".",
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento en su próxima compra.",
+      "Genera un informe de ventas para el mes de enero, incluyendo los productos más vendidos y los ingresos totales.",
+      "Traduce el texto \"Hola, ¿cómo estás?\" del español al inglés.",
+      "Escribe un resumen de 100 palabras sobre el libro \"El señor de los anillos\".",
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento del {porcentaje}% en su próxima compra.",
+      "¿Cuál es el estado de mi solicitud de informe de ventas?"
+    ]
+  },
+  {
     "slug": "2026-07-26-escribiendo-emails-profesionales.html",
     "title": "Escribiendo Emails Profesionales",
     "description": "Aprende a escribir emails profesionales con IA y mejora tu comunicación",
@@ -1705,62 +1766,6 @@
       "Escribe una crítica del libro \"Don Quijote de la Mancha\" de Miguel de Cervantes, analizando su estructura, personajes y temas.",
       "Escribe un informe sobre el impacto del cambio climático en la economía global, considerando los datos más recientes y las tendencias actuales.",
       "Escribe algo sobre la historia."
-    ]
-  },
-  {
-    "slug": "2026-06-22-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
-    "date": "2026-06-22",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "¿Cuáles son las mejores prácticas para escribir un correo electrónico efectivo?",
-      "Resumen el artículo \"La importancia de la innovación en la empresa\" en 200 palabras.",
-      "¿Cuáles son las ventajas y desventajas de utilizar una herramienta de gestión de proyectos en línea?",
-      "¿Cuáles son las tendencias actuales en la industria de la tecnología?",
-      "Resumen el informe \"La situación actual de la economía global\" en 300 palabras."
-    ]
-  },
-  {
-    "slug": "2026-06-21-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-06-21",
-    "tags": [
-      "ChatGPT",
-      "prompts",
-      "asistente personal"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es la definición de inteligencia artificial?",
-      "Proporciona un resumen de las noticias más recientes sobre tecnología.",
-      "¿Cuáles son los mejores consejos para mejorar la productividad en el trabajo?"
-    ]
-  },
-  {
-    "slug": "2026-06-21-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts personalizados",
-    "date": "2026-06-21",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Define el concepto de inteligencia artificial y proporciona un ejemplo de su aplicación en la industria.",
-      "Explica el proceso de fotosíntesis en plantas y describe su importancia en el ecosistema.",
-      "Describe las diferencias entre un sistema operativo de código abierto y uno propietario, y proporciona ejemplos de cada tipo."
     ]
   }
 ]
