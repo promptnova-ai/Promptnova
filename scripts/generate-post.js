@@ -112,8 +112,10 @@ function today() {
   return new Date().toISOString().split("T")[0];
 }
 
-function randomTopic() {
-  return TOPICS[Math.floor(Math.random() * TOPICS.length)];
+function randomTopic(recentTopics = []) {
+  const available = TOPICS.filter((t) => !recentTopics.includes(t));
+  const pool = available.length > 0 ? available : TOPICS;
+  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 async function generatePost(topic) {
@@ -311,6 +313,7 @@ function savePost(data, topic) {
       readingTime: data.readingTime,
       category,                          // ← campo añadido anteriormente
       prompts,                           // ← campo nuevo: array de prompts listos para copiar
+      topic,                             // ← tema original elegido, para no repetirlo pronto
     });
   }
 
@@ -438,7 +441,16 @@ async function main() {
     throw new Error("Falta la variable de entorno GROQ_API_KEY");
   }
 
-  const topic = randomTopic();
+  const indexPath = path.join(process.cwd(), "posts", "index.json");
+  const existingIndex = fs.existsSync(indexPath)
+    ? JSON.parse(fs.readFileSync(indexPath, "utf8"))
+    : [];
+  const recentTopics = existingIndex
+    .slice(0, TOPICS.length - 1)
+    .map((p) => p.topic)
+    .filter(Boolean);
+
+  const topic = randomTopic(recentTopics);
   console.log(`🤖 Generando post sobre: "${topic}"`);
 
   const data = await generatePost(topic);
