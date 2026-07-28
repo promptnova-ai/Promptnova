@@ -26,7 +26,7 @@ index 5318069..3b8f719 100644
  <html lang="es">
  <head>
    <meta charset="UTF-8">
-- <base href="/">
+- <base href="/Promptnova/">
 +  <base href="/Promptnova/">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Admin — PromptNova</title>
@@ -201,7 +201,7 @@ index 8afd461..f42a42c 100644
  <html lang="es">
  <head>
    <meta charset="UTF-8">
--  <base href="/">
+-  <base href="/Promptnova/">
 +  <base href="/Promptnova/">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Domina ChatGPT | PromptNova</title>
@@ -214,7 +214,7 @@ index b139049..9b006d4 100644
  <html lang="es">
  <head>
    <meta charset="UTF-8">
--  <base href="/">
+-  <base href="/Promptnova/">
 +  <base href="/Promptnova/">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Imágenes perfectas con IA | PromptNova</title>
@@ -227,7 +227,7 @@ index cd94398..50435c1 100644
  <html lang="es">
  <head>
    <meta charset="UTF-8">
--  <base href="/">
+-  <base href="/Promptnova/">
 +  <base href="/Promptnova/">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Evita errores comunes | PromptNova</title>
@@ -264,7 +264,7 @@ index 841d567..405972a 100644
    let html = fs.readFileSync(filepath, "utf8");
 -
 -  // Saltar si ya está completamente actualizado
-- if (html.includes('<base href="/">') && html.includes('class="post-container"')) {
+- if (html.includes('<base href="/Promptnova/">') && html.includes('class="post-container"')) {
 -    console.log(`⏭️  Ya actualizado: ${file}`);
 -    continue;
 -  }
@@ -292,7 +292,7 @@ index 841d567..405972a 100644
 -  html = html.replace(/<base href="[^"]*">\s*/g, "");
 -
 -  // 6. Insertar base href + fuentes + CSS + AdSense justo después de <meta charset>
-- const newLinks = `  <base href="/">
+- const newLinks = `  <base href="/Promptnova/">
 -  <link rel="preconnect" href="https://fonts.googleapis.com">
 -  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 -  <link rel="stylesheet" href="styles.css">
@@ -425,7 +425,7 @@ index 7927f76..ce50215 100644
  <html lang="es">
  <head>
    <meta charset="UTF-8">
--  <base href="/">
+-  <base href="/Promptnova/">
 +  <base href="/Promptnova/">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>${data.title} | PromptNova</title>
