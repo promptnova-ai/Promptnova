@@ -786,6 +786,22 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+// Muchos posts comparten título (el bot elegía el tema al azar de una lista
+// corta de solo 15 temas, así que el mismo tema salía una y otra vez en pocos
+// días — ya corregido en scripts/generate-post.js, pero los posts viejos ya
+// publicados siguen así). Esta función se usa para no mostrar el mismo
+// contenido repetido en el blog ni en la colección: se queda con la
+// publicación más reciente de cada título.
+function dedupeByTitle(posts) {
+  const seen = new Set();
+  return posts.filter(p => {
+    const key = (p.title || '').trim().toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 // ── PROMPTS DATA ──
 const PROMPTS = [
   { id:1, cat:'trabajo', title:'Redacta un email profesional persuasivo', desc:'Genera emails de trabajo formales, claros y con llamada a la acción.', text:'Actúa como un experto en comunicación corporativa. Redacta un email profesional para [destinatario/cargo] sobre [tema]. El tono debe ser [formal/amigable/urgente]. El objetivo es [objetivo específico]. Incluye: asunto impactante, saludo personalizado, desarrollo del tema en 2-3 párrafos cortos, llamada a la acción clara y cierre profesional. El email no debe superar las 200 palabras.', tools:['ChatGPT','Claude'] },
@@ -820,12 +836,12 @@ function updateCategoryCounts() {
   // cambiaba aunque el bot publicara posts nuevos cada día. Ahora suma también
   // BLOG_POSTS (que sí crece con cada post generado), para que el contador
   // refleje el contenido real disponible por categoría.
-  const allCats = [...new Set([...PROMPTS.map(p => p.cat), ...BLOG_POSTS.map(p => p.category)])];
+  const allCats = [...new Set([...PROMPTS.map(p => p.cat), ...dedupeByTitle(BLOG_POSTS).map(p => p.category)])];
   allCats.forEach(cat => {
     const el = document.getElementById('count-' + cat);
     if (!el) return;
     const promptCount = PROMPTS.filter(p => p.cat === cat).length;
-    const blogCount = BLOG_POSTS.filter(p => p.category === cat).length;
+    const blogCount = dedupeByTitle(BLOG_POSTS).filter(p => p.category === cat).length;
     el.textContent = (promptCount + blogCount) + ' contenidos';
   });
 }
@@ -1017,16 +1033,21 @@ document.addEventListener('keydown', e => {
 // crezca sola con cada post nuevo.
 function buildDynamicPrompts(posts) {
   const items = [];
-  posts.forEach(post => {
+  const seenTexts = new Set();
+  dedupeByTitle(posts).forEach(post => {
     const prompts = Array.isArray(post.prompts) ? post.prompts : [];
     prompts.slice(0, 2).forEach((text, i) => { // máx. 2 por post para no saturar la grilla
-      if (!text || text.trim().length < 20) return; // descarta fragmentos demasiado cortos
+      const clean = (text || '').trim();
+      if (clean.length < 20) return; // descarta fragmentos demasiado cortos
+      const textKey = clean.toLowerCase();
+      if (seenTexts.has(textKey)) return; // evita prompts idénticos entre posts distintos
+      seenTexts.add(textKey);
       items.push({
         id: `blog-${post.slug}-${i}`,
         cat: post.category || 'general',
         title: post.title,
         desc: post.description,
-        text: text.trim(),
+        text: clean,
         tools: ['ChatGPT', 'Claude'],
       });
     });
@@ -1133,8 +1154,9 @@ function renderBlog() {
     document.getElementById('blog-grid').innerHTML = '<p style="color:var(--text3);text-align:center;grid-column:1/-1">Pronto nuevos artículos ✨</p>';
     return;
   }
-  allBlogPosts = [...BLOG_POSTS];
-  buildBlogFilters(BLOG_POSTS);
+  const uniquePosts = dedupeByTitle(BLOG_POSTS); // evita mostrar el mismo tema repetido varias veces
+  allBlogPosts = [...uniquePosts];
+  buildBlogFilters(uniquePosts);
   renderBlogGrid();
 }
 
