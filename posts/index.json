@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-28-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial y prompts",
+    "date": "2026-07-28",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje soleado con un lago en el centro y montañas en el fondo.",
+      "Crea una imagen de un gato gris sentado en una alfombra roja con un libro abierto al lado.",
+      "Produce una imagen de una ciudad futurista con rascacielos y vehículos voladores.",
+      "Genera una imagen de un reloj de pulsera de lujo con un diseño elegante.",
+      "Crea una imagen de un bolso de mano de mujer con un estilo vintage.",
+      "Produce una imagen de un par de zapatos de deporte de alta calidad."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-07-28-evita-errores-comunes.html",
     "title": "Evita errores comunes",
     "description": "Aprende a escribir prompts efectivos para IA",
@@ -1745,27 +1767,6 @@
       "¿Cuál es el impacto del cambio climático en la biodiversidad de los ecosistemas terrestres?",
       "Desarrolla un plan de acción para reducir la contaminación del aire en las ciudades.",
       "Explica la relación entre la salud mental y el bienestar físico."
-    ]
-  },
-  {
-    "slug": "2026-06-22-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
-    "date": "2026-06-22",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Escribir Prompts"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un relato corto sobre un viaje a la luna en el que se describen los paisajes y la emocionalidad del viaje.",
-      "Describe el proceso de creación de un producto de software, desde la concepción hasta la entrega.",
-      "Explica el fenómeno de la fotosíntesis y su importancia en el ecosistema.",
-      "Escribe una crítica del libro \"Don Quijote de la Mancha\" de Miguel de Cervantes, analizando su estructura, personajes y temas.",
-      "Escribe un informe sobre el impacto del cambio climático en la economía global, considerando los datos más recientes y las tendencias actuales.",
-      "Escribe algo sobre la historia."
     ]
   }
 ]
