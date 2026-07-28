@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-28-evita-errores-comunes.html",
+    "title": "Evita errores comunes",
+    "description": "Aprende a escribir prompts efectivos para IA",
+    "date": "2026-07-28",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "¿Cuáles son las ventajas y desventajas de utilizar redes neuronales en el análisis de datos financieros?",
+      "Desarrolla un plan de marketing para lanzar un nuevo producto de tecnología en el mercado latinoamericano.",
+      "Explica la diferencia entre aprendizaje supervisado y no supervisado en el contexto del aprendizaje automático.",
+      "¿Qué pasa con la IA?",
+      "Desarrolla un plan para todo.",
+      "Explica todo sobre aprendizaje automático."
+    ]
+  },
+  {
     "slug": "2026-07-27-imagenes-perfectas-con-ia.html",
     "title": "Imágenes perfectas con IA",
     "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
@@ -1745,26 +1766,6 @@
       "Escribe una crítica del libro \"Don Quijote de la Mancha\" de Miguel de Cervantes, analizando su estructura, personajes y temas.",
       "Escribe un informe sobre el impacto del cambio climático en la economía global, considerando los datos más recientes y las tendencias actuales.",
       "Escribe algo sobre la historia."
-    ]
-  },
-  {
-    "slug": "2026-06-22-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
-    "date": "2026-06-22",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "¿Cuáles son las mejores prácticas para escribir un correo electrónico efectivo?",
-      "Resumen el artículo \"La importancia de la innovación en la empresa\" en 200 palabras.",
-      "¿Cuáles son las ventajas y desventajas de utilizar una herramienta de gestión de proyectos en línea?",
-      "¿Cuáles son las tendencias actuales en la industria de la tecnología?",
-      "Resumen el informe \"La situación actual de la economía global\" en 300 palabras."
     ]
   }
 ]
