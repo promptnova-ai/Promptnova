@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-07-29-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de negocio con IA",
+    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
+    "date": "2026-07-29",
+    "tags": [
+      "IA",
+      "negocios",
+      "emprendimiento"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo podemos aprovecharlas para crear un negocio rentable?",
+      "¿Cuáles son los principales desafíos que enfrentan las pequeñas y medianas empresas en la industria de la salud y cómo podemos solucionarlos con un nuevo negocio?",
+      "¿Cuáles son las oportunidades de negocio en el sector de la sostenibilidad y el medio ambiente y cómo podemos aprovecharlas para crear un negocio rentable?"
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-07-28-prompts-virales.html",
     "title": "Prompts Virales",
     "description": "Aprende a crear contenido viral con prompts avanzados",
@@ -1750,24 +1769,6 @@
       "Por ejemplo, un modelo de lenguaje podría generar el siguiente artículo: 'El marketing de influencia es una forma efectiva de llegar a la audiencia objetivo. Los influencers pueden promocionar productos y servicios de manera auténtica y convincente, lo que puede generar un aumento en las ventas y la visibilidad de la marca'.6. Prompts para ReseñasLas reseñas son fundamentales para generar confianza con los clientes. Un prompt para reseñas podría ser:<code=Escribe una reseña para un producto de electrónica",
       "Por ejemplo, un modelo de lenguaje podría generar la siguiente respuesta: 'El marketing de contenidos ofrece varios beneficios, incluyendo el aumento de la visibilidad de la marca, la generación de leads y la creación de una comunidad de seguidores leales'.8. Prompts para Historias de ÉxitoLas historias de éxito son fundamentales para generar confianza con los clientes. Un prompt para historias de éxito podría ser:<code=Escribe una historia de éxito sobre un cliente que utilizó nuestro producto",
       "Por ejemplo, un modelo de lenguaje podría generar el siguiente análisis: 'Nuestro producto es líder en el mercado, con una participación del 30%. Sin embargo, nuestros competidores están ganando terreno, por lo que debemos seguir innovando y mejorando nuestro producto para mantener nuestra posición en el mercado'.10. Prompts para PrediccionesLas predicciones son fundamentales para generar contenido de calidad. Un prompt para predicciones podría ser:<code=Predice las tendencias del marketing para el próximo año"
-    ]
-  },
-  {
-    "slug": "2026-06-23-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario con nuestra guía práctica",
-    "date": "2026-06-23",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 5,
-    "category": "trabajo",
-    "prompts": [
-      "Genera un resumen de 100 palabras del texto siguiente: \"La inteligencia artificial es un campo en constante evolución...\"",
-      "Traduce el texto siguiente del inglés al español: \"Hello, how are you?\"",
-      "Genera 5 ideas para un proyecto de marketing para un nuevo producto"
     ]
   }
 ]
