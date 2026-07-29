@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-29-crea-un-curso-online.html",
+    "title": "Crea un curso online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-07-29",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "creación de contenido"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son los temas más populares en el ámbito de la tecnología?",
+      "Crear un esquema de curso para un curso de introducción a la programación en Python",
+      "Crear un capítulo de introducción a la programación en Python que incluya una explicación de los conceptos básicos y un ejemplo de código",
+      "Crear un ejercicio práctico de programación en Python que requiera que el estudiante cree un programa que resuelva un problema específico",
+      "Revisar y editar el contenido del capítulo de introducción a la programación en Python para asegurarte de que sea preciso y esté libre de errores"
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-07-29-prompts-creativos.html",
     "title": "Prompts Creativos",
     "description": "Descubre los mejores prompts para diseñadores gráficos y mejora tu creatividad",
@@ -1749,27 +1770,6 @@
       "¿Quién es el autor de la novela \"Don Quijote de la Mancha\"?",
       "Me gustaria saber sobre el clima en Madrid",
       "Me gustaría saber sobre el clima en Madrid."
-    ]
-  },
-  {
-    "slug": "2026-06-23-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-06-23",
-    "tags": [
-      "Inteligencia Artificial",
-      "Automatización",
-      "Negocios"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "Escribe un artículo de 500 palabras sobre los beneficios de la automatización en los negocios.",
-      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
-      "Traduce el siguiente texto del español al inglés: 'La automatización es clave para el éxito de cualquier negocio'.",
-      "Ejemplo de prompt para generar un informe de ventas: 'Genera un informe de ventas para el mes de enero, incluyendo los productos más vendidos y las regiones con mayor demanda'.",
-      "Ejemplo de prompt para crear un contenido de marketing: 'Crea un artículo de blog sobre los beneficios de la automatización en la industria de la salud, incluyendo estadísticas y ejemplos reales'.",
-      "Ejemplo de prompt para responder a preguntas frecuentes: '¿Cuál es el proceso de devolución de productos en nuestra empresa?'."
     ]
   }
 ]
