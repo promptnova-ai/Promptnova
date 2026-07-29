@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-29-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos y mejora tu creatividad",
+    "date": "2026-07-29",
+    "tags": [
+      "diseño gráfico",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Crear un logotipo para una marca de ropa que se especializa en ropa de verano, utilizando solo colores pastel y formas geométricas.",
+      "Diseñar un cartel para una exposición de arte que explore el tema de la sostenibilidad, utilizando solo materiales reciclados y técnicas de impresión ecológica.",
+      "Desarrollar una identidad visual para una aplicación móvil que se centra en la meditación y el bienestar, utilizando un esquema de colores calmados y formas suaves.",
+      "Crear un sistema de identidad visual para una marca que se expande a nuevos mercados y necesita adaptarse a diferentes culturas y audiencias.",
+      "Diseñar un sitio web para una empresa que se centra en la tecnología y la innovación, utilizando solo técnicas de diseño minimalista y tipografía experimental.",
+      "Desarrollar una campaña publicitaria para un producto que se lanza en un mercado saturado, utilizando solo estrategias de marketing digital y redes sociales."
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-07-29-ideas-de-negocio-con-ia.html",
     "title": "Ideas de negocio con IA",
     "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
@@ -1748,27 +1770,6 @@
       "Ejemplo de prompt para generar un informe de ventas: 'Genera un informe de ventas para el mes de enero, incluyendo los productos más vendidos y las regiones con mayor demanda'.",
       "Ejemplo de prompt para crear un contenido de marketing: 'Crea un artículo de blog sobre los beneficios de la automatización en la industria de la salud, incluyendo estadísticas y ejemplos reales'.",
       "Ejemplo de prompt para responder a preguntas frecuentes: '¿Cuál es el proceso de devolución de productos en nuestra empresa?'."
-    ]
-  },
-  {
-    "slug": "2026-06-23-prompts-para-expertos.html",
-    "title": "Prompts para Expertos",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para impulsar tus campañas",
-    "date": "2026-06-23",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un título atractivo para un artículo sobre los beneficios del marketing de contenidos",
-      "Describe las características y beneficios de un nuevo smartphone",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente correo electrónico: 'Estimado suscriptor, tenemos una oferta especial solo para ti. Utiliza el código DESC15 para obtener un 15% de descuento en tu próxima compra'.4. Prompts para Redes SocialesLas redes sociales son fundamentales para conectarse con la audiencia objetivo. Un prompt para redes sociales podría ser:<code=Escribe un mensaje para Facebook para promocionar un nuevo producto",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente artículo: 'El marketing de influencia es una forma efectiva de llegar a la audiencia objetivo. Los influencers pueden promocionar productos y servicios de manera auténtica y convincente, lo que puede generar un aumento en las ventas y la visibilidad de la marca'.6. Prompts para ReseñasLas reseñas son fundamentales para generar confianza con los clientes. Un prompt para reseñas podría ser:<code=Escribe una reseña para un producto de electrónica",
-      "Por ejemplo, un modelo de lenguaje podría generar la siguiente respuesta: 'El marketing de contenidos ofrece varios beneficios, incluyendo el aumento de la visibilidad de la marca, la generación de leads y la creación de una comunidad de seguidores leales'.8. Prompts para Historias de ÉxitoLas historias de éxito son fundamentales para generar confianza con los clientes. Un prompt para historias de éxito podría ser:<code=Escribe una historia de éxito sobre un cliente que utilizó nuestro producto",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente análisis: 'Nuestro producto es líder en el mercado, con una participación del 30%. Sin embargo, nuestros competidores están ganando terreno, por lo que debemos seguir innovando y mejorando nuestro producto para mantener nuestra posición en el mercado'.10. Prompts para PrediccionesLas predicciones son fundamentales para generar contenido de calidad. Un prompt para predicciones podría ser:<code=Predice las tendencias del marketing para el próximo año"
     ]
   }
 ]
