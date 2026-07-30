@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-30-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa de manera efectiva con prompts",
+    "date": "2026-07-30",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el concepto de inteligencia artificial de manera sencilla.",
+      "Describe los pasos para aprender a programar en Python.",
+      "Proporciona un resumen de la historia de la ciencia en 500 palabras.",
+      "Proporciona un ejemplo de cómo utilizar un prompt para aprender sobre un tema específico.",
+      "Explica el concepto de agujeros negros de manera detallada."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-07-30-ia-para-seo.html",
     "title": "IA para SEO",
     "description": "Aprende a mejorar tu posicionamiento con prompts de IA",
@@ -1753,24 +1774,6 @@
       "¿Cuáles son las principales diferencias entre un gato y un perro?",
       "Describinge un escenario en el que un objeto inanimado cobra vida. ¿Cómo se siente el objeto al comenzar a moverse y a interactuar con su entorno?",
       "Supongamos que eres un turista en una ciudad desconocida. ¿Cómo encontrarías el lugar más famoso de la ciudad sin utilizar un mapa ni preguntar a nadie?"
-    ]
-  },
-  {
-    "slug": "2026-06-24-crea-un-curso-online.html",
-    "title": "Crea un curso online",
-    "description": "Aprende a crear un curso online con ChatGPT desde cero",
-    "date": "2026-06-24",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "creación de contenido"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son los pasos clave para definir el objetivo de un curso online sobre programación para principiantes?",
-      "¿Cómo puedo diseñar un plan de estudios para un curso online de 5 módulos sobre introducción a la programación en Python?",
-      "¿Cómo puedo crear un video explicativo de 10 minutos sobre la sintaxis básica de Python para principiantes?"
     ]
   }
 ]
