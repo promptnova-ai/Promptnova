@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-30-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Aprende a mejorar tu posicionamiento con prompts de IA",
+    "date": "2026-07-30",
+    "tags": [
+      "IA",
+      "SEO",
+      "Posicionamiento"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Generar un título y descripción meta para un artículo sobre \"la importancia del ejercicio físico\":",
+      "{\"título\": \"La importancia del ejercicio físico para la salud\", \"descripción\": \"Aprende sobre los beneficios del ejercicio físico para la salud y cómo incorporarlo en tu rutina diaria\"}",
+      "Generar un artículo sobre \"los beneficios del ejercicio físico para la salud\":",
+      "{\"introducción\": \"El ejercicio físico es una de las mejores formas de mejorar la salud y prevenir enfermedades\", \"cuerpo\": \"El ejercicio físico regular puede ayudar a reducir el riesgo de enfermedades cardíacas, mejorar la función cerebral y aumentar la energía\", \"conclusión\": \"En resumen, el ejercicio físico es una parte importante de una vida saludable y debería ser incorporado en la rutina diaria de todos\"}",
+      "Generar un resumen de un artículo sobre \"la importancia del ejercicio físico para la salud\":",
+      "{\"resumen\": \"El ejercicio físico es importante para la salud porque puede ayudar a reducir el riesgo de enfermedades cardíacas, mejorar la función cerebral y aumentar la energía\"}"
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-07-29-crea-un-curso-online.html",
     "title": "Crea un curso online",
     "description": "Aprende a crear un curso online desde cero con ChatGPT",
@@ -1749,27 +1771,6 @@
       "¿Cuáles son los pasos clave para definir el objetivo de un curso online sobre programación para principiantes?",
       "¿Cómo puedo diseñar un plan de estudios para un curso online de 5 módulos sobre introducción a la programación en Python?",
       "¿Cómo puedo crear un video explicativo de 10 minutos sobre la sintaxis básica de Python para principiantes?"
-    ]
-  },
-  {
-    "slug": "2026-06-24-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores al escribir prompts para IA",
-    "date": "2026-06-24",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Escribir Prompts"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que vive en un lugar lejano.",
-      "Escribe un cuento sobre un personaje que vive en una isla desierta en el Pacífico.",
-      "¿Quién es el autor de la novela?",
-      "¿Quién es el autor de la novela \"Don Quijote de la Mancha\"?",
-      "Me gustaria saber sobre el clima en Madrid",
-      "Me gustaría saber sobre el clima en Madrid."
     ]
   }
 ]
