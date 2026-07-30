@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-07-30-escribiendo-emails-con-ia.html",
+    "title": "Escribiendo emails con IA",
+    "description": "Aprende a escribir emails profesionales con inteligencia artificial",
+    "date": "2026-07-30",
+    "tags": [
+      "IA",
+      "email",
+      "profesional"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un email de presentación para un nuevo cliente: \"Estimado/a [nombre], me dirijo a usted para presentarle nuestros servicios de [servicio]. Nuestra empresa se especializa en [especialidad] y estamos seguros de que podemos ayudarle a [beneficio]. ¿Le gustaría programar una reunión para discutir cómo podemos ayudarle?\"",
+      "Escribe un email de seguimiento para un cliente que no ha respondido: \"Estimado/a [nombre], espero que esté bien. Quería seguir up sobre el correo electrónico que le envié hace [tiempo] respecto a [asunto]. ¿Ha tenido la oportunidad de considerar nuestra propuesta? ¿Necesita algún tipo de información adicional?\"",
+      "Escribe un email de agradecimiento para un cliente que ha realizado una compra: \"Estimado/a [nombre], queremos agradecerle por su reciente compra de [producto]. Estamos emocionados de que haya elegido nuestros productos y esperamos que esté satisfecho con su compra. ¿Hay algo más en lo que podamos ayudarle?\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-07-30-aprende-10-veces-mas-rapido.html",
     "title": "Aprende 10 veces más rápido",
     "description": "Descubre cómo aprender cualquier cosa de manera efectiva con prompts",
@@ -1756,24 +1775,6 @@
       "Genera un email de seguimiento para un cliente que ha estado en contacto con nuestra empresa, solicitando actualizaciones sobre el estado de su proyecto y ofreciendo apoyo adicional si es necesario.",
       "Crea un email de agradecimiento para un cliente que ha realizado una compra en nuestra tienda en línea, expresando gratitud por su confianza en nuestra marca y ofreciendo un descuento para su próxima compra.",
       "Genera un email de ventas para un cliente que ha estado en contacto con nuestra empresa, destacando los beneficios de nuestro producto y ofreciendo un descuento exclusivo para su primera compra. El email debe ser amigable y persuasivo, con un tono que refleje la personalidad de nuestra marca."
-    ]
-  },
-  {
-    "slug": "2026-06-24-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Aprende trucos de prompt engineering para desarrolladores",
-    "date": "2026-06-24",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "desarrollo"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las principales diferencias entre un gato y un perro?",
-      "Describinge un escenario en el que un objeto inanimado cobra vida. ¿Cómo se siente el objeto al comenzar a moverse y a interactuar con su entorno?",
-      "Supongamos que eres un turista en una ciudad desconocida. ¿Cómo encontrarías el lugar más famoso de la ciudad sin utilizar un mapa ni preguntar a nadie?"
     ]
   }
 ]

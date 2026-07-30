@@ -16,6 +16,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-30-escribiendo-emails-con-ia.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-30-aprende-10-veces-mas-rapido.html</loc>
     <lastmod>2026-07-30</lastmod>
     <priority>0.6</priority>
@@ -458,11 +463,6 @@
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-25-prompts-para-emails.html</loc>
     <lastmod>2026-06-25</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-24-prompt-engineering.html</loc>
-    <lastmod>2026-06-24</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
