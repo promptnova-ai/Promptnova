@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-07-31-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos de prompt engineering para developers",
+    "date": "2026-07-31",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "desarrollo de software"
+    ],
+    "readingTime": 10,
+    "category": "programacion",
+    "prompts": [
+      "prompt = \"Desarrolla un algoritmo para ordenar una lista de números enteros en orden ascendente\"",
+      "prompt = \"Explica la diferencia entre un algoritmo de ordenación por inserción y un algoritmo de ordenación por selección\"",
+      "prompt = \"Desarrolla un programa que permita al usuario ingresar una lista de números enteros y luego ordene la lista en orden ascendente o descendente según la preferencia del usuario\""
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-07-31-automatiza-tu-negocio.html",
     "title": "Automatiza tu negocio",
     "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
@@ -1756,28 +1775,6 @@
       "Crear un plan de estudios para un curso de marketing digital",
       "Crear un texto de introducción para un curso de marketing digital",
       "Crear un ejercicio de evaluación para un curso de programación"
-    ]
-  },
-  {
-    "slug": "2026-06-25-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Evita errores al escribir prompts para IA y mejora tus resultados",
-    "date": "2026-06-25",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un artículo sobre perros",
-      "Escribe un artículo de 500 palabras sobre la historia y el comportamiento de los perros pastor alemanes",
-      "Explica el concepto de inteligencia artificial",
-      "Explica el concepto de inteligencia artificial para un público no técnico, enfocándote en sus aplicaciones y beneficios",
-      "Escribe un artículo sobre gatos",
-      "Escribe un artículo de 1000 palabras sobre la historia, el comportamiento y las características de los gatos, incluyendo su evolución, su papel en la sociedad y su relación con los humanos, y proporciona ejemplos y estadísticas para respaldar tus argumentos",
-      "Escribe un artículo de 500 palabras sobre la historia y el comportamiento de los gatos, incluyendo su evolución y su relación con los humanos"
     ]
   }
 ]
