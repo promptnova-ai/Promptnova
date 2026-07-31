@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-07-31-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-07-31",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuáles son las citas y eventos importantes que tengo programados para la semana próxima?",
+      "¿Cuáles son las fuentes más confiables de información sobre el tema de la inteligencia artificial?",
+      "Escribe un artículo de 500 palabras sobre el tema de la sostenibilidad en el siglo XXI."
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-07-30-escribiendo-emails-con-ia.html",
     "title": "Escribiendo emails con IA",
     "description": "Aprende a escribir emails profesionales con inteligencia artificial",
@@ -1756,25 +1775,6 @@
       "Crear un esquema para un curso de introducción a la programación en Python",
       "Explicar el concepto de la concurrencia en la programación en Python",
       "Crear un ejercicio de práctica para la concurrencia en la programación en Python"
-    ]
-  },
-  {
-    "slug": "2026-06-25-prompts-para-emails.html",
-    "title": "Prompts para Emails",
-    "description": "Descubre los mejores prompts para escribir emails profesionales con IA",
-    "date": "2026-06-25",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para un nuevo cliente, destacando los servicios que ofrece nuestra empresa y solicitando una reunión para discutir oportunidades de colaboración.",
-      "Genera un email de seguimiento para un cliente que ha estado en contacto con nuestra empresa, solicitando actualizaciones sobre el estado de su proyecto y ofreciendo apoyo adicional si es necesario.",
-      "Crea un email de agradecimiento para un cliente que ha realizado una compra en nuestra tienda en línea, expresando gratitud por su confianza en nuestra marca y ofreciendo un descuento para su próxima compra.",
-      "Genera un email de ventas para un cliente que ha estado en contacto con nuestra empresa, destacando los beneficios de nuestro producto y ofreciendo un descuento exclusivo para su primera compra. El email debe ser amigable y persuasivo, con un tono que refleje la personalidad de nuestra marca."
     ]
   }
 ]
