@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-07-31-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-07-31",
+    "tags": [
+      "automatización",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo de 500 palabras sobre los beneficios de la meditación para la salud mental.",
+      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
+      "Envía un correo electrónico de bienvenida a los nuevos clientes con información sobre nuestros productos y servicios.",
+      "Ejemplo de prompt para generar un resumen de un artículo: Resumen del artículo sobre la automatización con prompts inteligentes.",
+      "Ejemplo de prompt para generar un correo electrónico de bienvenida: Envía un correo electrónico de bienvenida a los nuevos clientes con información sobre nuestros productos y servicios.",
+      "Ejemplo de prompt para generar un informe de ventas: Genera un informe de ventas para el mes de enero con detalles sobre los productos más vendidos y las tendencias del mercado."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-07-31-asistente-personal.html",
     "title": "Asistente Personal",
     "description": "Construye un asistente personal con ChatGPT y prompts",
@@ -1756,25 +1778,6 @@
       "Escribe un artículo sobre gatos",
       "Escribe un artículo de 1000 palabras sobre la historia, el comportamiento y las características de los gatos, incluyendo su evolución, su papel en la sociedad y su relación con los humanos, y proporciona ejemplos y estadísticas para respaldar tus argumentos",
       "Escribe un artículo de 500 palabras sobre la historia y el comportamiento de los gatos, incluyendo su evolución y su relación con los humanos"
-    ]
-  },
-  {
-    "slug": "2026-06-25-crea-un-curso-online-con-chatgpt.html",
-    "title": "Crea un curso online con ChatGPT",
-    "description": "Aprende a crear un curso online desde cero con ChatGPT",
-    "date": "2026-06-25",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "educación en línea"
-    ],
-    "readingTime": 5,
-    "category": "estudio",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el campo de la educación en línea?",
-      "Crear un esquema para un curso de introducción a la programación en Python",
-      "Explicar el concepto de la concurrencia en la programación en Python",
-      "Crear un ejercicio de práctica para la concurrencia en la programación en Python"
     ]
   }
 ]
