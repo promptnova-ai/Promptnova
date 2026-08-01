@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-01-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
+    "date": "2026-08-01",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios de la meditación para la salud mental.",
+      "Traduce el texto siguiente al español: \"The quick brown fox jumps over the lazy dog\"",
+      "Resumen el texto siguiente en 100 palabras: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de sistemas que pueden realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, la resolución de problemas y la toma de decisiones.\""
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-08-01-errores-comunes-en-prompts.html",
     "title": "Errores comunes en prompts",
     "description": "Aprende a evitar errores comunes al escribir prompts para IA",
@@ -1756,28 +1775,6 @@
       "Escribe un artículo sobre la importancia de la seguridad en línea, incluyendo consejos y recomendaciones para proteger la privacidad y la seguridad de los usuarios.",
       "Crear un contenido de video sobre las últimas tendencias en tecnología, incluyendo entrevistas con expertos y demostraciones de productos.",
       "Desarrollar un guión para un podcast sobre la salud mental, incluyendo entrevistas con expertos y consejos para mejorar la salud mental."
-    ]
-  },
-  {
-    "slug": "2026-06-26-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-06-26",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Asistente Personal"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es la definición de inteligencia artificial?",
-      "Proporciona una lista de 5 libros recomendados sobre machine learning.",
-      "Explica el concepto de aprendizaje profundo y su aplicación en la industria.",
-      "Escribe una respuesta amigable y casual a la pregunta sobre la inteligencia artificial.",
-      "Proporciona una respuesta formal y técnica sobre el concepto de aprendizaje profundo.",
-      "Programa una cita con mi asistente el próximo miércoles a las 10 am.",
-      "Envía un correo electrónico a mi jefe con el informe de ventas del mes."
     ]
   }
 ]

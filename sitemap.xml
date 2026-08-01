@@ -16,6 +16,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-01-domina-chatgpt.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-01-errores-comunes-en-prompts.html</loc>
     <lastmod>2026-08-01</lastmod>
     <priority>0.6</priority>
@@ -458,11 +463,6 @@
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-27-ia-para-seo.html</loc>
     <lastmod>2026-06-27</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-26-asistente-personal.html</loc>
-    <lastmod>2026-06-26</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
