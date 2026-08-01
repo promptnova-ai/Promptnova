@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-01-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
+    "date": "2026-08-01",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre perros",
+      "Escribe un artículo informativo sobre la salud y el bienestar de los perros, incluyendo consejos para dueños de mascotas",
+      "Escribe un artículo sobre la historia de la inteligencia artificial incluyendo sus orígenes y evolución y también sus aplicaciones actuales y futuras",
+      "Escribe un artículo sobre la historia de la inteligencia artificial, incluyendo:- Orígenes y evolución- Aplicaciones actuales y futuras",
+      "Escribe un artículo sobre la historia de la inteligencia artificial, incluyendo sus orígenes y evolución, y también sus aplicaciones actuales y futuras, y también analiza las implicaciones éticas y sociales de la inteligencia artificial y cómo puede afectar la sociedad en el futuro",
+      "Escribe un artículo sobre la historia y evolución de la inteligencia artificial, y analiza sus implicaciones éticas y sociales"
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-07-31-prompt-engineering.html",
     "title": "Prompt Engineering",
     "description": "Aprende trucos de prompt engineering para developers",
@@ -1756,25 +1778,6 @@
       "Proporciona una respuesta formal y técnica sobre el concepto de aprendizaje profundo.",
       "Programa una cita con mi asistente el próximo miércoles a las 10 am.",
       "Envía un correo electrónico a mi jefe con el informe de ventas del mes."
-    ]
-  },
-  {
-    "slug": "2026-06-26-crea-un-curso-online.html",
-    "title": "Crea un curso online",
-    "description": "Aprende a crear un curso online desde cero con ChatGPT",
-    "date": "2026-06-26",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "creación de contenido"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son los temas más populares para un curso online?",
-      "Crear un plan de estudios para un curso de marketing digital",
-      "Crear un texto de introducción para un curso de marketing digital",
-      "Crear un ejercicio de evaluación para un curso de programación"
     ]
   }
 ]
