@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-08-02-prompts-de-marketing.html",
+    "title": "Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para impulsar tus campañas",
+    "date": "2026-08-02",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Describe las características y beneficios de nuestro nuevo producto.",
+      "Genera 5 títulos diferentes para nuestro próximo artículo de blog.",
+      "Crea una publicación en Facebook que promueva nuestro nuevo servicio.",
+      "Redacta un correo electrónico que invite a los clientes a probar nuestro nuevo producto.",
+      "Genera un artículo de 500 palabras sobre los beneficios de nuestro servicio.",
+      "Crea una descripción detallada de nuestro nuevo producto.",
+      "Genera una meta descripción para nuestro artículo de blog.",
+      "Redacta un titular atractivo para nuestro próximo artículo de blog.",
+      "Crea un guión para un video que promueva nuestro nuevo servicio.",
+      "Genera un resumen de 100 palabras para nuestro artículo de blog."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-08-01-domina-chatgpt.html",
     "title": "Domina ChatGPT",
     "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
@@ -1754,27 +1780,6 @@
       "Genera una imagen de un producto de cuidado personal con un fondo blanco y un texto que diga \"Limpieza y frescura para tu piel\"",
       "Crea una imagen de un paisaje surrealista con colores vibrantes y formas geométricas",
       "Genera una imagen de un personaje de ciencia ficción con un traje espacial y un fondo de estrellas y planetas"
-    ]
-  },
-  {
-    "slug": "2026-06-27-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Mejora tu posicionamiento con prompts de IA",
-    "date": "2026-06-27",
-    "tags": [
-      "IA",
-      "SEO",
-      "posicionamiento"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud, incluyendo estadísticas y estudios recientes.",
-      "Crear un contenido de blog sobre las tendencias actuales en el mercado de la moda, incluyendo imágenes y enlaces a fuentes relevantes.",
-      "Desarrollar un guión para un video sobre la importancia de la educación en línea, incluyendo entrevistas con expertos y estadísticas sobre el impacto de la educación en la sociedad.",
-      "Escribe un artículo sobre la importancia de la seguridad en línea, incluyendo consejos y recomendaciones para proteger la privacidad y la seguridad de los usuarios.",
-      "Crear un contenido de video sobre las últimas tendencias en tecnología, incluyendo entrevistas con expertos y demostraciones de productos.",
-      "Desarrollar un guión para un podcast sobre la salud mental, incluyendo entrevistas con expertos y consejos para mejorar la salud mental."
     ]
   }
 ]
