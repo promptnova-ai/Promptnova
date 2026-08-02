@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-02-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA",
+    "date": "2026-08-02",
+    "tags": [
+      "Inteligencia Artificial",
+      "Prompt Engineering",
+      "Escribir prompts"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud.",
+      "Describe las diferencias entre un gato y un perro.",
+      "Explica cómo funciona un motor de combustión interna."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-08-02-prompts-de-marketing.html",
     "title": "Prompts de marketing",
     "description": "Descubre los 10 prompts más usados por expertos en marketing para impulsar tus campañas",
@@ -1759,27 +1778,6 @@
       "prompt = \"Identificar oportunidades de negocio en el sector de la salud que puedan ser atendidas con tecnologías de inteligencia artificial\"",
       "prompt = \"Desarrollar un plan de negocio para un startup de tecnología que se enfocque en la creación de soluciones de IA para la industria de la logística\"",
       "prompt = \"Crear un modelo de negocio para un servicio de entrega de comida a domicilio que utilice drones para la entrega\""
-    ]
-  },
-  {
-    "slug": "2026-06-27-imagenes-perfectas-con-ia.html",
-    "title": "Imágenes Perfectas con IA",
-    "description": "Descubre cómo crear imágenes perfectas con IA utilizando prompts",
-    "date": "2026-06-27",
-    "tags": [
-      "IA",
-      "Inteligencia Artificial",
-      "Imágenes"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Genera una imagen de un atardecer en una playa tropical con palmeras y un cielo naranja",
-      "Crea una imagen de una mujer sonriente con el cabello castaño y ojos verdes, vestida con un traje de negocios",
-      "Genera una imagen de un edificio moderno con líneas limpias y ventanas grandes, rodeado de un jardín verde",
-      "Genera una imagen de un producto de cuidado personal con un fondo blanco y un texto que diga \"Limpieza y frescura para tu piel\"",
-      "Crea una imagen de un paisaje surrealista con colores vibrantes y formas geométricas",
-      "Genera una imagen de un personaje de ciencia ficción con un traje espacial y un fondo de estrellas y planetas"
     ]
   }
 ]
