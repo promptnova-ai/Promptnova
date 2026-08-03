@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-03-imagenes-perfectas-con-ia.html",
+    "title": "Imágenes perfectas con IA",
+    "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
+    "date": "2026-08-03",
+    "tags": [
+      "Inteligencia Artificial",
+      "Imágenes generadas",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro, rodeado de árboles verdes y un cielo azul con nubes blancas.",
+      "Crea una imagen de un retrato de una mujer con el cabello largo y oscuro, ojos verdes y una sonrisa cálida, con un fondo de colores pastel.",
+      "Genera una imagen de una ciudad futurista con rascacielos y vehículos voladores, con un cielo anaranjado y un sol poniente."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-08-02-prompts-infalibles.html",
     "title": "Prompts infalibles",
     "description": "Aprende a escribir prompts efectivos para IA",
@@ -1760,24 +1779,6 @@
       "\"Describe un lugar imaginario donde la tecnología y la naturaleza coexisten en armonía, utilizando un máximo de 150 palabras\"",
       "\"Explica el concepto de sostenibilidad ambiental de manera que un niño de 10 años pueda entenderlo, utilizando un lenguaje claro y conciso\"",
       "\"Crea un personaje que represente la resiliencia y la determinación, utilizando un máximo de 100 palabras y un tono motivador\""
-    ]
-  },
-  {
-    "slug": "2026-06-28-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
-    "date": "2026-06-28",
-    "tags": [
-      "inteligencia artificial",
-      "negocios",
-      "emprendimiento"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt = \"Identificar oportunidades de negocio en el sector de la salud que puedan ser atendidas con tecnologías de inteligencia artificial\"",
-      "prompt = \"Desarrollar un plan de negocio para un startup de tecnología que se enfocque en la creación de soluciones de IA para la industria de la logística\"",
-      "prompt = \"Crear un modelo de negocio para un servicio de entrega de comida a domicilio que utilice drones para la entrega\""
     ]
   }
 ]
