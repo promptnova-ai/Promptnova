@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-03-contenido-viral.html",
+    "title": "Contenido Viral",
+    "description": "Crea contenido viral con prompts avanzados",
+    "date": "2026-08-03",
+    "tags": [
+      "prompts",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un post de Facebook que promueva una nueva marca de ropa sostenible, destacando los beneficios del uso de materiales reciclados y la importancia de reducir el desperdicio de ropa en el planeta.",
+      "Crear un tweet que anuncie el lanzamiento de un nuevo producto de cuidado personal, destacando sus características innovadoras y su beneficio para la salud y el bienestar de los consumidores.",
+      "Desarrollar un post de Instagram que muestre una receta saludable y fácil de preparar, utilizando ingredientes frescos y nutritivos, y que incluya una llamada a la acción para que los seguidores compartan sus propias recetas saludables."
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-08-03-imagenes-perfectas-con-ia.html",
     "title": "Imágenes perfectas con IA",
     "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
@@ -1758,27 +1777,6 @@
       "prompt = \"Genera 5 ideas de negocio para una empresa de tecnología que se enfoca en la seguridad cibernética\"",
       "prompt = \"Genera 3 ideas de negocio para una empresa de tecnología que se enfoca en la visión artificial\"",
       "prompt = \"Genera 2 ideas de negocio para una empresa de tecnología que se enfoca en la sostenibilidad ambiental\""
-    ]
-  },
-  {
-    "slug": "2026-06-28-prompts-avanzados.html",
-    "title": "Prompts Avanzados",
-    "description": "Crea contenido viral con prompts avanzados en redes sociales",
-    "date": "2026-06-28",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe un título que combine la palabra 'verano' con una emoción positiva, utilizando un máximo de 10 palabras\"",
-      "\"Enumera 5 beneficios del ejercicio físico regular, utilizando viñetas y un lenguaje accesible\"",
-      "\"Cuenta la historia de un personaje que supera una adversidad, utilizando un máximo de 200 palabras y un tono inspirador\"",
-      "\"Describe un lugar imaginario donde la tecnología y la naturaleza coexisten en armonía, utilizando un máximo de 150 palabras\"",
-      "\"Explica el concepto de sostenibilidad ambiental de manera que un niño de 10 años pueda entenderlo, utilizando un lenguaje claro y conciso\"",
-      "\"Crea un personaje que represente la resiliencia y la determinación, utilizando un máximo de 100 palabras y un tono motivador\""
     ]
   }
 ]
