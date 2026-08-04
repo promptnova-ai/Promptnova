@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-04-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos y potencia tu creatividad",
+    "date": "2026-08-04",
+    "tags": [
+      "diseño gráfico",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "diseña un empaque para un producto de cuidado personal que se destaque en una tienda minorista",
+      "crea un folleto para una empresa de viajes que ofrezca paquetes de vacaciones a destinos exóticos",
+      "desarrolla una campaña publicitaria para un nuevo modelo de automóvil eléctrico"
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-08-04-ideas-de-negocio-con-ia.html",
     "title": "Ideas de Negocio con IA",
     "description": "Aprende a generar ideas de negocio en minutos con la inteligencia artificial",
@@ -1759,27 +1778,6 @@
       "Escribe un artículo de 500 palabras sobre los beneficios del meditar, incluyendo ejemplos de cómo la meditación puede mejorar la salud mental y física, y proporcionando consejos prácticos para empezar a meditar.",
       "Crea una imagen que represente la felicidad, utilizando colores brillantes y una composición atractiva, y asegurándote de que sea adecuada para ser compartida en redes sociales.",
       "Crea un anuncio publicitario para un nuevo producto de belleza, utilizando un lenguaje atractivo y llamativo, e incluyendo imágenes y videos que muestren los beneficios del producto. Asegúrate de que el anuncio sea adecuado para ser compartido en redes sociales y de que incluya un llamado a la acción claro y directo."
-    ]
-  },
-  {
-    "slug": "2026-06-29-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en los motores de búsqueda",
-    "date": "2026-06-29",
-    "tags": [
-      "IA",
-      "SEO",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las palabras clave más relevantes para mi negocio?",
-      "Genera un título atractivo para mi artículo sobre \"mejora del rendimiento\"",
-      "¿Cuál es el mejor enlace interno para incluir en mi artículo sobre \"estrategias de marketing\"?",
-      "Ejemplo de prompt para generar un resumen de un artículo: \"Resumen del artículo sobre \"inteligencia artificial para SEO\"\"",
-      "Ejemplo de prompt para generar un título atractivo: \"Título atractivo para el artículo sobre \"mejora del rendimiento\"\"",
-      "Ejemplo de prompt para generar un meta descripción: \"Meta descripción para el artículo sobre \"estrategias de marketing\"\""
     ]
   }
 ]
