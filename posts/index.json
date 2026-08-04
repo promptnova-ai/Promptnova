@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-04-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de Negocio con IA",
+    "description": "Aprende a generar ideas de negocio en minutos con la inteligencia artificial",
+    "date": "2026-08-04",
+    "tags": [
+      "Inteligencia Artificial",
+      "Ideas de Negocio",
+      "Emprendimiento"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Ejemplo de prompt: \"Genera 5 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la salud\"",
+      "Ejemplo de prompt: \"Genera 3 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la tecnología\"",
+      "\"Genera 5 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la sostenibilidad\"",
+      "\"Genera 3 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la educación\"",
+      "\"Genera 2 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la salud mental\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-08-03-contenido-viral.html",
     "title": "Contenido Viral",
     "description": "Crea contenido viral con prompts avanzados",
@@ -1759,24 +1780,6 @@
       "Ejemplo de prompt para generar un resumen de un artículo: \"Resumen del artículo sobre \"inteligencia artificial para SEO\"\"",
       "Ejemplo de prompt para generar un título atractivo: \"Título atractivo para el artículo sobre \"mejora del rendimiento\"\"",
       "Ejemplo de prompt para generar un meta descripción: \"Meta descripción para el artículo sobre \"estrategias de marketing\"\""
-    ]
-  },
-  {
-    "slug": "2026-06-29-ia-para-negocios.html",
-    "title": "IA para negocios",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial",
-    "date": "2026-06-29",
-    "tags": [
-      "IA",
-      "negocios",
-      "emprendimiento"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt = \"Genera 5 ideas de negocio para una empresa de tecnología que se enfoca en la seguridad cibernética\"",
-      "prompt = \"Genera 3 ideas de negocio para una empresa de tecnología que se enfoca en la visión artificial\"",
-      "prompt = \"Genera 2 ideas de negocio para una empresa de tecnología que se enfoca en la sostenibilidad ambiental\""
     ]
   }
 ]
