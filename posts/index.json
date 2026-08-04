@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-04-crea-un-curso-online.html",
+    "title": "Crea un curso online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-08-04",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "educación en línea"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "¿Cuáles son los temas más populares en el ámbito de la educación en línea?",
+      "¿Cómo puedo estructurar un plan de estudios para un curso de introducción a la programación?",
+      "¿Cuáles son las mejores prácticas para crear contenido de video para un curso online?"
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-08-04-prompts-creativos.html",
     "title": "Prompts Creativos",
     "description": "Descubre los mejores prompts para diseñadores gráficos y potencia tu creatividad",
@@ -1759,25 +1778,6 @@
       "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un producto o servicio que se adapte a esas tendencias?",
       "Genera una lista de 10 ideas de negocio que puedan ser viables en un mercado con una población en constante crecimiento y una economía en expansión.",
       "¿Cuáles son las oportunidades de negocio en el sector de la salud y el bienestar que pueden ser abordadas con soluciones basadas en IA?"
-    ]
-  },
-  {
-    "slug": "2026-06-29-contenido-viral.html",
-    "title": "Contenido Viral",
-    "description": "Aprende a crear contenido viral con prompts avanzados",
-    "date": "2026-06-29",
-    "tags": [
-      "contenido viral",
-      "prompts avanzados",
-      "redes sociales"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un título para un artículo sobre la importancia del ejercicio físico para la salud mental, utilizando palabras clave como 'salud mental' y 'ejercicio físico' y asegurándote de que sea atractivo y llamativo.",
-      "Escribe un artículo de 500 palabras sobre los beneficios del meditar, incluyendo ejemplos de cómo la meditación puede mejorar la salud mental y física, y proporcionando consejos prácticos para empezar a meditar.",
-      "Crea una imagen que represente la felicidad, utilizando colores brillantes y una composición atractiva, y asegurándote de que sea adecuada para ser compartida en redes sociales.",
-      "Crea un anuncio publicitario para un nuevo producto de belleza, utilizando un lenguaje atractivo y llamativo, e incluyendo imágenes y videos que muestren los beneficios del producto. Asegúrate de que el anuncio sea adecuado para ser compartido en redes sociales y de que incluya un llamado a la acción claro y directo."
     ]
   }
 ]
