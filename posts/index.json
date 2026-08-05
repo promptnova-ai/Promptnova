@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-05-escribir-emails-con-ia.html",
+    "title": "Escribir emails con IA",
+    "description": "Aprende a escribir emails profesionales con IA utilizando los mejores prompts",
+    "date": "2026-08-05",
+    "tags": [
+      "IA",
+      "emails profesionales",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un email de presentación para un nuevo cliente, incluyendo una breve descripción de nuestros servicios y una oferta para una reunión de follow-up.",
+      "Redacta un email de agradecimiento para un colega que me ayudó en un proyecto, incluyendo una mención a su contribución y una oferta para devolver el favor.",
+      "Escribe un email de seguimiento para un cliente que no ha respondido a una oferta anterior, incluyendo una reiteración de los beneficios de nuestro servicio y una pregunta sobre su interés en seguir adelante.",
+      "Escribe un email de promoción para un nuevo producto, incluyendo una descripción de las características y beneficios, así como una oferta especial para los suscriptores.",
+      "Redacta un email de noticias que incluya una selección de artículos relevantes para nuestra audiencia, así como una sección de destacados y una llamada a la acción.",
+      "Escribe un email de abandono del carrito para un cliente que no completó una compra, incluyendo una recordatorio de los productos que dejó en el carrito y una oferta para ayudarlo a completar la transacción."
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-08-05-aprende-10-veces-mas-rapido.html",
     "title": "Aprende 10 veces más rápido",
     "description": "Descubre cómo los prompts pueden acelerar tu aprendizaje",
@@ -1762,24 +1784,6 @@
       "¿Cuáles son las palabras clave más relevantes para mi negocio de marketing digital en México?",
       "Genera un artículo de 500 palabras sobre los beneficios del SEO para las pequeñas empresas.",
       "Analiza mi sitio web y proporciona recomendaciones para mejorar la velocidad de carga y la experiencia del usuario."
-    ]
-  },
-  {
-    "slug": "2026-06-30-contenido-viral.html",
-    "title": "Contenido Viral",
-    "description": "Crea contenido viral en redes sociales con prompts avanzados",
-    "date": "2026-06-30",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 5,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe una descripción para una foto de un atardecer en la playa, incluyendo las emociones que evoca y los colores predominantes.\"",
-      "\"Crea un tuit que compare la vida antes y después de la pandemia, utilizando un tono reflexivo y con un toque de humor.\"",
-      "\"Desarrolla una historia sobre cómo una persona superó una adversidad, destacando los pasos que dio y las lecciones aprendidas.\""
     ]
   }
 ]
