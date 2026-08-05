@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-05-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Descubre cómo la IA puede mejorar tu posicionamiento en buscadores con prompts efectivos",
+    "date": "2026-08-05",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Generar 5 títulos para un artículo sobre \"los beneficios del ejercicio físico\"",
+      "Escribe una descripción meta de 155 caracteres para un artículo sobre \"la importancia del sueño para la salud\"",
+      "Generar un artículo de 500 palabras sobre \"los beneficios del meditación para la salud mental\""
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-08-04-crea-un-curso-online.html",
     "title": "Crea un curso online",
     "description": "Aprende a crear un curso online desde cero con ChatGPT",
@@ -1760,24 +1779,6 @@
       "¿Cuáles son mis próximas citas en el calendario de Google?",
       "Envía un mensaje de texto a mi amigo para recordarle nuestra cita de esta noche",
       "¿Cuál es el estado del tráfico en mi ruta al trabajo?"
-    ]
-  },
-  {
-    "slug": "2026-06-30-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
-    "date": "2026-06-30",
-    "tags": [
-      "IA",
-      "Negocios",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un producto o servicio que se adapte a esas tendencias?",
-      "Genera una lista de 10 ideas de negocio que puedan ser viables en un mercado con una población en constante crecimiento y una economía en expansión.",
-      "¿Cuáles son las oportunidades de negocio en el sector de la salud y el bienestar que pueden ser abordadas con soluciones basadas en IA?"
     ]
   }
 ]
