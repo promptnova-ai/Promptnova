@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-05-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo los prompts pueden acelerar tu aprendizaje",
+    "date": "2026-08-05",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
+      "Describe el proceso de fotosíntesis y cómo afecta el medio ambiente.",
+      "Resume la Revolución Francesa y sus consecuencias en la sociedad europea.",
+      "Resume el capítulo 5 del libro de texto de historia y destaca los puntos clave.",
+      "Explica el concepto de entropía y proporciona un ejemplo de cómo se aplica en la física.",
+      "Describe el proceso de mitosis y cómo se relaciona con el crecimiento y desarrollo de los seres vivos."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-08-05-ia-para-seo.html",
     "title": "IA para SEO",
     "description": "Descubre cómo la IA puede mejorar tu posicionamiento en buscadores con prompts efectivos",
@@ -1758,27 +1780,6 @@
       "\"Escribe una descripción para una foto de un atardecer en la playa, incluyendo las emociones que evoca y los colores predominantes.\"",
       "\"Crea un tuit que compare la vida antes y después de la pandemia, utilizando un tono reflexivo y con un toque de humor.\"",
       "\"Desarrolla una historia sobre cómo una persona superó una adversidad, destacando los pasos que dio y las lecciones aprendidas.\""
-    ]
-  },
-  {
-    "slug": "2026-06-30-asistente-personal-con-chatgpt.html",
-    "title": "Asistente Personal con ChatGPT",
-    "description": "Construye un asistente personal con ChatGPT y prompts para aumentar tu productividad",
-    "date": "2026-06-30",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es el clima en Madrid hoy?",
-      "Recuerdame mi próxima cita con el dentista",
-      "¿Qué es lo más importante que debo hacer hoy?",
-      "¿Cuáles son mis próximas citas en el calendario de Google?",
-      "Envía un mensaje de texto a mi amigo para recordarle nuestra cita de esta noche",
-      "¿Cuál es el estado del tráfico en mi ruta al trabajo?"
     ]
   }
 ]
