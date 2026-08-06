@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-06-asistente-personal-con-chatgpt.html",
+    "title": "Asistente Personal con ChatGPT",
+    "description": "Construye un asistente personal con ChatGPT y prompts para mejorar tu productividad",
+    "date": "2026-08-06",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuáles son las noticias más importantes de hoy en el ámbito de la tecnología?",
+      "¿Puedes recomendarme un libro sobre inteligencia artificial que sea adecuado para principiantes?",
+      "¿Cuál es la mejor forma de optimizar mi sitio web para mejorar su posicionamiento en los motores de búsqueda?",
+      "¿Puedes generar un informe detallado sobre las tendencias actuales en el mercado de la tecnología, incluyendo gráficos y estadísticas?",
+      "¿Puedes crear un plan de marketing personalizado para mi negocio, teniendo en cuenta mi target de audiencia y mis objetivos?",
+      "¿Puedes traducir este texto del inglés al español y proporcionarme una explicación detallada de los términos técnicos utilizados?"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-08-05-escribir-emails-con-ia.html",
     "title": "Escribir emails con IA",
     "description": "Aprende a escribir emails profesionales con IA utilizando los mejores prompts",
@@ -1766,24 +1788,6 @@
       "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?",
       "Diseña un negocio que ofrezca soluciones sostenibles para reducir el impacto ambiental de la industria de la moda.",
       "¿Cómo puedo crear un negocio que ayude a las pequeñas empresas a aumentar su presencia en línea y mejorar su marketing digital?"
-    ]
-  },
-  {
-    "slug": "2026-07-01-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Aprende a utilizar la inteligencia artificial para mejorar tu posición en buscadores",
-    "date": "2026-07-01",
-    "tags": [
-      "IA",
-      "SEO",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las palabras clave más relevantes para mi negocio de marketing digital en México?",
-      "Genera un artículo de 500 palabras sobre los beneficios del SEO para las pequeñas empresas.",
-      "Analiza mi sitio web y proporciona recomendaciones para mejorar la velocidad de carga y la experiencia del usuario."
     ]
   }
 ]
