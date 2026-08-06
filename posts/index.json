@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-06-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-06",
+    "tags": [
+      "automatización",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud.",
+      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
+      "Genera un informe sobre las ventas del último trimestre, incluyendo gráficos y estadísticas.",
+      "Escribe un correo electrónico de follow-up para un cliente que no ha respondido a una oferta en los últimos 7 días.",
+      "Genera un informe sobre el rendimiento de un empleado durante el último mes, incluyendo gráficos y estadísticas.",
+      "Crea un guión para un video de marketing que promocione un nuevo producto."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-08-06-asistente-personal-con-chatgpt.html",
     "title": "Asistente Personal con ChatGPT",
     "description": "Construye un asistente personal con ChatGPT y prompts para mejorar tu productividad",
@@ -1770,24 +1792,6 @@
       "\"Escribe un artículo de 500 palabras sobre los beneficios de la meditación para la salud mental\"",
       "\"¿Cuál es el horario de atención al cliente de nuestra empresa?\"",
       "\"Resumen el contenido del artículo 'La importancia de la innovación en la industria tecnológica' en 100 palabras\""
-    ]
-  },
-  {
-    "slug": "2026-07-01-ideas-denegocio-con-ia.html",
-    "title": "Ideas deNegocio con IA",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
-    "date": "2026-07-01",
-    "tags": [
-      "IA",
-      "Negocios",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?",
-      "Diseña un negocio que ofrezca soluciones sostenibles para reducir el impacto ambiental de la industria de la moda.",
-      "¿Cómo puedo crear un negocio que ayude a las pequeñas empresas a aumentar su presencia en línea y mejorar su marketing digital?"
     ]
   }
 ]
