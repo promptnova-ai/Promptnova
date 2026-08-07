@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-07-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos para mejorar tus habilidades en prompt engineering",
+    "date": "2026-08-07",
+    "tags": [
+      "Inteligencia Artificial",
+      "Desarrollo de Software",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "programacion",
+    "prompts": [
+      "Traduce el texto &#34;Hello, how are you?&#34; al español.",
+      "Resumen el siguiente texto en 50 palabras: &#34;El clima es un tema importante en la actualidad, ya que el cambio climático está afectando a muchas personas en todo el mundo.&#34;",
+      "Genera un texto de 100 palabras sobre el tema &#34;la importancia de la educación&#34;."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-08-06-automatiza-tu-negocio.html",
     "title": "Automatiza tu negocio",
     "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
@@ -1774,24 +1793,6 @@
       "Respuesta: El significado de la vida es un tema filosófico que ha sido debatido durante siglos. Algunas personas creen que el significado de la vida es encontrar la felicidad y la realización personal, mientras que otras creen que es cumplir con un propósito mayor.",
       "Pregunta: ¿Cuál es el mejor restaurante en la ciudad?",
       "Respuesta: Hay varios restaurantes excelentes en la ciudad. Algunos de los más populares son el Restaurante A, el Restaurante B y el Restaurante C. ¿Te gustaría saber más sobre alguno de ellos?"
-    ]
-  },
-  {
-    "slug": "2026-07-01-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-07-01",
-    "tags": [
-      "automatización",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "\"Escribe un artículo de 500 palabras sobre los beneficios de la meditación para la salud mental\"",
-      "\"¿Cuál es el horario de atención al cliente de nuestra empresa?\"",
-      "\"Resumen el contenido del artículo 'La importancia de la innovación en la industria tecnológica' en 100 palabras\""
     ]
   }
 ]
