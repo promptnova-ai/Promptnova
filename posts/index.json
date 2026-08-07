@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-07-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
+    "date": "2026-08-07",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre perros.",
+      "Escribe un artículo de 500 palabras sobre las razas de perros más populares en Estados Unidos, incluyendo sus características y necesidades de cuidado.",
+      "escribir un articulo sobre perros!!",
+      "Escribe un artículo sobre perros.",
+      "Escribe un artículo sobre la historia de la ciencia, asumiendo que todos los científicos famosos son hombres.",
+      "Escribe un artículo sobre la historia de la ciencia, destacando las contribuciones de científicos y científicas de diferentes orígenes y géneros."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-08-07-prompt-engineering.html",
     "title": "Prompt Engineering",
     "description": "Aprende trucos para mejorar tus habilidades en prompt engineering",
@@ -1771,28 +1793,6 @@
       "¿Cuáles son las ventajas y desventajas de utilizar un framework de desarrollo de software como React?",
       "Genera un ejemplo de código en Python que demuestre cómo utilizar la biblioteca de machine learning scikit-learn para clasificar datos.",
       "Describe los pasos para implementar un algoritmo de búsqueda en un grafo utilizando el algoritmo de Dijkstra."
-    ]
-  },
-  {
-    "slug": "2026-07-02-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-07-02",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es el clima en Madrid hoy?",
-      "Recuerda que tengo una reunión con Juan a las 10 am mañana",
-      "Proporciona una lista de 5 tareas para hoy",
-      "Pregunta: ¿Cuál es el significado de la vida?",
-      "Respuesta: El significado de la vida es un tema filosófico que ha sido debatido durante siglos. Algunas personas creen que el significado de la vida es encontrar la felicidad y la realización personal, mientras que otras creen que es cumplir con un propósito mayor.",
-      "Pregunta: ¿Cuál es el mejor restaurante en la ciudad?",
-      "Respuesta: Hay varios restaurantes excelentes en la ciudad. Algunos de los más populares son el Restaurante A, el Restaurante B y el Restaurante C. ¿Te gustaría saber más sobre alguno de ellos?"
     ]
   }
 ]
