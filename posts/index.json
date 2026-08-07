@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-07-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
+    "date": "2026-08-07",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un correo electrónico de respuesta a un cliente que ha hecho una consulta sobre un producto\"",
+      "Ejemplo 2: \"Genera un informe de ventas para el mes pasado, incluyendo gráficos y estadísticas\"",
+      "Ejemplo 3: \"Traduce el texto \"La inteligencia artificial es el futuro\" al francés\""
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-08-07-errores-comunes-en-prompts.html",
     "title": "Errores comunes en prompts",
     "description": "Aprende a evitar errores comunes al escribir prompts para IA",
@@ -1775,24 +1794,6 @@
       "Análiza los datos de engagement de la empresa X en las redes sociales y crea un informe sobre las tendencias y patrones de comportamiento de los seguidores.",
       "Crea un email de marketing que muestre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo un llamado a la acción.",
       "Mide el éxito de la campaña de marketing de la empresa X, incluyendo métricas como el tráfico web, el engagement y las conversiones."
-    ]
-  },
-  {
-    "slug": "2026-07-02-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Descubre trucos de prompt engineering para developers",
-    "date": "2026-07-02",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Desarrollo de Software"
-    ],
-    "readingTime": 5,
-    "category": "programacion",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar un framework de desarrollo de software como React?",
-      "Genera un ejemplo de código en Python que demuestre cómo utilizar la biblioteca de machine learning scikit-learn para clasificar datos.",
-      "Describe los pasos para implementar un algoritmo de búsqueda en un grafo utilizando el algoritmo de Dijkstra."
     ]
   }
 ]
