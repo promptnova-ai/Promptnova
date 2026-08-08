@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-08-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
+    "date": "2026-08-08",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud mental, considerando las investigaciones actuales y las recomendaciones de los expertos en psicología. El artículo debe ser de aproximadamente 500 palabras y debe incluir ejemplos concretos de cómo el ejercicio físico puede reducir el estrés y mejorar la autoestima.",
+      "Traduce el texto \"El clima en Madrid es geralmente cálido y seco durante el verano\" al francés, utilizando un tono formal y considerando las diferencias culturales entre España y Francia.",
+      "Genera un resumen de la noticia \"La empresa X anuncia un aumento en la producción de energía renovable\", destacando los puntos clave y las implicaciones para el medio ambiente.",
+      "Crea un guión para un video explicativo sobre el funcionamiento de un motor de combustión interna, utilizando términos técnicos y conceptos científicos precisos."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-08-08-prompts-de-marketing.html",
     "title": "Prompts de marketing",
     "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
@@ -1776,25 +1796,6 @@
       "Explica el concepto de inteligencia artificial y cómo se aplica en la industria del automóvil.",
       "Describe el proceso de creación de un modelo de lenguaje y cómo se entrena.",
       "Analiza el impacto de la globalización en la economía y la sociedad."
-    ]
-  },
-  {
-    "slug": "2026-07-03-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar procesos con prompts inteligentes",
-    "date": "2026-07-03",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "automatización"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "Describe las ventajas de la automatización en un negocio, incluyendo la reducción de costos y el aumento de la eficiencia.",
-      "Genera un informe mensual que resuma las ventas y los ingresos de la empresa, incluyendo gráficos y tablas para ilustrar los datos.",
-      "Crea un anuncio publicitario para un nuevo producto, incluyendo una descripción del producto, sus características y beneficios, y un llamado a la acción para que los clientes lo compren.",
-      "Responde a la pregunta \"¿Cuál es el proceso de devolución de un producto?\", incluyendo los pasos que el cliente debe seguir y los plazos para la devolución."
     ]
   }
 ]
