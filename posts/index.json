@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-08-08-prompts-de-marketing.html",
+    "title": "Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
+    "date": "2026-08-08",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un informe detallado sobre la estrategia de marketing de la empresa XYZ, incluyendo su público objetivo, canales de marketing y tipos de contenido.",
+      "Escribe un artículo de blog sobre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo ejemplos y estadísticas.",
+      "Describe las características demográficas y psicográficas del público objetivo de la empresa XYZ, incluyendo sus intereses, valores y comportamientos.",
+      "Describe un producto que combine la tecnología de inteligencia artificial con la experiencia del cliente, incluyendo sus características y beneficios.",
+      "Escribe un conjunto de palabras clave y metaetiquetas para una página web de la empresa XYZ, incluyendo su título, descripción y encabezados.",
+      "Escribe un anuncio de Facebook para la empresa XYZ, incluyendo su imagen, título, texto y llamada a la acción.",
+      "Escribe un correo electrónico de bienvenida para los clientes de la empresa XYZ, incluyendo su nombre, contenido y llamada a la acción.",
+      "Describe un conjunto de datos de la empresa XYZ, incluyendo su fuente, estructura y tendencias.",
+      "Describe un perfil de cliente para la empresa XYZ, incluyendo su nombre, edad, género, ingresos y comportamientos.",
+      "Describe una campaña de marketing para la empresa XYZ, incluyendo su objetivo, público objetivo, canales de marketing y métricas de éxito."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-08-07-domina-chatgpt.html",
     "title": "Domina ChatGPT",
     "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
@@ -1769,31 +1795,6 @@
       "Genera un informe mensual que resuma las ventas y los ingresos de la empresa, incluyendo gráficos y tablas para ilustrar los datos.",
       "Crea un anuncio publicitario para un nuevo producto, incluyendo una descripción del producto, sus características y beneficios, y un llamado a la acción para que los clientes lo compren.",
       "Responde a la pregunta \"¿Cuál es el proceso de devolución de un producto?\", incluyendo los pasos que el cliente debe seguir y los plazos para la devolución."
-    ]
-  },
-  {
-    "slug": "2026-07-03-prompts-de-marketing.html",
-    "title": "Prompts de marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-03",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un informe sobre la estrategia de marketing de la competencia X, incluyendo sus puntos fuertes y débiles.",
-      "Escribe un artículo sobre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo ejemplos y estadísticas.",
-      "Identifica las 10 palabras clave más relevantes para la industria del marketing digital y crea un plan de contenido para optimizarlas.",
-      "Análiza los datos de tráfico web de la empresa X y crea un informe sobre las tendencias y patrones de comportamiento de los visitantes.",
-      "Crea un perfil de cliente para la empresa X, incluyendo información demográfica, preferencias y comportamientos de compra.",
-      "Desarrolla una estrategia de marketing para la empresa X, incluyendo objetivos, metas y planes de acción para el próximo año.",
-      "Crea un guión para un video de marketing que muestre los beneficios del uso de la inteligencia artificial en el marketing.",
-      "Análiza los datos de engagement de la empresa X en las redes sociales y crea un informe sobre las tendencias y patrones de comportamiento de los seguidores.",
-      "Crea un email de marketing que muestre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo un llamado a la acción.",
-      "Mide el éxito de la campaña de marketing de la empresa X, incluyendo métricas como el tráfico web, el engagement y las conversiones."
     ]
   }
 ]
