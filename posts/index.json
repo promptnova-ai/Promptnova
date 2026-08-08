@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-08-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Crea imágenes perfectas con inteligencia artificial y prompts",
+    "date": "2026-08-08",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Generate an image of a sunny day at the beach with clear blue sky and waves crashing against the shore.",
+      "Crear una imagen de un paisaje montañoso con niebla y árboles altos, en un estilo de pintura impresionista.",
+      "Generate an image of a futuristic city with skyscrapers and flying cars, in a neon-lit nighttime setting.",
+      "Generate an image of a retrato de una mujer en un estilo de pintura renacentista, con un fondo oscuro y un vestido rojo.",
+      "Crear una imagen de un paisaje urbano en un estilo de dibujo animado, con edificios coloridos y personajes divertidos.",
+      "Generate an image of a escena de ciencia ficción en un estilo de ilustración digital, con naves espaciales y alienígenas."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-08-08-prompts-infalibles.html",
     "title": "Prompts infalibles",
     "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
@@ -1775,27 +1797,6 @@
       "¿Qué tipo de negocio puedo crear que combine mis habilidades en marketing digital con mi pasión por la sostenibilidad?",
       "Genera una lista de 10 ideas de negocio que puedan ser rentables en la industria de la salud y el bienestar.",
       "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?"
-    ]
-  },
-  {
-    "slug": "2026-07-04-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y eficiente con prompts",
-    "date": "2026-07-04",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
-      "Describe el proceso de fotosíntesis y cómo afecta el medio ambiente.",
-      "Resume la Revolución Francesa y sus consecuencias en la sociedad europea.",
-      "Explica el concepto de inteligencia artificial y cómo se aplica en la industria del automóvil.",
-      "Describe el proceso de creación de un modelo de lenguaje y cómo se entrena.",
-      "Analiza el impacto de la globalización en la economía y la sociedad."
     ]
   }
 ]
