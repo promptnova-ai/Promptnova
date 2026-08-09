@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-09-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos",
+    "date": "2026-08-09",
+    "tags": [
+      "diseño gráfico",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "diseña un logotipo para una empresa de tecnología que se especializa en la creación de aplicaciones móviles",
+      "crea un folleto para una campaña publicitaria de un nuevo producto de cuidado personal que se dirige a un público joven y urbano",
+      "desarrolla una identidad visual para una marca de ropa sostenible que se enfoca en la reducción de residuos y la protección del medio ambiente"
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-08-09-ideas-de-negocio-con-ia.html",
     "title": "Ideas de negocio con IA",
     "description": "Aprende a generar ideas de negocio innovadoras con inteligencia artificial en minutos",
@@ -1778,27 +1797,6 @@
       "Genera un texto sobre la historia de Francia durante la Revolución Francesa, incluyendo los eventos clave y los personajes importantes.",
       "¿Cuál es la mejor forma de gobierno: democracia o dictadura?",
       "Comparar y contrastar las ventajas y desventajas de la democracia y la dictadura como formas de gobierno."
-    ]
-  },
-  {
-    "slug": "2026-07-05-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
-    "date": "2026-07-05",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el concepto de inteligencia artificial de manera sencilla",
-      "Proporciona un resumen detallado de la historia de la ciencia",
-      "Describe los pasos para aprender un nuevo idioma de manera efectiva",
-      "Proporciona un ejemplo de cómo aplicar el concepto de inteligencia artificial en la industria de la salud",
-      "Explica la diferencia entre inteligencia artificial y aprendizaje automático",
-      "Describe los posibles riesgos y beneficios del uso de inteligencia artificial en la sociedad"
     ]
   }
 ]
