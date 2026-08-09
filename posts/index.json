@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-09-prompts-virales.html",
+    "title": "Prompts Virales",
+    "description": "Crea contenido viral con prompts avanzados",
+    "date": "2026-08-09",
+    "tags": [
+      "prompt engineering",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un post de Instagram que combine la ironía y la nostalgia, dirigido a millennials, sobre cómo la tecnología ha cambiado la forma en que nos comunicamos. Incluye un llamado a la acción para que los seguidores compartan sus propias historias de cómo la tecnología ha impactado sus relaciones.",
+      "Crear un tweet que explique de manera concisa y divertida por qué el café es esencial para la productividad. Utiliza un lenguaje humorístico y asegúrate de incluir hashtags relevantes para llegar a una audiencia más amplia.",
+      "Desarrolla un guión para un video de 60 segundos en TikTok que muestre una transformación impresionante de alguien que aprende a bailar un estilo completamente nuevo en solo una semana. Asegúrate de incluir una mezcla de momentos divertidos y de logro."
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-08-08-imagenes-con-ia.html",
     "title": "Imágenes con IA",
     "description": "Crea imágenes perfectas con inteligencia artificial y prompts",
@@ -1779,24 +1798,6 @@
       "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de realidad virtual. El logotipo debe incluir elementos que reflejen la innovación y la creatividad de la empresa.",
       "Crear un póster para una campaña publicitaria de una marca de ropa sostenible. El póster debe incluir elementos que reflejen la conciencia medioambiental y la responsabilidad social de la marca.",
       "Diseñar un empaque para un producto de cosméticos que se destaque en el mercado. El empaque debe incluir elementos que reflejen la calidad y la elegancia del producto."
-    ]
-  },
-  {
-    "slug": "2026-07-04-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
-    "date": "2026-07-04",
-    "tags": [
-      "inteligencia artificial",
-      "ideas de negocio",
-      "emprendimiento"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Qué tipo de negocio puedo crear que combine mis habilidades en marketing digital con mi pasión por la sostenibilidad?",
-      "Genera una lista de 10 ideas de negocio que puedan ser rentables en la industria de la salud y el bienestar.",
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?"
     ]
   }
 ]
