@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-09-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de negocio con IA",
+    "description": "Aprende a generar ideas de negocio innovadoras con inteligencia artificial en minutos",
+    "date": "2026-08-09",
+    "tags": [
+      "IA",
+      "negocios",
+      "innovación"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Genera una lista de 10 ideas de negocio relacionadas con la sostenibilidad y el medio ambiente.",
+      "Diseña un modelo de negocio para una empresa que ofrezca servicios de asesoramiento en tecnología para pequeñas y medianas empresas.",
+      "Identifica oportunidades de negocio en el sector de la salud y el bienestar, y describe un plan de acción para aprovecharlas."
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-08-09-prompts-virales.html",
     "title": "Prompts Virales",
     "description": "Crea contenido viral con prompts avanzados",
@@ -1780,24 +1799,6 @@
       "Proporciona un ejemplo de cómo aplicar el concepto de inteligencia artificial en la industria de la salud",
       "Explica la diferencia entre inteligencia artificial y aprendizaje automático",
       "Describe los posibles riesgos y beneficios del uso de inteligencia artificial en la sociedad"
-    ]
-  },
-  {
-    "slug": "2026-07-04-prompts-creativos.html",
-    "title": "Prompts Creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos",
-    "date": "2026-07-04",
-    "tags": [
-      "diseño gráfico",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de realidad virtual. El logotipo debe incluir elementos que reflejen la innovación y la creatividad de la empresa.",
-      "Crear un póster para una campaña publicitaria de una marca de ropa sostenible. El póster debe incluir elementos que reflejen la conciencia medioambiental y la responsabilidad social de la marca.",
-      "Diseñar un empaque para un producto de cosméticos que se destaque en el mercado. El empaque debe incluir elementos que reflejen la calidad y la elegancia del producto."
     ]
   }
 ]
