@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-10-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Descubre cómo la IA puede mejorar tu SEO con prompts efectivos",
+    "date": "2026-08-10",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompts"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud mental, incluyendo estadísticas y estudios científicos.",
+      "Genera un meta título y una descripción meta para una página web de venta de productos de belleza, enfocada en la audiencia femenina de 25 a 45 años.",
+      "Crea un contenido de blog sobre la importancia de la accesibilidad web para las personas con discapacidad, incluyendo ejemplos de sitios web accesibles y no accesibles.",
+      "Escribe un artículo sobre la importancia de la optimización de imágenes para el SEO, incluyendo consejos y trucos para mejorar el posicionamiento de tus imágenes en los resultados de búsqueda."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-08-10-crea-un-curso-online.html",
     "title": "Crea un Curso Online",
     "description": "Aprende a crear un curso online desde cero con ChatGPT",
@@ -1777,25 +1797,6 @@
       "Escribe un email de presentación para una reunión de negocios: \"Estimado [nombre], me gustaría concertar una reunión para discutir oportunidades de colaboración entre nuestras empresas. ¿Qué días y horas te vienen bien la próxima semana?\"",
       "Redacta un email de agradecimiento por una entrevista de trabajo: \"Querido [nombre], quiero expresar mi más sincero agradecimiento por la oportunidad de entrevistarme para el puesto de [puesto]. Estoy ansioso por saber sobre el resultado y aprender de su experiencia.\"",
       "Crea un email de seguimiento para una solicitud de información: \"Hola [nombre], espero que estés bien. Quería seguir con mi solicitud de [información o documento] que te pedí hace [tiempo]. ¿Podrías proporcionarme una actualización sobre el estado de mi petición?\""
-    ]
-  },
-  {
-    "slug": "2026-07-05-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con Inteligencia Artificial",
-    "date": "2026-07-05",
-    "tags": [
-      "Inteligencia Artificial",
-      "Ideas de Negocio",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt: \"Genera una lista de 10 ideas de negocio relacionadas con la salud y el bienestar\"",
-      "prompt: \"Genera una lista de 5 ideas de negocio relacionadas con la tecnología y la innovación\"",
-      "prompt: \"Desarrolla un plan de negocio para una empresa de comercio electrónico especializada en productos sostenibles\"",
-      "prompt: \"Identifica 3 oportunidades de negocio en el sector de la educación en línea\""
     ]
   }
 ]
