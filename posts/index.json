@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-10-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa 10 veces más rápido con prompts personalizados",
+    "date": "2026-08-10",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica la teoría de la relatividad de Einstein de manera sencilla.",
+      "Proporciona un resumen de la historia de la ciencia en 5 minutos.",
+      "Describe el proceso de fotosíntesis en las plantas.",
+      "Explica la diferencia entre la inteligencia artificial y el aprendizaje automático.",
+      "Proporciona un resumen de la historia de la filosofía en 10 minutos.",
+      "Describe el proceso de creación de un algoritmo de aprendizaje automático."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-08-10-ia-para-seo.html",
     "title": "IA para SEO",
     "description": "Descubre cómo la IA puede mejorar tu SEO con prompts efectivos",
@@ -1779,24 +1801,6 @@
       "¿Cuáles son las ventajas y desventajas de utilizar inteligencia artificial en la toma de decisiones?",
       "Describe un escenario en el que un robot tenga que tomar una decisión ética. ¿Qué factores debería considerar el robot al tomar su decisión?",
       "¿Cómo se puede utilizar el aprendizaje automático para mejorar la eficiencia en la industria manufacturera? Proporciona ejemplos concretos de aplicaciones y resultados."
-    ]
-  },
-  {
-    "slug": "2026-07-06-escribe-emails-profesionales-con-ia.html",
-    "title": "Escribe emails profesionales con IA",
-    "description": "Aprende a escribir emails profesionales con inteligencia artificial y los mejores prompts para hacerlo",
-    "date": "2026-07-06",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 5,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para una reunión de negocios: \"Estimado [nombre], me gustaría concertar una reunión para discutir oportunidades de colaboración entre nuestras empresas. ¿Qué días y horas te vienen bien la próxima semana?\"",
-      "Redacta un email de agradecimiento por una entrevista de trabajo: \"Querido [nombre], quiero expresar mi más sincero agradecimiento por la oportunidad de entrevistarme para el puesto de [puesto]. Estoy ansioso por saber sobre el resultado y aprender de su experiencia.\"",
-      "Crea un email de seguimiento para una solicitud de información: \"Hola [nombre], espero que estés bien. Quería seguir con mi solicitud de [información o documento] que te pedí hace [tiempo]. ¿Podrías proporcionarme una actualización sobre el estado de mi petición?\""
     ]
   }
 ]
