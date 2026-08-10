@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-10-crea-un-curso-online.html",
+    "title": "Crea un Curso Online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-08-10",
+    "tags": [
+      "ChatGPT",
+      "Curso Online",
+      "Educación en Línea"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "¿Cuáles son los temas clave que debemos cubrir en un curso de introducción a la programación en Python?",
+      "Proporciona un ejemplo de código que demuestre el uso de la función len() en Python para calcular la longitud de una cadena de texto.",
+      "cadena = \"Hola, mundo\"longitud = len(cadena)print(\"La longitud de la cadena es: \", longitud)",
+      "¿Cuál es la diferencia entre una variable y una constante en programación? Proporciona una pregunta de evaluación para evaluar la comprensión de este concepto."
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-08-09-prompts-creativos.html",
     "title": "Prompts Creativos",
     "description": "Descubre los mejores prompts para diseñadores gráficos",
@@ -1776,27 +1796,6 @@
       "prompt: \"Genera una lista de 5 ideas de negocio relacionadas con la tecnología y la innovación\"",
       "prompt: \"Desarrolla un plan de negocio para una empresa de comercio electrónico especializada en productos sostenibles\"",
       "prompt: \"Identifica 3 oportunidades de negocio en el sector de la educación en línea\""
-    ]
-  },
-  {
-    "slug": "2026-07-05-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-05",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que viaja en el tiempo.",
-      "Escribe un cuento sobre un personaje que viaja en el tiempo a la época de los dinosaurios y debe encontrar una forma de regresar a su época.",
-      "¿Cuál es la capital de Francia?",
-      "Genera un texto sobre la historia de Francia durante la Revolución Francesa, incluyendo los eventos clave y los personajes importantes.",
-      "¿Cuál es la mejor forma de gobierno: democracia o dictadura?",
-      "Comparar y contrastar las ventajas y desventajas de la democracia y la dictadura como formas de gobierno."
     ]
   }
 ]
