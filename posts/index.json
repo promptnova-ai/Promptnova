@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-11-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-08-11",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "Escribe un correo electrónico a un amigo sobre un viaje que planeas realizar.",
+      "Proporciona una lista de 5 libros recomendados en el género de la ciencia ficción.",
+      "Genera un plan de entrenamiento de 4 semanas para alguien que busca mejorar su condición física.",
+      "Describe un menú semanal saludable para una persona con restricciones dietéticas específicas.",
+      "Proporciona un resumen de un artículo de noticias sobre un tema de actualidad, incluyendo los puntos clave y las opiniones de expertos.",
+      "Genera un guión para un video de YouTube sobre un tema de interés, incluyendo la introducción, el desarrollo y la conclusión."
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-08-11-escribiendo-emails-profesionales.html",
     "title": "Escribiendo Emails Profesionales",
     "description": "Aprende a utilizar la IA para escribir emails profesionales con los mejores prompts",
@@ -1785,25 +1807,6 @@
       "Escribe un artículo de 500 palabras sobre la importancia del ejercicio físico para la salud, incluyendo estadísticas y ejemplos de cómo el ejercicio puede mejorar la calidad de vida.",
       "Traduce el siguiente texto del español al inglés: \"La casa es azul\".",
       "Traduce el siguiente texto del español al inglés, manteniendo el tono y el estilo formal: \"La casa es azul y tiene un jardín grande\"."
-    ]
-  },
-  {
-    "slug": "2026-07-06-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Aprende trucos de prompt engineering para developers",
-    "date": "2026-07-06",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Desarrollo de Software"
-    ],
-    "readingTime": 10,
-    "category": "programacion",
-    "prompts": [
-      "Describe el producto XYZ, incluyendo sus características y beneficios.",
-      "Describe el proceso de implementación de un sistema de gestión de inventario en una empresa de manufactura, incluyendo los pasos necesarios y los recursos requeridos.",
-      "Explica la diferencia entre un sistema de gestión de bases de datos relacionales y un sistema de gestión de bases de datos NoSQL, incluyendo los beneficios y desventajas de cada uno.",
-      "Describe las mejores prácticas para implementar un sistema de autenticación y autorización en una aplicación web, incluyendo los protocolos y tecnologías recomendadas."
     ]
   }
 ]
