@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-11-escribiendo-emails-profesionales.html",
+    "title": "Escribiendo Emails Profesionales",
+    "description": "Aprende a utilizar la IA para escribir emails profesionales con los mejores prompts",
+    "date": "2026-08-11",
+    "tags": [
+      "IA",
+      "Emails Profesionales",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un email de presentación para un nuevo cliente, incluyendo nuestra propuesta de servicios y precios.\"",
+      "Ejemplo 2: \"Genera un email de seguimiento para un cliente que no ha respondido a nuestra propuesta, incluyendo una oferta especial y un plazo límite para responder.\"",
+      "Ejemplo 3: \"Crea un email de agradecimiento para un cliente que ha aceptado nuestra propuesta, incluyendo los detalles del proyecto y la fecha de inicio.\"",
+      "Ejemplo 4: \"Escribe un email de apoyo para un cliente que está experimentando problemas técnicos con nuestro software, incluyendo los pasos para solucionar el problema y un enlace para descargar una versión actualizada.\"",
+      "Ejemplo 5: \"Genera un email de bienvenida para un nuevo empleado, incluyendo la información de contacto de su supervisor y los detalles de la reunión de inducción.\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-08-10-aprende-10-veces-mas-rapido.html",
     "title": "Aprende 10 veces más rápido",
     "description": "Descubre cómo aprender cualquier cosa 10 veces más rápido con prompts personalizados",
@@ -1783,24 +1804,6 @@
       "Describe el proceso de implementación de un sistema de gestión de inventario en una empresa de manufactura, incluyendo los pasos necesarios y los recursos requeridos.",
       "Explica la diferencia entre un sistema de gestión de bases de datos relacionales y un sistema de gestión de bases de datos NoSQL, incluyendo los beneficios y desventajas de cada uno.",
       "Describe las mejores prácticas para implementar un sistema de autenticación y autorización en una aplicación web, incluyendo los protocolos y tecnologías recomendadas."
-    ]
-  },
-  {
-    "slug": "2026-07-06-prompts-perfectos.html",
-    "title": "Prompts Perfectos",
-    "description": "Aprende a escribir prompts efectivos para IA",
-    "date": "2026-07-06",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar inteligencia artificial en la toma de decisiones?",
-      "Describe un escenario en el que un robot tenga que tomar una decisión ética. ¿Qué factores debería considerar el robot al tomar su decisión?",
-      "¿Cómo se puede utilizar el aprendizaje automático para mejorar la eficiencia en la industria manufacturera? Proporciona ejemplos concretos de aplicaciones y resultados."
     ]
   }
 ]
