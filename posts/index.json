@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-12-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Evita errores comunes al escribir prompts para IA",
+    "date": "2026-08-12",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribir un resumen de 200 palabras sobre la historia de la inteligencia artificial.",
+      "Crear un personaje de ficción con las siguientes características: edad, 25 años; género, femenino; ocupación, científica.",
+      "Desarrollar un plan de marketing para lanzar un nuevo producto en el mercado de la tecnología."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-08-12-prompt-engineering.html",
     "title": "Prompt Engineering",
     "description": "Aprende trucos de prompt engineering para developers",
@@ -1788,27 +1807,6 @@
       "Un paisaje de montaña con un lago en el centro, rodeado de árboles y con un cielo nublado.",
       "Una ciudad futurista con rascacielos y vehículos voladores, iluminada por luces neón.",
       "Un retrato de una mujer sonriente con el cabello largo y oscuro, y un vestido rojo."
-    ]
-  },
-  {
-    "slug": "2026-07-09-escribiendo-emails-profesionales.html",
-    "title": "Escribiendo Emails Profesionales",
-    "description": "Aprende a escribir emails profesionales con IA utilizando los mejores prompts",
-    "date": "2026-07-09",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para un nuevo cliente, incluyendo una breve descripción de la empresa y los servicios que ofrecemos.",
-      "Escribe un email de follow-up para un cliente que no ha respondido a un email anterior, incluyendo una recordatoria de la propuesta y una oferta para discutir los detalles.",
-      "Escribe un email de agradecimiento para un cliente que ha realizado una compra, incluyendo una expresión de gratitud y una oferta para brindar soporte adicional.",
-      "Escribe un email de solicitud de información para un proveedor, incluyendo una descripción de la información necesaria y una fecha límite para la respuesta.",
-      "Escribe un email de confirmación para un cliente que ha realizado una reserva, incluyendo los detalles de la reserva y una confirmación de la fecha y hora.",
-      "Escribe un email de disculpa para un cliente que ha experimentado un problema con un producto o servicio, incluyendo una explicación del problema y una oferta para solucionarlo."
     ]
   }
 ]
