@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/privacidad.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/terminos.html</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-12-automatiza-tu-negocio.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-11-asistente-personal.html</loc>
@@ -458,11 +463,6 @@
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-08-aprende-10-veces-mas-rapido.html</loc>
     <lastmod>2026-07-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-07-prompt-engineering.html</loc>
-    <lastmod>2026-07-07</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

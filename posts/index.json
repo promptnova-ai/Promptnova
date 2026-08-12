@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-12-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-12",
+    "tags": [
+      "IA",
+      "automatización",
+      "negocios"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "\"Escribe un artículo de 500 palabras sobre los beneficios de la automatización con IA\"",
+      "\"¿Cuál es el horario de atención al cliente?\"",
+      "\"Clasifica los siguientes datos en categorías de productos: [lista de productos]\"",
+      "\"Genera un informe de ventas para el último trimestre\"",
+      "\"Clasifica los siguientes correos electrónicos en categorías de spam o no spam\"",
+      "\"Escribe un guión para un video de marketing sobre nuestros productos\""
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-08-11-asistente-personal.html",
     "title": "Asistente Personal",
     "description": "Construye un asistente personal con ChatGPT y prompts",
@@ -1786,27 +1808,6 @@
       "Análiza el estilo de escritura de un autor en particular y explica cómo se relaciona con el contexto histórico en el que escribió.",
       "Describe la evolución del estilo artístico de un pintor o escultor a lo largo de su carrera y explica cómo se relaciona con los movimientos artísticos de su época.",
       "Explica el funcionamiento de un algoritmo en particular y proporciona un ejemplo de cómo se aplica en la programación."
-    ]
-  },
-  {
-    "slug": "2026-07-07-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Descubre trucos para desarrolladores en prompt engineering",
-    "date": "2026-07-07",
-    "tags": [
-      "Inteligencia Artificial",
-      "Desarrollo",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuál es la capital de Francia?",
-      "Describa la ciudad de París, incluyendo sus monumentos más famosos y su historia.",
-      "Escribe un artículo sobre la importancia del ejercicio físico para la salud.",
-      "Escribe un artículo de 500 palabras sobre la importancia del ejercicio físico para la salud, incluyendo estadísticas y ejemplos de cómo el ejercicio puede mejorar la calidad de vida.",
-      "Traduce el siguiente texto del español al inglés: \"La casa es azul\".",
-      "Traduce el siguiente texto del español al inglés, manteniendo el tono y el estilo formal: \"La casa es azul y tiene un jardín grande\"."
     ]
   }
 ]
