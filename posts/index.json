@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-12-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos de prompt engineering para developers",
+    "date": "2026-08-12",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "desarrollo"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "¿Cuál es el clima en Nueva York hoy?",
+      "Traduce el texto \"Hello, how are you?\" al español.",
+      "Resumen del libro \"Don Quijote de la Mancha\" en 50 palabras.",
+      "¿Cuáles son las ventajas y desventajas de utilizar un modelo de lenguaje para traducir textos?",
+      "Resumen del artículo \"El futuro de la inteligencia artificial\" en 100 palabras.",
+      "Genera un texto de 50 palabras que describa la ciudad de París."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-08-12-automatiza-tu-negocio.html",
     "title": "Automatiza tu negocio",
     "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
@@ -1787,27 +1809,6 @@
       "Escribe un email de solicitud de información para un proveedor, incluyendo una descripción de la información necesaria y una fecha límite para la respuesta.",
       "Escribe un email de confirmación para un cliente que ha realizado una reserva, incluyendo los detalles de la reserva y una confirmación de la fecha y hora.",
       "Escribe un email de disculpa para un cliente que ha experimentado un problema con un producto o servicio, incluyendo una explicación del problema y una oferta para solucionarlo."
-    ]
-  },
-  {
-    "slug": "2026-07-08-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo los prompts pueden acelerar tu aprendizaje en cualquier tema",
-    "date": "2026-07-08",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
-      "Describe el proceso de fotosíntesis y explica cómo afecta el medio ambiente.",
-      "Relata la historia de la Revolución Francesa y analiza sus causas y consecuencias.",
-      "Análiza el estilo de escritura de un autor en particular y explica cómo se relaciona con el contexto histórico en el que escribió.",
-      "Describe la evolución del estilo artístico de un pintor o escultor a lo largo de su carrera y explica cómo se relaciona con los movimientos artísticos de su época.",
-      "Explica el funcionamiento de un algoritmo en particular y proporciona un ejemplo de cómo se aplica en la programación."
     ]
   }
 ]
