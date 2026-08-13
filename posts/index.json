@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-13-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario para aumentar la productividad",
+    "date": "2026-08-13",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento en su próxima compra.",
+      "Escribe un artículo sobre los beneficios de la meditación para la salud mental.",
+      "Investiga y escribe un informe sobre las tendencias actuales en el mercado de la tecnología."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-08-12-errores-comunes-en-prompts.html",
     "title": "Errores comunes en prompts",
     "description": "Evita errores comunes al escribir prompts para IA",
@@ -1789,24 +1808,6 @@
       "Escribe un poema de 12 versos sobre la belleza de la naturaleza, incluyendo la descripción de un paisaje montañoso y la sensación de paz que se siente al estar en la cima de una montaña.",
       "Describe a un personaje de ficción que es un detective privado en la ciudad de Nueva York en la década de 1940, incluyendo su apariencia, su personalidad y sus habilidades como detective.",
       "Escribe la letra de una canción de rock sobre la libertad y la rebelión, incluyendo la descripción de un joven que se siente atrapado en una sociedad opresiva y busca escapar."
-    ]
-  },
-  {
-    "slug": "2026-07-09-imagenes-con-ia.html",
-    "title": "Imágenes con IA",
-    "description": "Descubre cómo generar imágenes perfectas con IA usando prompts",
-    "date": "2026-07-09",
-    "tags": [
-      "IA",
-      "Imágenes",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Un paisaje de montaña con un lago en el centro, rodeado de árboles y con un cielo nublado.",
-      "Una ciudad futurista con rascacielos y vehículos voladores, iluminada por luces neón.",
-      "Un retrato de una mujer sonriente con el cabello largo y oscuro, y un vestido rojo."
     ]
   }
 ]
