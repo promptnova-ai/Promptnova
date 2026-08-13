@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-13-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
+    "date": "2026-08-13",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "IA"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Escribe un poema sobre el amor con un estilo similar al de Pablo Neruda.",
+      "Genera un resumen de 200 palabras sobre el libro \"Don Quijote de la Mancha\" de Miguel de Cervantes.",
+      "Crea un diálogo entre dos personajes históricos, como Leonardo da Vinci y Albert Einstein, sobre el tema de la innovación.",
+      "Escribe un artículo sobre el impacto del cambio climático en la biodiversidad, considerando los datos más recientes y las opiniones de expertos en el campo.",
+      "Genera un informe sobre el estado actual de la educación en línea, incluyendo las tendencias y los desafíos que enfrentan las instituciones educativas.",
+      "Crea un guión para un video sobre la historia de la tecnología, desde la invención de la imprenta hasta la era de la inteligencia artificial."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-08-13-10-prompts-de-marketing.html",
     "title": "10 Prompts de marketing",
     "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
@@ -1795,24 +1817,6 @@
       "Escribe un correo electrónico de bienvenida para un nuevo cliente: \"Hola {nombre}, gracias por unirse a nuestra comunidad. Estamos emocionados de tenerlo a bordo. Por favor, no dude en hacernos saber si necesita algo.\"",
       "Genera un informe de ventas para el mes de enero: \"El total de ventas para enero fue de {monto}. El producto más vendido fue {producto} con {cantidad} unidades vendidas.\"",
       "Crea un plan de marketing para un nuevo producto: \"El objetivo del plan de marketing es aumentar la conciencia del producto y generar leads. Las estrategias incluyen publicidad en redes sociales, correo electrónico y contenido de blog.\""
-    ]
-  },
-  {
-    "slug": "2026-07-11-prompts-para-emails.html",
-    "title": "Prompts para Emails",
-    "description": "Aprende a escribir emails profesionales con IA y promts efectivos",
-    "date": "2026-07-11",
-    "tags": [
-      "IA",
-      "prompts",
-      "emails profesionales"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Ejemplo 1: Solicitar una reunión\"Escribe un email para solicitar una reunión con el director de ventas para discutir las oportunidades de crecimiento en el mercado latinoamericano\"",
-      "Ejemplo 2: Presentar un nuevo producto\"Escribe un email para presentar nuestro nuevo producto de software de gestión de proyectos y explicar sus beneficios y características\"",
-      "Ejemplo 3: Pedir una referencia\"Escribe un email para pedir a un cliente satisfecho que nos proporcione una referencia o testimonio sobre nuestros servicios\""
     ]
   }
 ]
