@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-08-13-10-prompts-de-marketing.html",
+    "title": "10 Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
+    "date": "2026-08-13",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología?",
+      "Genera 5 ideas de contenido para un blog sobre marketing digital que se centren en la optimización de motores de búsqueda.",
+      "Describe la personalidad de una marca de ropa sostenible que se centra en la reducción de residuos.",
+      "¿Cuáles son las estrategias de marketing de la competencia en el mercado de la industria de la tecnología?",
+      "¿Cuáles son las mejores prácticas para optimizar un sitio web para motores de búsqueda?",
+      "Genera 3 ideas de anuncios para una campaña publicitaria en redes sociales que se centren en la promoción de un nuevo producto.",
+      "¿Cuáles son las preferencias y comportamientos de la audiencia objetivo para un producto de tecnología?",
+      "Genera 5 ideas de estrategias de contenido para un blog de marketing que se centren en la educación y el entretenimiento.",
+      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología que pueden afectar a mi negocio?",
+      "¿Cuáles son los indicadores clave de desempeño (KPI) para medir el éxito de una campaña publicitaria en redes sociales?"
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-08-13-domina-chatgpt.html",
     "title": "Domina ChatGPT",
     "description": "Aprende a utilizar ChatGPT en tu trabajo diario para aumentar la productividad",
@@ -1787,27 +1813,6 @@
       "Ejemplo 1: Solicitar una reunión\"Escribe un email para solicitar una reunión con el director de ventas para discutir las oportunidades de crecimiento en el mercado latinoamericano\"",
       "Ejemplo 2: Presentar un nuevo producto\"Escribe un email para presentar nuestro nuevo producto de software de gestión de proyectos y explicar sus beneficios y características\"",
       "Ejemplo 3: Pedir una referencia\"Escribe un email para pedir a un cliente satisfecho que nos proporcione una referencia o testimonio sobre nuestros servicios\""
-    ]
-  },
-  {
-    "slug": "2026-07-10-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
-    "date": "2026-07-10",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Genera un texto de 500 palabras sobre la historia de la ciencia ficción, incluyendo los autores y obras más influyentes del género.",
-      "Escribe un texto divertido y sarcástico sobre la vida de un estudiante universitario, incluyendo las situaciones más absurdas y divertidas que pueden ocurrir en un campus.",
-      "Describe el día 6 de junio de 1944, cuando las fuerzas aliadas desembarcaron en Normandía durante la Segunda Guerra Mundial, incluyendo los detalles sobre las tropas involucradas, las armas utilizadas y las bajas sufridas.",
-      "Escribe un poema de 12 versos sobre la belleza de la naturaleza, incluyendo la descripción de un paisaje montañoso y la sensación de paz que se siente al estar en la cima de una montaña.",
-      "Describe a un personaje de ficción que es un detective privado en la ciudad de Nueva York en la década de 1940, incluyendo su apariencia, su personalidad y sus habilidades como detective.",
-      "Escribe la letra de una canción de rock sobre la libertad y la rebelión, incluyendo la descripción de un joven que se siente atrapado en una sociedad opresiva y busca escapar."
     ]
   }
 ]
