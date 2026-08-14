@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-14-contenido-viral.html",
+    "title": "Contenido Viral",
+    "description": "Aprende a crear contenido viral con prompts avanzados",
+    "date": "2026-08-14",
+    "tags": [
+      "Contenido viral",
+      "Prompts avanzados",
+      "Redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Ejemplo 1: 'Crea un meme sobre la ironía de la vida moderna, utilizando un estilo de dibujo minimalista y un tono humorístico'",
+      "Ejemplo 2: 'Escribe un artículo sobre los beneficios del mindfulness para la salud mental, incluyendo estadísticas y citando a expertos en el campo'",
+      "Ejemplo 3: 'Desarrolla un guión para un video de 60 segundos sobre la importancia de reducir el plástico en el medio ambiente, utilizando animaciones y gráficos llamativos'"
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-08-14-imagenes-con-ia.html",
     "title": "Imágenes con IA",
     "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial",
@@ -1801,26 +1820,6 @@
       "Crea una estrategia de marketing para un negocio de ventas de productos de tecnología que se dirija a jóvenes de 18 a 30 años.",
       "Enumera las 5 métricas clave para medir el éxito de una campaña de marketing en redes sociales.",
       "Crea un concepto para una campaña de marketing que combine la realidad aumentada y la sostenibilidad."
-    ]
-  },
-  {
-    "slug": "2026-07-11-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para inteligencia artificial",
-    "date": "2026-07-11",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Genera un resumen de la historia de la ciencia desde la antigüedad hasta la actualidad, incluyendo los principales descubrimientos y figuras clave.",
-      "Genera un poema que describa la belleza de la naturaleza, incluyendo la descripción de un paisaje y la emoción que evoca.",
-      "Crea un diálogo entre un personaje optimista y un personaje pesimista sobre el futuro de la humanidad, incluyendo argumentos y contraargumentos.",
-      "Resumen el artículo de noticias sobre el último descubrimiento científico, incluyendo los detalles clave y las implicaciones.",
-      "Genera un resumen de la historia de la música desde la antigüedad hasta la actualidad, incluyendo los principales géneros y figuras clave, y proporciona ejemplos de cómo la música ha evolucionado con el tiempo."
     ]
   }
 ]
