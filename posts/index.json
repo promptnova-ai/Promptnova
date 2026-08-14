@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-14-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial",
+    "date": "2026-08-14",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro y un cielo nublado.",
+      "Crea una imagen de un personaje de ficción con cabello azul y ojos verdes, vestido con un traje espacial.",
+      "Genera una imagen de una ciudad futurista con rascacielos y vehículos voladores.",
+      "Genera una imagen de un paisaje de playa con una puesta de sol en el horizonte y un grupo de personas caminando por la orilla.",
+      "Crea una imagen de un personaje de ficción con un traje de superhéroe y un fondo de ciudad en llamas.",
+      "Genera una imagen de una escena de ciencia ficción con un planeta distante y una nave espacial en el espacio."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-08-13-prompts-infalibles.html",
     "title": "Prompts infalibles",
     "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
@@ -1799,24 +1821,6 @@
       "Crea un diálogo entre un personaje optimista y un personaje pesimista sobre el futuro de la humanidad, incluyendo argumentos y contraargumentos.",
       "Resumen el artículo de noticias sobre el último descubrimiento científico, incluyendo los detalles clave y las implicaciones.",
       "Genera un resumen de la historia de la música desde la antigüedad hasta la actualidad, incluyendo los principales géneros y figuras clave, y proporciona ejemplos de cómo la música ha evolucionado con el tiempo."
-    ]
-  },
-  {
-    "slug": "2026-07-11-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-07-11",
-    "tags": [
-      "automatización",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "Escribe un correo electrónico de bienvenida para un nuevo cliente: \"Hola {nombre}, gracias por unirse a nuestra comunidad. Estamos emocionados de tenerlo a bordo. Por favor, no dude en hacernos saber si necesita algo.\"",
-      "Genera un informe de ventas para el mes de enero: \"El total de ventas para enero fue de {monto}. El producto más vendido fue {producto} con {cantidad} unidades vendidas.\"",
-      "Crea un plan de marketing para un nuevo producto: \"El objetivo del plan de marketing es aumentar la conciencia del producto y generar leads. Las estrategias incluyen publicidad en redes sociales, correo electrónico y contenido de blog.\""
     ]
   }
 ]
