@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-14-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de Negocio con IA",
+    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
+    "date": "2026-08-14",
+    "tags": [
+      "IA",
+      "negocios",
+      "emprendimiento"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Generar ideas de negocio para un producto de cuidado personal que se adapte a las necesidades de las personas mayores",
+      "Identificar oportunidades de negocio en el sector de la energía renovable en América Latina",
+      "Desarrollar un plan de negocio para un servicio de entrega de comida saludable en una ciudad grande",
+      "Utiliza prompts claros y específicos para obtener ideas de negocio relevantes",
+      "Analiza los resultados de la IA y ajusta tus prompts según sea necesario",
+      "Combina la IA con tu propia experiencia y conocimiento para desarrollar ideas de negocio sólidas"
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-08-14-contenido-viral.html",
     "title": "Contenido Viral",
     "description": "Aprende a crear contenido viral con prompts avanzados",
@@ -1795,31 +1817,6 @@
       "Describe los beneficios y desafíos de implementar la inteligencia artificial en la sociedad actual, y proporciona ejemplos concretos de cómo puede impactar en la vida diaria de las personas",
       "Escribe un artículo sobre la importancia de la educación, pero hazlo de manera divertida y anecdótica",
       "Escribe un artículo sobre la importancia de la educación, utilizando un tono formal y serio, y proporciona estadísticas y ejemplos concretos para respaldar tus argumentos"
-    ]
-  },
-  {
-    "slug": "2026-07-12-10-prompts-de-marketing.html",
-    "title": "10 Prompts de Marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-12",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un informe sobre las tendencias actuales en el mercado de la moda sostenible.",
-      "Crea un guión para un video explicativo sobre los beneficios de la tecnología de inteligencia artificial en la industria de la salud.",
-      "Enumera las 10 palabras clave más relevantes para un sitio web de ventas de productos de belleza natural.",
-      "Crea un mensaje de publicación para Instagram que promocione un nuevo producto de moda sostenible.",
-      "Crea un correo electrónico de bienvenida para nuevos suscriptores que ofrezca un descuento en su primera compra.",
-      "Analiza la estrategia de marketing de una competencia en el mercado de la tecnología de inteligencia artificial.",
-      "Crea una persona para un negocio de ventas de productos de belleza natural que se dirija a mujeres de 25 a 45 años.",
-      "Crea una estrategia de marketing para un negocio de ventas de productos de tecnología que se dirija a jóvenes de 18 a 30 años.",
-      "Enumera las 5 métricas clave para medir el éxito de una campaña de marketing en redes sociales.",
-      "Crea un concepto para una campaña de marketing que combine la realidad aumentada y la sostenibilidad."
     ]
   }
 ]
