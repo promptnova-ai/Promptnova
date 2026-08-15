@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-15-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los prompts más creativos para diseñadores gráficos y mejora tu trabajo",
+    "date": "2026-08-15",
+    "tags": [
+      "diseño gráfico",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de soluciones de realidad aumentada. El logotipo debe incluir un elemento que represente la innovación y la tecnología.",
+      "Crea una ilustración que represente la ciudad del futuro. La ilustración debe incluir edificios altos, vehículos voladores y personas caminando por la calle. El estilo debe ser futurista y minimalista.",
+      "Diseña una fuente tipográfica personalizada para una revista de moda. La fuente debe ser elegante, sofisticada y fácil de leer. Debe incluir mayúsculas y minúsculas, así como números y símbolos básicos.",
+      "Diseña una campaña publicitaria para una marca de ropa deportiva. La campaña debe incluir anuncios impresos, digitales y de redes sociales. El mensaje debe ser inspirador y motivador, y debe incluir imágenes de personas practicando deportes y utilizando la ropa de la marca.",
+      "Crea una identidad de marca para una empresa de alimentos saludables. La identidad debe incluir un logotipo, una paleta de colores y una tipografía. El estilo debe ser fresco, natural y apetitoso.",
+      "Diseña una exposición de arte para un museo de arte contemporáneo. La exposición debe incluir obras de artistas locales e internacionales, y debe tener un tema unificador. El diseño debe ser innovador y minimalista, y debe incluir elementos interactivos y multimedia."
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-08-14-ideas-de-negocio-con-ia.html",
     "title": "Ideas de Negocio con IA",
     "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
@@ -1796,27 +1818,6 @@
       "Utiliza un tono formal o informal según la situación:",
       "Ajusta el nivel de detalle en las respuestas:",
       "Utiliza un lenguaje específico o jerga según el contexto:"
-    ]
-  },
-  {
-    "slug": "2026-07-12-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-12",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que viaja en el tiempo",
-      "Escribe un cuento sobre un joven científico que viaja en el tiempo a la época de los dinosaurios y descubre un mundo desconocido",
-      "Describe la relación entre la inteligencia artificial y la sociedad",
-      "Describe los beneficios y desafíos de implementar la inteligencia artificial en la sociedad actual, y proporciona ejemplos concretos de cómo puede impactar en la vida diaria de las personas",
-      "Escribe un artículo sobre la importancia de la educación, pero hazlo de manera divertida y anecdótica",
-      "Escribe un artículo sobre la importancia de la educación, utilizando un tono formal y serio, y proporciona estadísticas y ejemplos concretos para respaldar tus argumentos"
     ]
   }
 ]
