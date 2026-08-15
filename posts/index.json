@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-15-crea-un-curso-online-con-chatgpt.html",
+    "title": "Crea un curso online con ChatGPT",
+    "description": "Aprende a utilizar ChatGPT para crear un curso online desde cero de manera efectiva",
+    "date": "2026-08-15",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "educación en línea"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Ejemplo de prompt: \"Define el objetivo y el alcance de un curso de introducción a la programación en Python para principiantes\"",
+      "Ejemplo de prompt: \"Crea un plan de estudios para un curso de 8 semanas sobre machine learning con Python\"",
+      "Ejemplo de prompt: \"Desarrolla un conjunto de notas de clase para una lección sobre redes neuronales artificiales\"",
+      "Ejemplo de prompt: \"Resumen del proceso de creación de un curso online con ChatGPT\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-08-15-prompts-creativos.html",
     "title": "Prompts Creativos",
     "description": "Descubre los prompts más creativos para diseñadores gráficos y mejora tu trabajo",
@@ -1797,27 +1817,6 @@
       "Escribe un cuento infantil sobre un perro llamado Max que se pierde en el bosque.",
       "¿Cuál es la capital de Francia?",
       "¿Cuál es la capital de Francia en la actualidad, considerando los cambios políticos y geográficos que han ocurrido en el país en los últimos siglos?"
-    ]
-  },
-  {
-    "slug": "2026-07-12-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye tu asistente personal con ChatGPT y prompts",
-    "date": "2026-07-12",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 5,
-    "category": "personal",
-    "prompts": [
-      "Escribe un correo electrónico a un amigo para invitarlo a cenar:",
-      "¿Cuál es la mejor forma de aprender un nuevo idioma?",
-      "Genera un resumen de un artículo sobre inteligencia artificial:",
-      "Utiliza un tono formal o informal según la situación:",
-      "Ajusta el nivel de detalle en las respuestas:",
-      "Utiliza un lenguaje específico o jerga según el contexto:"
     ]
   }
 ]
