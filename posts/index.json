@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-15-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en buscadores",
+    "date": "2026-08-15",
+    "tags": [
+      "IA",
+      "SEO",
+      "posicionamiento"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son las palabras clave más relevantes para un artículo sobre \"mejora del rendimiento en el trabajo\"?",
+      "Genera un título y una descripción meta para un artículo sobre \"la importancia de la IA en el marketing digital\"",
+      "Analiza el contenido de la página web de un competidor y proporciona recomendaciones para mejorar su posicionamiento en los resultados de búsqueda"
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-08-15-crea-un-curso-online-con-chatgpt.html",
     "title": "Crea un curso online con ChatGPT",
     "description": "Aprende a utilizar ChatGPT para crear un curso online desde cero de manera efectiva",
@@ -1798,25 +1817,6 @@
       "Diseña un paquete de identidad visual para una empresa de alimentos saludables, que incluya un logotipo, un cartel y un folleto, con un estilo que refleje la salud y el bienestar.",
       "Genera un diseño de página web para una empresa de servicios de marketing, con un enfoque en la innovación y la tecnología, y que incluya secciones para servicios, portfolio y contacto.",
       "Crea un diseño de redes sociales para una marca de ropa de moda, con un enfoque en la creatividad y la expresión personal, y que incluya publicaciones y stories que muestren la última tendencia en moda."
-    ]
-  },
-  {
-    "slug": "2026-07-13-errores-comunes-al-escribir-prompts.html",
-    "title": "Errores comunes al escribir prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-13",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un perro que se llama Max.",
-      "Escribe un cuento infantil sobre un perro llamado Max que se pierde en el bosque.",
-      "¿Cuál es la capital de Francia?",
-      "¿Cuál es la capital de Francia en la actualidad, considerando los cambios políticos y geográficos que han ocurrido en el país en los últimos siglos?"
     ]
   }
 ]
