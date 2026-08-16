@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-16-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
+    "date": "2026-08-16",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el concepto de inteligencia artificial de manera sencilla",
+      "Describe los pasos para crear un modelo de lenguaje desde cero",
+      "Proporciona un resumen de la historia de la computación en 5 minutos",
+      "Explica la diferencia entre el lenguaje de programación Python y Java",
+      "Describe cómo implementar un algoritmo de búsqueda en un arreglo",
+      "Proporciona un ejemplo de cómo utilizar la programación orientada a objetos en Python"
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-08-15-ia-para-seo.html",
     "title": "IA para SEO",
     "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en buscadores",
@@ -1796,27 +1818,6 @@
       "Explica el concepto de inteligencia artificial y su aplicación en la industria.",
       "Resuelve el siguiente problema de matemáticas: 2x + 5 = 11. ¿Cuál es el valor de x?",
       "Analiza el siguiente texto y resume sus principales puntos: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de algoritmos y modelos que permiten a las máquinas aprender y tomar decisiones de manera autónoma.\""
-    ]
-  },
-  {
-    "slug": "2026-07-13-prompts-creativos.html",
-    "title": "Prompts creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos",
-    "date": "2026-07-13",
-    "tags": [
-      "diseño gráfico",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especialice en inteligencia artificial, con un estilo minimalista y colores que reflejen la innovación y la modernidad.",
-      "Crea un cartel para una campaña publicitaria de una marca de ropa deportiva, con un enfoque en la actividad física y el bienestar, utilizando imágenes de personas realizando deportes extremos.",
-      "Genera un folleto para una empresa de viajes que ofrezca paquetes turísticos a destinos exóticos, con un diseño que refleje la aventura y la exploración, y que incluya mapas y fotos de los lugares turísticos.",
-      "Diseña un paquete de identidad visual para una empresa de alimentos saludables, que incluya un logotipo, un cartel y un folleto, con un estilo que refleje la salud y el bienestar.",
-      "Genera un diseño de página web para una empresa de servicios de marketing, con un enfoque en la innovación y la tecnología, y que incluya secciones para servicios, portfolio y contacto.",
-      "Crea un diseño de redes sociales para una marca de ropa de moda, con un enfoque en la creatividad y la expresión personal, y que incluya publicaciones y stories que muestren la última tendencia en moda."
     ]
   }
 ]
