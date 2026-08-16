@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-16-emails-pro-con-ia.html",
+    "title": "Emails Pro con IA",
+    "description": "Aprende a escribir emails profesionales con inteligencia artificial",
+    "date": "2026-08-16",
+    "tags": [
+      "IA",
+      "Emails Profesionales",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un email de presentación para un cliente potencial, incluyendo una breve descripción de nuestra empresa y nuestros servicios\"",
+      "Ejemplo 2: \"Genera un email de seguimiento para un cliente que ha expresado interés en nuestros productos, incluyendo una oferta especial y un enlace para más información\"",
+      "Ejemplo 3: \"Crea un email de agradecimiento para un cliente que ha realizado una compra, incluyendo un mensaje personalizado y un enlace para dejar una reseña\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-08-16-aprende-10-veces-mas-rapido.html",
     "title": "Aprende 10 veces más rápido",
     "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
@@ -1800,24 +1819,6 @@
       "¿Cuáles son las tendencias actuales en el mercado de la moda?",
       "Describa los beneficios del ejercicio físico regular para la salud",
       "¿Cómo puedo mejorar mi presencia en las redes sociales?"
-    ]
-  },
-  {
-    "slug": "2026-07-13-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera eficiente con prompts",
-    "date": "2026-07-13",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el concepto de inteligencia artificial y su aplicación en la industria.",
-      "Resuelve el siguiente problema de matemáticas: 2x + 5 = 11. ¿Cuál es el valor de x?",
-      "Analiza el siguiente texto y resume sus principales puntos: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de algoritmos y modelos que permiten a las máquinas aprender y tomar decisiones de manera autónoma.\""
     ]
   }
 ]
