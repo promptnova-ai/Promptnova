@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-16-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-08-16",
+    "tags": [
+      "Inteligencia Artificial",
+      "ChatGPT",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuál es el clima en Madrid hoy?",
+      "Recuerda que tengo una reunión importante a las 10:00 am mañana. ¿Puedes recordarme a las 9:00 am?",
+      "¿Puedes proporcionarme una lista de los 5 mejores restaurantes en Nueva York?"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-08-16-emails-pro-con-ia.html",
     "title": "Emails Pro con IA",
     "description": "Aprende a escribir emails profesionales con inteligencia artificial",
@@ -1801,24 +1820,6 @@
       "París es una ciudad hermosa",
       "¿Cuál es la capital de Francia en el contexto de la geografía europea?",
       "Escribe un resumen de 200 palabras sobre el tema de la inteligencia artificial en el siglo XXI"
-    ]
-  },
-  {
-    "slug": "2026-07-14-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Descubre cómo la inteligencia artificial puede mejorar tu posicionamiento en buscadores",
-    "date": "2026-07-14",
-    "tags": [
-      "SEO",
-      "Inteligencia Artificial",
-      "IA"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la moda?",
-      "Describa los beneficios del ejercicio físico regular para la salud",
-      "¿Cómo puedo mejorar mi presencia en las redes sociales?"
     ]
   }
 ]
