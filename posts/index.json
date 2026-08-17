@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-17-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-17",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "automatización"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo de blog sobre las tendencias actuales en el mercado de la tecnología.",
+      "Proporciona una solución para reducir los costos de producción en una fábrica de manufactura.",
+      "Analiza los datos de ventas de los últimos 6 meses y proporciona una proyección para el próximo trimestre.",
+      "Ejemplo de prompt para generar un informe de ventas: Escribe un informe detallado sobre las ventas del producto X en el mercado Y durante el último año.",
+      "Ejemplo de prompt para generar un plan de marketing: Desarrolla un plan de marketing para lanzar un nuevo producto en el mercado Z.",
+      "Ejemplo de prompt para generar un análisis de competidores: Analiza la estrategia de marketing de la competencia y proporciona recomendaciones para mejorar nuestra posición en el mercado."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-08-16-asistente-personal.html",
     "title": "Asistente Personal",
     "description": "Construye un asistente personal con ChatGPT y prompts",
@@ -1799,27 +1821,6 @@
       "Genera una imagen de un edificio de oficinas moderno con una fachada de vidrio y acero",
       "Crea una imagen de un coche deportivo rojo con llantas de aleación y un interior de cuero negro",
       "Genera una imagen de un plato de sushi con salmón y aguacate, sobre un fondo de madera"
-    ]
-  },
-  {
-    "slug": "2026-07-14-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Evita errores comunes al escribir prompts para IA y mejora tus resultados",
-    "date": "2026-07-14",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje",
-      "Escribe un cuento sobre un personaje femenino que vive en la ciudad de Nueva York",
-      "¿Cuál es la capital de Francia?",
-      "París es una ciudad hermosa",
-      "¿Cuál es la capital de Francia en el contexto de la geografía europea?",
-      "Escribe un resumen de 200 palabras sobre el tema de la inteligencia artificial en el siglo XXI"
     ]
   }
 ]
