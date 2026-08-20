@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.",
+    "date": "2026-08-20",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo de 800 palabras dirigido a emprendedores que explique las tendencias de IA en la automatización de procesos para 2025.",
+      "Contexto: Hemos lanzado una app de meditación y queremos una campaña en redes.\nPrompt: Sugiere cinco ideas de contenido para Instagram que destaquen los beneficios del mindfulness.",
+      "Redacta un resumen de 150 palabras que destaque los principales avances técnicos del modelo GPT‑4.",
+      "Genera una tabla markdown con dos columnas: \"Método\" y \"Características principales\" para supervised learning y unsupervised learning.",
+      "Revisa la respuesta anterior y corrige cualquier inexactitud factual. Luego, resume los puntos clave en tres viñetas."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-08-20-prompt-engineering-para-developers-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: trucos que no conocías",
     "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tus IA.",
@@ -1803,24 +1824,6 @@
       "Describe los pasos para resolver una ecuación cuadrática.",
       "Enumera las ventajas y desventajas de utilizar un framework de machine learning en un proyecto de desarrollo de software.",
       "Ejemplo de prompt para aprender sobre el análisis de datos: \"Describe los pasos para realizar un análisis de regresión lineal utilizando el lenguaje de programación Python.\""
-    ]
-  },
-  {
-    "slug": "2026-07-15-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario con nuestra guía práctica",
-    "date": "2026-07-15",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "\"Escribe un correo electrónico a un cliente para informarle sobre un retraso en la entrega de un producto. Asegúrate de incluir una disculpa y una fecha de entrega estimada.\"",
-      "\"Resumen del informe de ventas del segundo trimestre. Asegúrate de incluir los puntos clave y las conclusiones.\"",
-      "\"Traduce el siguiente texto del inglés al español: 'The company will launch a new product next month.'\""
     ]
   }
 ]
