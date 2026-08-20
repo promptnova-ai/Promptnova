@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-20-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tus IA.",
+    "date": "2026-08-20",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "\"\"\"\n  Contexto:\n  ---\n  Eres un asistente que ayuda a generar código Python para manipular datos en pandas.\n  ---\n  Tarea:\n  - Dada una tabla CSV, crea una función que filtre filas por una columna específica.\n  ---\n  Ejemplo de entrada:\n  {\\\"file\\\": \\\"ventas.csv\\\", \\\"columna\\\": \\\"region\\\", \\\"valor\\\": \\\"Norte\\\"}\n  \"\"\"",
+      "\"\"\"\n  Resuelve el siguiente problema paso a paso:\n  - Dado un array de números, devuelve los que sean primos.\n  - Primero, escribe la lógica para identificar un número primo.\n  - Después, aplica esa lógica al array.\n  \"\"\"",
+      "\"\"\"\n  // Paso 1: Explicar la estrategia\n  // Paso 2: Mostrar el código\n  const eliminarDuplicados = (arr) => {\n    // Usamos Set para garantizar unicidad\n    return [...new Set(arr)];\n  };\n  \"\"\"",
+      "\"\"\"\n  Genera la respuesta en JSON con los campos: nombre, edad, habilidades (lista).\n  Ejemplo:\n  {\\\"nombre\\\": \\\"Ana\\\", \\\"edad\\\": 29, \\\"habilidades\\\": [\\\"Python\\\", \\\"Docker\\\"]}\n  \"\"\"",
+      "\"\"\"\n  Paso 1: Extrae los requisitos funcionales de este documento.\n  Paso 2: Con los requisitos, genera un diagrama de flujo en mermaid.\n  Paso 3: A partir del diagrama, escribe el código skeleton en Python.\n  \"\"\""
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-08-17-automatiza-tu-negocio.html",
     "title": "Automatiza tu negocio",
     "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
@@ -1800,27 +1821,6 @@
       "\"Escribe un correo electrónico a un cliente para informarle sobre un retraso en la entrega de un producto. Asegúrate de incluir una disculpa y una fecha de entrega estimada.\"",
       "\"Resumen del informe de ventas del segundo trimestre. Asegúrate de incluir los puntos clave y las conclusiones.\"",
       "\"Traduce el siguiente texto del inglés al español: 'The company will launch a new product next month.'\""
-    ]
-  },
-  {
-    "slug": "2026-07-15-imagenes-con-ia.html",
-    "title": "Imágenes con IA",
-    "description": "Descubre cómo crear imágenes perfectas con IA utilizando prompts efectivos",
-    "date": "2026-07-15",
-    "tags": [
-      "IA",
-      "Inteligencia Artificial",
-      "Imágenes Generadas"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Genera una imagen de un atardecer en una playa tropical con palmeras y un cielo naranja",
-      "Crea una imagen de un reloj de pulsera de lujo con un brazalete de cuero marrón y una esfera blanca",
-      "Genera una imagen de una mujer sonriente con el cabello rubio y ojos azules, vestida con un traje de negocios",
-      "Genera una imagen de un edificio de oficinas moderno con una fachada de vidrio y acero",
-      "Crea una imagen de un coche deportivo rojo con llantas de aleación y un interior de cuero negro",
-      "Genera una imagen de un plato de sushi con salmón y aguacate, sobre un fondo de madera"
     ]
   }
 ]
