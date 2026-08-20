@@ -1,5 +1,1149 @@
 [
   {
+    "slug": "2026-08-17-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-17",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "automatización"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo de blog sobre las tendencias actuales en el mercado de la tecnología.",
+      "Proporciona una solución para reducir los costos de producción en una fábrica de manufactura.",
+      "Analiza los datos de ventas de los últimos 6 meses y proporciona una proyección para el próximo trimestre.",
+      "Ejemplo de prompt para generar un informe de ventas: Escribe un informe detallado sobre las ventas del producto X en el mercado Y durante el último año.",
+      "Ejemplo de prompt para generar un plan de marketing: Desarrolla un plan de marketing para lanzar un nuevo producto en el mercado Z.",
+      "Ejemplo de prompt para generar un análisis de competidores: Analiza la estrategia de marketing de la competencia y proporciona recomendaciones para mejorar nuestra posición en el mercado."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
+    "slug": "2026-08-16-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-08-16",
+    "tags": [
+      "Inteligencia Artificial",
+      "ChatGPT",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuál es el clima en Madrid hoy?",
+      "Recuerda que tengo una reunión importante a las 10:00 am mañana. ¿Puedes recordarme a las 9:00 am?",
+      "¿Puedes proporcionarme una lista de los 5 mejores restaurantes en Nueva York?"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
+    "slug": "2026-08-16-emails-pro-con-ia.html",
+    "title": "Emails Pro con IA",
+    "description": "Aprende a escribir emails profesionales con inteligencia artificial",
+    "date": "2026-08-16",
+    "tags": [
+      "IA",
+      "Emails Profesionales",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un email de presentación para un cliente potencial, incluyendo una breve descripción de nuestra empresa y nuestros servicios\"",
+      "Ejemplo 2: \"Genera un email de seguimiento para un cliente que ha expresado interés en nuestros productos, incluyendo una oferta especial y un enlace para más información\"",
+      "Ejemplo 3: \"Crea un email de agradecimiento para un cliente que ha realizado una compra, incluyendo un mensaje personalizado y un enlace para dejar una reseña\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
+    "slug": "2026-08-16-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
+    "date": "2026-08-16",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el concepto de inteligencia artificial de manera sencilla",
+      "Describe los pasos para crear un modelo de lenguaje desde cero",
+      "Proporciona un resumen de la historia de la computación en 5 minutos",
+      "Explica la diferencia entre el lenguaje de programación Python y Java",
+      "Describe cómo implementar un algoritmo de búsqueda en un arreglo",
+      "Proporciona un ejemplo de cómo utilizar la programación orientada a objetos en Python"
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-08-15-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en buscadores",
+    "date": "2026-08-15",
+    "tags": [
+      "IA",
+      "SEO",
+      "posicionamiento"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son las palabras clave más relevantes para un artículo sobre \"mejora del rendimiento en el trabajo\"?",
+      "Genera un título y una descripción meta para un artículo sobre \"la importancia de la IA en el marketing digital\"",
+      "Analiza el contenido de la página web de un competidor y proporciona recomendaciones para mejorar su posicionamiento en los resultados de búsqueda"
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
+    "slug": "2026-08-15-crea-un-curso-online-con-chatgpt.html",
+    "title": "Crea un curso online con ChatGPT",
+    "description": "Aprende a utilizar ChatGPT para crear un curso online desde cero de manera efectiva",
+    "date": "2026-08-15",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "educación en línea"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Ejemplo de prompt: \"Define el objetivo y el alcance de un curso de introducción a la programación en Python para principiantes\"",
+      "Ejemplo de prompt: \"Crea un plan de estudios para un curso de 8 semanas sobre machine learning con Python\"",
+      "Ejemplo de prompt: \"Desarrolla un conjunto de notas de clase para una lección sobre redes neuronales artificiales\"",
+      "Ejemplo de prompt: \"Resumen del proceso de creación de un curso online con ChatGPT\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
+    "slug": "2026-08-15-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los prompts más creativos para diseñadores gráficos y mejora tu trabajo",
+    "date": "2026-08-15",
+    "tags": [
+      "diseño gráfico",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de soluciones de realidad aumentada. El logotipo debe incluir un elemento que represente la innovación y la tecnología.",
+      "Crea una ilustración que represente la ciudad del futuro. La ilustración debe incluir edificios altos, vehículos voladores y personas caminando por la calle. El estilo debe ser futurista y minimalista.",
+      "Diseña una fuente tipográfica personalizada para una revista de moda. La fuente debe ser elegante, sofisticada y fácil de leer. Debe incluir mayúsculas y minúsculas, así como números y símbolos básicos.",
+      "Diseña una campaña publicitaria para una marca de ropa deportiva. La campaña debe incluir anuncios impresos, digitales y de redes sociales. El mensaje debe ser inspirador y motivador, y debe incluir imágenes de personas practicando deportes y utilizando la ropa de la marca.",
+      "Crea una identidad de marca para una empresa de alimentos saludables. La identidad debe incluir un logotipo, una paleta de colores y una tipografía. El estilo debe ser fresco, natural y apetitoso.",
+      "Diseña una exposición de arte para un museo de arte contemporáneo. La exposición debe incluir obras de artistas locales e internacionales, y debe tener un tema unificador. El diseño debe ser innovador y minimalista, y debe incluir elementos interactivos y multimedia."
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
+    "slug": "2026-08-14-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de Negocio con IA",
+    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
+    "date": "2026-08-14",
+    "tags": [
+      "IA",
+      "negocios",
+      "emprendimiento"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Generar ideas de negocio para un producto de cuidado personal que se adapte a las necesidades de las personas mayores",
+      "Identificar oportunidades de negocio en el sector de la energía renovable en América Latina",
+      "Desarrollar un plan de negocio para un servicio de entrega de comida saludable en una ciudad grande",
+      "Utiliza prompts claros y específicos para obtener ideas de negocio relevantes",
+      "Analiza los resultados de la IA y ajusta tus prompts según sea necesario",
+      "Combina la IA con tu propia experiencia y conocimiento para desarrollar ideas de negocio sólidas"
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
+    "slug": "2026-08-14-contenido-viral.html",
+    "title": "Contenido Viral",
+    "description": "Aprende a crear contenido viral con prompts avanzados",
+    "date": "2026-08-14",
+    "tags": [
+      "Contenido viral",
+      "Prompts avanzados",
+      "Redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Ejemplo 1: 'Crea un meme sobre la ironía de la vida moderna, utilizando un estilo de dibujo minimalista y un tono humorístico'",
+      "Ejemplo 2: 'Escribe un artículo sobre los beneficios del mindfulness para la salud mental, incluyendo estadísticas y citando a expertos en el campo'",
+      "Ejemplo 3: 'Desarrolla un guión para un video de 60 segundos sobre la importancia de reducir el plástico en el medio ambiente, utilizando animaciones y gráficos llamativos'"
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
+    "slug": "2026-08-14-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial",
+    "date": "2026-08-14",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro y un cielo nublado.",
+      "Crea una imagen de un personaje de ficción con cabello azul y ojos verdes, vestido con un traje espacial.",
+      "Genera una imagen de una ciudad futurista con rascacielos y vehículos voladores.",
+      "Genera una imagen de un paisaje de playa con una puesta de sol en el horizonte y un grupo de personas caminando por la orilla.",
+      "Crea una imagen de un personaje de ficción con un traje de superhéroe y un fondo de ciudad en llamas.",
+      "Genera una imagen de una escena de ciencia ficción con un planeta distante y una nave espacial en el espacio."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
+    "slug": "2026-08-13-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
+    "date": "2026-08-13",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "IA"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Escribe un poema sobre el amor con un estilo similar al de Pablo Neruda.",
+      "Genera un resumen de 200 palabras sobre el libro \"Don Quijote de la Mancha\" de Miguel de Cervantes.",
+      "Crea un diálogo entre dos personajes históricos, como Leonardo da Vinci y Albert Einstein, sobre el tema de la innovación.",
+      "Escribe un artículo sobre el impacto del cambio climático en la biodiversidad, considerando los datos más recientes y las opiniones de expertos en el campo.",
+      "Genera un informe sobre el estado actual de la educación en línea, incluyendo las tendencias y los desafíos que enfrentan las instituciones educativas.",
+      "Crea un guión para un video sobre la historia de la tecnología, desde la invención de la imprenta hasta la era de la inteligencia artificial."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
+    "slug": "2026-08-13-10-prompts-de-marketing.html",
+    "title": "10 Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
+    "date": "2026-08-13",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología?",
+      "Genera 5 ideas de contenido para un blog sobre marketing digital que se centren en la optimización de motores de búsqueda.",
+      "Describe la personalidad de una marca de ropa sostenible que se centra en la reducción de residuos.",
+      "¿Cuáles son las estrategias de marketing de la competencia en el mercado de la industria de la tecnología?",
+      "¿Cuáles son las mejores prácticas para optimizar un sitio web para motores de búsqueda?",
+      "Genera 3 ideas de anuncios para una campaña publicitaria en redes sociales que se centren en la promoción de un nuevo producto.",
+      "¿Cuáles son las preferencias y comportamientos de la audiencia objetivo para un producto de tecnología?",
+      "Genera 5 ideas de estrategias de contenido para un blog de marketing que se centren en la educación y el entretenimiento.",
+      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología que pueden afectar a mi negocio?",
+      "¿Cuáles son los indicadores clave de desempeño (KPI) para medir el éxito de una campaña publicitaria en redes sociales?"
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
+    "slug": "2026-08-13-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario para aumentar la productividad",
+    "date": "2026-08-13",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento en su próxima compra.",
+      "Escribe un artículo sobre los beneficios de la meditación para la salud mental.",
+      "Investiga y escribe un informe sobre las tendencias actuales en el mercado de la tecnología."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
+    "slug": "2026-08-12-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Evita errores comunes al escribir prompts para IA",
+    "date": "2026-08-12",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribir un resumen de 200 palabras sobre la historia de la inteligencia artificial.",
+      "Crear un personaje de ficción con las siguientes características: edad, 25 años; género, femenino; ocupación, científica.",
+      "Desarrollar un plan de marketing para lanzar un nuevo producto en el mercado de la tecnología."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
+    "slug": "2026-08-12-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos de prompt engineering para developers",
+    "date": "2026-08-12",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "desarrollo"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "¿Cuál es el clima en Nueva York hoy?",
+      "Traduce el texto \"Hello, how are you?\" al español.",
+      "Resumen del libro \"Don Quijote de la Mancha\" en 50 palabras.",
+      "¿Cuáles son las ventajas y desventajas de utilizar un modelo de lenguaje para traducir textos?",
+      "Resumen del artículo \"El futuro de la inteligencia artificial\" en 100 palabras.",
+      "Genera un texto de 50 palabras que describa la ciudad de París."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
+    "slug": "2026-08-12-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-12",
+    "tags": [
+      "IA",
+      "automatización",
+      "negocios"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "\"Escribe un artículo de 500 palabras sobre los beneficios de la automatización con IA\"",
+      "\"¿Cuál es el horario de atención al cliente?\"",
+      "\"Clasifica los siguientes datos en categorías de productos: [lista de productos]\"",
+      "\"Genera un informe de ventas para el último trimestre\"",
+      "\"Clasifica los siguientes correos electrónicos en categorías de spam o no spam\"",
+      "\"Escribe un guión para un video de marketing sobre nuestros productos\""
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
+    "slug": "2026-08-11-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-08-11",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "Escribe un correo electrónico a un amigo sobre un viaje que planeas realizar.",
+      "Proporciona una lista de 5 libros recomendados en el género de la ciencia ficción.",
+      "Genera un plan de entrenamiento de 4 semanas para alguien que busca mejorar su condición física.",
+      "Describe un menú semanal saludable para una persona con restricciones dietéticas específicas.",
+      "Proporciona un resumen de un artículo de noticias sobre un tema de actualidad, incluyendo los puntos clave y las opiniones de expertos.",
+      "Genera un guión para un video de YouTube sobre un tema de interés, incluyendo la introducción, el desarrollo y la conclusión."
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
+    "slug": "2026-08-11-escribiendo-emails-profesionales.html",
+    "title": "Escribiendo Emails Profesionales",
+    "description": "Aprende a utilizar la IA para escribir emails profesionales con los mejores prompts",
+    "date": "2026-08-11",
+    "tags": [
+      "IA",
+      "Emails Profesionales",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un email de presentación para un nuevo cliente, incluyendo nuestra propuesta de servicios y precios.\"",
+      "Ejemplo 2: \"Genera un email de seguimiento para un cliente que no ha respondido a nuestra propuesta, incluyendo una oferta especial y un plazo límite para responder.\"",
+      "Ejemplo 3: \"Crea un email de agradecimiento para un cliente que ha aceptado nuestra propuesta, incluyendo los detalles del proyecto y la fecha de inicio.\"",
+      "Ejemplo 4: \"Escribe un email de apoyo para un cliente que está experimentando problemas técnicos con nuestro software, incluyendo los pasos para solucionar el problema y un enlace para descargar una versión actualizada.\"",
+      "Ejemplo 5: \"Genera un email de bienvenida para un nuevo empleado, incluyendo la información de contacto de su supervisor y los detalles de la reunión de inducción.\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
+    "slug": "2026-08-10-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa 10 veces más rápido con prompts personalizados",
+    "date": "2026-08-10",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica la teoría de la relatividad de Einstein de manera sencilla.",
+      "Proporciona un resumen de la historia de la ciencia en 5 minutos.",
+      "Describe el proceso de fotosíntesis en las plantas.",
+      "Explica la diferencia entre la inteligencia artificial y el aprendizaje automático.",
+      "Proporciona un resumen de la historia de la filosofía en 10 minutos.",
+      "Describe el proceso de creación de un algoritmo de aprendizaje automático."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-08-10-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Descubre cómo la IA puede mejorar tu SEO con prompts efectivos",
+    "date": "2026-08-10",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompts"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud mental, incluyendo estadísticas y estudios científicos.",
+      "Genera un meta título y una descripción meta para una página web de venta de productos de belleza, enfocada en la audiencia femenina de 25 a 45 años.",
+      "Crea un contenido de blog sobre la importancia de la accesibilidad web para las personas con discapacidad, incluyendo ejemplos de sitios web accesibles y no accesibles.",
+      "Escribe un artículo sobre la importancia de la optimización de imágenes para el SEO, incluyendo consejos y trucos para mejorar el posicionamiento de tus imágenes en los resultados de búsqueda."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
+    "slug": "2026-08-10-crea-un-curso-online.html",
+    "title": "Crea un Curso Online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-08-10",
+    "tags": [
+      "ChatGPT",
+      "Curso Online",
+      "Educación en Línea"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "¿Cuáles son los temas clave que debemos cubrir en un curso de introducción a la programación en Python?",
+      "Proporciona un ejemplo de código que demuestre el uso de la función len() en Python para calcular la longitud de una cadena de texto.",
+      "cadena = \"Hola, mundo\"longitud = len(cadena)print(\"La longitud de la cadena es: \", longitud)",
+      "¿Cuál es la diferencia entre una variable y una constante en programación? Proporciona una pregunta de evaluación para evaluar la comprensión de este concepto."
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
+    "slug": "2026-08-09-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos",
+    "date": "2026-08-09",
+    "tags": [
+      "diseño gráfico",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "diseña un logotipo para una empresa de tecnología que se especializa en la creación de aplicaciones móviles",
+      "crea un folleto para una campaña publicitaria de un nuevo producto de cuidado personal que se dirige a un público joven y urbano",
+      "desarrolla una identidad visual para una marca de ropa sostenible que se enfoca en la reducción de residuos y la protección del medio ambiente"
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
+    "slug": "2026-08-09-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de negocio con IA",
+    "description": "Aprende a generar ideas de negocio innovadoras con inteligencia artificial en minutos",
+    "date": "2026-08-09",
+    "tags": [
+      "IA",
+      "negocios",
+      "innovación"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Genera una lista de 10 ideas de negocio relacionadas con la sostenibilidad y el medio ambiente.",
+      "Diseña un modelo de negocio para una empresa que ofrezca servicios de asesoramiento en tecnología para pequeñas y medianas empresas.",
+      "Identifica oportunidades de negocio en el sector de la salud y el bienestar, y describe un plan de acción para aprovecharlas."
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
+    "slug": "2026-08-09-prompts-virales.html",
+    "title": "Prompts Virales",
+    "description": "Crea contenido viral con prompts avanzados",
+    "date": "2026-08-09",
+    "tags": [
+      "prompt engineering",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un post de Instagram que combine la ironía y la nostalgia, dirigido a millennials, sobre cómo la tecnología ha cambiado la forma en que nos comunicamos. Incluye un llamado a la acción para que los seguidores compartan sus propias historias de cómo la tecnología ha impactado sus relaciones.",
+      "Crear un tweet que explique de manera concisa y divertida por qué el café es esencial para la productividad. Utiliza un lenguaje humorístico y asegúrate de incluir hashtags relevantes para llegar a una audiencia más amplia.",
+      "Desarrolla un guión para un video de 60 segundos en TikTok que muestre una transformación impresionante de alguien que aprende a bailar un estilo completamente nuevo en solo una semana. Asegúrate de incluir una mezcla de momentos divertidos y de logro."
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
+    "slug": "2026-08-08-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Crea imágenes perfectas con inteligencia artificial y prompts",
+    "date": "2026-08-08",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Generate an image of a sunny day at the beach with clear blue sky and waves crashing against the shore.",
+      "Crear una imagen de un paisaje montañoso con niebla y árboles altos, en un estilo de pintura impresionista.",
+      "Generate an image of a futuristic city with skyscrapers and flying cars, in a neon-lit nighttime setting.",
+      "Generate an image of a retrato de una mujer en un estilo de pintura renacentista, con un fondo oscuro y un vestido rojo.",
+      "Crear una imagen de un paisaje urbano en un estilo de dibujo animado, con edificios coloridos y personajes divertidos.",
+      "Generate an image of a escena de ciencia ficción en un estilo de ilustración digital, con naves espaciales y alienígenas."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
+    "slug": "2026-08-08-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
+    "date": "2026-08-08",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud mental, considerando las investigaciones actuales y las recomendaciones de los expertos en psicología. El artículo debe ser de aproximadamente 500 palabras y debe incluir ejemplos concretos de cómo el ejercicio físico puede reducir el estrés y mejorar la autoestima.",
+      "Traduce el texto \"El clima en Madrid es geralmente cálido y seco durante el verano\" al francés, utilizando un tono formal y considerando las diferencias culturales entre España y Francia.",
+      "Genera un resumen de la noticia \"La empresa X anuncia un aumento en la producción de energía renovable\", destacando los puntos clave y las implicaciones para el medio ambiente.",
+      "Crea un guión para un video explicativo sobre el funcionamiento de un motor de combustión interna, utilizando términos técnicos y conceptos científicos precisos."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
+    "slug": "2026-08-08-prompts-de-marketing.html",
+    "title": "Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
+    "date": "2026-08-08",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un informe detallado sobre la estrategia de marketing de la empresa XYZ, incluyendo su público objetivo, canales de marketing y tipos de contenido.",
+      "Escribe un artículo de blog sobre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo ejemplos y estadísticas.",
+      "Describe las características demográficas y psicográficas del público objetivo de la empresa XYZ, incluyendo sus intereses, valores y comportamientos.",
+      "Describe un producto que combine la tecnología de inteligencia artificial con la experiencia del cliente, incluyendo sus características y beneficios.",
+      "Escribe un conjunto de palabras clave y metaetiquetas para una página web de la empresa XYZ, incluyendo su título, descripción y encabezados.",
+      "Escribe un anuncio de Facebook para la empresa XYZ, incluyendo su imagen, título, texto y llamada a la acción.",
+      "Escribe un correo electrónico de bienvenida para los clientes de la empresa XYZ, incluyendo su nombre, contenido y llamada a la acción.",
+      "Describe un conjunto de datos de la empresa XYZ, incluyendo su fuente, estructura y tendencias.",
+      "Describe un perfil de cliente para la empresa XYZ, incluyendo su nombre, edad, género, ingresos y comportamientos.",
+      "Describe una campaña de marketing para la empresa XYZ, incluyendo su objetivo, público objetivo, canales de marketing y métricas de éxito."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
+    "slug": "2026-08-07-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
+    "date": "2026-08-07",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Ejemplo 1: \"Escribe un correo electrónico de respuesta a un cliente que ha hecho una consulta sobre un producto\"",
+      "Ejemplo 2: \"Genera un informe de ventas para el mes pasado, incluyendo gráficos y estadísticas\"",
+      "Ejemplo 3: \"Traduce el texto \"La inteligencia artificial es el futuro\" al francés\""
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
+    "slug": "2026-08-07-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
+    "date": "2026-08-07",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre perros.",
+      "Escribe un artículo de 500 palabras sobre las razas de perros más populares en Estados Unidos, incluyendo sus características y necesidades de cuidado.",
+      "escribir un articulo sobre perros!!",
+      "Escribe un artículo sobre perros.",
+      "Escribe un artículo sobre la historia de la ciencia, asumiendo que todos los científicos famosos son hombres.",
+      "Escribe un artículo sobre la historia de la ciencia, destacando las contribuciones de científicos y científicas de diferentes orígenes y géneros."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
+    "slug": "2026-08-07-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos para mejorar tus habilidades en prompt engineering",
+    "date": "2026-08-07",
+    "tags": [
+      "Inteligencia Artificial",
+      "Desarrollo de Software",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "programacion",
+    "prompts": [
+      "Traduce el texto &#34;Hello, how are you?&#34; al español.",
+      "Resumen el siguiente texto en 50 palabras: &#34;El clima es un tema importante en la actualidad, ya que el cambio climático está afectando a muchas personas en todo el mundo.&#34;",
+      "Genera un texto de 100 palabras sobre el tema &#34;la importancia de la educación&#34;."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
+    "slug": "2026-08-06-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-08-06",
+    "tags": [
+      "automatización",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud.",
+      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
+      "Genera un informe sobre las ventas del último trimestre, incluyendo gráficos y estadísticas.",
+      "Escribe un correo electrónico de follow-up para un cliente que no ha respondido a una oferta en los últimos 7 días.",
+      "Genera un informe sobre el rendimiento de un empleado durante el último mes, incluyendo gráficos y estadísticas.",
+      "Crea un guión para un video de marketing que promocione un nuevo producto."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
+    "slug": "2026-08-06-asistente-personal-con-chatgpt.html",
+    "title": "Asistente Personal con ChatGPT",
+    "description": "Construye un asistente personal con ChatGPT y prompts para mejorar tu productividad",
+    "date": "2026-08-06",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuáles son las noticias más importantes de hoy en el ámbito de la tecnología?",
+      "¿Puedes recomendarme un libro sobre inteligencia artificial que sea adecuado para principiantes?",
+      "¿Cuál es la mejor forma de optimizar mi sitio web para mejorar su posicionamiento en los motores de búsqueda?",
+      "¿Puedes generar un informe detallado sobre las tendencias actuales en el mercado de la tecnología, incluyendo gráficos y estadísticas?",
+      "¿Puedes crear un plan de marketing personalizado para mi negocio, teniendo en cuenta mi target de audiencia y mis objetivos?",
+      "¿Puedes traducir este texto del inglés al español y proporcionarme una explicación detallada de los términos técnicos utilizados?"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
+    "slug": "2026-08-05-escribir-emails-con-ia.html",
+    "title": "Escribir emails con IA",
+    "description": "Aprende a escribir emails profesionales con IA utilizando los mejores prompts",
+    "date": "2026-08-05",
+    "tags": [
+      "IA",
+      "emails profesionales",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un email de presentación para un nuevo cliente, incluyendo una breve descripción de nuestros servicios y una oferta para una reunión de follow-up.",
+      "Redacta un email de agradecimiento para un colega que me ayudó en un proyecto, incluyendo una mención a su contribución y una oferta para devolver el favor.",
+      "Escribe un email de seguimiento para un cliente que no ha respondido a una oferta anterior, incluyendo una reiteración de los beneficios de nuestro servicio y una pregunta sobre su interés en seguir adelante.",
+      "Escribe un email de promoción para un nuevo producto, incluyendo una descripción de las características y beneficios, así como una oferta especial para los suscriptores.",
+      "Redacta un email de noticias que incluya una selección de artículos relevantes para nuestra audiencia, así como una sección de destacados y una llamada a la acción.",
+      "Escribe un email de abandono del carrito para un cliente que no completó una compra, incluyendo una recordatorio de los productos que dejó en el carrito y una oferta para ayudarlo a completar la transacción."
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
+    "slug": "2026-08-05-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo los prompts pueden acelerar tu aprendizaje",
+    "date": "2026-08-05",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompts"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
+      "Describe el proceso de fotosíntesis y cómo afecta el medio ambiente.",
+      "Resume la Revolución Francesa y sus consecuencias en la sociedad europea.",
+      "Resume el capítulo 5 del libro de texto de historia y destaca los puntos clave.",
+      "Explica el concepto de entropía y proporciona un ejemplo de cómo se aplica en la física.",
+      "Describe el proceso de mitosis y cómo se relaciona con el crecimiento y desarrollo de los seres vivos."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-08-05-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Descubre cómo la IA puede mejorar tu posicionamiento en buscadores con prompts efectivos",
+    "date": "2026-08-05",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Generar 5 títulos para un artículo sobre \"los beneficios del ejercicio físico\"",
+      "Escribe una descripción meta de 155 caracteres para un artículo sobre \"la importancia del sueño para la salud\"",
+      "Generar un artículo de 500 palabras sobre \"los beneficios del meditación para la salud mental\""
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
+    "slug": "2026-08-04-crea-un-curso-online.html",
+    "title": "Crea un curso online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-08-04",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "educación en línea"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "¿Cuáles son los temas más populares en el ámbito de la educación en línea?",
+      "¿Cómo puedo estructurar un plan de estudios para un curso de introducción a la programación?",
+      "¿Cuáles son las mejores prácticas para crear contenido de video para un curso online?"
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
+    "slug": "2026-08-04-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos y potencia tu creatividad",
+    "date": "2026-08-04",
+    "tags": [
+      "diseño gráfico",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "diseña un empaque para un producto de cuidado personal que se destaque en una tienda minorista",
+      "crea un folleto para una empresa de viajes que ofrezca paquetes de vacaciones a destinos exóticos",
+      "desarrolla una campaña publicitaria para un nuevo modelo de automóvil eléctrico"
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
+    "slug": "2026-08-04-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de Negocio con IA",
+    "description": "Aprende a generar ideas de negocio en minutos con la inteligencia artificial",
+    "date": "2026-08-04",
+    "tags": [
+      "Inteligencia Artificial",
+      "Ideas de Negocio",
+      "Emprendimiento"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Ejemplo de prompt: \"Genera 5 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la salud\"",
+      "Ejemplo de prompt: \"Genera 3 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la tecnología\"",
+      "\"Genera 5 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la sostenibilidad\"",
+      "\"Genera 3 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la educación\"",
+      "\"Genera 2 ideas de negocio para un emprendedor que quiere iniciar un negocio en el sector de la salud mental\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
+    "slug": "2026-08-03-contenido-viral.html",
+    "title": "Contenido Viral",
+    "description": "Crea contenido viral con prompts avanzados",
+    "date": "2026-08-03",
+    "tags": [
+      "prompts",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un post de Facebook que promueva una nueva marca de ropa sostenible, destacando los beneficios del uso de materiales reciclados y la importancia de reducir el desperdicio de ropa en el planeta.",
+      "Crear un tweet que anuncie el lanzamiento de un nuevo producto de cuidado personal, destacando sus características innovadoras y su beneficio para la salud y el bienestar de los consumidores.",
+      "Desarrollar un post de Instagram que muestre una receta saludable y fácil de preparar, utilizando ingredientes frescos y nutritivos, y que incluya una llamada a la acción para que los seguidores compartan sus propias recetas saludables."
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
+    "slug": "2026-08-03-imagenes-perfectas-con-ia.html",
+    "title": "Imágenes perfectas con IA",
+    "description": "Aprende a generar imágenes perfectas con IA utilizando prompts efectivos",
+    "date": "2026-08-03",
+    "tags": [
+      "Inteligencia Artificial",
+      "Imágenes generadas",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje de montaña con un lago en el centro, rodeado de árboles verdes y un cielo azul con nubes blancas.",
+      "Crea una imagen de un retrato de una mujer con el cabello largo y oscuro, ojos verdes y una sonrisa cálida, con un fondo de colores pastel.",
+      "Genera una imagen de una ciudad futurista con rascacielos y vehículos voladores, con un cielo anaranjado y un sol poniente."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
+    "slug": "2026-08-02-prompts-infalibles.html",
+    "title": "Prompts infalibles",
+    "description": "Aprende a escribir prompts efectivos para IA",
+    "date": "2026-08-02",
+    "tags": [
+      "Inteligencia Artificial",
+      "Prompt Engineering",
+      "Escribir prompts"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud.",
+      "Describe las diferencias entre un gato y un perro.",
+      "Explica cómo funciona un motor de combustión interna."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
+    "slug": "2026-08-02-prompts-de-marketing.html",
+    "title": "Prompts de marketing",
+    "description": "Descubre los 10 prompts más usados por expertos en marketing para impulsar tus campañas",
+    "date": "2026-08-02",
+    "tags": [
+      "marketing",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Describe las características y beneficios de nuestro nuevo producto.",
+      "Genera 5 títulos diferentes para nuestro próximo artículo de blog.",
+      "Crea una publicación en Facebook que promueva nuestro nuevo servicio.",
+      "Redacta un correo electrónico que invite a los clientes a probar nuestro nuevo producto.",
+      "Genera un artículo de 500 palabras sobre los beneficios de nuestro servicio.",
+      "Crea una descripción detallada de nuestro nuevo producto.",
+      "Genera una meta descripción para nuestro artículo de blog.",
+      "Redacta un titular atractivo para nuestro próximo artículo de blog.",
+      "Crea un guión para un video que promueva nuestro nuevo servicio.",
+      "Genera un resumen de 100 palabras para nuestro artículo de blog."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
+    "slug": "2026-08-01-domina-chatgpt.html",
+    "title": "Domina ChatGPT",
+    "description": "Aprende a utilizar ChatGPT en tu trabajo diario de manera efectiva",
+    "date": "2026-08-01",
+    "tags": [
+      "ChatGPT",
+      "Inteligencia Artificial",
+      "Productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un artículo sobre los beneficios de la meditación para la salud mental.",
+      "Traduce el texto siguiente al español: \"The quick brown fox jumps over the lazy dog\"",
+      "Resumen el texto siguiente en 100 palabras: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de sistemas que pueden realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, la resolución de problemas y la toma de decisiones.\""
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
+    "slug": "2026-08-01-errores-comunes-en-prompts.html",
+    "title": "Errores comunes en prompts",
+    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
+    "date": "2026-08-01",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe un artículo sobre perros",
+      "Escribe un artículo informativo sobre la salud y el bienestar de los perros, incluyendo consejos para dueños de mascotas",
+      "Escribe un artículo sobre la historia de la inteligencia artificial incluyendo sus orígenes y evolución y también sus aplicaciones actuales y futuras",
+      "Escribe un artículo sobre la historia de la inteligencia artificial, incluyendo:- Orígenes y evolución- Aplicaciones actuales y futuras",
+      "Escribe un artículo sobre la historia de la inteligencia artificial, incluyendo sus orígenes y evolución, y también sus aplicaciones actuales y futuras, y también analiza las implicaciones éticas y sociales de la inteligencia artificial y cómo puede afectar la sociedad en el futuro",
+      "Escribe un artículo sobre la historia y evolución de la inteligencia artificial, y analiza sus implicaciones éticas y sociales"
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
+    "slug": "2026-07-31-prompt-engineering.html",
+    "title": "Prompt Engineering",
+    "description": "Aprende trucos de prompt engineering para developers",
+    "date": "2026-07-31",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "desarrollo de software"
+    ],
+    "readingTime": 10,
+    "category": "programacion",
+    "prompts": [
+      "prompt = \"Desarrolla un algoritmo para ordenar una lista de números enteros en orden ascendente\"",
+      "prompt = \"Explica la diferencia entre un algoritmo de ordenación por inserción y un algoritmo de ordenación por selección\"",
+      "prompt = \"Desarrolla un programa que permita al usuario ingresar una lista de números enteros y luego ordene la lista en orden ascendente o descendente según la preferencia del usuario\""
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
+    "slug": "2026-07-31-automatiza-tu-negocio.html",
+    "title": "Automatiza tu negocio",
+    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
+    "date": "2026-07-31",
+    "tags": [
+      "automatización",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "Escribe un artículo de 500 palabras sobre los beneficios de la meditación para la salud mental.",
+      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
+      "Envía un correo electrónico de bienvenida a los nuevos clientes con información sobre nuestros productos y servicios.",
+      "Ejemplo de prompt para generar un resumen de un artículo: Resumen del artículo sobre la automatización con prompts inteligentes.",
+      "Ejemplo de prompt para generar un correo electrónico de bienvenida: Envía un correo electrónico de bienvenida a los nuevos clientes con información sobre nuestros productos y servicios.",
+      "Ejemplo de prompt para generar un informe de ventas: Genera un informe de ventas para el mes de enero con detalles sobre los productos más vendidos y las tendencias del mercado."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
+    "slug": "2026-07-31-asistente-personal.html",
+    "title": "Asistente Personal",
+    "description": "Construye un asistente personal con ChatGPT y prompts",
+    "date": "2026-07-31",
+    "tags": [
+      "ChatGPT",
+      "Asistente Personal",
+      "Inteligencia Artificial"
+    ],
+    "readingTime": 10,
+    "category": "personal",
+    "prompts": [
+      "¿Cuáles son las citas y eventos importantes que tengo programados para la semana próxima?",
+      "¿Cuáles son las fuentes más confiables de información sobre el tema de la inteligencia artificial?",
+      "Escribe un artículo de 500 palabras sobre el tema de la sostenibilidad en el siglo XXI."
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
+    "slug": "2026-07-30-escribiendo-emails-con-ia.html",
+    "title": "Escribiendo emails con IA",
+    "description": "Aprende a escribir emails profesionales con inteligencia artificial",
+    "date": "2026-07-30",
+    "tags": [
+      "IA",
+      "email",
+      "profesional"
+    ],
+    "readingTime": 10,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un email de presentación para un nuevo cliente: \"Estimado/a [nombre], me dirijo a usted para presentarle nuestros servicios de [servicio]. Nuestra empresa se especializa en [especialidad] y estamos seguros de que podemos ayudarle a [beneficio]. ¿Le gustaría programar una reunión para discutir cómo podemos ayudarle?\"",
+      "Escribe un email de seguimiento para un cliente que no ha respondido: \"Estimado/a [nombre], espero que esté bien. Quería seguir up sobre el correo electrónico que le envié hace [tiempo] respecto a [asunto]. ¿Ha tenido la oportunidad de considerar nuestra propuesta? ¿Necesita algún tipo de información adicional?\"",
+      "Escribe un email de agradecimiento para un cliente que ha realizado una compra: \"Estimado/a [nombre], queremos agradecerle por su reciente compra de [producto]. Estamos emocionados de que haya elegido nuestros productos y esperamos que esté satisfecho con su compra. ¿Hay algo más en lo que podamos ayudarle?\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
+    "slug": "2026-07-30-aprende-10-veces-mas-rapido.html",
+    "title": "Aprende 10 veces más rápido",
+    "description": "Descubre cómo aprender cualquier cosa de manera efectiva con prompts",
+    "date": "2026-07-30",
+    "tags": [
+      "aprendizaje",
+      "inteligencia artificial",
+      "prompt engineering"
+    ],
+    "readingTime": 10,
+    "category": "estudio",
+    "prompts": [
+      "Explica el concepto de inteligencia artificial de manera sencilla.",
+      "Describe los pasos para aprender a programar en Python.",
+      "Proporciona un resumen de la historia de la ciencia en 500 palabras.",
+      "Proporciona un ejemplo de cómo utilizar un prompt para aprender sobre un tema específico.",
+      "Explica el concepto de agujeros negros de manera detallada."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-07-30-ia-para-seo.html",
+    "title": "IA para SEO",
+    "description": "Aprende a mejorar tu posicionamiento con prompts de IA",
+    "date": "2026-07-30",
+    "tags": [
+      "IA",
+      "SEO",
+      "Posicionamiento"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "Generar un título y descripción meta para un artículo sobre \"la importancia del ejercicio físico\":",
+      "{\"título\": \"La importancia del ejercicio físico para la salud\", \"descripción\": \"Aprende sobre los beneficios del ejercicio físico para la salud y cómo incorporarlo en tu rutina diaria\"}",
+      "Generar un artículo sobre \"los beneficios del ejercicio físico para la salud\":",
+      "{\"introducción\": \"El ejercicio físico es una de las mejores formas de mejorar la salud y prevenir enfermedades\", \"cuerpo\": \"El ejercicio físico regular puede ayudar a reducir el riesgo de enfermedades cardíacas, mejorar la función cerebral y aumentar la energía\", \"conclusión\": \"En resumen, el ejercicio físico es una parte importante de una vida saludable y debería ser incorporado en la rutina diaria de todos\"}",
+      "Generar un resumen de un artículo sobre \"la importancia del ejercicio físico para la salud\":",
+      "{\"resumen\": \"El ejercicio físico es importante para la salud porque puede ayudar a reducir el riesgo de enfermedades cardíacas, mejorar la función cerebral y aumentar la energía\"}"
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
+    "slug": "2026-07-29-crea-un-curso-online.html",
+    "title": "Crea un curso online",
+    "description": "Aprende a crear un curso online desde cero con ChatGPT",
+    "date": "2026-07-29",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "creación de contenido"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "¿Cuáles son los temas más populares en el ámbito de la tecnología?",
+      "Crear un esquema de curso para un curso de introducción a la programación en Python",
+      "Crear un capítulo de introducción a la programación en Python que incluya una explicación de los conceptos básicos y un ejemplo de código",
+      "Crear un ejercicio práctico de programación en Python que requiera que el estudiante cree un programa que resuelva un problema específico",
+      "Revisar y editar el contenido del capítulo de introducción a la programación en Python para asegurarte de que sea preciso y esté libre de errores"
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
+    "slug": "2026-07-29-prompts-creativos.html",
+    "title": "Prompts Creativos",
+    "description": "Descubre los mejores prompts para diseñadores gráficos y mejora tu creatividad",
+    "date": "2026-07-29",
+    "tags": [
+      "diseño gráfico",
+      "prompts",
+      "inteligencia artificial"
+    ],
+    "readingTime": 10,
+    "category": "general",
+    "prompts": [
+      "Crear un logotipo para una marca de ropa que se especializa en ropa de verano, utilizando solo colores pastel y formas geométricas.",
+      "Diseñar un cartel para una exposición de arte que explore el tema de la sostenibilidad, utilizando solo materiales reciclados y técnicas de impresión ecológica.",
+      "Desarrollar una identidad visual para una aplicación móvil que se centra en la meditación y el bienestar, utilizando un esquema de colores calmados y formas suaves.",
+      "Crear un sistema de identidad visual para una marca que se expande a nuevos mercados y necesita adaptarse a diferentes culturas y audiencias.",
+      "Diseñar un sitio web para una empresa que se centra en la tecnología y la innovación, utilizando solo técnicas de diseño minimalista y tipografía experimental.",
+      "Desarrollar una campaña publicitaria para un producto que se lanza en un mercado saturado, utilizando solo estrategias de marketing digital y redes sociales."
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
+    "slug": "2026-07-29-ideas-de-negocio-con-ia.html",
+    "title": "Ideas de negocio con IA",
+    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
+    "date": "2026-07-29",
+    "tags": [
+      "IA",
+      "negocios",
+      "emprendimiento"
+    ],
+    "readingTime": 10,
+    "category": "emprendimiento",
+    "prompts": [
+      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo podemos aprovecharlas para crear un negocio rentable?",
+      "¿Cuáles son los principales desafíos que enfrentan las pequeñas y medianas empresas en la industria de la salud y cómo podemos solucionarlos con un nuevo negocio?",
+      "¿Cuáles son las oportunidades de negocio en el sector de la sostenibilidad y el medio ambiente y cómo podemos aprovecharlas para crear un negocio rentable?"
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
+    "slug": "2026-07-28-prompts-virales.html",
+    "title": "Prompts Virales",
+    "description": "Aprende a crear contenido viral con prompts avanzados",
+    "date": "2026-07-28",
+    "tags": [
+      "prompts",
+      "contenido viral",
+      "redes sociales"
+    ],
+    "readingTime": 10,
+    "category": "marketing",
+    "prompts": [
+      "\"Escribe un título atractivo para un video de un gato jugando con un láser\"",
+      "\"Crea un post para Instagram sobre un nuevo producto de belleza, incluyendo una imagen y un llamado a la acción\"",
+      "\"Desarrolla un guión para un video de YouTube sobre cómo hacer un truco de magia, incluyendo un intro y un outro\"",
+      "\"Utiliza palabras clave relevantes en tus prompts para mejorar la visibilidad en los motores de búsqueda\"",
+      "\"Asegúrate de que tus prompts sean lo suficientemente específicos como para generar contenido relevante\"",
+      "\"Experimenta con diferentes tipos de prompts para encontrar lo que funciona mejor para tu audiencia\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
+    "slug": "2026-07-28-imagenes-con-ia.html",
+    "title": "Imágenes con IA",
+    "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial y prompts",
+    "date": "2026-07-28",
+    "tags": [
+      "IA",
+      "Inteligencia Artificial",
+      "Imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Genera una imagen de un paisaje soleado con un lago en el centro y montañas en el fondo.",
+      "Crea una imagen de un gato gris sentado en una alfombra roja con un libro abierto al lado.",
+      "Produce una imagen de una ciudad futurista con rascacielos y vehículos voladores.",
+      "Genera una imagen de un reloj de pulsera de lujo con un diseño elegante.",
+      "Crea una imagen de un bolso de mano de mujer con un estilo vintage.",
+      "Produce una imagen de un par de zapatos de deporte de alta calidad."
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-07-28-evita-errores-comunes.html",
     "title": "Evita errores comunes",
     "description": "Aprende a escribir prompts efectivos para IA",
@@ -677,1095 +1821,6 @@
       "Genera una imagen de un edificio de oficinas moderno con una fachada de vidrio y acero",
       "Crea una imagen de un coche deportivo rojo con llantas de aleación y un interior de cuero negro",
       "Genera una imagen de un plato de sushi con salmón y aguacate, sobre un fondo de madera"
-    ]
-  },
-  {
-    "slug": "2026-07-14-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Evita errores comunes al escribir prompts para IA y mejora tus resultados",
-    "date": "2026-07-14",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje",
-      "Escribe un cuento sobre un personaje femenino que vive en la ciudad de Nueva York",
-      "¿Cuál es la capital de Francia?",
-      "París es una ciudad hermosa",
-      "¿Cuál es la capital de Francia en el contexto de la geografía europea?",
-      "Escribe un resumen de 200 palabras sobre el tema de la inteligencia artificial en el siglo XXI"
-    ]
-  },
-  {
-    "slug": "2026-07-14-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Descubre cómo la inteligencia artificial puede mejorar tu posicionamiento en buscadores",
-    "date": "2026-07-14",
-    "tags": [
-      "SEO",
-      "Inteligencia Artificial",
-      "IA"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la moda?",
-      "Describa los beneficios del ejercicio físico regular para la salud",
-      "¿Cómo puedo mejorar mi presencia en las redes sociales?"
-    ]
-  },
-  {
-    "slug": "2026-07-13-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera eficiente con prompts",
-    "date": "2026-07-13",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el concepto de inteligencia artificial y su aplicación en la industria.",
-      "Resuelve el siguiente problema de matemáticas: 2x + 5 = 11. ¿Cuál es el valor de x?",
-      "Analiza el siguiente texto y resume sus principales puntos: \"La inteligencia artificial es una rama de la informática que se enfoca en el desarrollo de algoritmos y modelos que permiten a las máquinas aprender y tomar decisiones de manera autónoma.\""
-    ]
-  },
-  {
-    "slug": "2026-07-13-prompts-creativos.html",
-    "title": "Prompts creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos",
-    "date": "2026-07-13",
-    "tags": [
-      "diseño gráfico",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especialice en inteligencia artificial, con un estilo minimalista y colores que reflejen la innovación y la modernidad.",
-      "Crea un cartel para una campaña publicitaria de una marca de ropa deportiva, con un enfoque en la actividad física y el bienestar, utilizando imágenes de personas realizando deportes extremos.",
-      "Genera un folleto para una empresa de viajes que ofrezca paquetes turísticos a destinos exóticos, con un diseño que refleje la aventura y la exploración, y que incluya mapas y fotos de los lugares turísticos.",
-      "Diseña un paquete de identidad visual para una empresa de alimentos saludables, que incluya un logotipo, un cartel y un folleto, con un estilo que refleje la salud y el bienestar.",
-      "Genera un diseño de página web para una empresa de servicios de marketing, con un enfoque en la innovación y la tecnología, y que incluya secciones para servicios, portfolio y contacto.",
-      "Crea un diseño de redes sociales para una marca de ropa de moda, con un enfoque en la creatividad y la expresión personal, y que incluya publicaciones y stories que muestren la última tendencia en moda."
-    ]
-  },
-  {
-    "slug": "2026-07-13-errores-comunes-al-escribir-prompts.html",
-    "title": "Errores comunes al escribir prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-13",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un perro que se llama Max.",
-      "Escribe un cuento infantil sobre un perro llamado Max que se pierde en el bosque.",
-      "¿Cuál es la capital de Francia?",
-      "¿Cuál es la capital de Francia en la actualidad, considerando los cambios políticos y geográficos que han ocurrido en el país en los últimos siglos?"
-    ]
-  },
-  {
-    "slug": "2026-07-12-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye tu asistente personal con ChatGPT y prompts",
-    "date": "2026-07-12",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 5,
-    "category": "personal",
-    "prompts": [
-      "Escribe un correo electrónico a un amigo para invitarlo a cenar:",
-      "¿Cuál es la mejor forma de aprender un nuevo idioma?",
-      "Genera un resumen de un artículo sobre inteligencia artificial:",
-      "Utiliza un tono formal o informal según la situación:",
-      "Ajusta el nivel de detalle en las respuestas:",
-      "Utiliza un lenguaje específico o jerga según el contexto:"
-    ]
-  },
-  {
-    "slug": "2026-07-12-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-12",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que viaja en el tiempo",
-      "Escribe un cuento sobre un joven científico que viaja en el tiempo a la época de los dinosaurios y descubre un mundo desconocido",
-      "Describe la relación entre la inteligencia artificial y la sociedad",
-      "Describe los beneficios y desafíos de implementar la inteligencia artificial en la sociedad actual, y proporciona ejemplos concretos de cómo puede impactar en la vida diaria de las personas",
-      "Escribe un artículo sobre la importancia de la educación, pero hazlo de manera divertida y anecdótica",
-      "Escribe un artículo sobre la importancia de la educación, utilizando un tono formal y serio, y proporciona estadísticas y ejemplos concretos para respaldar tus argumentos"
-    ]
-  },
-  {
-    "slug": "2026-07-12-10-prompts-de-marketing.html",
-    "title": "10 Prompts de Marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-12",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un informe sobre las tendencias actuales en el mercado de la moda sostenible.",
-      "Crea un guión para un video explicativo sobre los beneficios de la tecnología de inteligencia artificial en la industria de la salud.",
-      "Enumera las 10 palabras clave más relevantes para un sitio web de ventas de productos de belleza natural.",
-      "Crea un mensaje de publicación para Instagram que promocione un nuevo producto de moda sostenible.",
-      "Crea un correo electrónico de bienvenida para nuevos suscriptores que ofrezca un descuento en su primera compra.",
-      "Analiza la estrategia de marketing de una competencia en el mercado de la tecnología de inteligencia artificial.",
-      "Crea una persona para un negocio de ventas de productos de belleza natural que se dirija a mujeres de 25 a 45 años.",
-      "Crea una estrategia de marketing para un negocio de ventas de productos de tecnología que se dirija a jóvenes de 18 a 30 años.",
-      "Enumera las 5 métricas clave para medir el éxito de una campaña de marketing en redes sociales.",
-      "Crea un concepto para una campaña de marketing que combine la realidad aumentada y la sostenibilidad."
-    ]
-  },
-  {
-    "slug": "2026-07-11-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para inteligencia artificial",
-    "date": "2026-07-11",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Genera un resumen de la historia de la ciencia desde la antigüedad hasta la actualidad, incluyendo los principales descubrimientos y figuras clave.",
-      "Genera un poema que describa la belleza de la naturaleza, incluyendo la descripción de un paisaje y la emoción que evoca.",
-      "Crea un diálogo entre un personaje optimista y un personaje pesimista sobre el futuro de la humanidad, incluyendo argumentos y contraargumentos.",
-      "Resumen el artículo de noticias sobre el último descubrimiento científico, incluyendo los detalles clave y las implicaciones.",
-      "Genera un resumen de la historia de la música desde la antigüedad hasta la actualidad, incluyendo los principales géneros y figuras clave, y proporciona ejemplos de cómo la música ha evolucionado con el tiempo."
-    ]
-  },
-  {
-    "slug": "2026-07-11-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-07-11",
-    "tags": [
-      "automatización",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "Escribe un correo electrónico de bienvenida para un nuevo cliente: \"Hola {nombre}, gracias por unirse a nuestra comunidad. Estamos emocionados de tenerlo a bordo. Por favor, no dude en hacernos saber si necesita algo.\"",
-      "Genera un informe de ventas para el mes de enero: \"El total de ventas para enero fue de {monto}. El producto más vendido fue {producto} con {cantidad} unidades vendidas.\"",
-      "Crea un plan de marketing para un nuevo producto: \"El objetivo del plan de marketing es aumentar la conciencia del producto y generar leads. Las estrategias incluyen publicidad en redes sociales, correo electrónico y contenido de blog.\""
-    ]
-  },
-  {
-    "slug": "2026-07-11-prompts-para-emails.html",
-    "title": "Prompts para Emails",
-    "description": "Aprende a escribir emails profesionales con IA y promts efectivos",
-    "date": "2026-07-11",
-    "tags": [
-      "IA",
-      "prompts",
-      "emails profesionales"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Ejemplo 1: Solicitar una reunión\"Escribe un email para solicitar una reunión con el director de ventas para discutir las oportunidades de crecimiento en el mercado latinoamericano\"",
-      "Ejemplo 2: Presentar un nuevo producto\"Escribe un email para presentar nuestro nuevo producto de software de gestión de proyectos y explicar sus beneficios y características\"",
-      "Ejemplo 3: Pedir una referencia\"Escribe un email para pedir a un cliente satisfecho que nos proporcione una referencia o testimonio sobre nuestros servicios\""
-    ]
-  },
-  {
-    "slug": "2026-07-10-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
-    "date": "2026-07-10",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Genera un texto de 500 palabras sobre la historia de la ciencia ficción, incluyendo los autores y obras más influyentes del género.",
-      "Escribe un texto divertido y sarcástico sobre la vida de un estudiante universitario, incluyendo las situaciones más absurdas y divertidas que pueden ocurrir en un campus.",
-      "Describe el día 6 de junio de 1944, cuando las fuerzas aliadas desembarcaron en Normandía durante la Segunda Guerra Mundial, incluyendo los detalles sobre las tropas involucradas, las armas utilizadas y las bajas sufridas.",
-      "Escribe un poema de 12 versos sobre la belleza de la naturaleza, incluyendo la descripción de un paisaje montañoso y la sensación de paz que se siente al estar en la cima de una montaña.",
-      "Describe a un personaje de ficción que es un detective privado en la ciudad de Nueva York en la década de 1940, incluyendo su apariencia, su personalidad y sus habilidades como detective.",
-      "Escribe la letra de una canción de rock sobre la libertad y la rebelión, incluyendo la descripción de un joven que se siente atrapado en una sociedad opresiva y busca escapar."
-    ]
-  },
-  {
-    "slug": "2026-07-09-imagenes-con-ia.html",
-    "title": "Imágenes con IA",
-    "description": "Descubre cómo generar imágenes perfectas con IA usando prompts",
-    "date": "2026-07-09",
-    "tags": [
-      "IA",
-      "Imágenes",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Un paisaje de montaña con un lago en el centro, rodeado de árboles y con un cielo nublado.",
-      "Una ciudad futurista con rascacielos y vehículos voladores, iluminada por luces neón.",
-      "Un retrato de una mujer sonriente con el cabello largo y oscuro, y un vestido rojo."
-    ]
-  },
-  {
-    "slug": "2026-07-09-escribiendo-emails-profesionales.html",
-    "title": "Escribiendo Emails Profesionales",
-    "description": "Aprende a escribir emails profesionales con IA utilizando los mejores prompts",
-    "date": "2026-07-09",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para un nuevo cliente, incluyendo una breve descripción de la empresa y los servicios que ofrecemos.",
-      "Escribe un email de follow-up para un cliente que no ha respondido a un email anterior, incluyendo una recordatoria de la propuesta y una oferta para discutir los detalles.",
-      "Escribe un email de agradecimiento para un cliente que ha realizado una compra, incluyendo una expresión de gratitud y una oferta para brindar soporte adicional.",
-      "Escribe un email de solicitud de información para un proveedor, incluyendo una descripción de la información necesaria y una fecha límite para la respuesta.",
-      "Escribe un email de confirmación para un cliente que ha realizado una reserva, incluyendo los detalles de la reserva y una confirmación de la fecha y hora.",
-      "Escribe un email de disculpa para un cliente que ha experimentado un problema con un producto o servicio, incluyendo una explicación del problema y una oferta para solucionarlo."
-    ]
-  },
-  {
-    "slug": "2026-07-08-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo los prompts pueden acelerar tu aprendizaje en cualquier tema",
-    "date": "2026-07-08",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
-      "Describe el proceso de fotosíntesis y explica cómo afecta el medio ambiente.",
-      "Relata la historia de la Revolución Francesa y analiza sus causas y consecuencias.",
-      "Análiza el estilo de escritura de un autor en particular y explica cómo se relaciona con el contexto histórico en el que escribió.",
-      "Describe la evolución del estilo artístico de un pintor o escultor a lo largo de su carrera y explica cómo se relaciona con los movimientos artísticos de su época.",
-      "Explica el funcionamiento de un algoritmo en particular y proporciona un ejemplo de cómo se aplica en la programación."
-    ]
-  },
-  {
-    "slug": "2026-07-07-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Descubre trucos para desarrolladores en prompt engineering",
-    "date": "2026-07-07",
-    "tags": [
-      "Inteligencia Artificial",
-      "Desarrollo",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuál es la capital de Francia?",
-      "Describa la ciudad de París, incluyendo sus monumentos más famosos y su historia.",
-      "Escribe un artículo sobre la importancia del ejercicio físico para la salud.",
-      "Escribe un artículo de 500 palabras sobre la importancia del ejercicio físico para la salud, incluyendo estadísticas y ejemplos de cómo el ejercicio puede mejorar la calidad de vida.",
-      "Traduce el siguiente texto del español al inglés: \"La casa es azul\".",
-      "Traduce el siguiente texto del español al inglés, manteniendo el tono y el estilo formal: \"La casa es azul y tiene un jardín grande\"."
-    ]
-  },
-  {
-    "slug": "2026-07-06-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Aprende trucos de prompt engineering para developers",
-    "date": "2026-07-06",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Desarrollo de Software"
-    ],
-    "readingTime": 10,
-    "category": "programacion",
-    "prompts": [
-      "Describe el producto XYZ, incluyendo sus características y beneficios.",
-      "Describe el proceso de implementación de un sistema de gestión de inventario en una empresa de manufactura, incluyendo los pasos necesarios y los recursos requeridos.",
-      "Explica la diferencia entre un sistema de gestión de bases de datos relacionales y un sistema de gestión de bases de datos NoSQL, incluyendo los beneficios y desventajas de cada uno.",
-      "Describe las mejores prácticas para implementar un sistema de autenticación y autorización en una aplicación web, incluyendo los protocolos y tecnologías recomendadas."
-    ]
-  },
-  {
-    "slug": "2026-07-06-prompts-perfectos.html",
-    "title": "Prompts Perfectos",
-    "description": "Aprende a escribir prompts efectivos para IA",
-    "date": "2026-07-06",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar inteligencia artificial en la toma de decisiones?",
-      "Describe un escenario en el que un robot tenga que tomar una decisión ética. ¿Qué factores debería considerar el robot al tomar su decisión?",
-      "¿Cómo se puede utilizar el aprendizaje automático para mejorar la eficiencia en la industria manufacturera? Proporciona ejemplos concretos de aplicaciones y resultados."
-    ]
-  },
-  {
-    "slug": "2026-07-06-escribe-emails-profesionales-con-ia.html",
-    "title": "Escribe emails profesionales con IA",
-    "description": "Aprende a escribir emails profesionales con inteligencia artificial y los mejores prompts para hacerlo",
-    "date": "2026-07-06",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 5,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para una reunión de negocios: \"Estimado [nombre], me gustaría concertar una reunión para discutir oportunidades de colaboración entre nuestras empresas. ¿Qué días y horas te vienen bien la próxima semana?\"",
-      "Redacta un email de agradecimiento por una entrevista de trabajo: \"Querido [nombre], quiero expresar mi más sincero agradecimiento por la oportunidad de entrevistarme para el puesto de [puesto]. Estoy ansioso por saber sobre el resultado y aprender de su experiencia.\"",
-      "Crea un email de seguimiento para una solicitud de información: \"Hola [nombre], espero que estés bien. Quería seguir con mi solicitud de [información o documento] que te pedí hace [tiempo]. ¿Podrías proporcionarme una actualización sobre el estado de mi petición?\""
-    ]
-  },
-  {
-    "slug": "2026-07-05-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con Inteligencia Artificial",
-    "date": "2026-07-05",
-    "tags": [
-      "Inteligencia Artificial",
-      "Ideas de Negocio",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt: \"Genera una lista de 10 ideas de negocio relacionadas con la salud y el bienestar\"",
-      "prompt: \"Genera una lista de 5 ideas de negocio relacionadas con la tecnología y la innovación\"",
-      "prompt: \"Desarrolla un plan de negocio para una empresa de comercio electrónico especializada en productos sostenibles\"",
-      "prompt: \"Identifica 3 oportunidades de negocio en el sector de la educación en línea\""
-    ]
-  },
-  {
-    "slug": "2026-07-05-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores comunes al escribir prompts para IA",
-    "date": "2026-07-05",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que viaja en el tiempo.",
-      "Escribe un cuento sobre un personaje que viaja en el tiempo a la época de los dinosaurios y debe encontrar una forma de regresar a su época.",
-      "¿Cuál es la capital de Francia?",
-      "Genera un texto sobre la historia de Francia durante la Revolución Francesa, incluyendo los eventos clave y los personajes importantes.",
-      "¿Cuál es la mejor forma de gobierno: democracia o dictadura?",
-      "Comparar y contrastar las ventajas y desventajas de la democracia y la dictadura como formas de gobierno."
-    ]
-  },
-  {
-    "slug": "2026-07-05-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
-    "date": "2026-07-05",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el concepto de inteligencia artificial de manera sencilla",
-      "Proporciona un resumen detallado de la historia de la ciencia",
-      "Describe los pasos para aprender un nuevo idioma de manera efectiva",
-      "Proporciona un ejemplo de cómo aplicar el concepto de inteligencia artificial en la industria de la salud",
-      "Explica la diferencia entre inteligencia artificial y aprendizaje automático",
-      "Describe los posibles riesgos y beneficios del uso de inteligencia artificial en la sociedad"
-    ]
-  },
-  {
-    "slug": "2026-07-04-prompts-creativos.html",
-    "title": "Prompts Creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos",
-    "date": "2026-07-04",
-    "tags": [
-      "diseño gráfico",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de realidad virtual. El logotipo debe incluir elementos que reflejen la innovación y la creatividad de la empresa.",
-      "Crear un póster para una campaña publicitaria de una marca de ropa sostenible. El póster debe incluir elementos que reflejen la conciencia medioambiental y la responsabilidad social de la marca.",
-      "Diseñar un empaque para un producto de cosméticos que se destaque en el mercado. El empaque debe incluir elementos que reflejen la calidad y la elegancia del producto."
-    ]
-  },
-  {
-    "slug": "2026-07-04-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
-    "date": "2026-07-04",
-    "tags": [
-      "inteligencia artificial",
-      "ideas de negocio",
-      "emprendimiento"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Qué tipo de negocio puedo crear que combine mis habilidades en marketing digital con mi pasión por la sostenibilidad?",
-      "Genera una lista de 10 ideas de negocio que puedan ser rentables en la industria de la salud y el bienestar.",
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?"
-    ]
-  },
-  {
-    "slug": "2026-07-04-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y eficiente con prompts",
-    "date": "2026-07-04",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo de cómo se aplica en la vida real.",
-      "Describe el proceso de fotosíntesis y cómo afecta el medio ambiente.",
-      "Resume la Revolución Francesa y sus consecuencias en la sociedad europea.",
-      "Explica el concepto de inteligencia artificial y cómo se aplica en la industria del automóvil.",
-      "Describe el proceso de creación de un modelo de lenguaje y cómo se entrena.",
-      "Analiza el impacto de la globalización en la economía y la sociedad."
-    ]
-  },
-  {
-    "slug": "2026-07-03-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar procesos con prompts inteligentes",
-    "date": "2026-07-03",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "automatización"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "Describe las ventajas de la automatización en un negocio, incluyendo la reducción de costos y el aumento de la eficiencia.",
-      "Genera un informe mensual que resuma las ventas y los ingresos de la empresa, incluyendo gráficos y tablas para ilustrar los datos.",
-      "Crea un anuncio publicitario para un nuevo producto, incluyendo una descripción del producto, sus características y beneficios, y un llamado a la acción para que los clientes lo compren.",
-      "Responde a la pregunta \"¿Cuál es el proceso de devolución de un producto?\", incluyendo los pasos que el cliente debe seguir y los plazos para la devolución."
-    ]
-  },
-  {
-    "slug": "2026-07-03-prompts-de-marketing.html",
-    "title": "Prompts de marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-03",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un informe sobre la estrategia de marketing de la competencia X, incluyendo sus puntos fuertes y débiles.",
-      "Escribe un artículo sobre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo ejemplos y estadísticas.",
-      "Identifica las 10 palabras clave más relevantes para la industria del marketing digital y crea un plan de contenido para optimizarlas.",
-      "Análiza los datos de tráfico web de la empresa X y crea un informe sobre las tendencias y patrones de comportamiento de los visitantes.",
-      "Crea un perfil de cliente para la empresa X, incluyendo información demográfica, preferencias y comportamientos de compra.",
-      "Desarrolla una estrategia de marketing para la empresa X, incluyendo objetivos, metas y planes de acción para el próximo año.",
-      "Crea un guión para un video de marketing que muestre los beneficios del uso de la inteligencia artificial en el marketing.",
-      "Análiza los datos de engagement de la empresa X en las redes sociales y crea un informe sobre las tendencias y patrones de comportamiento de los seguidores.",
-      "Crea un email de marketing que muestre los beneficios del uso de la inteligencia artificial en el marketing, incluyendo un llamado a la acción.",
-      "Mide el éxito de la campaña de marketing de la empresa X, incluyendo métricas como el tráfico web, el engagement y las conversiones."
-    ]
-  },
-  {
-    "slug": "2026-07-02-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Descubre trucos de prompt engineering para developers",
-    "date": "2026-07-02",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Desarrollo de Software"
-    ],
-    "readingTime": 5,
-    "category": "programacion",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar un framework de desarrollo de software como React?",
-      "Genera un ejemplo de código en Python que demuestre cómo utilizar la biblioteca de machine learning scikit-learn para clasificar datos.",
-      "Describe los pasos para implementar un algoritmo de búsqueda en un grafo utilizando el algoritmo de Dijkstra."
-    ]
-  },
-  {
-    "slug": "2026-07-02-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-07-02",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es el clima en Madrid hoy?",
-      "Recuerda que tengo una reunión con Juan a las 10 am mañana",
-      "Proporciona una lista de 5 tareas para hoy",
-      "Pregunta: ¿Cuál es el significado de la vida?",
-      "Respuesta: El significado de la vida es un tema filosófico que ha sido debatido durante siglos. Algunas personas creen que el significado de la vida es encontrar la felicidad y la realización personal, mientras que otras creen que es cumplir con un propósito mayor.",
-      "Pregunta: ¿Cuál es el mejor restaurante en la ciudad?",
-      "Respuesta: Hay varios restaurantes excelentes en la ciudad. Algunos de los más populares son el Restaurante A, el Restaurante B y el Restaurante C. ¿Te gustaría saber más sobre alguno de ellos?"
-    ]
-  },
-  {
-    "slug": "2026-07-01-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-07-01",
-    "tags": [
-      "automatización",
-      "inteligencia artificial",
-      "prompt engineering"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "\"Escribe un artículo de 500 palabras sobre los beneficios de la meditación para la salud mental\"",
-      "\"¿Cuál es el horario de atención al cliente de nuestra empresa?\"",
-      "\"Resumen el contenido del artículo 'La importancia de la innovación en la industria tecnológica' en 100 palabras\""
-    ]
-  },
-  {
-    "slug": "2026-07-01-ideas-denegocio-con-ia.html",
-    "title": "Ideas deNegocio con IA",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
-    "date": "2026-07-01",
-    "tags": [
-      "IA",
-      "Negocios",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un negocio que se beneficie de ellas?",
-      "Diseña un negocio que ofrezca soluciones sostenibles para reducir el impacto ambiental de la industria de la moda.",
-      "¿Cómo puedo crear un negocio que ayude a las pequeñas empresas a aumentar su presencia en línea y mejorar su marketing digital?"
-    ]
-  },
-  {
-    "slug": "2026-07-01-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Aprende a utilizar la inteligencia artificial para mejorar tu posición en buscadores",
-    "date": "2026-07-01",
-    "tags": [
-      "IA",
-      "SEO",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las palabras clave más relevantes para mi negocio de marketing digital en México?",
-      "Genera un artículo de 500 palabras sobre los beneficios del SEO para las pequeñas empresas.",
-      "Analiza mi sitio web y proporciona recomendaciones para mejorar la velocidad de carga y la experiencia del usuario."
-    ]
-  },
-  {
-    "slug": "2026-06-30-contenido-viral.html",
-    "title": "Contenido Viral",
-    "description": "Crea contenido viral en redes sociales con prompts avanzados",
-    "date": "2026-06-30",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 5,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe una descripción para una foto de un atardecer en la playa, incluyendo las emociones que evoca y los colores predominantes.\"",
-      "\"Crea un tuit que compare la vida antes y después de la pandemia, utilizando un tono reflexivo y con un toque de humor.\"",
-      "\"Desarrolla una historia sobre cómo una persona superó una adversidad, destacando los pasos que dio y las lecciones aprendidas.\""
-    ]
-  },
-  {
-    "slug": "2026-06-30-asistente-personal-con-chatgpt.html",
-    "title": "Asistente Personal con ChatGPT",
-    "description": "Construye un asistente personal con ChatGPT y prompts para aumentar tu productividad",
-    "date": "2026-06-30",
-    "tags": [
-      "ChatGPT",
-      "Asistente Personal",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es el clima en Madrid hoy?",
-      "Recuerdame mi próxima cita con el dentista",
-      "¿Qué es lo más importante que debo hacer hoy?",
-      "¿Cuáles son mis próximas citas en el calendario de Google?",
-      "Envía un mensaje de texto a mi amigo para recordarle nuestra cita de esta noche",
-      "¿Cuál es el estado del tráfico en mi ruta al trabajo?"
-    ]
-  },
-  {
-    "slug": "2026-06-30-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio en minutos con inteligencia artificial",
-    "date": "2026-06-30",
-    "tags": [
-      "IA",
-      "Negocios",
-      "Innovación"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la tecnología y cómo puedo crear un producto o servicio que se adapte a esas tendencias?",
-      "Genera una lista de 10 ideas de negocio que puedan ser viables en un mercado con una población en constante crecimiento y una economía en expansión.",
-      "¿Cuáles son las oportunidades de negocio en el sector de la salud y el bienestar que pueden ser abordadas con soluciones basadas en IA?"
-    ]
-  },
-  {
-    "slug": "2026-06-29-contenido-viral.html",
-    "title": "Contenido Viral",
-    "description": "Aprende a crear contenido viral con prompts avanzados",
-    "date": "2026-06-29",
-    "tags": [
-      "contenido viral",
-      "prompts avanzados",
-      "redes sociales"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un título para un artículo sobre la importancia del ejercicio físico para la salud mental, utilizando palabras clave como 'salud mental' y 'ejercicio físico' y asegurándote de que sea atractivo y llamativo.",
-      "Escribe un artículo de 500 palabras sobre los beneficios del meditar, incluyendo ejemplos de cómo la meditación puede mejorar la salud mental y física, y proporcionando consejos prácticos para empezar a meditar.",
-      "Crea una imagen que represente la felicidad, utilizando colores brillantes y una composición atractiva, y asegurándote de que sea adecuada para ser compartida en redes sociales.",
-      "Crea un anuncio publicitario para un nuevo producto de belleza, utilizando un lenguaje atractivo y llamativo, e incluyendo imágenes y videos que muestren los beneficios del producto. Asegúrate de que el anuncio sea adecuado para ser compartido en redes sociales y de que incluya un llamado a la acción claro y directo."
-    ]
-  },
-  {
-    "slug": "2026-06-29-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en los motores de búsqueda",
-    "date": "2026-06-29",
-    "tags": [
-      "IA",
-      "SEO",
-      "Inteligencia Artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las palabras clave más relevantes para mi negocio?",
-      "Genera un título atractivo para mi artículo sobre \"mejora del rendimiento\"",
-      "¿Cuál es el mejor enlace interno para incluir en mi artículo sobre \"estrategias de marketing\"?",
-      "Ejemplo de prompt para generar un resumen de un artículo: \"Resumen del artículo sobre \"inteligencia artificial para SEO\"\"",
-      "Ejemplo de prompt para generar un título atractivo: \"Título atractivo para el artículo sobre \"mejora del rendimiento\"\"",
-      "Ejemplo de prompt para generar un meta descripción: \"Meta descripción para el artículo sobre \"estrategias de marketing\"\""
-    ]
-  },
-  {
-    "slug": "2026-06-29-ia-para-negocios.html",
-    "title": "IA para negocios",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial",
-    "date": "2026-06-29",
-    "tags": [
-      "IA",
-      "negocios",
-      "emprendimiento"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt = \"Genera 5 ideas de negocio para una empresa de tecnología que se enfoca en la seguridad cibernética\"",
-      "prompt = \"Genera 3 ideas de negocio para una empresa de tecnología que se enfoca en la visión artificial\"",
-      "prompt = \"Genera 2 ideas de negocio para una empresa de tecnología que se enfoca en la sostenibilidad ambiental\""
-    ]
-  },
-  {
-    "slug": "2026-06-28-prompts-avanzados.html",
-    "title": "Prompts Avanzados",
-    "description": "Crea contenido viral con prompts avanzados en redes sociales",
-    "date": "2026-06-28",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe un título que combine la palabra 'verano' con una emoción positiva, utilizando un máximo de 10 palabras\"",
-      "\"Enumera 5 beneficios del ejercicio físico regular, utilizando viñetas y un lenguaje accesible\"",
-      "\"Cuenta la historia de un personaje que supera una adversidad, utilizando un máximo de 200 palabras y un tono inspirador\"",
-      "\"Describe un lugar imaginario donde la tecnología y la naturaleza coexisten en armonía, utilizando un máximo de 150 palabras\"",
-      "\"Explica el concepto de sostenibilidad ambiental de manera que un niño de 10 años pueda entenderlo, utilizando un lenguaje claro y conciso\"",
-      "\"Crea un personaje que represente la resiliencia y la determinación, utilizando un máximo de 100 palabras y un tono motivador\""
-    ]
-  },
-  {
-    "slug": "2026-06-28-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
-    "date": "2026-06-28",
-    "tags": [
-      "inteligencia artificial",
-      "negocios",
-      "emprendimiento"
-    ],
-    "readingTime": 10,
-    "category": "emprendimiento",
-    "prompts": [
-      "prompt = \"Identificar oportunidades de negocio en el sector de la salud que puedan ser atendidas con tecnologías de inteligencia artificial\"",
-      "prompt = \"Desarrollar un plan de negocio para un startup de tecnología que se enfocque en la creación de soluciones de IA para la industria de la logística\"",
-      "prompt = \"Crear un modelo de negocio para un servicio de entrega de comida a domicilio que utilice drones para la entrega\""
-    ]
-  },
-  {
-    "slug": "2026-06-27-imagenes-perfectas-con-ia.html",
-    "title": "Imágenes Perfectas con IA",
-    "description": "Descubre cómo crear imágenes perfectas con IA utilizando prompts",
-    "date": "2026-06-27",
-    "tags": [
-      "IA",
-      "Inteligencia Artificial",
-      "Imágenes"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "Genera una imagen de un atardecer en una playa tropical con palmeras y un cielo naranja",
-      "Crea una imagen de una mujer sonriente con el cabello castaño y ojos verdes, vestida con un traje de negocios",
-      "Genera una imagen de un edificio moderno con líneas limpias y ventanas grandes, rodeado de un jardín verde",
-      "Genera una imagen de un producto de cuidado personal con un fondo blanco y un texto que diga \"Limpieza y frescura para tu piel\"",
-      "Crea una imagen de un paisaje surrealista con colores vibrantes y formas geométricas",
-      "Genera una imagen de un personaje de ciencia ficción con un traje espacial y un fondo de estrellas y planetas"
-    ]
-  },
-  {
-    "slug": "2026-06-27-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Mejora tu posicionamiento con prompts de IA",
-    "date": "2026-06-27",
-    "tags": [
-      "IA",
-      "SEO",
-      "posicionamiento"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un artículo sobre los beneficios del ejercicio físico para la salud, incluyendo estadísticas y estudios recientes.",
-      "Crear un contenido de blog sobre las tendencias actuales en el mercado de la moda, incluyendo imágenes y enlaces a fuentes relevantes.",
-      "Desarrollar un guión para un video sobre la importancia de la educación en línea, incluyendo entrevistas con expertos y estadísticas sobre el impacto de la educación en la sociedad.",
-      "Escribe un artículo sobre la importancia de la seguridad en línea, incluyendo consejos y recomendaciones para proteger la privacidad y la seguridad de los usuarios.",
-      "Crear un contenido de video sobre las últimas tendencias en tecnología, incluyendo entrevistas con expertos y demostraciones de productos.",
-      "Desarrollar un guión para un podcast sobre la salud mental, incluyendo entrevistas con expertos y consejos para mejorar la salud mental."
-    ]
-  },
-  {
-    "slug": "2026-06-26-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-06-26",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Asistente Personal"
-    ],
-    "readingTime": 10,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es la definición de inteligencia artificial?",
-      "Proporciona una lista de 5 libros recomendados sobre machine learning.",
-      "Explica el concepto de aprendizaje profundo y su aplicación en la industria.",
-      "Escribe una respuesta amigable y casual a la pregunta sobre la inteligencia artificial.",
-      "Proporciona una respuesta formal y técnica sobre el concepto de aprendizaje profundo.",
-      "Programa una cita con mi asistente el próximo miércoles a las 10 am.",
-      "Envía un correo electrónico a mi jefe con el informe de ventas del mes."
-    ]
-  },
-  {
-    "slug": "2026-06-26-crea-un-curso-online.html",
-    "title": "Crea un curso online",
-    "description": "Aprende a crear un curso online desde cero con ChatGPT",
-    "date": "2026-06-26",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "creación de contenido"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son los temas más populares para un curso online?",
-      "Crear un plan de estudios para un curso de marketing digital",
-      "Crear un texto de introducción para un curso de marketing digital",
-      "Crear un ejercicio de evaluación para un curso de programación"
-    ]
-  },
-  {
-    "slug": "2026-06-25-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Evita errores al escribir prompts para IA y mejora tus resultados",
-    "date": "2026-06-25",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "errores comunes"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un artículo sobre perros",
-      "Escribe un artículo de 500 palabras sobre la historia y el comportamiento de los perros pastor alemanes",
-      "Explica el concepto de inteligencia artificial",
-      "Explica el concepto de inteligencia artificial para un público no técnico, enfocándote en sus aplicaciones y beneficios",
-      "Escribe un artículo sobre gatos",
-      "Escribe un artículo de 1000 palabras sobre la historia, el comportamiento y las características de los gatos, incluyendo su evolución, su papel en la sociedad y su relación con los humanos, y proporciona ejemplos y estadísticas para respaldar tus argumentos",
-      "Escribe un artículo de 500 palabras sobre la historia y el comportamiento de los gatos, incluyendo su evolución y su relación con los humanos"
-    ]
-  },
-  {
-    "slug": "2026-06-25-crea-un-curso-online-con-chatgpt.html",
-    "title": "Crea un curso online con ChatGPT",
-    "description": "Aprende a crear un curso online desde cero con ChatGPT",
-    "date": "2026-06-25",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "educación en línea"
-    ],
-    "readingTime": 5,
-    "category": "estudio",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el campo de la educación en línea?",
-      "Crear un esquema para un curso de introducción a la programación en Python",
-      "Explicar el concepto de la concurrencia en la programación en Python",
-      "Crear un ejercicio de práctica para la concurrencia en la programación en Python"
-    ]
-  },
-  {
-    "slug": "2026-06-25-prompts-para-emails.html",
-    "title": "Prompts para Emails",
-    "description": "Descubre los mejores prompts para escribir emails profesionales con IA",
-    "date": "2026-06-25",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 10,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un email de presentación para un nuevo cliente, destacando los servicios que ofrece nuestra empresa y solicitando una reunión para discutir oportunidades de colaboración.",
-      "Genera un email de seguimiento para un cliente que ha estado en contacto con nuestra empresa, solicitando actualizaciones sobre el estado de su proyecto y ofreciendo apoyo adicional si es necesario.",
-      "Crea un email de agradecimiento para un cliente que ha realizado una compra en nuestra tienda en línea, expresando gratitud por su confianza en nuestra marca y ofreciendo un descuento para su próxima compra.",
-      "Genera un email de ventas para un cliente que ha estado en contacto con nuestra empresa, destacando los beneficios de nuestro producto y ofreciendo un descuento exclusivo para su primera compra. El email debe ser amigable y persuasivo, con un tono que refleje la personalidad de nuestra marca."
-    ]
-  },
-  {
-    "slug": "2026-06-24-prompt-engineering.html",
-    "title": "Prompt Engineering",
-    "description": "Aprende trucos de prompt engineering para desarrolladores",
-    "date": "2026-06-24",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "desarrollo"
-    ],
-    "readingTime": 10,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las principales diferencias entre un gato y un perro?",
-      "Describinge un escenario en el que un objeto inanimado cobra vida. ¿Cómo se siente el objeto al comenzar a moverse y a interactuar con su entorno?",
-      "Supongamos que eres un turista en una ciudad desconocida. ¿Cómo encontrarías el lugar más famoso de la ciudad sin utilizar un mapa ni preguntar a nadie?"
-    ]
-  },
-  {
-    "slug": "2026-06-24-crea-un-curso-online.html",
-    "title": "Crea un curso online",
-    "description": "Aprende a crear un curso online con ChatGPT desde cero",
-    "date": "2026-06-24",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "creación de contenido"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son los pasos clave para definir el objetivo de un curso online sobre programación para principiantes?",
-      "¿Cómo puedo diseñar un plan de estudios para un curso online de 5 módulos sobre introducción a la programación en Python?",
-      "¿Cómo puedo crear un video explicativo de 10 minutos sobre la sintaxis básica de Python para principiantes?"
-    ]
-  },
-  {
-    "slug": "2026-06-24-errores-comunes-en-prompts.html",
-    "title": "Errores comunes en prompts",
-    "description": "Aprende a evitar errores al escribir prompts para IA",
-    "date": "2026-06-24",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Escribir Prompts"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un cuento sobre un personaje que vive en un lugar lejano.",
-      "Escribe un cuento sobre un personaje que vive en una isla desierta en el Pacífico.",
-      "¿Quién es el autor de la novela?",
-      "¿Quién es el autor de la novela \"Don Quijote de la Mancha\"?",
-      "Me gustaria saber sobre el clima en Madrid",
-      "Me gustaría saber sobre el clima en Madrid."
-    ]
-  },
-  {
-    "slug": "2026-06-23-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-06-23",
-    "tags": [
-      "Inteligencia Artificial",
-      "Automatización",
-      "Negocios"
-    ],
-    "readingTime": 5,
-    "category": "emprendimiento",
-    "prompts": [
-      "Escribe un artículo de 500 palabras sobre los beneficios de la automatización en los negocios.",
-      "¿Cuál es el horario de atención al cliente de nuestra empresa?",
-      "Traduce el siguiente texto del español al inglés: 'La automatización es clave para el éxito de cualquier negocio'.",
-      "Ejemplo de prompt para generar un informe de ventas: 'Genera un informe de ventas para el mes de enero, incluyendo los productos más vendidos y las regiones con mayor demanda'.",
-      "Ejemplo de prompt para crear un contenido de marketing: 'Crea un artículo de blog sobre los beneficios de la automatización en la industria de la salud, incluyendo estadísticas y ejemplos reales'.",
-      "Ejemplo de prompt para responder a preguntas frecuentes: '¿Cuál es el proceso de devolución de productos en nuestra empresa?'."
-    ]
-  },
-  {
-    "slug": "2026-06-23-prompts-para-expertos.html",
-    "title": "Prompts para Expertos",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para impulsar tus campañas",
-    "date": "2026-06-23",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 10,
-    "category": "marketing",
-    "prompts": [
-      "Escribe un título atractivo para un artículo sobre los beneficios del marketing de contenidos",
-      "Describe las características y beneficios de un nuevo smartphone",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente correo electrónico: 'Estimado suscriptor, tenemos una oferta especial solo para ti. Utiliza el código DESC15 para obtener un 15% de descuento en tu próxima compra'.4. Prompts para Redes SocialesLas redes sociales son fundamentales para conectarse con la audiencia objetivo. Un prompt para redes sociales podría ser:<code=Escribe un mensaje para Facebook para promocionar un nuevo producto",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente artículo: 'El marketing de influencia es una forma efectiva de llegar a la audiencia objetivo. Los influencers pueden promocionar productos y servicios de manera auténtica y convincente, lo que puede generar un aumento en las ventas y la visibilidad de la marca'.6. Prompts para ReseñasLas reseñas son fundamentales para generar confianza con los clientes. Un prompt para reseñas podría ser:<code=Escribe una reseña para un producto de electrónica",
-      "Por ejemplo, un modelo de lenguaje podría generar la siguiente respuesta: 'El marketing de contenidos ofrece varios beneficios, incluyendo el aumento de la visibilidad de la marca, la generación de leads y la creación de una comunidad de seguidores leales'.8. Prompts para Historias de ÉxitoLas historias de éxito son fundamentales para generar confianza con los clientes. Un prompt para historias de éxito podría ser:<code=Escribe una historia de éxito sobre un cliente que utilizó nuestro producto",
-      "Por ejemplo, un modelo de lenguaje podría generar el siguiente análisis: 'Nuestro producto es líder en el mercado, con una participación del 30%. Sin embargo, nuestros competidores están ganando terreno, por lo que debemos seguir innovando y mejorando nuestro producto para mantener nuestra posición en el mercado'.10. Prompts para PrediccionesLas predicciones son fundamentales para generar contenido de calidad. Un prompt para predicciones podría ser:<code=Predice las tendencias del marketing para el próximo año"
-    ]
-  },
-  {
-    "slug": "2026-06-23-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario con nuestra guía práctica",
-    "date": "2026-06-23",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 5,
-    "category": "trabajo",
-    "prompts": [
-      "Genera un resumen de 100 palabras del texto siguiente: \"La inteligencia artificial es un campo en constante evolución...\"",
-      "Traduce el texto siguiente del inglés al español: \"Hello, how are you?\"",
-      "Genera 5 ideas para un proyecto de marketing para un nuevo producto"
-    ]
-  },
-  {
-    "slug": "2026-06-22-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera efectiva con prompts",
-    "date": "2026-06-22",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 10,
-    "category": "estudio",
-    "prompts": [
-      "¿Cuáles son los principales conceptos de la teoría de la relatividad de Einstein?",
-      "Explica la diferencia entre la fotosíntesis y la respiración celular.",
-      "Desarrolla un plan de estudio para aprender a programar en Python en 3 meses.",
-      "¿Cuál es el impacto del cambio climático en la biodiversidad de los ecosistemas terrestres?",
-      "Desarrolla un plan de acción para reducir la contaminación del aire en las ciudades.",
-      "Explica la relación entre la salud mental y el bienestar físico."
-    ]
-  },
-  {
-    "slug": "2026-06-22-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
-    "date": "2026-06-22",
-    "tags": [
-      "Inteligencia Artificial",
-      "Prompt Engineering",
-      "Escribir Prompts"
-    ],
-    "readingTime": 5,
-    "category": "general",
-    "prompts": [
-      "Escribe un relato corto sobre un viaje a la luna en el que se describen los paisajes y la emocionalidad del viaje.",
-      "Describe el proceso de creación de un producto de software, desde la concepción hasta la entrega.",
-      "Explica el fenómeno de la fotosíntesis y su importancia en el ecosistema.",
-      "Escribe una crítica del libro \"Don Quijote de la Mancha\" de Miguel de Cervantes, analizando su estructura, personajes y temas.",
-      "Escribe un informe sobre el impacto del cambio climático en la economía global, considerando los datos más recientes y las tendencias actuales.",
-      "Escribe algo sobre la historia."
     ]
   }
 ]
