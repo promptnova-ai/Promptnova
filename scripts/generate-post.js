@@ -118,8 +118,34 @@ function randomTopic(recentTopics = []) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function normalizePost(data) {
+  if (!data || typeof data !== "object") {
+    throw new Error("Groq devolvió un artículo vacío o inválido");
+  }
+
+  const title = typeof data.title === "string" ? data.title.trim() : "";
+  const description = typeof data.description === "string" ? data.description.trim() : "";
+  const html = typeof data.html === "string" ? data.html.trim() : "";
+  const tags = Array.isArray(data.tags)
+    ? data.tags.filter((tag) => typeof tag === "string" && tag.trim()).map((tag) => tag.trim())
+    : [];
+  const readingTime = Number.isFinite(Number(data.readingTime))
+    ? Math.max(1, Math.round(Number(data.readingTime)))
+    : 5;
+
+  if (!title || !description || !html) {
+    throw new Error("Groq devolvió un artículo incompleto");
+  }
+
+  return { title, description, tags: tags.length > 0 ? tags : ["IA"], readingTime, html };
+}
+
 async function generatePost(topic) {
-  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  const request = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -127,7 +153,7 @@ async function generatePost(topic) {
     },
     body: JSON.stringify({
       model: "openai/gpt-oss-120b",
-      max_tokens: 3000,
+      max_tokens: 6000,
       temperature: 0.8,
       response_format: { type: "json_object" },
       messages: [
@@ -159,7 +185,25 @@ El campo html debe contener:
         },
       ],
     }),
-  });
+  };
+
+  let response;
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      response = await fetch("https://api.groq.com/openai/v1/chat/completions", request);
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await wait(attempt * 2000);
+      continue;
+    }
+
+    if (response.ok || (response.status !== 429 && response.status < 500)) break;
+    lastError = new Error(`Groq API error ${response.status}`);
+    if (attempt < 3) await wait(attempt * 2000);
+  }
+
+  if (!response) throw new Error(`No se pudo conectar con Groq: ${lastError?.message}`);
 
   if (!response.ok) {
     const error = await response.text();
@@ -179,17 +223,25 @@ El campo html debe contener:
     .trim();
 
   try {
-    return JSON.parse(clean);
+    return normalizePost(JSON.parse(clean));
   } catch {
     const match = clean.match(/\{[\s\S]*\}/);
     if (!match) throw new Error("Groq no devolvió JSON válido");
-    return JSON.parse(match[0]);
+    return normalizePost(JSON.parse(match[0]));
   }
 }
 
 function savePost(data, topic) {
   const postsDir = path.join(process.cwd(), "posts");
   fs.mkdirSync(postsDir, { recursive: true });
+
+  const indexPath = path.join(postsDir, "index.json");
+  let index = [];
+  if (fs.existsSync(indexPath)) {
+    const rawIndex = fs.readFileSync(indexPath, "utf8");
+    index = JSON.parse(rawIndex);
+    if (!Array.isArray(index)) throw new Error("posts/index.json no contiene un array válido");
+  }
 
   const date = today();
   const slug = slugify(data.title || topic);
@@ -314,13 +366,6 @@ function savePost(data, topic) {
 
   fs.writeFileSync(filepath, fullHtml, "utf8");
   console.log(`✅ Post guardado: posts/${filename}`);
-
-  const indexPath = path.join(postsDir, "index.json");
-  let index = [];
-
-  if (fs.existsSync(indexPath)) {
-    index = JSON.parse(fs.readFileSync(indexPath, "utf8"));
-  }
 
   const prompts = extractPrompts(data.html);
   console.log(`💬 Prompts extraídos: ${prompts.length}`);
