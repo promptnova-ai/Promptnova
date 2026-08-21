@@ -126,9 +126,10 @@ async function generatePost(topic) {
       Authorization: `Bearer ${GROQ_API_KEY}`,
     },
     body: JSON.stringify({
-  model: "openai/gpt-oss-120b",
+      model: "openai/gpt-oss-120b",
       max_tokens: 3000,
       temperature: 0.8,
+      response_format: { type: "json_object" },
       messages: [
         {
           role: "system",
@@ -166,16 +167,24 @@ El campo html debe contener:
   }
 
   const data = await response.json();
-  const raw = data.choices[0].message.content.trim();
+  const raw = data.choices?.[0]?.message?.content;
+  if (!raw || typeof raw !== "string") {
+    throw new Error("Groq no devolvió contenido en la respuesta");
+  }
+
   const clean = raw
     .replace(/^```json\s*/i, "")
     .replace(/```\s*$/i, "")
     .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "")
     .trim();
 
-  const match = clean.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error("No se encontró JSON válido en la respuesta");
-  return JSON.parse(match[0]);
+  try {
+    return JSON.parse(clean);
+  } catch {
+    const match = clean.match(/\{[\s\S]*\}/);
+    if (!match) throw new Error("Groq no devolvió JSON válido");
+    return JSON.parse(match[0]);
+  }
 }
 
 function savePost(data, topic) {
