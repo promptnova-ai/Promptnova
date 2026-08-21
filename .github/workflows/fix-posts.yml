@@ -31,5 +31,5 @@ jobs:
           git config user.email "bot@promptnova.com"
           git add posts/
           git diff --cached --quiet || git commit -m "🎨 Fix estilos en todos los posts"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
