@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-21-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
+    "title": "Prompts avanzados para crear contenido viral en redes sociales",
+    "description": "Descubre cómo diseñar prompts de IA que generen posts virales, con técnicas, ejemplos y trucos probados para Instagram, TikTok y más.",
+    "date": "2026-08-21",
+    "tags": [
+      "IA",
+      "prompt engineering",
+      "marketing digital"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Prompt 1 – Reel de TikTok sobre tendencias de moda\n\n\"Actúa como un creador de contenido en TikTok especializado en moda urbana. Genera un guion de 15 segundos que:\n1. Introduzca la tendencia del \"color neon\" con una frase impactante.\n2. Proponga tres outfits rápidos usando emojis para cada pieza.\n3. Termine con una llamada a la acción que invite a usar el hashtag #NeonChallenge.\nUtiliza un tono juvenil, humorístico y con ritmo acelerado. Incluye dos sugerencias de música viral del momento.\"",
+      "Prompt 2 – Carrusel de Instagram para una marca de café\n\n\"Eres un copywriter de Instagram para una cafetería artesanal. Crea una serie de 5 diapositivas que:\n- Diapositiva 1: Hook que mencione el aroma del café recién molido.\n- Diapositiva 2: Beneficio salud del café de origen único.\n- Diapositiva 3: Historia breve del proceso de tostado.\n- Diapositiva 4: Testimonio de un cliente usando una cita real.\n- Diapositiva 5: CTA que ofrezca un código de descuento del 15%.\nMantén un tono cálido, cercano y añade emojis de taza y hoja de café. Cada texto no debe superar 40 palabras.\"",
+      "Prompt 3 – Hilo de Twitter sobre productividad\n\n\"Simula a un experto en productividad que escribe un hilo de 8 tuits para profesionales que trabajan remoto. Cada tuit debe:\n- Incluir un consejo accionable.\n- Contener un dato estadístico reciente.\n- Finalizar con un emoji que refuerce la emoción.\nAl final del hilo, agrega un tuit que invite a seguir la cuenta para más tips. Usa un estilo conciso, directo y ligeramente humorístico.\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-08-21-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
     "title": "Cómo crear prompts perfectos para generar imágenes con IA",
     "description": "Aprende a redactar prompts precisos para obtener imágenes IA de alta calidad en minutos.",
