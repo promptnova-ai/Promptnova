@@ -102,9 +102,7 @@ function createAutoClassifiedPrompt(promptData) {
 function addAutoClassifiedPrompt(promptData) {
   const newPrompt = createAutoClassifiedPrompt(promptData);
   
-  // En app.js, hacemos push a PROMPTS
-  // Esto requiere exportar la función desde app.js:
-  // window.PROMPTS.push(newPrompt);
+  // La portada mantiene sus prompts en index.html; este resultado se usa en el panel.
   
   return newPrompt;
 }
