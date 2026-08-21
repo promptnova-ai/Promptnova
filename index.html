@@ -190,6 +190,21 @@
       transform:translate(-50%,-50%) rotate(32deg) scaleX(1.5);
       border-color:rgba(20,184,166,0.1);
     }
+    .hero-planet {
+      position:absolute; right:8%; bottom:10%; width:clamp(180px,24vw,320px); aspect-ratio:1;
+      border-radius:50%; pointer-events:none; opacity:0.9;
+      background:radial-gradient(circle at 42% 36%, rgba(20,184,166,0.9), transparent 38%), radial-gradient(circle at 55% 62%, #312e81 0 20%, #17133b 64%, #0b0920 100%);
+      box-shadow:-22px 24px 70px rgba(20,184,166,0.2), inset -28px -24px 50px rgba(0,0,0,0.65), inset 16px 10px 28px rgba(168,85,247,0.3);
+      transform:rotate(-16deg); animation:planetFloat 8s ease-in-out infinite;
+    }
+    .hero-planet::before, .hero-planet::after {
+      content:''; position:absolute; left:50%; top:50%; width:150%; height:34%;
+      border:1px solid rgba(192,132,252,0.52); border-radius:50%;
+      transform:translate(-50%,-50%) rotate(-18deg); box-shadow:0 0 20px rgba(168,85,247,0.2);
+    }
+    .hero-planet::after { width:174%; height:42%; border-color:rgba(20,184,166,0.22); }
+    @keyframes planetFloat { 0%,100% { translate:0 0; } 50% { translate:0 -10px; } }
+    .hero-planet-glow { position:absolute; right:4%; bottom:5%; width:clamp(220px,30vw,390px); aspect-ratio:1; border-radius:50%; pointer-events:none; background:radial-gradient(circle, rgba(124,58,237,0.18), transparent 68%); filter:blur(16px); }
     .hero-badge {
       display:inline-flex; align-items:center; gap:0.5rem;
       background:rgba(124,58,237,0.15); border:1px solid var(--border2);
@@ -202,7 +217,8 @@
       line-height:1.05; margin-bottom:1.25rem;
       letter-spacing:-0.02em;
     }
-    .hero h1 em { font-style:normal; color:var(--accent2); }
+    .hero h1 em { font-style:normal; color:var(--accent2); text-shadow:0 0 34px rgba(168,85,247,0.32); }
+    .hero h1 { max-width:900px; margin-left:auto; margin-right:auto; text-shadow:0 2px 24px rgba(0,0,0,0.35); }
     .hero h1 em { text-shadow:0 0 34px rgba(168,85,247,0.32); }
     .hero p {
       font-size:1.1rem; color:var(--text2); max-width:560px; margin:0 auto 2.5rem;
@@ -260,6 +276,8 @@
 
     /* SECTION */
     section { padding:5rem 2rem; max-width:1200px; margin:0 auto; }
+    section:nth-of-type(odd) { position:relative; }
+    section:nth-of-type(odd)::before { content:''; position:absolute; inset:2rem 0; z-index:-1; border-top:1px solid rgba(192,132,252,0.06); border-bottom:1px solid rgba(192,132,252,0.04); background:linear-gradient(90deg, transparent, rgba(91,33,182,0.045), transparent); pointer-events:none; }
     .section-label {
       display:inline-flex; align-items:center; gap:0.4rem;
       font-size:0.75rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase;
@@ -484,6 +502,8 @@
       nav { padding:0 1rem; }
       section { padding:3rem 1rem; }
       .hero { padding:5rem 1rem 3rem; }
+      .hero-planet { right:-8%; bottom:7%; width:190px; opacity:0.55; }
+      .hero-planet-glow { right:-12%; bottom:3%; width:240px; opacity:0.7; }
       .filter-bar { overflow-x:auto; flex-wrap:nowrap; padding-bottom:0.5rem; scrollbar-width:none; }
       .filter-bar::-webkit-scrollbar { display:none; }
       .filter-bar .filter-btn { flex:0 0 auto; }
@@ -540,6 +560,8 @@
 <main>
 <div id="inicio" class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-planet-glow" aria-hidden="true"></div>
+  <div class="hero-planet" aria-hidden="true"></div>
   <div style="position:relative; z-index:1; width:100%;">
     <div class="hero-badge">🪐 +100 prompts IA listos para usar</div>
     <h1>Desata el poder de la IA con <em>prompts que funcionan</em></h1>
