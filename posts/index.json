@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-21-domina-chatgpt-en-tu-trabajo-diario-guia-practica.html",
+    "title": "Domina ChatGPT en tu trabajo diario: guía práctica",
+    "description": "Aprende a usar ChatGPT para ser más productivo en tu día a día laboral con trucos, ejemplos y prompts listos para copiar.",
+    "date": "2026-08-21",
+    "tags": [
+      "ChatGPT",
+      "productividad",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un correo breve a mi cliente explicando el retraso del proyecto y proponiendo una nueva fecha de entrega.",
+      "Genera una lista de 5 ideas creativas para una campaña de marketing en redes sociales sobre un nuevo producto ecológico.",
+      "Resume el siguiente artículo de 1500 palabras en tres párrafos, resaltando los hallazgos principales y las conclusiones."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.",
