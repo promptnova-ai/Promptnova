@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-21-como-usar-la-ia-para-generar-ideas-de-negocio-en-minutos.html",
+    "title": "Cómo usar la IA para generar ideas de negocio en minutos",
+    "description": "Descubre cómo la inteligencia artificial te ayuda a crear ideas de negocio en pocos minutos con ejemplos prácticos y prompts listos para usar.",
+    "date": "2026-08-21",
+    "tags": [
+      "IA",
+      "ideas de negocio",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Prompt 1: \"Genera 10 ideas de negocio rentables en el sector de la alimentación saludable para personas entre 25 y 40 años, con un presupuesto inicial de 5.000 euros. Presenta cada idea en una tabla con columnas: Nombre, Propuesta de valor, Público objetivo, Costos iniciales estimados y Principales retos.\"",
+      "Prompt 2: \"Imagina 7 startups tecnológicas que resuelvan problemas de logística en ciudades medianas de América Latina. Cada propuesta debe incluir: descripción breve, tecnología clave, modelo de ingresos y un plan de lanzamiento de 3 meses.\"",
+      "Prompt 3: \"Lista 5 oportunidades de negocio basadas en IA para el sector educativo, enfocadas en estudiantes de educación secundaria. Incluye ejemplos de casos de uso, herramientas necesarias y métricas de éxito a 12 meses.\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-08-21-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
     "title": "Prompts avanzados para crear contenido viral en redes sociales",
     "description": "Descubre cómo diseñar prompts de IA que generen posts virales, con técnicas, ejemplos y trucos probados para Instagram, TikTok y más.",
