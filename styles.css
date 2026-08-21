@@ -34,6 +34,41 @@
       overflow-x: hidden;
     }
 
+    #promptnova-consent {
+      position: fixed;
+      z-index: 1000;
+      right: 1rem;
+      bottom: 1rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      max-width: 46rem;
+      padding: 1rem 1.25rem;
+      border: 1px solid var(--border2);
+      border-radius: 8px;
+      background: var(--card);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    #promptnova-consent strong { display: block; margin-bottom: 0.25rem; }
+    #promptnova-consent p { margin: 0; color: var(--text2); font-size: 0.9rem; line-height: 1.45; }
+    #promptnova-consent a { color: var(--accent3); }
+    .promptnova-consent-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+    .promptnova-consent-actions button {
+      border: 1px solid var(--border2);
+      border-radius: 6px;
+      padding: 0.55rem 0.8rem;
+      color: var(--text);
+      background: var(--bg3);
+      cursor: pointer;
+    }
+    .promptnova-consent-actions button:last-child { background: var(--accent); }
+
+    @media (max-width: 640px) {
+      #promptnova-consent { right: 0.75rem; bottom: 0.75rem; left: 0.75rem; display: block; }
+      .promptnova-consent-actions { margin-top: 0.75rem; justify-content: flex-end; }
+    }
+
     /* NAV */
     nav {
       position: fixed; top:0; left:0; right:0; z-index:100;

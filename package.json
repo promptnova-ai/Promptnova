@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Generador automático de posts con ChatGPT para PromptNova",
   "scripts": {
-    "generate": "node scripts/generate-post.js"
+    "generate": "node scripts/generate-post.js",
+    "sitemap": "node scripts/sync-sitemap.js",
+    "repair-seo": "node scripts/repair-post-seo.js",
+    "remove-duplicates": "node scripts/remove-duplicate-posts.js"
   }
 }
