@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-21-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
+    "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
+    "description": "Descubre técnicas y ejemplos para escribir prompts que siempre obtengan los resultados esperados en IA.",
+    "date": "2026-08-21",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Rol: ...\nObjetivo: ...\nInstrucciones:\n- Paso 1\n- Paso 2\nFormato de salida: ...",
+      "Rol: Redactor creativo especializado en storytelling.\nObjetivo: Escribir una historia corta de 300 palabras sobre un robot que descubre la música.\nInstrucciones:\n- Introduce al personaje en el primer párrafo.\n- Describe la emoción que siente al escuchar la primera nota.\n- Concluye con un mensaje inspirador.\nFormato de salida: Texto plano sin viñetas.",
+      "Rol: Analista de datos senior.\nObjetivo: Generar un informe ejecutivo sobre el crecimiento de usuarios de una app en Q2 2024.\nInstrucciones:\n- Incluye una tabla con los porcentajes mensuales.\n- Resalta los tres factores clave que impulsaron el crecimiento.\n- Propón dos recomendaciones accionables.\nFormato de salida: Markdown con tabla y viñetas.",
+      "Rol: Coach de productividad.\nObjetivo: Crear una lista de hábitos diarios para mejorar la concentración.\nInstrucciones:\n- Cada hábito debe incluir una breve explicación (máximo 30 palabras).\n- Ordena los hábitos por prioridad, del más impactante al menos.\n- Añade un emoji al inicio de cada ítem.\nFormato de salida: Lista ordenada (1., 2., 3.) sin numeración adicional."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-08-21-los-10-prompts-que-dominan-el-marketing-digital.html",
     "title": "Los 10 prompts que dominan el marketing digital",
     "description": "Descubre los prompts más usados por expertos en marketing para crear campañas efectivas y contenido persuasivo en IA.",
