@@ -2,8 +2,7 @@ import fs from "fs";
 import path from "path";
 
 // Script de reparación de emergencia: corrige el <base href> de cualquier
-// post que se haya publicado con un valor incorrecto (p.ej. "/", cuando el
-// sitio vive en /Promptnova/ dentro de GitHub Pages), lo que provoca que
+// post que se haya publicado con un valor incorrecto, lo que provoca que
 // styles.css y las fuentes no carguen y el post se vea sin formato.
 //
 // Ya NO reescribe la estructura del post (nav, header, main, footer): todos
@@ -12,7 +11,7 @@ import path from "path";
 //
 // Uso: node scripts/fix-posts.js
 
-const SITE_BASE_PATH = "/Promptnova/";
+const SITE_BASE_PATH = "/";
 
 const postsDir = path.join(process.cwd(), "posts");
 const files = fs.readdirSync(postsDir).filter((f) => f.endsWith(".html"));

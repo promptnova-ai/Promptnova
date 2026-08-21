@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://promptnova-ai.github.io/Promptnova/sitemap.xml
+Sitemap: https://promptnova.me/sitemap.xml

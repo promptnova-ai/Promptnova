@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const SITE_BASE = "https://promptnova-ai.github.io/Promptnova";
+const SITE_BASE = "https://promptnova.me";
 const postsDir = path.join(process.cwd(), "posts");
 
 for (const filename of fs.readdirSync(postsDir).filter((file) => file.endsWith(".html"))) {
