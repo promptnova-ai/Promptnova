@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-08-21-los-10-prompts-que-dominan-el-marketing-digital.html",
+    "title": "Los 10 prompts que dominan el marketing digital",
+    "description": "Descubre los prompts más usados por expertos en marketing para crear campañas efectivas y contenido persuasivo en IA.",
+    "date": "2026-08-21",
+    "tags": [
+      "marketing",
+      "prompt engineering",
+      "inteligencia artificial"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Genera diez ideas de contenido para Instagram sobre tendencias de moda sostenible, con un tono cercano y llamado a la acción.",
+      "Escribe un anuncio de 30 caracteres para Facebook Ads que promocione un curso de fotografía online, resaltando \"aprende en 7 días\" y un 20% de descuento.",
+      "Redacta una descripción de 150 palabras para una mochila de cuero vegano, destacando durabilidad, estilo urbano y garantía de 2 años.",
+      "Escribe un guion de 45 segundos para TikTok que explique cómo usar un filtro de Instagram para aumentar la visibilidad de una tienda online.",
+      "Analiza los siguientes resultados de campaña (CTR 2.5%, CPC $0.45, conversiones 120) y sugiere tres mejoras para reducir el CPC en un 15%.",
+      "Genera una línea de asunto para una newsletter de ecommerce dirigida a clientes que compraron zapatillas el mes pasado, con enfoque en \"nuevos colores\".",
+      "Propón una estructura de encabezados (H1, H2, H3) y una lista de palabras clave para un artículo sobre \"marketing de contenidos para startups\".",
+      "Diseña un calendario de contenidos para Instagram y LinkedIn durante 4 semanas, con temática semanal: branding, publicidad paga, email marketing y analítica.",
+      "Escribe tres testimonios de 2‑3 frases para un software de gestión de proyectos, resaltando facilidad de uso, ahorro de tiempo y soporte excelente.",
+      "Formula cinco preguntas cortas para una encuesta NPS dirigida a usuarios de una app de meditación, enfocadas en usabilidad y valor percibido."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-08-21-domina-chatgpt-en-tu-trabajo-diario-guia-practica.html",
     "title": "Domina ChatGPT en tu trabajo diario: guía práctica",
     "description": "Aprende a usar ChatGPT para ser más productivo en tu día a día laboral con trucos, ejemplos y prompts listos para copiar.",
