@@ -2,27 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/privacidad.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/terminos.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/aviso-legal.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-20-prompt-engineering-para-developers-trucos-que-no-conocias.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-17-automatiza-tu-negocio.html</loc>
     <lastmod>2026-08-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-16-asistente-personal.html</loc>
-    <lastmod>2026-08-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -31,8 +41,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-16-asistente-personal.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-16-aprende-10-veces-mas-rapido.html</loc>
     <lastmod>2026-08-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-15-prompts-creativos.html</loc>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -46,8 +66,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-15-prompts-creativos.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-14-imagenes-con-ia.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -61,17 +81,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-14-imagenes-con-ia.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-13-prompts-infalibles.html</loc>
-    <lastmod>2026-08-13</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-13-10-prompts-de-marketing.html</loc>
     <lastmod>2026-08-13</lastmod>
     <priority>0.6</priority>
   </url>
@@ -81,213 +91,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-12-errores-comunes-en-prompts.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-12-prompt-engineering.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-12-automatiza-tu-negocio.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-11-asistente-personal.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-11-escribiendo-emails-profesionales.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-10-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-08-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-10-ia-para-seo.html</loc>
-    <lastmod>2026-08-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-10-crea-un-curso-online.html</loc>
-    <lastmod>2026-08-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-09-prompts-creativos.html</loc>
-    <lastmod>2026-08-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-09-ideas-de-negocio-con-ia.html</loc>
-    <lastmod>2026-08-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-09-prompts-virales.html</loc>
-    <lastmod>2026-08-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-08-imagenes-con-ia.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-08-prompts-infalibles.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-08-prompts-de-marketing.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-07-domina-chatgpt.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-07-errores-comunes-en-prompts.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-07-prompt-engineering.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-06-automatiza-tu-negocio.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-06-asistente-personal-con-chatgpt.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-05-escribir-emails-con-ia.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-05-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-05-ia-para-seo.html</loc>
-    <lastmod>2026-08-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-04-crea-un-curso-online.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-04-prompts-creativos.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-04-ideas-de-negocio-con-ia.html</loc>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-03-contenido-viral.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-03-imagenes-perfectas-con-ia.html</loc>
-    <lastmod>2026-08-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-02-prompts-infalibles.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-02-prompts-de-marketing.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-01-domina-chatgpt.html</loc>
-    <lastmod>2026-08-01</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-01-errores-comunes-en-prompts.html</loc>
-    <lastmod>2026-08-01</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-31-prompt-engineering.html</loc>
-    <lastmod>2026-07-31</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-31-automatiza-tu-negocio.html</loc>
-    <lastmod>2026-07-31</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-31-asistente-personal.html</loc>
-    <lastmod>2026-07-31</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-30-escribiendo-emails-con-ia.html</loc>
-    <lastmod>2026-07-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-30-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-07-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-30-ia-para-seo.html</loc>
-    <lastmod>2026-07-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-29-crea-un-curso-online.html</loc>
-    <lastmod>2026-07-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-29-prompts-creativos.html</loc>
-    <lastmod>2026-07-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-29-ideas-de-negocio-con-ia.html</loc>
-    <lastmod>2026-07-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-28-prompts-virales.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-28-imagenes-con-ia.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-08-13-10-prompts-de-marketing.html</loc>
+    <lastmod>2026-08-13</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -296,138 +101,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-27-imagenes-perfectas-con-ia.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-27-domina-chatgpt.html</loc>
-    <lastmod>2026-07-27</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-escribiendo-emails-profesionales.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-escribe-prompts-infalibles.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-26-imagenes-ia-perfectas.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-25-errores-en-prompts.html</loc>
-    <lastmod>2026-07-25</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-25-prompts-virales.html</loc>
-    <lastmod>2026-07-25</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-25-ia-para-seo.html</loc>
-    <lastmod>2026-07-25</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-24-escribiendo-emails-profesionales.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-24-automatiza-tu-negocio.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-24-asistente-personal.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-24-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-23-asistente-personal.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-23-10-prompts-de-marketing.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-23-prompt-engineering.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-22-domina-chatgpt.html</loc>
-    <lastmod>2026-07-22</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-22-prompts-creativos.html</loc>
-    <lastmod>2026-07-22</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-21-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-21-prompts-creativos.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-21-prompt-engineering.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-20-domina-chatgpt.html</loc>
-    <lastmod>2026-07-20</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-19-prompt-engineering.html</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-19-prompts-de-marketing.html</loc>
     <lastmod>2026-07-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-19-crea-un-curso-online.html</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-18-imagenes-con-ia.html</loc>
-    <lastmod>2026-07-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-18-asistente-personal.html</loc>
-    <lastmod>2026-07-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-18-ia-para-seo.html</loc>
-    <lastmod>2026-07-18</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -436,33 +111,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-17-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-06-prompts-perfectos.html</loc>
+    <lastmod>2026-07-06</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-16-prompts-infalibles.html</loc>
-    <lastmod>2026-07-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-16-crea-un-curso-online.html</loc>
-    <lastmod>2026-07-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-16-aprende-10-veces-mas-rapido.html</loc>
-    <lastmod>2026-07-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-15-domina-chatgpt.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-07-15-imagenes-con-ia.html</loc>
-    <lastmod>2026-07-15</lastmod>
+    <loc>https://promptnova-ai.github.io/Promptnova/posts/2026-06-28-prompts-avanzados.html</loc>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

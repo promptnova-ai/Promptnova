@@ -199,13 +199,26 @@ function savePost(data, topic) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${data.title} | PromptNova</title>
   <meta name="description" content="${data.description}">
+  <meta name="author" content="PromptNova">
   <meta property="og:title" content="${data.title} | PromptNova">
   <meta property="og:description" content="${data.description}">
   <meta property="og:type" content="article">
+  <meta property="og:url" content="${SITE_BASE}/posts/${filename}">
+  <link rel="canonical" href="${SITE_BASE}/posts/${filename}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7965643620841539" crossorigin="anonymous"></script>
+  <script src="/Promptnova/consent.js"></script>
+  <script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: data.title,
+    description: data.description,
+    author: { "@type": "Organization", name: "PromptNova" },
+    datePublished: date,
+    dateModified: date,
+    mainEntityOfPage: `${SITE_BASE}/posts/${filename}`,
+  })}</script>
 </head>
 <body>
 
@@ -266,6 +279,7 @@ function savePost(data, topic) {
         <ul>
           <li><a href="./privacidad.html">Política de Privacidad</a></li>
           <li><a href="./terminos.html">Términos de Uso</a></li>
+          <li><a href="./aviso-legal.html">Aviso Legal</a></li>
         </ul>
       </div>
     </div>
@@ -414,12 +428,19 @@ function syncSitemap(index) {
     { loc: `${SITE_BASE}/`, priority: "1.0", lastmod: today },
     { loc: `${SITE_BASE}/privacidad.html`, priority: "0.3", lastmod: today },
     { loc: `${SITE_BASE}/terminos.html`, priority: "0.3", lastmod: today },
+    { loc: `${SITE_BASE}/aviso-legal.html`, priority: "0.3", lastmod: today },
   ];
-  const postUrls = index.map((p) => ({
-    loc: `${SITE_BASE}/posts/${p.slug}`,
-    priority: "0.6",
-    lastmod: p.date || today,
-  }));
+  const postsDir = path.join(process.cwd(), "posts");
+  const postUrls = fs
+    .readdirSync(postsDir)
+    .filter((file) => file.endsWith(".html"))
+    .sort()
+    .reverse()
+    .map((file) => ({
+      loc: `${SITE_BASE}/posts/${file}`,
+      priority: "0.6",
+      lastmod: file.slice(0, 10) || today,
+    }));
 
   const all = [...staticUrls, ...postUrls];
   const xml =

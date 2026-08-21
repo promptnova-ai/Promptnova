@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <base href="/Promptnova/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Errores comunes al escribir prompts y cómo evitarlos | PromptNova</title>
+  <meta name="author" content="PromptNova">
+  <meta name="description" content="Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.">
+  <meta property="og:title" content="Errores comunes al escribir prompts y cómo evitarlos | PromptNova">
+  <meta property="og:description" content="Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://promptnova-ai.github.io/Promptnova/posts/2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html">
+  <link rel="canonical" href="https://promptnova-ai.github.io/Promptnova/posts/2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7965643620841539" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav role="navigation" aria-label="Navegación principal">
+    <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+    <div class="nav-links">
+      <a href="./#inicio">Inicio</a>
+      <a href="./#posts">Prompts</a>
+      <a href="./#categorias">Categorías</a>
+      <a href="./#blog" class="active">Blog</a>
+      <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="./#inicio" onclick="closeMenu()">Inicio</a>
+    <a href="./#posts" onclick="closeMenu()">Prompts</a>
+    <a href="./#categorias" onclick="closeMenu()">Categorías</a>
+    <a href="./#blog" onclick="closeMenu()">Blog</a>
+    <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+  </div>
+
+  <main class="post-container">
+    <div class="post-header">
+      <a href="./" class="post-back">← Volver al inicio</a>
+      <span class="post-tag">prompt engineering</span>
+      <h1>Errores comunes al escribir prompts y cómo evitarlos</h1>
+      <p class="post-meta">
+        <time datetime="2026-08-20">2026-08-20</time> · 
+        5 min de lectura · 
+        <span class="tag">prompt engineering</span> <span class="tag">IA</span> <span class="tag">errores comunes</span>
+      </p>
+    </div>
+
+    <div class="post-content">
+      <article>
+  <h2>Introducción</h2>
+  <p>Los modelos de lenguaje generativo son herramientas poderosas, pero su desempeño depende en gran medida de la calidad del prompt que les entregues. Un prompt mal formulado puede generar respuestas incoherentes, fuera de contexto o simplemente inútiles. En este artículo analizamos los errores más habituales al redactar prompts y ofrecemos soluciones concretas para evitarlos.</p>
+
+  <h2>1. Ser demasiado vago</h2>
+  <p>Cuando el prompt carece de detalle, la IA tiene que adivinar tus intenciones, lo que suele producir resultados genéricos.</p>
+  <ul>
+    <li><strong>Qué ocurre:</strong> "Escribe un artículo sobre tecnología".</li>
+    <li><strong>Cómo evitarlo:</strong> Especifica el enfoque, la audiencia y la extensión.</li>
+  </ul>
+  <pre><code>Escribe un artículo de 800 palabras dirigido a emprendedores que explique las tendencias de IA en la automatización de procesos para 2025.</code></pre>
+
+  <h2>2. Ignorar el contexto previo</h2>
+  <p>Los modelos no recuerdan conversaciones anteriores a menos que se les proporcione el historial. Olvidar incluir información relevante lleva a respuestas desconectadas.</p>
+  <blockquote>"El contexto es la brújula que orienta al modelo hacia la respuesta esperada"</blockquote>
+  <pre><code>Contexto: Hemos lanzado una app de meditación y queremos una campaña en redes.
+Prompt: Sugiere cinco ideas de contenido para Instagram que destaquen los beneficios del mindfulness.</code></pre>
+
+  <h2>3. Dar instrucciones contradictorias</h2>
+  <p>Indicaciones que se contradicen confunden al modelo y pueden producir respuestas parciales o erróneas.</p>
+  <ul>
+    <li>Ejemplo problemático: "Escribe un resumen breve, pero incluye todos los detalles técnicos".</li>
+  </ul>
+  <p>Reformula para que la petición sea coherente.</p>
+  <pre><code>Redacta un resumen de 150 palabras que destaque los principales avances técnicos del modelo GPT‑4.</code></pre>
+
+  <h2>4. No definir el formato de salida</h2>
+  <p>Si no indicas cómo quieres recibir la información, la IA puede entregarla en un estilo que no se ajuste a tus necesidades.</p>
+  <ul>
+    <li>Sin formato: "Explícame la diferencia entre supervised y unsupervised learning".</li>
+    <li>Con formato: "Enumera en una tabla de dos columnas la diferencia entre supervised y unsupervised learning".</li>
+  </ul>
+  <pre><code>Genera una tabla markdown con dos columnas: "Método" y "Características principales" para supervised learning y unsupervised learning.</code></pre>
+
+  <h2>5. Olvidar validar y refinar</h2>
+  <p>Incluso un buen prompt puede producir respuestas con errores. Es fundamental revisar, corregir y, si es necesario, volver a preguntar.</p>
+  <p>Una práctica recomendada es usar un prompt de verificación:</p>
+  <pre><code>Revisa la respuesta anterior y corrige cualquier inexactitud factual. Luego, resume los puntos clave en tres viñetas.</code></pre>
+
+  <h2>Conclusión</h2>
+  <p>Evitar los errores comunes al escribir prompts no es cuestión de suerte, sino de aplicar una metodología clara:</p>
+  <ul>
+    <li>Define el objetivo y el público.</li>
+    <li>Incluye todo el contexto necesario.</li>
+    <li>Redacta instrucciones coherentes y sin ambigüedades.</li>
+    <li>Especifica el formato de salida deseado.</li>
+    <li>Revisa y refina la respuesta.</li>
+  </ul>
+  <p>Con estos pasos, tus interacciones con la IA serán más productivas y obtendrás resultados alineados con tus expectativas.</p>
+</article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+        <p>Tu copiloto en el universo de la inteligencia artificial.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="./#posts">Todos los prompts</a></li>
+          <li><a href="./#blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="./privacidad.html">Política de Privacidad</a></li>
+          <li><a href="./terminos.html">Términos de Uso</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© PromptNova 2026 — Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const btn = document.querySelector('.hamburger');
+      const isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    function closeMenu() {
+      document.getElementById('mobile-menu').classList.remove('open');
+      document.querySelector('.hamburger').setAttribute('aria-expanded', 'false');
+    }
+  </script>
+</body>
+</html>
