@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-21-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
+    "title": "Cómo crear prompts perfectos para generar imágenes con IA",
+    "description": "Aprende a redactar prompts precisos para obtener imágenes IA de alta calidad en minutos.",
+    "date": "2026-08-21",
+    "tags": [
+      "IA",
+      "prompts",
+      "arte digital"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "[[Sujeto principal]], [[Acción o estado]], [[Estilo artístico]], [[Iluminación]], [[Composición]], [[Detalles adicionales]]",
+      "Una cadena montañosa al atardecer, vista panorámica, estilo arte digital hiperrealista, luz dorada, perspectiva de gran angular, niebla ligera en el valle, sin edificios modernos",
+      "Retrato de una elfa guerrera, mirada intensa, estilo ilustración de cómic de los 90, iluminación de contraluz, plano medio, capa de hojas doradas, sin armas visibles",
+      "Calles de Tokio en 2099, neón azul y rosa, estilo película noir, lluvia ligera, toma a nivel de la calle, drones volando, sin personas"
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-08-21-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
     "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
     "description": "Descubre técnicas y ejemplos para escribir prompts que siempre obtengan los resultados esperados en IA.",
