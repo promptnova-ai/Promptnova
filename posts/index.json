@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-08-22-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html",
+    "title": "Cómo usar ChatGPT para crear un curso online desde cero",
+    "description": "Aprende paso a paso a diseñar, redactar y pulir un curso online completo usando ChatGPT y prompts efectivos. Guía práctica y ejemplos listos para copiar.",
+    "date": "2026-08-22",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Actúa como diseñador instruccional y crea un temario de 8 módulos para un curso online de introducción a la fotografía digital. Cada módulo debe incluir título, objetivo de aprendizaje y 3 lecciones.",
+      "Genera el contenido de la lección 2 del módulo 3 sobre \"Composición fotográfica\". Incluye una explicación de 300 palabras, 2 ejemplos prácticos y 3 preguntas de reflexión.",
+      "Propón 5 actividades interactivas para la lección \"Iluminación en retratos\", especificando formato (quiz, proyecto, foro) y criterios de evaluación.",
+      "Revisa el siguiente fragmento y hazlo más conciso, manteniendo la claridad y el tono educativo:\n[pega aquí el texto]",
+      "Escribe una meta descripción de 150 caracteres para un curso online de fotografía digital dirigido a principiantes.",
+      "Redacta una página de venta persuasiva para un curso de fotografía digital de 8 semanas, resaltando beneficios, testimonio ficticio y llamada a la acción."
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-08-22-prompts-creativos-para-disenadores-graficos-potencia-tu-arte.html",
     "title": "Prompts creativos para diseñadores gráficos: potencia tu arte IA",
     "description": "Descubre los mejores prompts de IA para diseñadores gráficos, ejemplos listos para copiar y potenciar tu creatividad visual al máximo.",
