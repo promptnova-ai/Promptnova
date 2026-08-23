@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-23-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
+    "title": "Construye tu propio asistente personal con ChatGPT y prompts",
+    "description": "Aprende paso a paso a crear un asistente personal con ChatGPT, diseñando prompts efectivos, integrándolo y personalizándolo para tus necesidades.",
+    "date": "2026-08-23",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "Actúa como un asistente de agenda personal. Cada vez que el usuario te pida programar una cita, responde con la fecha, hora y ubicación en formato JSON:\n{\n  \"evento\": \"Reunión de proyecto\",\n  \"fecha\": \"2026-09-15\",\n  \"hora\": \"10:00\",\n  \"lugar\": \"Sala 3\"\n}\nMantén un tono cordial y confirma siempre la información.",
+      "Eres un asistente que resume correos largos. Recibe el cuerpo del correo y devuelve un resumen de máximo 3 líneas, resaltando acciones a tomar. Usa viñetas si hay varios puntos.",
+      "Actúa como un buscador interno. Cuando el usuario solicite datos, responde con una breve explicación y una fuente fiable en formato markdown. Si no conoces la respuesta, indica que consultarás fuentes externas.",
+      "import openai, os\n\nopenai.api_key = os.getenv(\"OPENAI_API_KEY\")\n\ndef preguntar_asistente(prompt, user_input):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-4o-mini\",\n        messages=[\n            {\"role\": \"system\", \"content\": prompt},\n            {\"role\": \"user\", \"content\": user_input}\n        ],\n        temperature=0.7\n    )\n    return response.choices[0].message.content.strip()"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-08-23-los-mejores-prompts-para-escribir-emails-profesionales-con-i.html",
     "title": "Los mejores prompts para escribir emails profesionales con IA",
     "description": "Descubre los prompts más efectivos para generar emails profesionales con IA, con ejemplos listos para usar y consejos prácticos.",
