@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-23-aprende-cualquier-tema-10x-mas-rapido-con-prompts-inteligent.html",
+    "title": "Aprende cualquier tema 10x más rápido con prompts inteligentes",
+    "description": "Descubre cómo usar prompts de IA para aprender cualquier tema diez veces más rápido, con ejemplos prácticos y técnicas probadas.",
+    "date": "2026-08-23",
+    "tags": [
+      "IA",
+      "prompts",
+      "aprendizaje rápido"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Actúa como un experto en [área de estudio]. Explícame los conceptos clave de [tema] en no más de 5 párrafos, usando analogías cotidianas. Después, genera 3 preguntas de práctica con sus respuestas y una tabla comparativa de los puntos más importantes.\"",
+      "\"Actúa como profesor de economía. Resúmeme la teoría de juegos en 4 párrafos, incluye ejemplos simples como el dilema del prisionero y la carrera armamentista, y termina con una lista de 5 términos que debo memorizar.\"",
+      "\"Eres mi tutor de biología. Genera una hoja de estudio de 2 páginas sobre la fotosíntesis. Incluye: 1) definición breve, 2) etapas principales en formato de tabla, 3) 3 preguntas de verdadero/falso con explicación, 4) una analogía visual que pueda dibujar.\"",
+      "\"Imagina que soy un desarrollador junior y tú eres un ingeniero senior en Haskell. Mantén una conversación de 6 intercambios donde me expliques los conceptos de monads, functors y aplicativos, usando ejemplos de código y comparaciones con JavaScript.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-08-22-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html",
     "title": "IA para SEO: Prompts que impulsan tu posicionamiento",
     "description": "Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking, atraen tráfico y convierten lectores en clientes.",
