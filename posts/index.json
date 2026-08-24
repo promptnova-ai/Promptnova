@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-24-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para usar y mejorar tu productividad IA.",
+    "date": "2026-08-24",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA",
+      "trucos"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "---Contexto---\nEres un asistente especializado en depuración de código Python. El proyecto usa Django 4.2 y PostgreSQL.\n---Tarea---\nIdentifica el error en el siguiente fragmento y sugiere una solución.\n```python\ntry:\n    user = User.objects.get(id=user_id)\nexcept User.DoesNotExist:\n    return None\n```",
+      "Actúa como un analista de logs. Primero enumera los eventos sospechosos, luego explica por qué son relevantes y, finalmente, propone una acción correctiva.\nLog:\n[2023-07-01 12:45:23] ERROR: Timeout al conectar a la base de datos.\n[2023-07-01 12:45:25] WARN: Reintento de conexión.\n[2023-07-01 12:45:30] INFO: Conexión exitosa.",
+      "# Ejemplo 1\nInput: Convierte 1500 ms a segundos.\nOutput: 1.5 segundos\n\n# Ejemplo 2\nInput: Convierte 7200 ms a segundos.\nOutput: 7.2 segundos\n\n# Tu petición\nInput: Convierte 3450 ms a segundos."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-08-24-automatiza-tu-negocio-con-prompts-inteligentes.html",
     "title": "Automatiza tu negocio con prompts inteligentes",
     "description": "Descubre cómo usar prompts de IA para optimizar procesos, ahorrar tiempo y escalar tu empresa de forma sencilla.",
