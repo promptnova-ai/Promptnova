@@ -2,23 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova.me/</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova.me/privacidad.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/terminos.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/aviso-legal.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-08-24-automatiza-tu-negocio-con-prompts-inteligentes.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://promptnova.me/posts/2026-08-23-los-mejores-prompts-para-escribir-emails-profesionales-con-i.html</loc>
