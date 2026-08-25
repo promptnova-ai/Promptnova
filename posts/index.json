@@ -1,5 +1,28 @@
 [
   {
+    "slug": "2026-08-25-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más habituales al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
+    "date": "2026-08-25",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Escribe una historia.",
+      "Describe el proceso.",
+      "Redacta un artículo de 1000 palabras sobre IA, incluye historia, ejemplos, estadísticas, tono humorístico y conclusiones.",
+      "Dame una lista de ventajas de la IA.",
+      "Explica la computación cuántica.",
+      "Objetivo: [qué deseas obtener]\nContexto: [información relevante]\nRestricciones: [longitud, tono, formato]\nEjemplo de salida esperada: [breve muestra]",
+      "Objetivo: Redactar una introducción de 150 palabras sobre los beneficios de la energía solar.\nContexto: Público objetivo son propietarios de viviendas en zonas suburbanas.\nRestricciones: tono amigable, estilo persuasivo, sin usar jerga técnica.\nEjemplo de salida esperada: \"La energía solar ...\""
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-08-24-prompt-engineering-para-developers-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: trucos que no conocías",
     "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para usar y mejorar tu productividad IA.",
