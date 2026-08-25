@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-08-25-los-10-prompts-esenciales-que-usan-los-expertos-en-marketing.html",
+    "title": "Los 10 prompts esenciales que usan los expertos en marketing",
+    "description": "Descubre los 10 prompts más efectivos que los profesionales del marketing usan con IA para crear campañas, contenido y análisis.",
+    "date": "2026-08-25",
+    "tags": [
+      "marketing",
+      "prompts",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Escribe 10 ideas de artículos de blog para una empresa de software SaaS dirigida a startups tecnológicas, enfocadas en crecimiento y retención de clientes.",
+      "Redacta 5 versiones de copy para un anuncio de Facebook de un curso de marketing digital, con tono profesional y llamado a la acción que incluya “Inscríbete ahora”.",
+      "Describe el buyer persona de un producto de nutrición deportiva para mujeres entre 25 y 35 años, incluyendo datos demográficos, intereses, motivaciones y objeciones.",
+      "Resume las principales tendencias de marketing de contenidos en 2024 para la industria de la moda, con ejemplos de marcas líderes.",
+      "Genera 7 títulos SEO para un artículo sobre “email marketing efectivo”, incorporando la keyword “aumentar tasas de apertura”.",
+      "Escribe un guion de 2 minutos para un video de lanzamiento de una herramienta de automatización de marketing, siguiendo la fórmula AIDA.",
+      "Diseña una secuencia de 4 correos de nurturing para leads que descargaron un ebook sobre SEO, con objetivo de convertirlos en clientes de consultoría.",
+      "Analiza la siguiente landing page y sugiere 5 cambios para mejorar la tasa de conversión: [URL o descripción breve].",
+      "Elabora una tabla comparativa de 3 competidores principales en el sector de herramientas de email marketing, destacando precios, funcionalidades y soporte.",
+      "Calcula el ROI de una campaña de Google Ads que generó 150 leads a un costo total de $2,500 y un valor medio de cliente de $500."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-08-25-domina-chatgpt-en-tu-dia-a-dia-y-potencia-tu-trabajo.html",
     "title": "Domina ChatGPT en tu día a día y potencia tu trabajo",
     "description": "Descubre cómo usar ChatGPT para mejorar tu productividad, con trucos, ejemplos y prompts listos para aplicar en tu trabajo diario.",
