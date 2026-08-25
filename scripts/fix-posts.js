@@ -25,6 +25,8 @@ for (const file of files) {
 
   // 1. Normalizar el <base href> al valor correcto, sea cual sea el que tenga
   html = html.replace(/<base href="[^"]*">/, `<base href="${SITE_BASE_PATH}">`);
+  html = html.replace(/<link rel="stylesheet" href="(?:\/?Promptnova\/)?styles\.css">/, '<link rel="stylesheet" href="/styles.css">');
+  html = html.replace(/<script src="\/?Promptnova\/consent\.js"><\/script>/, '<script src="/consent.js"></script>');
 
   // Si el post no tenía <base> (no debería pasar, pero por si acaso),
   // lo insertamos justo después de <meta charset>.

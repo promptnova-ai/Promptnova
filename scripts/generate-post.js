@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const SITE_BASE_PATH = "/";
 
 const TOPICS = [
   "Los mejores prompts para escribir emails profesionales con IA",
@@ -140,22 +141,43 @@ function normalizePost(data) {
   if (!title || !description || !html) {
     throw new Error("Groq devolvió un artículo incompleto");
   }
+  if ((html.match(/<pre[^>]*>\s*<code[^>]*>/gi) || []).length < 3) {
+    throw new Error("Groq devolvió un artículo sin suficientes ejemplos de prompts");
+  }
 
   return { title, description, tags: tags.length > 0 ? tags : ["IA"], readingTime, html };
 }
 
 async function generatePost(topic) {
-  const request = {
+  const requestPayload = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${GROQ_API_KEY}`,
     },
-    body: JSON.stringify({
+    body: {
       model: "openai/gpt-oss-120b",
       max_tokens: 6000,
       temperature: 0.8,
-      response_format: { type: "json_object" },
+      response_format: {
+        type: "json_schema",
+        json_schema: {
+          name: "promptnova_post",
+          strict: true,
+          schema: {
+            type: "object",
+            properties: {
+              title: { type: "string" },
+              description: { type: "string" },
+              tags: { type: "array", items: { type: "string" } },
+              readingTime: { type: "integer" },
+              html: { type: "string" },
+            },
+            required: ["title", "description", "tags", "readingTime", "html"],
+            additionalProperties: false,
+          },
+        },
+      },
       messages: [
         {
           role: "system",
@@ -184,51 +206,83 @@ El campo html debe contener:
 - Sin estilos inline`,
         },
       ],
-    }),
+    },
   };
 
   let response;
   let lastError;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    const request = {
+      ...requestPayload,
+      body: JSON.stringify({
+        ...requestPayload.body,
+        ...(attempt >= 3
+          ? { response_format: { type: "json_object" } }
+          : {}),
+      }),
+    };
     try {
-      response = await fetch("https://api.groq.com/openai/v1/chat/completions", request);
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 60000);
+      response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        ...request,
+        signal: controller.signal,
+      });
+      clearTimeout(timeout);
     } catch (error) {
       lastError = error;
-      if (attempt < 3) await wait(attempt * 2000);
+      if (attempt < 5) await wait(Math.min(30000, 2000 * 2 ** (attempt - 1)));
       continue;
     }
 
-    if (response.ok || (response.status !== 429 && response.status < 500)) break;
-    lastError = new Error(`Groq API error ${response.status}`);
-    if (attempt < 3) await wait(attempt * 2000);
+    if (response.ok) {
+      try {
+        const data = await response.json();
+        const raw = data.choices?.[0]?.message?.content;
+        if (!raw || typeof raw !== "string") {
+          throw new Error("Groq no devolvió contenido en la respuesta");
+        }
+
+        const clean = raw
+          .replace(/^```json\s*/i, "")
+          .replace(/```\s*$/i, "")
+          .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "")
+          .trim();
+        try {
+          return normalizePost(JSON.parse(clean));
+        } catch {
+          const match = clean.match(/\{[\s\S]*\}/);
+          if (!match) throw new Error("Groq no devolvió JSON válido");
+          return normalizePost(JSON.parse(match[0]));
+        }
+      } catch (error) {
+        lastError = error;
+        if (attempt < 5) {
+          await wait(Math.min(30000, 2000 * 2 ** (attempt - 1)));
+          continue;
+        }
+      }
+      break;
+    }
+
+    const errorBody = await response.text();
+    const retryableJsonError = response.status === 400 && errorBody.includes('"code":"json_validate_failed"');
+    lastError = new Error(`Groq API error ${response.status}: ${errorBody}`);
+    const retryableStatus = [408, 425, 429, 500, 502, 503, 504].includes(response.status);
+    if ((retryableStatus || retryableJsonError) && attempt < 5) {
+      const retryAfter = Number(response.headers.get("retry-after"));
+      const delay = Number.isFinite(retryAfter) ? retryAfter * 1000 : Math.min(30000, 2000 * 2 ** (attempt - 1));
+      await wait(delay);
+      continue;
+    }
+    break;
   }
 
   if (!response) throw new Error(`No se pudo conectar con Groq: ${lastError?.message}`);
 
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`Groq API error ${response.status}: ${error}`);
-  }
+  if (!response.ok) throw lastError;
 
-  const data = await response.json();
-  const raw = data.choices?.[0]?.message?.content;
-  if (!raw || typeof raw !== "string") {
-    throw new Error("Groq no devolvió contenido en la respuesta");
-  }
-
-  const clean = raw
-    .replace(/^```json\s*/i, "")
-    .replace(/```\s*$/i, "")
-    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, "")
-    .trim();
-
-  try {
-    return normalizePost(JSON.parse(clean));
-  } catch {
-    const match = clean.match(/\{[\s\S]*\}/);
-    if (!match) throw new Error("Groq no devolvió JSON válido");
-    return normalizePost(JSON.parse(match[0]));
-  }
+  throw lastError || new Error("Groq no devolvió un artículo válido");
 }
 
 function savePost(data, topic) {
@@ -256,7 +310,7 @@ function savePost(data, topic) {
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <base href="/Promptnova/">
+  <base href="${SITE_BASE_PATH}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${data.title} | PromptNova</title>
   <meta name="description" content="${data.description}">
@@ -268,8 +322,8 @@ function savePost(data, topic) {
   <link rel="canonical" href="${SITE_BASE}/posts/${filename}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="/Promptnova/consent.js"></script>
+  <link rel="stylesheet" href="${SITE_BASE_PATH}styles.css">
+  <script src="/consent.js"></script>
   <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Article",
