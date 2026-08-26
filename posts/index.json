@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-26-como-escribir-prompts-infalibles-guia-practica-paso-a-paso.html",
+    "title": "Cómo escribir prompts infalibles: guía práctica paso a paso",
+    "description": "Descubre cómo crear prompts claros, estructurados y efectivos que garantizan respuestas precisas de cualquier modelo de IA. Tips, ejemplos y prácticas.",
+    "date": "2026-08-26",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Prompt 1: \"Escribe un resumen de 150 palabras del artículo 'Inteligencia Artificial y Sociedad' resaltando los impactos éticos.\"",
+      "Prompt 2: \"Genera una tabla markdown con tres columnas (País, PIB 2023, Crecimiento %) y cinco filas para los países con mayor PIB.\"",
+      "Prompt 3: \"Crea una lista de viñetas que describa los pasos para entrenar un modelo de lenguaje pequeño usando Hugging Face Transformers, incluyendo código Python.\""
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-08-25-los-10-prompts-esenciales-que-usan-los-expertos-en-marketing.html",
     "title": "Los 10 prompts esenciales que usan los expertos en marketing",
     "description": "Descubre los 10 prompts más efectivos que los profesionales del marketing usan con IA para crear campañas, contenido y análisis.",
