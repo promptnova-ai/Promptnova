@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-28-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html",
+    "title": "IA para SEO: Prompts que impulsan tu posicionamiento",
+    "description": "Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking, con ejemplos listos para copiar y estrategias prácticas.",
+    "date": "2026-08-28",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Escribe una guía de 1500 palabras sobre \"Cómo optimizar imágenes para SEO en 2024\". Incluye:\n- Introducción breve (150 palabras)\n- Lista de mejores prácticas en formato markdown\n- Ejemplos de código HTML con atributos alt optimizados\n- Conclusión con llamado a la acción",
+      "Genera cinco versiones diferentes de meta descripción (máximo 155 caracteres) para un artículo titulado \"IA para SEO: Prompts que impulsan tu posicionamiento\". Usa tono persuasivo y palabras clave: IA, SEO, prompts.",
+      "Construye una tabla en formato markdown que compare tres herramientas de IA para SEO (ChatGPT, Jasper, Copy.ai). Incluye columnas: Precio, Funciones principales, Integraciones, Ventajas."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-08-28-crea-tu-curso-online-desde-cero-con-chatgpt-guia-paso-a-paso.html",
     "title": "Crea tu curso online desde cero con ChatGPT: guía paso a paso",
     "description": "Aprende a diseñar, estructurar y lanzar un curso online usando ChatGPT, con ejemplos de prompts listos para copiar.",
