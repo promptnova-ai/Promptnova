@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-28-crea-tu-curso-online-desde-cero-con-chatgpt-guia-paso-a-paso.html",
+    "title": "Crea tu curso online desde cero con ChatGPT: guía paso a paso",
+    "description": "Aprende a diseñar, estructurar y lanzar un curso online usando ChatGPT, con ejemplos de prompts listos para copiar.",
+    "date": "2026-08-28",
+    "tags": [
+      "ChatGPT",
+      "CursosOnline",
+      "EducaciónDigital"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Prompt: 'Eres un experto en educación online. Describe el perfil del estudiante ideal para un curso de introducción a la fotografía digital y enumera cinco objetivos de aprendizaje claros.'",
+      "Prompt: 'Eres un experto en educación online. Crea el temario de un curso de introducción a la fotografía digital, con 8 módulos y objetivos de aprendizaje claros.'",
+      "Prompt: 'Genera el contenido de la lección 3 del módulo 2, incluyendo una explicación de 300 palabras y 3 preguntas de reflexión.'",
+      "Prompt: 'Diseña una actividad práctica para que los estudiantes apliquen lo aprendido, con instrucciones paso a paso y criterios de evaluación.'",
+      "Prompt: 'Revisa el siguiente texto y sugiere mejoras para que sea más claro y atractivo para estudiantes principiantes.'\n[Inserta aquí el texto de la lección]"
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-08-27-los-prompts-mas-creativos-para-disenadores-graficos.html",
     "title": "Los prompts más creativos para diseñadores gráficos",
     "description": "Descubre prompts ingeniosos que potencian la creatividad de los diseñadores gráficos y aceleran tu flujo de trabajo.",
