@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-29-prompt-engineering-para-developers-7-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: 7 trucos que no conocías",
+    "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tu productividad con IA.",
+    "date": "2026-08-29",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "/*\nObjetivo: Generar una función en JavaScript que convierta una fecha ISO en formato legible.\nRestricciones: No usar librerías externas, manejar zonas horarias.\nEjemplo de salida: \"12 de marzo de 2024, 14:30\".\n*/\n\nfunction formatDate(isoString) {\n  // Tu código aquí\n}",
+      "Prompt: \"Explícame paso a paso cómo implementar una búsqueda binaria en Python. Luego escribe el código.\n\nPaso 1: Describe la idea básica.\nPaso 2: Detalla la condición de parada.\nPaso 3: Proporciona el código final.\"",
+      "Ejemplo 1:\nInput: \"Crear una tabla HTML con 3 columnas y 2 filas.\"\nOutput: \"...\"\n\nEjemplo 2:\nInput: \"Generar una función en Ruby que devuelva la suma de un array.\"\nOutput: \"def sum(arr)\n  arr.reduce(0, :+)\nend\"\n\nAhora, genera una función en Go que invierta una cadena.",
+      "```json\n{\n  \"name\": \"John\",\n  \"age\": 30\n}\n```"
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-08-29-automatiza-tu-negocio-con-prompts-inteligentes-y-ahorra-tiem.html",
     "title": "Automatiza tu negocio con prompts inteligentes y ahorra tiempo",
     "description": "Descubre cómo usar prompts de IA para automatizar procesos, mejorar la productividad y transformar tu empresa.",
