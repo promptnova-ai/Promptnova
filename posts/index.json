@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-29-automatiza-tu-negocio-con-prompts-inteligentes-y-ahorra-tiem.html",
+    "title": "Automatiza tu negocio con prompts inteligentes y ahorra tiempo",
+    "description": "Descubre cómo usar prompts de IA para automatizar procesos, mejorar la productividad y transformar tu empresa.",
+    "date": "2026-08-29",
+    "tags": [
+      "automatización",
+      "IA",
+      "prompts",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Prompt:\n\"Genera un reporte semanal de ventas para la tienda online, incluye:\n- Total de ingresos\n- Productos más vendidos\n- Comparativa con la semana anterior\nPresenta los datos en una tabla markdown.\"",
+      "Prompt:\n\"Eres un asistente de soporte. Clasifica el siguiente ticket en una de las categorías: Facturación, Técnico, Consulta general. Ticket: 'No puedo acceder a mi cuenta después de actualizar la app'. Devuelve solo la categoría.\"",
+      "Prompt:\n\"Crea una publicación de LinkedIn de 150 palabras para promocionar nuestro nuevo software de gestión de proyectos. Destaca la facilidad de uso y la integración con herramientas populares.\""
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-08-29-construye-tu-asistente-personal-con-chatgpt-y-prompts-en-5-p.html",
     "title": "Construye tu asistente personal con ChatGPT y prompts en 5 pasos",
     "description": "Aprende a crear un asistente personal con ChatGPT usando prompts efectivos. Guía práctica, ejemplos listos y mejores prácticas para tu proyecto IA.",
