@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-29-construye-tu-asistente-personal-con-chatgpt-y-prompts-en-5-p.html",
+    "title": "Construye tu asistente personal con ChatGPT y prompts en 5 pasos",
+    "description": "Aprende a crear un asistente personal con ChatGPT usando prompts efectivos. Guía práctica, ejemplos listos y mejores prácticas para tu proyecto IA.",
+    "date": "2026-08-29",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "\"Eres mi asistente personal especializado en gestión de agenda. Cada vez que te pida crear un evento, responde con JSON con los campos: \\\"title\\\", \\\"date\\\", \\\"time\\\", \\\"location\\\". Si falta información, pide clarificación.\n\nUsuario: Programa una reunión con Ana el próximo viernes a las 10 am en la oficina central.\"",
+      "\"Actúa como un redactor creativo que escribe respuestas de correo electrónico en tono profesional pero cercano. Usa la información que te doy y genera el cuerpo del mensaje en menos de 150 palabras.\n\nDatos: Cliente: Luis Martínez, Tema: actualización del proyecto, Acción requerida: enviar informe antes del viernes.\n\nRespuesta:\"",
+      "\"Eres un buscador inteligente que resume artículos científicos. Proporciona un resumen de 3 párrafos, destacando objetivo, método y conclusiones. Devuelve también una lista de palabras clave.\n\nEnlace: https://arxiv.org/abs/2403.01234\""
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-08-29-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html",
     "title": "Los mejores prompts para redactar emails profesionales con IA",
     "description": "Descubre los prompts más efectivos para crear correos electrónicos profesionales usando IA, con ejemplos listos para copiar y aplicar.",
