@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-08-30-domina-chatgpt-guia-practica-para-potenciar-tu-trabajo-diari.html",
+    "title": "Domina ChatGPT: Guía práctica para potenciar tu trabajo diario",
+    "description": "Aprende a usar ChatGPT en tu día a día laboral con trucos, prompts y ejemplos para ahorrar tiempo y mejorar resultados.",
+    "date": "2026-08-30",
+    "tags": [
+      "ChatGPT",
+      "productividad",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Actúa como asistente de recursos humanos y redacta una oferta laboral para un analista de datos senior. Incluye responsabilidades, requisitos y beneficios en formato de lista.",
+      "Resume en 3 viñetas los puntos clave del último informe de KPI de ventas, resaltando tendencias y áreas de mejora.",
+      "Genera una tabla en Markdown con los pasos para migrar una base de datos MySQL a PostgreSQL, indicando comandos y precauciones.",
+      "Quiero un plan de contenido para redes sociales. Usa este formato:\n---\nTema: [tema]\nObjetivo: [objetivo]\nFormato: [post, video, historia]\nCalendario: [fecha]"
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-08-30-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y mejorar tus resultados con IA.",
