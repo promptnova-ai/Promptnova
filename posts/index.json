@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-08-30-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y mejorar tus resultados con IA.",
+    "date": "2026-08-30",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "# Versión vaga\nResumen de la Segunda Guerra Mundial.\n\n# Versión corregida\nEscribe un resumen de 200 palabras sobre las causas principales de la Segunda Guerra Mundial, enfocándote en los eventos políticos entre 1933 y 1939. Usa tono objetivo y finaliza con una breve conclusión.",
+      "# Versión sin formato\nDame ideas para un negocio.\n\n# Versión corregida\nGenera una lista de 7 ideas de negocio para el sector de alimentos saludables dirigidas a jóvenes adultos (18‑30 años) en ciudades europeas. Presenta cada idea en una viñeta, incluye una breve descripción y un posible canal de venta.",
+      "# Versión ambigua\nEscribe una función en Python.\n\n# Versión corregida\nCrea una función en Python llamada calcular_imc(peso, altura) que reciba el peso en kilogramos y la altura en metros, y devuelva el índice de masa corporal redondeado a dos decimales. Incluye una breve documentación en formato docstring."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-08-29-prompt-engineering-para-developers-7-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: 7 trucos que no conocías",
     "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tu productividad con IA.",
