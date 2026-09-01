@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-09-01-crea-tu-curso-online-desde-cero-con-chatgpt-en-5-pasos.html",
+    "title": "Crea tu curso online desde cero con ChatGPT en 5 pasos",
+    "description": "Aprende paso a paso cómo usar ChatGPT para diseñar, estructurar y lanzar tu propio curso online sin necesidad de experiencia previa.",
+    "date": "2026-09-01",
+    "tags": [
+      "ChatGPT",
+      "Cursos online",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Actúa como instructor de fotografía y escribe una lista de 5 lecciones introductorias para principiantes, incluyendo objetivos de aprendizaje y actividades prácticas.",
+      "Genera un esquema de curso sobre fotografía para principiantes con 3 módulos, cada uno con 4 lecciones, y sugiere recursos gratuitos para cada lección.",
+      "Escribe la lección 2 del Módulo 1: “Cómo funciona el obturador”. Incluye una explicación de 300 palabras, 2 ejemplos prácticos y una actividad de 5 minutos.",
+      "Diseña 5 preguntas de opción múltiple con sus respuestas y retroalimentación para la lección “Composición básica”."
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-09-01-los-prompts-mas-creativos-para-disenadores-graficos.html",
     "title": "Los prompts más creativos para diseñadores gráficos",
     "description": "Descubre prompts innovadores que potencian la creatividad visual de los diseñadores gráficos y acelera tu flujo de trabajo.",
