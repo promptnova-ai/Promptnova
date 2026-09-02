@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-09-02-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html",
+    "title": "IA para SEO: Prompts que impulsan tu posicionamiento",
+    "description": "Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking y atraen tráfico cualificado.",
+    "date": "2026-09-02",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Escribe un artículo de 800 palabras dirigido a marketers junior sobre \"[tema]\". Incluye las palabras clave: [keyword1], [keyword2]. Usa encabezados H2 y H3, y genera una meta descripción de 150 caracteres.",
+      "Redacta una guía paso a paso de 1200 palabras para \"optimizar imágenes para SEO\". Usa una estructura de lista numerada, incluye ejemplos de código HTML y menciona \"optimización de velocidad\" como keyword secundaria.",
+      "Elabora una comparativa de 1000 palabras entre \"Ahrefs\" y \"SEMrush\" enfocada en análisis de backlinks. Cada herramienta debe tener una tabla en HTML, y el artículo debe contener la frase exacta \"mejor herramienta para backlinks\".",
+      "Genera una sección de FAQ de 800 palabras sobre \"cómo usar ChatGPT para investigación de palabras clave\". Cada pregunta debe estar en , la respuesta en , y al final incluye una lista  con recursos recomendados."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-09-01-crea-tu-curso-online-desde-cero-con-chatgpt-en-5-pasos.html",
     "title": "Crea tu curso online desde cero con ChatGPT en 5 pasos",
     "description": "Aprende paso a paso cómo usar ChatGPT para diseñar, estructurar y lanzar tu propio curso online sin necesidad de experiencia previa.",
