@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-02-aprende-cualquier-tema-10-mas-rapido-con-prompts-de-ia.html",
+    "title": "Aprende cualquier tema 10× más rápido con prompts de IA",
+    "description": "Descubre cómo usar prompts de inteligencia artificial para aprender cualquier cosa diez veces más rápido. Guía práctica con ejemplos listos para copiar.",
+    "date": "2026-09-02",
+    "tags": [
+      "prompts",
+      "aprendizaje rápido",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Prompt: \"Quiero aprender los fundamentos de la fotografía en 3 días. Dame un plan de estudio diario con ejercicios prácticos, enlaces a tutoriales gratuitos y una lista de conceptos clave a dominar.\"",
+      "Prompt: \"Necesito comprender los principios básicos de la programación en Python en una semana. Proporcióname un calendario de estudio de 7 días, con ejemplos de código, ejercicios de práctica y referencias a documentación oficial.\"",
+      "Prompt: \"Estoy preparando una presentación sobre economía circular. Genera un esquema de 5 diapositivas, incluye datos estadísticos actuales, gráficos sugeridos y una breve conclusión persuasiva.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-09-02-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html",
     "title": "IA para SEO: Prompts que impulsan tu posicionamiento",
     "description": "Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking y atraen tráfico cualificado.",
