@@ -1,5 +1,28 @@
 [
   {
+    "slug": "2026-09-03-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre técnicas avanzadas de prompt engineering para programadores y mejora tus interacciones con IA en minutos.",
+    "date": "2026-09-03",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "{\"tarea\":\"generar código Python\",\"lenguaje\":\"Python 3.9\",\"requisitos\":[\"función suma\",\"pruebas unitarias\"]}",
+      "Actúa como un senior developer especializado en JavaScript y revisa el siguiente fragmento de código, señalando errores y proponiendo mejoras.",
+      "Escribe una función en Rust que calcule el factorial de un número entero sin usar recursión. Limita la respuesta a 10 líneas de código.",
+      "Genera pruebas unitarias en Jest para la siguiente función JavaScript que calcula el promedio de un array de números.",
+      "Refactoriza el siguiente código PHP 5 a estilo moderno (PHP 8), usando tipado estricto y principios SOLID.",
+      "Genera documentación en formato Markdown para la API RESTful descrita en el siguiente OpenAPI spec."
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-09-03-automatiza-tu-negocio-con-prompts-inteligentes-y-aumenta-la-.html",
     "title": "Automatiza tu negocio con prompts inteligentes y aumenta la productividad",
     "description": "Descubre cómo usar prompts de IA para automatizar tareas, mejorar procesos y escalar tu negocio sin código.",
