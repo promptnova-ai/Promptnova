@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-09-03-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
+    "title": "Construye tu propio asistente personal con ChatGPT y prompts",
+    "description": "Aprende paso a paso a crear un asistente personal usando ChatGPT, diseñando prompts efectivos y conectándolo a tus herramientas favoritas.",
+    "date": "2026-09-03",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "Actúa como un asistente personal amigable y proactivo.\nResponde siempre de forma concisa, menciona la hora actual y\npregunta si deseas más información antes de ejecutar cualquier acción.",
+      "Eres el asistente de calendario de Juan.\nCuando reciba una petición como \"Programa una reunión el viernes a las 10\",\nconsulta la disponibilidad en Google Calendar y devuelve la confirmación.",
+      "Redacta un correo profesional a [destinatario] con el asunto [asunto] y los puntos clave: [lista].\nMantén el tono cordial y cierra con \"Saludos\".",
+      "# 1. Resumen de noticias diarias\n\"Eres un asistente de noticias. Resume en tres viñetas las noticias más relevantes de hoy en tecnología, finanzas y salud.\"",
+      "# 2. Generador de listas de compras\n\"Eres un asistente de compras. Dada la frase 'Necesito ingredientes para una paella', genera una lista de compra con cantidades estimadas.\"",
+      "# 3. Recordatorio de seguimiento\n\"Eres un asistente de seguimiento. Cada lunes a las 9 am, envía un mensaje a mi equipo recordando actualizar el reporte semanal.\""
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-09-02-los-mejores-prompts-para-escribir-emails-profesionales-con-i.html",
     "title": "Los mejores prompts para escribir emails profesionales con IA",
     "description": "Descubre los prompts más efectivos para generar correos profesionales usando IA, con ejemplos listos para copiar y consejos prácticos.",
