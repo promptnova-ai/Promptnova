@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-03-automatiza-tu-negocio-con-prompts-inteligentes-y-aumenta-la-.html",
+    "title": "Automatiza tu negocio con prompts inteligentes y aumenta la productividad",
+    "description": "Descubre cómo usar prompts de IA para automatizar tareas, mejorar procesos y escalar tu negocio sin código.",
+    "date": "2026-09-03",
+    "tags": [
+      "automatización",
+      "IA",
+      "prompts"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "# Prompt 1 – Resumen ejecutivo de un informe de ventas\nResume en 3 párrafos el informe mensual de ventas de la tienda XYZ, resaltando:\n- Ventas totales vs objetivo\n- Productos más vendidos\n- Recomendaciones para el próximo mes\nMantén un tono profesional y directo.",
+      "# Prompt 2 – Generación de respuestas de atención al cliente\nActúa como agente de soporte de una tienda online de ropa. Responde de forma amable a la siguiente consulta:\n“¿Cuándo llegará mi pedido con número #12345?”\nIncluye información de seguimiento y una disculpa por cualquier inconveniente.",
+      "# Prompt 3 – Creación de ideas de contenido para redes\nPropón 5 ideas de publicaciones en Instagram para promocionar una nueva línea de zapatos ecológicos. Cada idea debe incluir:\n- Tipo de contenido (foto, reel, carrusel)\n- Mensaje principal\n- Llamado a la acción"
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-09-03-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
     "title": "Construye tu propio asistente personal con ChatGPT y prompts",
     "description": "Aprende paso a paso a crear un asistente personal usando ChatGPT, diseñando prompts efectivos y conectándolo a tus herramientas favoritas.",
