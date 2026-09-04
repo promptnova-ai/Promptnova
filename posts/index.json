@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-04-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
+    "date": "2026-09-04",
+    "tags": [
+      "prompt engineering",
+      "inteligencia artificial",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un artículo de 300 palabras sobre energías renovables dirigido a estudiantes de secundaria. Usa un tono informativo y finaliza con una lista de tres ventajas.",
+      "Genera una tabla en formato markdown con los principales lenguajes de programación, su año de creación y su paradigma dominante. Limita la tabla a diez lenguajes.",
+      "Redacta una carta de presentación de 150 palabras para un puesto de analista de datos. Destaca experiencia en Python, SQL y visualización con Tableau."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-09-03-prompt-engineering-para-developers-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: trucos que no conocías",
     "description": "Descubre técnicas avanzadas de prompt engineering para programadores y mejora tus interacciones con IA en minutos.",
