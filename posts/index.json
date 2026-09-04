@@ -1,5 +1,27 @@
 [
   {
+    "slug": "2026-09-04-domina-chatgpt-en-tu-dia-a-dia-laboral-guia-practica.html",
+    "title": "Domina ChatGPT en tu día a día laboral: guía práctica",
+    "description": "Aprende a usar ChatGPT para potenciar tu productividad, redactar textos, organizar ideas y automatizar tareas en el trabajo.",
+    "date": "2026-09-04",
+    "tags": [
+      "productividad",
+      "ChatGPT",
+      "IA en el trabajo"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "\"Eres un asistente de marketing. Redacta un correo de presentación para un nuevo producto, tono profesional, entre 150 y 180 palabras, con viñetas que resalten tres beneficios clave.\"",
+      "\"Actúa como gestor de proyectos. Crea una lista de 10 tareas prioritarias para lanzar una campaña de email, ordenadas por fase y con estimación de tiempo para cada una.\"",
+      "\"Resume el siguiente informe de ventas (texto insertado) en tres párrafos, destacando tendencias, oportunidades y riesgos, con un lenguaje claro para directivos no técnicos.\"",
+      "# Prompt 1: Minuta de reunión\n\"Resume la siguiente transcripción de reunión (pegar texto) en una minuta de 5 viñetas, incluye decisiones tomadas y próximos pasos con responsables.\"",
+      "# Prompt 2: Redacción de propuesta comercial\n\"Escribe una propuesta comercial para un cliente del sector fintech, incluye introducción, solución propuesta, beneficios, cronograma y costos estimados, tono persuasivo y profesional.\"",
+      "# Prompt 3: Análisis de feedback de clientes\n\"Analiza estos comentarios de usuarios (pegar texto) y extrae los tres principales puntos de mejora, con ejemplos citados y sugerencias de acción concreta para cada punto.\""
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-09-04-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los errores más frecuentes al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
