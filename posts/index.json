@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-04-los-10-prompts-imprescindibles-para-marketers-expertos.html",
+    "title": "Los 10 prompts imprescindibles para marketers expertos",
+    "description": "Descubre los 10 prompts más usados por los profesionales del marketing para generar ideas, copy y análisis en IA.",
+    "date": "2026-09-04",
+    "tags": [
+      "marketing",
+      "IA",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Actúa como experto en marketing de contenidos y sugiere 10 ideas de blog para una empresa SaaS que quiera atraer a startups tecnológicas.",
+      "Eres copywriter especializado en Facebook Ads. Crea tres versiones de anuncio de 30 palabras para promocionar una herramienta de email marketing, enfocándote en la automatización.",
+      "Resume las principales tendencias de marketing digital para 2024 basándote en los últimos informes de Gartner y HubSpot, destacando oportunidades para pymes.",
+      "Revisa el siguiente texto y sugiere mejoras SEO: \\\"Nuestro software de gestión de proyectos permite a equipos colaborativos...\\\" Incluye meta título, descripción y palabras clave.",
+      "Genera una buyer persona para un producto de fitness dirigido a profesionales de entre 30 y 45 años, con ingresos superiores a $60k, incluyendo objetivos, miedos y canales de comunicación.",
+      "Elabora un calendario editorial mensual para una marca de cosméticos veganos, con al menos 8 piezas de contenido (blogs, videos, newsletters) y fechas de publicación.",
+      "Escribe una secuencia de 4 emails de nurturing para leads que descargaron un ebook sobre SEO, con tono cercano y llamado a acción a una demo del producto.",
+      "Escribe un guion de 60 segundos para un video de Instagram Reels que explique los beneficios de usar chatbots en e‑commerce, con un hook impactante al inicio.",
+      "Genera 5 variantes de titular para un newsletter que anuncia una oferta del 20% en productos de verano, usando técnicas de urgencia y curiosidad.",
+      "Calcula el ROI estimado de una campaña de Google Ads con un presupuesto de $5,000, CPC medio $1.20, tasa de conversión 3% y valor medio de pedido $120."
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-09-04-domina-chatgpt-en-tu-dia-a-dia-laboral-guia-practica.html",
     "title": "Domina ChatGPT en tu día a día laboral: guía práctica",
     "description": "Aprende a usar ChatGPT para potenciar tu productividad, redactar textos, organizar ideas y automatizar tareas en el trabajo.",
