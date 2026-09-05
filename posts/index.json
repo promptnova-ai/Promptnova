@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-05-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
+    "title": "Cómo crear prompts perfectos para generar imágenes con IA",
+    "description": "Descubre técnicas y ejemplos de prompts para obtener imágenes IA precisas y de alta calidad en pocos pasos.",
+    "date": "2026-09-05",
+    "tags": [
+      "IA",
+      "prompts",
+      "generación de imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "paisaje montañoso al atardecer, niebla ligera, colores pastel, estilo fotografía HDR, --ar 16:9 --v 5",
+      "retrato de mujer cyberpunk, cabello azul neón, gafas de realidad aumentada, fondo de ciudad futurista, iluminación de neón, estilo ilustración digital, --ar 2:3",
+      "escena de mercado medieval, puestos de frutas, gente con ropas de época, luz dorada de la mañana, estilo óleo barroco, alta resolución, --ar 4:3"
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-09-05-como-escribir-prompts-infalibles-guia-practica-paso-a-paso.html",
     "title": "Cómo escribir prompts infalibles: Guía práctica paso a paso",
     "description": "Descubre los mejores trucos para crear prompts que siempre entregan resultados precisos y útiles, con ejemplos listos para copiar.",
