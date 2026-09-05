@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-09-05-como-escribir-prompts-infalibles-guia-practica-paso-a-paso.html",
+    "title": "Cómo escribir prompts infalibles: Guía práctica paso a paso",
+    "description": "Descubre los mejores trucos para crear prompts que siempre entregan resultados precisos y útiles, con ejemplos listos para copiar.",
+    "date": "2026-09-05",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Contexto: [Información relevante]\nInstrucción: [Qué debe hacer el modelo]\nFormato: [lista, tabla, párrafo, código]\nEjemplo: [Opcional]",
+      "Contexto: Artículo reciente sobre \"Inteligencia Artificial\" publicado en \"Tech Today\".\nInstrucción: Resume los puntos clave del artículo en español, enfocándote en las implicaciones éticas.\nFormato: Párrafo de 150 palabras máximo.\nEjemplo: \"El artículo destaca que...\"",
+      "Contexto: Necesito comparar tres modelos de lenguaje (GPT‑4, Claude, LLaMA).\nInstrucción: Crea una tabla que incluya: capacidad de tokens, costo por 1 000 tokens, y casos de uso recomendados.\nFormato: Tabla en formato markdown.\nEjemplo:\n| Modelo | Tokens | Costo | Uso recomendado |\n|--------|--------|-------|-----------------|\n| GPT‑4  | 8 192  | $0.03 | Asistentes avanzados |\n| Claude | 100 000| $0.02 | Diálogos extensos |\n| LLaMA  | 4 096  | $0.01 | Investigación académica |",
+      "Contexto: Necesito una función en Python que convierta una lista de fechas en formato ISO a objetos datetime.\nInstrucción: Escribe el código con manejo de errores y comentarios explicativos.\nFormato: Bloque de código puro, sin markdown.\nEjemplo:\nimport datetime\n\ndef iso_to_datetime(dates):\n    result = []\n    for d in dates:\n        try:\n            result.append(datetime.datetime.fromisoformat(d))\n        except ValueError:\n            result.append(None)  # Valor no válido\n    return result"
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-09-04-los-10-prompts-imprescindibles-para-marketers-expertos.html",
     "title": "Los 10 prompts imprescindibles para marketers expertos",
     "description": "Descubre los 10 prompts más usados por los profesionales del marketing para generar ideas, copy y análisis en IA.",
