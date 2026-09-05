@@ -1,5 +1,25 @@
 [
   {
+    "slug": "2026-09-05-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
+    "title": "Prompts avanzados para crear contenido viral en redes sociales",
+    "description": "Aprende a diseñar prompts potentes que generen posts virales, aumenta tu alcance y engagement en Instagram, TikTok y más.",
+    "date": "2026-09-05",
+    "tags": [
+      "prompt engineering",
+      "viral marketing",
+      "redes sociales"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Formato + Plataforma + Público + Tema + Gatillo emocional + CTA implícito",
+      "\"Crea un guion de 15 segundos para un Reel de TikTok dirigido a jóvenes de 18‑25 años que buscan recetas rápidas. Usa humor y un giro inesperado al final, y termina con una pregunta que invite a comentar la receta favorita.\"",
+      "\"Genera un carrusel de 5 diapositivas para Instagram dirigido a emprendedores. Cada diapositiva debe contener un consejo de productividad con un dato sorprendente, un emoji y una frase que incite a guardar el post.\"",
+      "\"Escribe un hilo de 8 tuits para Twitter que explique las últimas tendencias en IA generativa. Usa un tono cercano, incluye estadísticas impactantes y finaliza con un llamado a seguir la cuenta para más actualizaciones.\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-09-05-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
     "title": "Cómo crear prompts perfectos para generar imágenes con IA",
     "description": "Descubre técnicas y ejemplos de prompts para obtener imágenes IA precisas y de alta calidad en pocos pasos.",
