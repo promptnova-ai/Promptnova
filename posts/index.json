@@ -1,5 +1,28 @@
 [
   {
+    "slug": "2026-09-06-crea-tu-curso-online-desde-cero-con-chatgpt-guia-paso-a-paso.html",
+    "title": "Crea tu curso online desde cero con ChatGPT: Guía paso a paso",
+    "description": "Aprende a usar ChatGPT para diseñar, estructurar y producir todo el contenido de un curso online, paso a paso y con ejemplos listos para copiar.",
+    "date": "2026-09-06",
+    "tags": [
+      "ChatGPT",
+      "CursoOnline",
+      "EducaciónDigital"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Prompt: \"Crea una tabla de contenido para un curso online de 6 semanas sobre fotografía con smartphone. Incluye objetivo, lección y actividades para cada semana.\"",
+      "Prompt: \"Eres un instructor de marketing digital. Redacta una lección de 800 palabras sobre SEO on‑page, con ejemplos prácticos y preguntas de repaso.\"",
+      "Prompt: \"Genera 5 preguntas de opción múltiple con sus respuestas correctas para evaluar la lección anterior sobre SEO on‑page.\"",
+      "Prompt: \"Escribe un guion de video de 5 minutos explicando la diferencia entre backlinks dofollow y nofollow, usando un tono amigable y ejemplos cotidianos.\"",
+      "Prompt: \"Describe una infografía que explique el ciclo de vida del contenido, con cinco bloques visuales y texto breve para cada uno.\"",
+      "Prompt: \"Revisa el siguiente texto y mejora la legibilidad, manteniendo un tono profesional y añadiendo palabras clave relacionadas con fotografía móvil.\"",
+      "Prompt: \"Redacta una página de venta persuasiva de 300 palabras para el curso de fotografía con smartphone, resaltando los beneficios y una llamada a la acción clara.\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-09-06-los-prompts-mas-creativos-para-disenadores-graficos.html",
     "title": "Los prompts más creativos para diseñadores gráficos",
     "description": "Descubre prompts innovadores que potencian la creatividad de los diseñadores gráficos y ahorran tiempo.",
