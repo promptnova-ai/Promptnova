@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-07-aprende-cualquier-tema-10-mas-rapido-con-prompts-inteligente.html",
+    "title": "Aprende cualquier tema 10× más rápido con prompts inteligentes",
+    "description": "Descubre cómo usar prompts de IA para dominar cualquier tema diez veces más rápido. Guía práctica con ejemplos listos para copiar.",
+    "date": "2026-09-07",
+    "tags": [
+      "aprendizaje acelerado",
+      "prompt engineering",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Prompt 1: \n\"Actúa como un profesor universitario de biología molecular. Explica el proceso de replicación del ADN en 5 pasos claros, incluye una analogía con una fábrica y termina con 2 preguntas de auto‑evaluación.\"",
+      "Prompt 2: \n\"Resume los fundamentos de la programación orientada a objetos en 200 palabras. Después, genera una tabla comparativa con los conceptos 'clase', 'objeto', 'herencia' y 'polimorfismo'. Finalmente, propone un mini‑ejercicio en Python para practicar cada concepto.\"",
+      "Prompt 3: \n\"Eres un experto en historia del arte del siglo XX. Describe las características principales del movimiento Bauhaus, menciona tres obras emblemáticas y su impacto en el diseño contemporáneo. Concluye con una lista de 5 recursos online gratuitos para profundizar.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-09-07-ia-para-seo-prompts-que-impulsan-tu-contenido.html",
     "title": "IA para SEO: Prompts que impulsan tu contenido",
     "description": "Descubre cómo usar la inteligencia artificial para crear prompts que optimizan tu SEO, mejoran el ranking y atraen tráfico cualificado.",
