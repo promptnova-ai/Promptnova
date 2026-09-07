@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-07-ia-para-seo-prompts-que-impulsan-tu-contenido.html",
+    "title": "IA para SEO: Prompts que impulsan tu contenido",
+    "description": "Descubre cómo usar la inteligencia artificial para crear prompts que optimizan tu SEO, mejoran el ranking y atraen tráfico cualificado.",
+    "date": "2026-09-07",
+    "tags": [
+      "IA",
+      "SEO",
+      "prompts"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Actúa como un analista SEO especializado en nicho de marketing digital. Genera una lista de 15 palabras clave de cola larga relacionadas con \"estrategias de link building\". Incluye volumen de búsqueda estimado, dificultad SEO y una breve descripción de la intención del usuario.",
+      "Redacta un artículo de 1200 palabras en español sobre \"cómo crear una estrategia de link building efectiva\". Usa un tono profesional pero cercano. Integra las siguientes palabras clave: \"link building\", \"estrategia de enlaces\", \"autoridad de dominio\". Estructura el texto con encabezados H2 y H3, incluye una lista de pasos y termina con una conclusión que invite a la acción.",
+      "Eres un consultor SEO. A partir del siguiente título de artículo: \"Guía definitiva de link building para 2024\", genera una meta descripción de 150 caracteres que incluya la palabra clave principal y sea atractiva para el clic en SERP."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-09-06-crea-tu-curso-online-desde-cero-con-chatgpt-guia-paso-a-paso.html",
     "title": "Crea tu curso online desde cero con ChatGPT: Guía paso a paso",
     "description": "Aprende a usar ChatGPT para diseñar, estructurar y producir todo el contenido de un curso online, paso a paso y con ejemplos listos para copiar.",
