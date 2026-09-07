@@ -1,5 +1,24 @@
 [
   {
+    "slug": "2026-09-07-los-mejores-prompts-para-crear-emails-profesionales-con-ia.html",
+    "title": "Los mejores prompts para crear emails profesionales con IA",
+    "description": "Descubre los prompts más eficaces para redactar emails profesionales usando IA, con ejemplos listos para copiar y consejos de redacción.",
+    "date": "2026-09-07",
+    "tags": [
+      "IA",
+      "email profesional",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un email de presentación profesional en español. Dirígete a [Nombre del destinatario], menciona que soy [Tu nombre] de [Tu empresa], y destaca brevemente nuestros servicios de [lista de servicios]. Incluye una propuesta de reunión de 30 minutos y cierra con un saludo cordial.",
+      "Genera un email de seguimiento en español después de una reunión el [fecha]. Agradece la participación de [Nombre del destinatario], resume los puntos clave acordados y propone los próximos pasos, incluyendo una fecha límite para la entrega de documentos.",
+      "Redacta un email de negociación en español dirigido a [Nombre del cliente]. Presenta una oferta de [producto/servicio] con un precio de [X] euros, justifica el costo con los beneficios y solicita la confirmación antes del [fecha límite]. Mantén un tono respetuoso y orientado a la colaboración."
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-09-07-aprende-cualquier-tema-10-mas-rapido-con-prompts-inteligente.html",
     "title": "Aprende cualquier tema 10× más rápido con prompts inteligentes",
     "description": "Descubre cómo usar prompts de IA para dominar cualquier tema diez veces más rápido. Guía práctica con ejemplos listos para copiar.",
