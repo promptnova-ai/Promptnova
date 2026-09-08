@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📅 Planificador de Posts — PromptNova Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .scheduler-container {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(124,111,247,0.05), rgba(168,156,255,0.05));
+      border-radius: 16px;
+      border: 1px solid rgba(124,111,247,0.2);
+    }
+
+    .scheduler-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .stat-card {
+      background: rgba(124,111,247,0.1);
+      border: 1px solid rgba(124,111,247,0.3);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--accent2);
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: var(--text2);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .queue-section {
+      background: rgba(45,212,191,0.05);
+      border: 1px solid rgba(45,212,191,0.2);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .queue-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .queue-empty {
+      padding: 2rem;
+      text-align: center;
+      color: var(--text3);
+    }
+
+    .queue-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .queue-item-info {
+      flex: 1;
+    }
+
+    .queue-item-title {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+
+    .queue-item-schedule {
+      font-size: 0.8rem;
+      color: var(--text2);
+    }
+
+    .queue-item-actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-remove {
+      padding: 0.5rem 1rem;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      border-radius: 6px;
+      color: #ef4444;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .btn-remove:hover {
+      background: rgba(239, 68, 68, 0.2);
+      border-color: #ef4444;
+    }
+
+    .schedule-info {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .schedule-info h3 {
+      color: #22c55e;
+      margin-bottom: 0.75rem;
+      font-size: 1.1rem;
+    }
+
+    .schedule-detail {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .schedule-detail-item {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .schedule-detail-label {
+      font-size: 0.8rem;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .schedule-detail-value {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .actions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .btn-action {
+      padding: 1rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.95rem;
+    }
+
+    .btn-publish {
+      background: linear-gradient(135deg, #22c55e, #10b981);
+      color: white;
+    }
+
+    .btn-publish:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(34, 197, 94, 0.3);
+    }
+
+    .btn-publish:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-reset {
+      background: transparent;
+      color: var(--text2);
+      border: 1px solid var(--border);
+    }
+
+    .btn-reset:hover {
+      background: rgba(124,111,247,0.1);
+      border-color: var(--accent);
+    }
+
+    .warning-message {
+      background: rgba(239, 68, 68, 0.1);
+      border-left: 4px solid #ef4444;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+      color: #ef4444;
+      font-size: 0.95rem;
+    }
+
+    .success-message {
+      background: rgba(34, 197, 94, 0.1);
+      border-left: 4px solid #22c55e;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+      color: #22c55e;
+      font-size: 0.95rem;
+      display: none;
+    }
+
+    .success-message.show {
+      display: block;
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .scheduler-header {
+        grid-template-columns: 1fr;
+      }
+
+      .queue-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .queue-item-actions {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">🪐 PromptNova</a>
+      <ul class="nav-links">
+        <li><a href="admin.html">Prompts</a></li>
+        <li><a href="admin-schedule.html" class="active">📅 Calendario</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="scheduler-container">
+      <h1 style="margin-bottom: 1rem">📅 Planificador de Posts cada 3 Días</h1>
+      <p style="color: var(--text2); margin-bottom: 2rem">
+        Sistema automático que evita publicar múltiples posts en el mismo día. 
+        Soluciona el problema de "contenido de poco valor" en Google AdSense.
+      </p>
+
+      <div class="success-message" id="successMessage">
+        ✅ Operación realizada exitosamente
+      </div>
+
+      <div class="warning-message" id="warningMessage" style="display: none;">
+        ⚠️ No es momento de publicar. Próxima fecha disponible en <span id="warningDays"></span>
+      </div>
+
+      <div class="scheduler-header">
+        <div class="stat-card">
+          <div class="stat-value" id="queueCount">0</div>
+          <div class="stat-label">Posts en Cola</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="daysUntil">—</div>
+          <div class="stat-label">Días para Próxima Publicación</div>
+        </div>
+      </div>
+
+      <div class="schedule-info">
+        <h3>⏱️ Próxima Publicación Programada</h3>
+        <div class="schedule-detail">
+          <div class="schedule-detail-item">
+            <div class="schedule-detail-label">Fecha y Hora</div>
+            <div class="schedule-detail-value" id="nextPublishDate">—</div>
+          </div>
+          <div class="schedule-detail-item">
+            <div class="schedule-detail-label">Post a Publicar</div>
+            <div class="schedule-detail-value" id="nextPostTitle" style="font-size: 1rem;">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="queue-section">
+        <h3 class="queue-title">📋 Cola de Posts Pendientes</h3>
+        <div id="queueList" class="queue-empty">
+          No hay posts en la cola
+        </div>
+      </div>
+
+      <div class="actions-grid">
+        <button class="btn-action btn-publish" id="publishBtn" onclick="publishNow()">
+          ▶️ Publicar Ahora
+        </button>
+        <button class="btn-action btn-reset" onclick="showStats()">
+          📊 Actualizar Estadísticas
+        </button>
+        <button class="btn-action btn-reset" onclick="resetSchedule()">
+          🔄 Reiniciar Sistema
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="scripts/schedule-posts.js"></script>
+  <script>
+    /**
+     * UI del Planificador
+     */
+
+    function updateUI() {
+      const stats = POST_SCHEDULE.getStats();
+      const nextDate = POST_SCHEDULE.getNextPublishDate();
+      
+      // Actualizar contadores
+      document.getElementById('queueCount').textContent = stats.postsEnCola;
+      document.getElementById('daysUntil').textContent = stats.diasHasta > 0 ? stats.diasHasta : '¡HOY!';
+      document.getElementById('nextPublishDate').textContent = nextDate.toLocaleString('es-ES', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      
+      if (stats.proximoPost !== 'Ninguno') {
+        document.getElementById('nextPostTitle').textContent = stats.proximoPost;
+      }
+      
+      // Actualizar lista de cola
+      renderQueue();
+      
+      // Actualizar estado del botón
+      const publishBtn = document.getElementById('publishBtn');
+      const canPublish = POST_SCHEDULE.shouldPublishNow();
+      publishBtn.disabled = !canPublish;
+      publishBtn.textContent = canPublish ? '✅ Publicar Ahora' : '▶️ Publicar Ahora';
+    }
+
+    function renderQueue() {
+      const queueList = document.getElementById('queueList');
+      const queue = POST_SCHEDULE.queue;
+
+      if (queue.length === 0) {
+        queueList.innerHTML = '<div class="queue-empty">No hay posts en la cola</div>';
+        return;
+      }
+
+      queueList.innerHTML = queue.map((post, index) => {
+        const scheduledDate = new Date(post.scheduledFor).toLocaleString('es-ES');
+        return `
+          <div class="queue-item">
+            <div class="queue-item-info">
+              <div class="queue-item-title">#${index + 1} — ${post.title}</div>
+              <div class="queue-item-schedule">Programado: ${scheduledDate}</div>
+            </div>
+            <div class="queue-item-actions">
+              <button class="btn-remove" onclick="removeFromQueue(${index})">
+                ✕ Eliminar
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function removeFromQueue(index) {
+      POST_SCHEDULE.queue.splice(index, 1);
+      POST_SCHEDULE.saveQueue();
+      updateUI();
+      showMessage('Post eliminado de la cola', 'success');
+    }
+
+    function publishNow() {
+      const result = POST_SCHEDULE.publishNext();
+      
+      if (result.success) {
+        showMessage(
+          `✅ Post publicado: "${result.post.title}"\n` +
+          `Próxima publicación: ${result.nextPublish.toLocaleString('es-ES')}`,
+          'success'
+        );
+        updateUI();
+      } else {
+        showMessage(
+          `⚠️ ${result.reason || result.error}`,
+          'warning'
+        );
+      }
+    }
+
+    function resetSchedule() {
+      if (confirm('⚠️ ¿Estás seguro? Esto borrará toda la programación.\n\nEsto es solo para testing.')) {
+        POST_SCHEDULE.reset();
+        updateUI();
+        showMessage('Sistema reiniciado', 'success');
+      }
+    }
+
+    function showStats() {
+      updateUI();
+      showMessage('Estadísticas actualizadas', 'success');
+    }
+
+    function showMessage(text, type) {
+      const messageEl = document.getElementById(type === 'success' ? 'successMessage' : 'warningMessage');
+      messageEl.textContent = text;
+      messageEl.style.display = 'block';
+      messageEl.classList.add('show');
+
+      setTimeout(() => {
+        messageEl.style.display = 'none';
+        messageEl.classList.remove('show');
+      }, 4000);
+    }
+
+    // Actualizar UI al cargar
+    updateUI();
+
+    // Actualizar cada 5 minutos
+    setInterval(updateUI, 5 * 60 * 1000);
+  </script>
+</body>
+</html>
