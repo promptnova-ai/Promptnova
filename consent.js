@@ -18,6 +18,22 @@
     localStorage.setItem(CONSENT_KEY, value);
     document.getElementById("promptnova-consent")?.remove();
     if (value === "accepted") loadAdsense();
+    showSettingsButton();
+  }
+
+  function showSettingsButton() {
+    if (!localStorage.getItem(CONSENT_KEY) || document.getElementById("promptnova-consent-settings")) return;
+    const button = document.createElement("button");
+    button.id = "promptnova-consent-settings";
+    button.type = "button";
+    button.textContent = "Privacidad";
+    button.setAttribute("aria-label", "Abrir preferencias de privacidad");
+    button.addEventListener("click", () => {
+      localStorage.removeItem(CONSENT_KEY);
+      button.remove();
+      showBanner();
+    });
+    document.body.appendChild(button);
   }
 
   function showBanner() {
@@ -47,8 +63,12 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", showBanner);
+    document.addEventListener("DOMContentLoaded", () => {
+      showBanner();
+      showSettingsButton();
+    });
   } else {
     showBanner();
+    showSettingsButton();
   }
 })();

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo evaluar un prompt y verificar la respuesta de una IA | PromptNova</title>
+  <meta name="description" content="Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.">
+  <meta name="author" content="Equipo editorial de PromptNova">
+  <meta property="og:title" content="Cómo evaluar un prompt y verificar la respuesta de una IA | PromptNova">
+  <meta property="og:description" content="Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://promptnova.me/posts/2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html">
+  <link rel="canonical" href="https://promptnova.me/posts/2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/consent.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cómo evaluar un prompt y verificar la respuesta de una IA","description":"Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.","author":{"@type":"Organization","name":"Equipo editorial de PromptNova"},"datePublished":"2026-09-08","dateModified":"2026-09-08","mainEntityOfPage":"https://promptnova.me/posts/2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html"}</script>
+</head>
+<body>
+  <nav role="navigation" aria-label="Navegación principal">
+    <a href="/#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+    <div class="nav-links">
+      <a href="/#inicio">Inicio</a>
+      <a href="/#posts">Prompts</a>
+      <a href="/#categorias">Categorías</a>
+      <a href="/#blog" class="active">Blog</a>
+      <a href="/editorial.html">Criterio editorial</a>
+      <a href="/privacidad.html">Privacidad</a>
+    </div>
+    <div class="hamburger" aria-label="Abrir menú de navegación" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <main class="post-container">
+    <div class="post-header">
+      <a href="/" class="post-back">← Volver al inicio</a>
+      <span class="post-tag">Método</span>
+      <h1>Cómo evaluar un prompt y verificar la respuesta de una IA</h1>
+      <p class="post-meta"><time datetime="2026-09-08">8 de septiembre de 2026</time> · 9 min de lectura · <span class="tag">prompt engineering</span> <span class="tag">evaluación</span> <span class="tag">verificación</span></p>
+    </div>
+
+    <div class="post-content">
+      <article>
+        <p>Un prompt no es bueno porque produzca una respuesta larga ni porque suene técnico. Es bueno cuando ayuda a conseguir un resultado adecuado para una tarea concreta y permite detectar cuándo la respuesta falla. Esta diferencia importa: una instrucción que funciona para resumir un informe no sirve automáticamente para tomar una decisión, escribir código o analizar datos.</p>
+        <p>En esta guía propongo un método sencillo para pasar de “pedirle algo a la IA” a evaluar una instrucción con criterios observables. No hace falta conocer el funcionamiento interno del modelo. Sí hace falta definir el objetivo, usar ejemplos comparables y revisar la salida con fuentes o reglas independientes.</p>
+
+        <h2>1. Empieza por definir la decisión que quieres tomar</h2>
+        <p>Antes de escribir el prompt, describe qué harás con la respuesta. “Quiero un resumen” es una tarea incompleta: un resumen para decidir si renovar un contrato necesita destacar riesgos, fechas y costes; un resumen para estudiar necesita conceptos, relaciones y preguntas de repaso.</p>
+        <p>Escribe una frase con esta estructura: “Usaré la respuesta para ___; la persona que la leerá necesita ___; una respuesta útil debe incluir ___”. Esta frase evita que optimices el texto por apariencia en lugar de utilidad.</p>
+        <pre><code>Necesito convertir un informe mensual de soporte en una nota para una reunión de 15 minutos. La nota la leerá la responsable de operaciones. Debe incluir volumen de incidencias, cambios respecto al mes anterior, tres causas posibles y preguntas que todavía requieren datos. Si una cifra no aparece en el informe, indícalo como "dato no disponible".</code></pre>
+        <p>Observa que el ejemplo no pide “un informe profesional”. Define el uso, la audiencia, los elementos necesarios y una regla para los datos ausentes. Esas decisiones son más útiles que añadir adjetivos como “completo” o “perfecto”.</p>
+
+        <h2>2. Separa datos, instrucciones y formato</h2>
+        <p>Los modelos interpretan mejor una tarea cuando pueden distinguir el material de entrada de las reglas que deben seguir. Usa etiquetas o delimitadores consistentes. No introduzcas información privada real durante las pruebas: sustituye nombres, correos, números de cliente y documentos confidenciales por datos ficticios.</p>
+        <pre><code>ROL: Analista de soporte.
+OBJETIVO: Detectar patrones accionables, sin inventar causas.
+DATOS:
+---
+[pega aquí un conjunto anonimizado de incidencias]
+---
+REGLAS:
+- Separa hechos observados de hipótesis.
+- Si faltan datos, escribe "no se puede determinar".
+- No atribuyas una causa sin evidencia en los datos.
+FORMATO: tabla con observación, evidencia, hipótesis y siguiente comprobación.</code></pre>
+        <p>La sección “REGLAS” también sirve para poner límites. Si necesitas una respuesta con datos exactos, indica qué debe hacer el modelo cuando no pueda verificarlos. Pedir que “sea preciso” no sustituye a una regla de comprobación.</p>
+
+        <h2>3. Define criterios de aceptación antes de comparar resultados</h2>
+        <p>Una evaluación útil se puede realizar sin saber qué modelo produjo cada respuesta. Para una tarea de extracción, puedes comprobar que no falten campos y que no se hayan alterado números. Para una explicación, puedes revisar exactitud, claridad y adecuación al nivel del lector. Para una clasificación, necesitas ejemplos etiquetados y una regla para los casos dudosos.</p>
+        <p>Usa una lista corta. Cinco criterios suelen ser suficientes:</p>
+        <ul>
+          <li><strong>Exactitud:</strong> ¿los datos coinciden con la entrada o con una fuente fiable?</li>
+          <li><strong>Cobertura:</strong> ¿aparecen todos los elementos que la tarea exigía?</li>
+          <li><strong>Formato:</strong> ¿la salida se puede copiar o revisar sin trabajo innecesario?</li>
+          <li><strong>Claridad:</strong> ¿la entiende la audiencia que definiste?</li>
+          <li><strong>Limitaciones:</strong> ¿distingue hechos, inferencias y datos ausentes?</li>
+        </ul>
+        <p>No conviertas estos criterios en una puntuación falsa de precisión. Una nota de 8 sobre 10 no demuestra que una respuesta sea correcta. La puntuación sirve para comparar variantes en una misma tarea; la verificación de los hechos sigue siendo necesaria.</p>
+
+        <h2>4. Compara una versión vaga con una versión comprobable</h2>
+        <p>La mejor forma de mejorar un prompt es comparar cambios pequeños. Empieza con la petición que realmente usarías y añade una sola condición cada vez. Así sabrás qué modificación ayudó y cuál solo hizo la instrucción más larga.</p>
+        <pre><code>Versión inicial:
+Resume este informe y dime qué hacer.</code></pre>
+        <pre><code>Versión revisada:
+Resume el informe en cinco viñetas para una reunión de dirección. Incluye únicamente hechos que aparezcan en el texto, conserva las cifras y fechas, separa los riesgos de las recomendaciones y termina con tres preguntas que debamos responder antes de tomar una decisión. Si una conclusión es una inferencia, etiquétala como "hipótesis".</code></pre>
+        <p>La segunda versión no es mejor por tener más palabras. Es mejor porque especifica lector, extensión, evidencia, estructura y tratamiento de la incertidumbre. Si la tarea cambia, también deben cambiar esos criterios.</p>
+
+        <h2>5. Prueba con entradas normales y casos difíciles</h2>
+        <p>Una instrucción puede funcionar con un ejemplo limpio y fallar con datos incompletos, contradicciones o textos muy largos. Prepara al menos tres entradas de prueba: una habitual, una con información que falta y otra que contenga un caso límite. Guarda esas entradas para poder comparar futuras modificaciones.</p>
+        <pre><code>Actúa como revisor de una ficha de producto.
+Para cada entrada devuelve:
+1. Campos presentes.
+2. Campos ausentes.
+3. Afirmaciones que requieren fuente.
+4. Una pregunta para el responsable del producto.
+No completes campos vacíos con suposiciones.
+
+ENTRADA:
+[texto de prueba]</code></pre>
+        <p>El caso difícil no es un intento de “romper” el modelo. Es una forma de comprobar si el prompt comunica qué debe ocurrir cuando la información no permite responder. En un uso real, esa conducta suele ser más valiosa que una respuesta fluida.</p>
+
+        <h2>6. Verifica la respuesta fuera del modelo</h2>
+        <p>Una IA puede redactar una explicación convincente y aun así equivocarse. La verificación debe depender de algo distinto de pedirle al mismo modelo que confirme su propia respuesta. Contrasta cifras con el documento original, enlaces con la página de destino y código con pruebas automatizadas o una revisión técnica.</p>
+        <p>Para una respuesta factual, conserva una pequeña tabla de control:</p>
+        <pre><code>Elemento que afirma la respuesta | Fuente que lo confirma | Estado
+Fecha de lanzamiento              | Documentación oficial     | pendiente
+Número de registros               | Exportación del sistema   | confirmado
+Causa del descenso                | No aparece en los datos   | hipótesis</code></pre>
+        <p>Si el modelo incluye enlaces, ábrelos. Si resume un texto, comprueba las frases que cambian el sentido. Si genera código, prueba los casos de error y revisa cómo maneja credenciales y datos de usuarios. La revisión no es un paso opcional cuando la salida afecta dinero, privacidad, salud, seguridad o decisiones laborales.</p>
+
+        <h2>7. Usa un prompt de crítica con un objetivo limitado</h2>
+        <p>Pedir “critica tu respuesta” puede producir otra opinión general. Es más útil pedir una revisión contra criterios definidos y exigir que cite el fragmento que está revisando. La crítica no demuestra que el resultado sea correcto, pero ayuda a encontrar omisiones antes de la comprobación humana.</p>
+        <pre><code>Revisa la respuesta anterior usando esta lista:
+- ¿Respondió a cada requisito?
+- ¿Conservó las cifras y fechas de la entrada?
+- ¿Presentó una hipótesis como si fuera un hecho?
+- ¿Qué afirmación necesita una fuente externa?
+Devuelve una tabla con requisito, evidencia en la respuesta, problema y corrección propuesta. Si no puedes verificar algo, escribe "no verificable con la información disponible".</code></pre>
+        <p>Evita pedir una cadena privada de razonamiento paso a paso. Para revisar calidad no necesitas que el modelo exponga un razonamiento interno; necesitas evidencias observables, reglas de salida y un procedimiento independiente de comprobación.</p>
+
+        <h2>8. Documenta la versión que sí funciona</h2>
+        <p>Guarda el prompt, la fecha, el modelo o herramienta utilizada, una entrada de prueba anonimizada y el resultado esperado. Si cambias la instrucción, conserva la versión anterior y anota qué criterio querías mejorar. Esto permite distinguir una mejora real de una respuesta afortunada.</p>
+        <p>Una ficha mínima puede tener este aspecto:</p>
+        <ul>
+          <li><strong>Objetivo:</strong> qué trabajo resuelve y quién usará la salida.</li>
+          <li><strong>Entrada:</strong> qué datos necesita y qué datos no debe recibir.</li>
+          <li><strong>Salida:</strong> estructura, longitud y tono esperados.</li>
+          <li><strong>Pruebas:</strong> ejemplos normal, incompleto y límite.</li>
+          <li><strong>Revisión:</strong> qué persona comprueba el resultado y con qué fuente.</li>
+          <li><strong>Fecha:</strong> cuándo se debe volver a evaluar porque cambió la herramienta.</li>
+        </ul>
+
+        <h2>9. Errores frecuentes al evaluar prompts</h2>
+        <ul>
+          <li><strong>Confundir fluidez con exactitud:</strong> una respuesta bien escrita no es una fuente.</li>
+          <li><strong>Probar un solo ejemplo:</strong> el éxito en una entrada no demuestra robustez.</li>
+          <li><strong>Usar una cifra de palabras como objetivo:</strong> ampliar una respuesta sin añadir decisiones, pruebas o evidencia crea relleno.</li>
+          <li><strong>Copiar datos sensibles:</strong> anonimiza antes de enviar información a una herramienta.</li>
+          <li><strong>Dejar instrucciones incompatibles:</strong> “sé exhaustivo” y “responde en 20 palabras” requieren resolver la prioridad.</li>
+          <li><strong>No definir los casos sin respuesta:</strong> si el modelo debe reconocer incertidumbre, escríbelo de forma explícita.</li>
+        </ul>
+
+        <h2>10. Checklist antes de usar una respuesta</h2>
+        <p>Antes de incorporar una salida a un documento, sistema o decisión, responde sí o no:</p>
+        <ol>
+          <li>¿La respuesta resuelve el objetivo que definí?</li>
+          <li>¿Puedo señalar en la entrada la evidencia de cada dato importante?</li>
+          <li>¿Se distinguen hechos, inferencias y campos sin información?</li>
+          <li>¿Probé un caso incompleto o ambiguo?</li>
+          <li>¿Una persona responsable revisó los puntos de riesgo?</li>
+          <li>¿El texto evita datos personales o secretos innecesarios?</li>
+        </ol>
+        <p>Si alguna respuesta es no, el siguiente paso no es pedir un prompt más elaborado. Es corregir la entrada, definir el criterio que falta o detenerse hasta conseguir una fuente fiable.</p>
+
+        <h2>Conclusión</h2>
+        <p>La calidad de un prompt se demuestra con resultados comparables y un proceso de revisión, no con promesas como “infalible” o “perfecto”. Define el uso, separa instrucciones y datos, prueba casos difíciles y verifica la respuesta fuera del modelo. El método también te dirá cuándo no necesitas IA: si una regla simple o una fuente oficial resuelve mejor la tarea, esa es la opción más fiable.</p>
+
+        <h2>Fuentes y documentación</h2>
+        <ul>
+          <li><a href="https://support.google.com/adsense/answer/10015918" target="_blank" rel="noopener noreferrer">Google AdSense: contenido y experiencia de usuario</a>.</li>
+          <li><a href="https://platform.openai.com/docs/guides/prompt-engineering" target="_blank" rel="noopener noreferrer">OpenAI: guía de prompt engineering</a>.</li>
+          <li><a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer">Anthropic: guía de prompt engineering</a>.</li>
+          <li><a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer">Google: estrategias de prompting para Gemini</a>.</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand"><a href="/" class="nav-logo">🪐 Prompt<span>Nova</span></a><p>Guías prácticas para trabajar mejor con inteligencia artificial.</p></div>
+      <div class="footer-col"><h4>Explorar</h4><ul><li><a href="/#posts">Prompts</a></li><li><a href="/#blog">Blog</a></li><li><a href="/editorial.html">Criterio editorial</a></li></ul></div>
+      <div class="footer-col"><h4>Legal</h4><ul><li><a href="/privacidad.html">Privacidad</a></li><li><a href="/terminos.html">Términos</a></li><li><a href="/aviso-legal.html">Aviso legal</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">© 2026 PromptNova</div>
+  </footer>
+</body>
+</html>
