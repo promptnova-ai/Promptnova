@@ -21,6 +21,9 @@ const indexPath = path.join(postsDir, "index.json");
 const indexSlugs = fs.existsSync(indexPath)
   ? new Set(JSON.parse(fs.readFileSync(indexPath, "utf8")).map((post) => post.slug))
   : new Set(postFiles);
+const indexableSlugs = new Set(
+  postFiles.filter((file) => !/<meta\s+name=["']robots["'][^>]*noindex/i.test(fs.readFileSync(path.join(postsDir, file), "utf8")))
+);
 
 const urls = [
   ...staticUrls.map(([url, priority]) => ({
@@ -28,7 +31,7 @@ const urls = [
     lastmod: today,
     priority,
   })),
-  ...postFiles.filter((file) => indexSlugs.has(file)).map((file) => ({
+  ...postFiles.filter((file) => indexSlugs.has(file) && indexableSlugs.has(file)).map((file) => ({
     loc: `${SITE_BASE}/posts/${file}`,
     lastmod: file.slice(0, 10),
     priority: "0.6",
