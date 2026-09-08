@@ -1,5 +1,36 @@
 [
   {
+    "slug": "2026-09-08-aprende-cualquier-tema-10x-mas-rapido-con-prompts-de-ia.html",
+    "title": "Aprende cualquier tema 10x más rápido con prompts de IA",
+    "description": "Descubre cómo crear prompts efectivos para acelerar tu aprendizaje 10 veces usando IA, con ejemplos, checklist y casos prácticos.",
+    "date": "2026-09-08",
+    "tags": [
+      "aprendizaje rápido",
+      "prompt engineering",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Resume en 3 párrafos el concepto de transformada de Fourier explicando su utilidad en procesamiento de señales y dando un ejemplo práctico sencillo.\"",
+      "\"Crea una tabla comparativa entre la teoría de la relatividad especial y la teoría cuántica, indicando: principios básicos, ecuaciones clave, dominios de aplicación y limitaciones.\"",
+      "\"Genera 5 preguntas de opción múltiple sobre la fotosíntesis. Después de cada pregunta, incluye la respuesta correcta y una breve explicación de por qué es la correcta.\"",
+      "\"Resuelve paso a paso la integral ∫(2x³‑5x+1)dx y explica cada paso como si fuera para un estudiante de bachillerato.\"",
+      "\"Simula una entrevista de 5 preguntas para el puesto de Analista de Datos, incluye la respuesta ideal y una breve valoración de la respuesta del candidato.\"",
+      "\"Genera un mapa mental en formato texto para el tema 'Estrategias de marketing digital', con niveles jerárquicos y palabras clave en cada rama.\"",
+      "\"Crea 3 ejercicios de cálculo diferencial de nivel universitario, cada uno con su solución paso a paso y una pista opcional para quien se quede atascado.\"",
+      "\"Resume en 200 palabras el artículo 'Deep Learning for Natural Language Processing' de 2022, resaltando objetivo, metodología y principales hallazgos.\"",
+      "\"Proporciona una visión general de Python en 5 párrafos: historia, filosofía, casos de uso principales y diferencias con otros lenguajes.\"",
+      "\"Enumera y explica con ejemplos breves los 10 conceptos sintácticos más importantes de Python para principiantes.\"",
+      "\"Crea 4 ejercicios de programación en Python que involucren bucles y condicionales, con soluciones paso a paso.\"",
+      "\"Genera una tabla comparativa entre listas, tuplas y diccionarios en Python, indicando mutabilidad, sintaxis y casos de uso típicos.\"",
+      "\"Propón un mini‑proyecto de 3 días para crear una agenda de contactos en Python, incluye funcionalidades básicas y una lista de pasos.\"",
+      "\"Explica 5 técnicas de depuración en Python y muestra ejemplos de cómo usar la librería 'logging' para registrar eventos.\"",
+      "\"Formula 5 preguntas tipo test sobre todo lo aprendido en la semana, incluye respuestas y explicaciones breves.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-09-08-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
     "title": "Construye tu propio asistente personal con ChatGPT y prompts",
     "description": "Aprende paso a paso a crear un asistente personal usando ChatGPT, con ejemplos de prompts, casos de uso y checklist práctico.",
