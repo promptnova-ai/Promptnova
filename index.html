@@ -415,6 +415,7 @@
     }
     .page-btn:hover, .page-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; }
     .page-btn:disabled { opacity:0.35; cursor:not-allowed; }
+    .blog-page-label { color:var(--text2); font-size:0.85rem; min-width:8rem; text-align:center; }
 
     /* MODAL */
     .modal-overlay {
@@ -786,7 +787,7 @@
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
-
+    
       <a href="./posts/2026-09-07-los-mejores-prompts-para-crear-emails-profesionales-con-ia.html" class="blog-card" style="text-decoration:none;">
         <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">🧠</div>
         <div class="blog-body">
@@ -796,7 +797,7 @@
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
-
+    
       <a href="./posts/2026-09-07-ia-para-seo-prompts-que-impulsan-tu-contenido.html" class="blog-card" style="text-decoration:none;">
         <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">⚡</div>
         <div class="blog-body">
@@ -806,7 +807,7 @@
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
-
+    
       <a href="./posts/2026-09-07-aprende-cualquier-tema-10-mas-rapido-con-prompts-inteligente.html" class="blog-card" style="text-decoration:none;">
         <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">🎨</div>
         <div class="blog-body">
@@ -816,7 +817,7 @@
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
-
+    
       <a href="./posts/2026-09-06-los-prompts-mas-creativos-para-disenadores-graficos.html" class="blog-card" style="text-decoration:none;">
         <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">📊</div>
         <div class="blog-body">
@@ -826,7 +827,7 @@
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
-
+    
       <a href="./posts/2026-09-06-crea-tu-curso-online-desde-cero-con-chatgpt-guia-paso-a-paso.html" class="blog-card" style="text-decoration:none;">
         <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">🎓</div>
         <div class="blog-body">
@@ -837,6 +838,7 @@
         </div>
       </a>
     <!-- BLOG_GRID_STATIC_END --></div>
+  <div class="pagination" id="blog-pagination" aria-label="Paginación de artículos"></div>
 </section>
 </main>
 
@@ -1355,6 +1357,8 @@ const BLOG_POSTS = [{"slug":"2026-09-08-como-evaluar-prompts-y-verificar-respues
 // Blog state
 let allBlogPosts = [...BLOG_POSTS];
 let currentBlogFilter = 'todos';
+let currentBlogPage = 1;
+const BLOG_PER_PAGE = 6;
 
 // Show toast message
 function showToast(msg) {
@@ -1377,6 +1381,7 @@ function buildBlogFilters(posts) {
 // Filter blog posts by category
 function filterBlog(cat, btn) {
   currentBlogFilter = cat;
+  currentBlogPage = 1;
   document.querySelectorAll('#blog-filter-wrap .filter-btn').forEach(b => b.classList.remove('active'));
   document.querySelectorAll('#blog-filter-wrap .filter-btn').forEach(b => b.setAttribute('aria-current', b === btn ? 'true' : 'false'));
   if (btn) btn.classList.add('active');
@@ -1386,14 +1391,23 @@ function filterBlog(cat, btn) {
 // Render blog grid
 function renderBlogGrid() {
   const grid = document.getElementById('blog-grid');
-  const posts = currentBlogFilter === 'todos'
+  const matchingPosts = currentBlogFilter === 'todos'
     ? allBlogPosts
     : allBlogPosts.filter(p => p.category === currentBlogFilter);
   const count = document.getElementById('blog-count');
-  if (count) count.textContent = `${posts.length} ${posts.length === 1 ? 'artículo' : 'artículos'}`;
+  const totalPages = Math.max(1, Math.ceil(matchingPosts.length / BLOG_PER_PAGE));
+  currentBlogPage = Math.min(currentBlogPage, totalPages);
+  const start = (currentBlogPage - 1) * BLOG_PER_PAGE;
+  const posts = matchingPosts.slice(start, start + BLOG_PER_PAGE);
+  if (count) {
+    count.textContent = matchingPosts.length
+      ? `Mostrando ${start + 1}-${Math.min(start + posts.length, matchingPosts.length)} de ${matchingPosts.length} artículos`
+      : '0 artículos';
+  }
 
-  if (!posts || posts.length === 0) {
+  if (matchingPosts.length === 0) {
     grid.innerHTML = '<div class="empty-state" style="color:var(--text3);text-align:center;grid-column:1/-1;padding:3rem">No hay artículos en esta categoría aún ✨<br><button class="copy-btn" type="button" style="margin-top:1rem" onclick="filterBlog(\'todos\', document.querySelector(\'#blog-filter-wrap .filter-btn\'))">Ver todos los artículos</button></div>';
+    updateBlogPagination(0);
     return;
   }
 
@@ -1419,7 +1433,33 @@ function renderBlogGrid() {
       </a>
     `;
   }).join('');
+  updateBlogPagination(matchingPosts.length);
   enhanceMotion();
+}
+
+function updateBlogPagination(total) {
+  const pagination = document.getElementById('blog-pagination');
+  if (!pagination) return;
+  const totalPages = Math.ceil(total / BLOG_PER_PAGE);
+  if (totalPages <= 1) {
+    pagination.innerHTML = '';
+    return;
+  }
+  pagination.innerHTML = `
+    <button class="page-btn" type="button" ${currentBlogPage === 1 ? 'disabled' : ''} onclick="changeBlogPage(-1)" aria-label="Artículos anteriores">←</button>
+    <span class="blog-page-label">Página ${currentBlogPage} de ${totalPages}</span>
+    <button class="page-btn" type="button" ${currentBlogPage === totalPages ? 'disabled' : ''} onclick="changeBlogPage(1)" aria-label="Artículos siguientes">→</button>
+  `;
+}
+
+function changeBlogPage(direction) {
+  const posts = currentBlogFilter === 'todos'
+    ? allBlogPosts
+    : allBlogPosts.filter(p => p.category === currentBlogFilter);
+  const totalPages = Math.ceil(posts.length / BLOG_PER_PAGE);
+  currentBlogPage = Math.max(1, Math.min(currentBlogPage + direction, totalPages));
+  renderBlogGrid();
+  document.getElementById('blog')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // Render blog (usa BLOG_POSTS embebido, sin red — más rápido y sin punto de fallo)
@@ -1429,6 +1469,7 @@ function renderBlog() {
     return;
   }
   allBlogPosts = [...BLOG_POSTS];
+  currentBlogPage = 1;
   buildBlogFilters(allBlogPosts);
   renderBlogGrid();
 }
