@@ -137,12 +137,23 @@ function normalizePost(data) {
   const readingTime = Number.isFinite(Number(data.readingTime))
     ? Math.max(1, Math.round(Number(data.readingTime)))
     : 5;
+  const wordCount = html
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[^;]+;/g, " ")
+    .split(/\s+/)
+    .filter(Boolean).length;
 
   if (!title || !description || !html) {
     throw new Error("Groq devolvió un artículo incompleto");
   }
-  if ((html.match(/<pre[^>]*>\s*<code[^>]*>/gi) || []).length < 3) {
-    throw new Error("Groq devolvió un artículo sin suficientes ejemplos de prompts");
+  if (wordCount < 1200) {
+    throw new Error(`Groq devolvió un artículo demasiado corto (${wordCount} palabras; mínimo 1200)`);
+  }
+  if ((html.match(/<pre[^>]*>\s*<code[^>]*>/gi) || []).length < 5) {
+    throw new Error("Groq devolvió un artículo sin suficientes ejemplos de prompts (mínimo 5)");
+  }
+  if (!/<h2[^>]*>[^<]*(limitaciones|errores|comprobar|verificar|medir)/i.test(html)) {
+    throw new Error("Groq devolvió un artículo sin una sección de límites o verificación");
   }
 
   return { title, description, tags: tags.length > 0 ? tags : ["IA"], readingTime, html };
@@ -184,6 +195,9 @@ async function generatePost(topic) {
           content: `Eres el editor jefe de PromptNova, un blog en español especializado en 
 prompt engineering e inteligencia artificial. Tu estilo es claro, práctico y ameno. 
 Siempre incluyes ejemplos reales de prompts listos para copiar.
+No rellenes el texto con generalidades: aporta criterios propios, casos de uso concretos,
+advertencias sobre límites y una forma de comprobar si el resultado mejora. No inventes
+citas, estadísticas, testimonios ni resultados de pruebas.
 IMPORTANTE: Responde SOLO con JSON válido, sin markdown, sin backticks, sin texto extra.`,
         },
         {
@@ -200,9 +214,13 @@ Devuelve SOLO un objeto JSON con esta estructura exacta:
 }
 
 El campo html debe contener:
-- Etiquetas h2, h3, p, ul, li, blockquote
-- Al menos 3 ejemplos de prompts dentro de pre y code
-- Mínimo 500 palabras
+- Etiquetas h2, h3, p, ul, li, blockquote y una estructura fácil de escanear
+- Entre 5 y 8 ejemplos de prompts dentro de pre y code, explicando cuándo usar cada uno
+- Mínimo 1200 palabras originales, sin repetir la introducción entre secciones
+- Una sección sobre límites, errores frecuentes o verificación de resultados
+- Un caso práctico desarrollado de principio a fin y una checklist accionable
+- Una sección final de fuentes o documentación oficial consultada, solo con enlaces reales
+- Sin prometer resultados garantizados
 - Sin estilos inline`,
         },
       ],
@@ -344,6 +362,7 @@ function savePost(data, topic) {
       <a href="./#posts">Prompts</a>
       <a href="./#categorias">Categorías</a>
       <a href="./#blog" class="active">Blog</a>
+      <a href="./editorial.html">Criterio editorial</a>
       <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
     </div>
     <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu" role="button" tabindex="0">
@@ -356,6 +375,7 @@ function savePost(data, topic) {
     <a href="./#posts" onclick="closeMenu()">Prompts</a>
     <a href="./#categorias" onclick="closeMenu()">Categorías</a>
     <a href="./#blog" onclick="closeMenu()">Blog</a>
+    <a href="./editorial.html">Criterio editorial</a>
     <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
   </div>
 
@@ -387,6 +407,7 @@ function savePost(data, topic) {
         <ul>
           <li><a href="./#posts">Todos los prompts</a></li>
           <li><a href="./#blog">Blog</a></li>
+          <li><a href="./editorial.html">Criterio editorial</a></li>
         </ul>
       </div>
       <div class="footer-col">

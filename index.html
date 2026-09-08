@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7965643620841539"
-     crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Descubre más de 100 prompts listos para usar en ChatGPT, Claude y Gemini. Ahorra tiempo y obtén resultados profesionales con IA en segundos.">
+  <meta name="description" content="Prompts y guías prácticas para trabajar con ChatGPT, Claude y Gemini: ejemplos contextualizados, criterios de revisión y límites claros.">
   <meta name="keywords" content="prompts, ChatGPT, Claude, Gemini, inteligencia artificial, IA, prompt engineering">
   <meta name="author" content="PromptNova">
   <meta name="theme-color" content="#0a0a0f">
   <meta property="og:title" content="PromptNova — Los mejores prompts para ChatGPT, Claude y Gemini">
-  <meta property="og:description" content="Descubre más de 100 prompts listos para usar en ChatGPT, Claude y Gemini.">
+  <meta property="og:description" content="Prompts y guías prácticas con ejemplos contextualizados, criterios de revisión y límites claros.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://promptnova.me/">
   <meta property="og:image" content="https://promptnova.me/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="PromptNova — Los mejores prompts para ChatGPT">
-  <meta name="twitter:description" content="Descubre +100 prompts para IA. Resultados profesionales en segundos.">
+  <meta name="twitter:description" content="Prompts y guías prácticas para usar IA con contexto y revisar sus respuestas.">
   <link rel="canonical" href="https://promptnova.me/">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🪐</text></svg>">
   <title>PromptNova — Los mejores prompts para ChatGPT, Claude y Gemini</title>
@@ -92,6 +90,24 @@
       transition-delay:var(--reveal-delay, 0ms);
     }
     [data-reveal].is-visible { opacity:1; transform:none; }
+
+    #promptnova-consent {
+      position:fixed; z-index:1000; right:1rem; bottom:1rem; display:flex;
+      gap:1.5rem; align-items:center; max-width:46rem; padding:1rem 1.25rem;
+      border:1px solid var(--border2); border-radius:8px; background:var(--card);
+      box-shadow:0 12px 40px rgba(0,0,0,0.35); text-align:left;
+    }
+    #promptnova-consent strong { display:block; margin-bottom:0.25rem; }
+    #promptnova-consent p { margin:0; color:var(--text2); font-size:0.9rem; line-height:1.45; }
+    #promptnova-consent a { color:var(--accent3); }
+    .promptnova-consent-actions { display:flex; gap:0.5rem; flex-shrink:0; }
+    .promptnova-consent-actions button { border:1px solid var(--border2); border-radius:6px; padding:0.55rem 0.8rem; color:var(--text); background:var(--bg3); cursor:pointer; }
+    .promptnova-consent-actions button:last-child { background:var(--accent); }
+    #promptnova-consent-settings { position:fixed; z-index:999; left:1rem; bottom:1rem; border:1px solid var(--border2); border-radius:6px; padding:0.45rem 0.7rem; color:var(--text2); background:var(--card); cursor:pointer; font:inherit; font-size:0.8rem; }
+    @media (max-width:640px) {
+      #promptnova-consent { right:0.75rem; bottom:0.75rem; left:0.75rem; display:block; }
+      .promptnova-consent-actions { margin-top:0.75rem; justify-content:flex-end; }
+    }
 
     /* NAV */
       --border: rgba(139,92,246,0.15);
@@ -542,6 +558,7 @@
     <a href="#posts">Prompts</a>
     <a href="#categorias">Categorías</a>
     <a href="#blog">Blog</a>
+    <a href="./editorial.html">Criterio editorial</a>
     <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
   </div>
   <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu" role="button" tabindex="0">
@@ -555,6 +572,7 @@
   <a href="#posts" onclick="closeMenu()">Prompts</a>
   <a href="#categorias" onclick="closeMenu()">Categorías</a>
   <a href="#blog" onclick="closeMenu()">Blog</a>
+  <a href="./editorial.html">Criterio editorial</a>
   <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
 </div>
 
@@ -565,15 +583,15 @@
   <div class="hero-planet-glow" aria-hidden="true"></div>
   <div class="hero-planet" aria-hidden="true"></div>
   <div style="position:relative; z-index:1; width:100%;">
-    <div class="hero-badge">🪐 +100 prompts IA listos para usar</div>
+    <div class="hero-badge">🪐 Prompts prácticos y guías de evaluación</div>
     <h1>Desata el poder de la IA con <em>prompts que funcionan</em></h1>
-    <p>Encuentra, copia y usa los mejores prompts para ChatGPT, Claude, Gemini y más. Resultados profesionales en segundos.</p>
+    <p>Encuentra ejemplos con contexto, formato y criterios para revisar las respuestas de ChatGPT, Claude, Gemini y otras herramientas.</p>
     <div class="hero-btns">
       <a href="#posts" class="btn-primary">🚀 Explorar prompts</a>
       <a href="#categorias" class="btn-secondary">⊞ Ver categorías</a>
     </div>
     <div class="stats">
-      <div class="stat"><div class="stat-num">+100</div><div class="stat-label">Prompts disponibles</div></div>
+      <div class="stat"><div class="stat-num">12</div><div class="stat-label">Prompts curados</div></div>
       <div class="stat"><div class="stat-num">6</div><div class="stat-label">Categorías</div></div>
       <div class="stat"><div class="stat-num">3</div><div class="stat-label">IAs compatibles</div></div>
     </div>
@@ -777,92 +795,12 @@
   </div>
 
   <div class="blog-grid" id="blog-grid"><!-- BLOG_GRID_STATIC_START -->
-      <a href="./posts/2026-08-24-prompt-engineering-para-developers-trucos-que-no-conocias.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(124,111,247,0.3),rgba(168,156,255,0.1))">
-          🧠
-        </div>
+      <a href="./posts/2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html" class="blog-card" style="text-decoration:none;">
+        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">🔎</div>
         <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">💻 Programación</span>
-            <span class="blog-date">2026-08-24</span>
-          </div>
-          <h3>Prompt engineering para developers: trucos que no conocías</h3>
-          <p>Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para usar y mejorar tu productividad IA.</p>
-          <span class="blog-read">Leer artículo →</span>
-        </div>
-      </a>
-    
-      <a href="./posts/2026-08-24-automatiza-tu-negocio-con-prompts-inteligentes.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(244,200,74,0.2),rgba(251,146,60,0.1))">
-          ⚡
-        </div>
-        <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">🚀 Emprendimiento</span>
-            <span class="blog-date">2026-08-24</span>
-          </div>
-          <h3>Automatiza tu negocio con prompts inteligentes</h3>
-          <p>Descubre cómo usar prompts de IA para optimizar procesos, ahorrar tiempo y escalar tu empresa de forma sencilla.</p>
-          <span class="blog-read">Leer artículo →</span>
-        </div>
-      </a>
-    
-      <a href="./posts/2026-08-23-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(45,212,191,0.2),rgba(74,222,128,0.1))">
-          🎨
-        </div>
-        <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">❤️ Personal</span>
-            <span class="blog-date">2026-08-23</span>
-          </div>
-          <h3>Construye tu propio asistente personal con ChatGPT y prompts</h3>
-          <p>Aprende paso a paso a crear un asistente personal con ChatGPT, diseñando prompts efectivos, integrándolo y personalizándolo para tus necesidades.</p>
-          <span class="blog-read">Leer artículo →</span>
-        </div>
-      </a>
-    
-      <a href="./posts/2026-08-23-los-mejores-prompts-para-escribir-emails-profesionales-con-i.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(244,114,182,0.2),rgba(168,85,247,0.1))">
-          📊
-        </div>
-        <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">💼 Trabajo</span>
-            <span class="blog-date">2026-08-23</span>
-          </div>
-          <h3>Los mejores prompts para escribir emails profesionales con IA</h3>
-          <p>Descubre los prompts más efectivos para generar emails profesionales con IA, con ejemplos listos para usar y consejos prácticos.</p>
-          <span class="blog-read">Leer artículo →</span>
-        </div>
-      </a>
-    
-      <a href="./posts/2026-08-23-aprende-cualquier-tema-10x-mas-rapido-con-prompts-inteligent.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(251,146,60,0.2),rgba(244,200,74,0.1))">
-          🔧
-        </div>
-        <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">📚 Estudio</span>
-            <span class="blog-date">2026-08-23</span>
-          </div>
-          <h3>Aprende cualquier tema 10x más rápido con prompts inteligentes</h3>
-          <p>Descubre cómo usar prompts de IA para aprender cualquier tema diez veces más rápido, con ejemplos prácticos y técnicas probadas.</p>
-          <span class="blog-read">Leer artículo →</span>
-        </div>
-      </a>
-    
-      <a href="./posts/2026-08-22-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html" class="blog-card" style="text-decoration:none;">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,rgba(74,222,128,0.2),rgba(45,212,191,0.1))">
-          🎓
-        </div>
-        <div class="blog-body">
-          <div class="blog-meta">
-            <span class="blog-cat-badge">📣 Marketing</span>
-            <span class="blog-date">2026-08-22</span>
-          </div>
-          <h3>IA para SEO: Prompts que impulsan tu posicionamiento</h3>
-          <p>Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking, atraen tráfico y convierten lectores en clientes.</p>
+          <div class="blog-meta"><span class="blog-cat-badge">🌐 Método</span><span class="blog-date">2026-09-08</span></div>
+          <h3>Cómo evaluar un prompt y verificar la respuesta de una IA</h3>
+          <p>Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.</p>
           <span class="blog-read">Leer artículo →</span>
         </div>
       </a>
@@ -871,6 +809,33 @@
 </main>
 
 <hr class="divider">
+
+<section id="criterio-editorial" aria-labelledby="editorial-heading">
+  <div class="section-label">✦ Cómo trabajamos</div>
+  <h2 id="editorial-heading">Prompts útiles, explicados y <em>comprobables</em></h2>
+  <p class="section-sub">PromptNova está escrito para que puedas entender qué pedir, adaptar cada instrucción a tu caso y revisar la respuesta antes de usarla.</p>
+  <div class="blog-grid">
+    <article class="blog-card">
+      <div class="blog-body">
+        <h3>Revisión humana</h3>
+        <p>Cada guía debe tener un objetivo claro, ejemplos contextualizados y una explicación de cuándo no conviene aplicar el prompt. No publicamos resultados garantizados ni citas inventadas.</p>
+      </div>
+    </article>
+    <article class="blog-card">
+      <div class="blog-body">
+        <h3>Prueba antes de copiar</h3>
+        <p>Probamos las instrucciones con entradas realistas, comparamos variantes y señalamos qué datos debes sustituir. La IA puede equivocarse: verifica cifras, fuentes y decisiones sensibles.</p>
+      </div>
+    </article>
+    <article class="blog-card">
+      <div class="blog-body">
+        <h3>Actualizaciones y contacto</h3>
+        <p>Revisamos los artículos cuando cambian las herramientas o detectamos un error. Puedes comunicar una corrección en nuestro <a href="https://github.com/promptnova-ai/Promptnova/issues" target="_blank" rel="noopener noreferrer">canal público de incidencias</a>. No incluyas datos personales.</p>
+      </div>
+    </article>
+  </div>
+  <p class="section-sub" style="margin-top:2rem;margin-bottom:0"><a class="blog-read" href="./editorial.html">Conoce el proceso editorial completo →</a></p>
+</section>
 
 <!-- FOOTER -->
 <footer role="contentinfo">
@@ -884,6 +849,7 @@
         <h4>Explorar</h4>
         <ul>
           <li><a href="#blog">Blog</a></li>
+          <li><a href="./editorial.html">Criterio editorial</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -892,11 +858,11 @@
           <li><a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Política de Privacidad</a></li>
           <li><a href="./terminos.html">Términos de Uso</a></li>
           <li><a href="./aviso-legal.html">Aviso Legal</a></li>
-          <li><a href="mailto:contacto@promptnova.com">Contacto</a></li>
+          <li><a href="https://github.com/promptnova-ai/Promptnova/issues" target="_blank" rel="noopener noreferrer">Correcciones</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2025 PromptNova — Todos los derechos reservados. Hecho con ✨ para la comunidad IA.</div>
+    <div class="footer-bottom">© 2026 PromptNova — Todos los derechos reservados. Hecho con ✨ para la comunidad IA.</div>
   </div>
 </footer>
 
@@ -1382,7 +1348,7 @@ function loadDynamicPrompts() {
 // ── BLOG_POSTS embebido (evita depender de un fetch() de red para el contenido inicial) ──
 // Se regenera automáticamente en cada post nuevo por scripts/generate-post.js.
 // BLOG_POSTS_START
-const BLOG_POSTS = [{"slug":"2026-08-24-prompt-engineering-para-developers-trucos-que-no-conocias.html","title":"Prompt engineering para developers: trucos que no conocías","description":"Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para usar y mejorar tu productividad IA.","date":"2026-08-24","tags":["prompt engineering","developers","IA","trucos"],"readingTime":5,"category":"programacion"},{"slug":"2026-08-24-automatiza-tu-negocio-con-prompts-inteligentes.html","title":"Automatiza tu negocio con prompts inteligentes","description":"Descubre cómo usar prompts de IA para optimizar procesos, ahorrar tiempo y escalar tu empresa de forma sencilla.","date":"2026-08-24","tags":["automatización","IA","prompts","negocios"],"readingTime":5,"category":"emprendimiento"},{"slug":"2026-08-23-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html","title":"Construye tu propio asistente personal con ChatGPT y prompts","description":"Aprende paso a paso a crear un asistente personal con ChatGPT, diseñando prompts efectivos, integrándolo y personalizándolo para tus necesidades.","date":"2026-08-23","tags":["ChatGPT","asistente personal","prompt engineering"],"readingTime":5,"category":"personal"},{"slug":"2026-08-23-los-mejores-prompts-para-escribir-emails-profesionales-con-i.html","title":"Los mejores prompts para escribir emails profesionales con IA","description":"Descubre los prompts más efectivos para generar emails profesionales con IA, con ejemplos listos para usar y consejos prácticos.","date":"2026-08-23","tags":["IA","email","prompts"],"readingTime":5,"category":"trabajo"},{"slug":"2026-08-23-aprende-cualquier-tema-10x-mas-rapido-con-prompts-inteligent.html","title":"Aprende cualquier tema 10x más rápido con prompts inteligentes","description":"Descubre cómo usar prompts de IA para aprender cualquier tema diez veces más rápido, con ejemplos prácticos y técnicas probadas.","date":"2026-08-23","tags":["IA","prompts","aprendizaje rápido"],"readingTime":5,"category":"estudio"},{"slug":"2026-08-22-ia-para-seo-prompts-que-impulsan-tu-posicionamiento.html","title":"IA para SEO: Prompts que impulsan tu posicionamiento","description":"Descubre cómo usar la IA para crear prompts SEO que mejoran tu ranking, atraen tráfico y convierten lectores en clientes.","date":"2026-08-22","tags":["IA","SEO","prompts","marketing digital"],"readingTime":5,"category":"marketing"},{"slug":"2026-08-22-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html","title":"Cómo usar ChatGPT para crear un curso online desde cero","description":"Aprende paso a paso a diseñar, redactar y pulir un curso online completo usando ChatGPT y prompts efectivos. Guía práctica y ejemplos listos para copiar.","date":"2026-08-22","tags":["ChatGPT","curso online","prompt engineering"],"readingTime":5,"category":"estudio"},{"slug":"2026-08-22-prompts-creativos-para-disenadores-graficos-potencia-tu-arte.html","title":"Prompts creativos para diseñadores gráficos: potencia tu arte IA","description":"Descubre los mejores prompts de IA para diseñadores gráficos, ejemplos listos para copiar y potenciar tu creatividad visual al máximo.","date":"2026-08-22","tags":["diseño","prompt-creative","IA"],"readingTime":5,"category":"general"},{"slug":"2026-08-21-como-usar-la-ia-para-generar-ideas-de-negocio-en-minutos.html","title":"Cómo usar la IA para generar ideas de negocio en minutos","description":"Descubre cómo la inteligencia artificial te ayuda a crear ideas de negocio en pocos minutos con ejemplos prácticos y prompts listos para usar.","date":"2026-08-21","tags":["IA","ideas de negocio","prompt engineering"],"readingTime":5,"category":"emprendimiento"},{"slug":"2026-08-21-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html","title":"Prompts avanzados para crear contenido viral en redes sociales","description":"Descubre cómo diseñar prompts de IA que generen posts virales, con técnicas, ejemplos y trucos probados para Instagram, TikTok y más.","date":"2026-08-21","tags":["IA","prompt engineering","marketing digital"],"readingTime":5,"category":"marketing"},{"slug":"2026-08-21-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html","title":"Cómo crear prompts perfectos para generar imágenes con IA","description":"Aprende a redactar prompts precisos para obtener imágenes IA de alta calidad en minutos.","date":"2026-08-21","tags":["IA","prompts","arte digital"],"readingTime":5,"category":"general"},{"slug":"2026-08-21-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html","title":"Cómo crear prompts infalibles: guía práctica paso a paso","description":"Descubre técnicas y ejemplos para escribir prompts que siempre obtengan los resultados esperados en IA.","date":"2026-08-21","tags":["prompt engineering","IA","productividad"],"readingTime":5,"category":"trabajo"},{"slug":"2026-08-21-los-10-prompts-que-dominan-el-marketing-digital.html","title":"Los 10 prompts que dominan el marketing digital","description":"Descubre los prompts más usados por expertos en marketing para crear campañas efectivas y contenido persuasivo en IA.","date":"2026-08-21","tags":["marketing","prompt engineering","inteligencia artificial"],"readingTime":5,"category":"marketing"},{"slug":"2026-08-21-domina-chatgpt-en-tu-trabajo-diario-guia-practica.html","title":"Domina ChatGPT en tu trabajo diario: guía práctica","description":"Aprende a usar ChatGPT para ser más productivo en tu día a día laboral con trucos, ejemplos y prompts listos para copiar.","date":"2026-08-21","tags":["ChatGPT","productividad","IA"],"readingTime":5,"category":"trabajo"},{"slug":"2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html","title":"Errores comunes al escribir prompts y cómo evitarlos","description":"Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.","date":"2026-08-20","tags":["prompt engineering","IA","errores comunes"],"readingTime":5,"category":"general"},{"slug":"2026-08-20-prompt-engineering-para-developers-trucos-que-no-conocias.html","title":"Prompt engineering para developers: trucos que no conocías","description":"Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tus IA.","date":"2026-08-20","tags":["prompt engineering","developers","IA"],"readingTime":5,"category":"programacion"},{"slug":"2026-08-17-automatiza-tu-negocio.html","title":"Automatiza tu negocio","description":"Aprende a automatizar tu negocio con prompts inteligentes y IA","date":"2026-08-17","tags":["prompt engineering","inteligencia artificial","automatización"],"readingTime":5,"category":"emprendimiento"},{"slug":"2026-08-16-asistente-personal.html","title":"Asistente Personal","description":"Construye un asistente personal con ChatGPT y prompts","date":"2026-08-16","tags":["Inteligencia Artificial","ChatGPT","Prompt Engineering"],"readingTime":10,"category":"personal"},{"slug":"2026-08-16-emails-pro-con-ia.html","title":"Emails Pro con IA","description":"Aprende a escribir emails profesionales con inteligencia artificial","date":"2026-08-16","tags":["IA","Emails Profesionales","Prompt Engineering"],"readingTime":5,"category":"trabajo"},{"slug":"2026-08-16-aprende-10-veces-mas-rapido.html","title":"Aprende 10 veces más rápido","description":"Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts","date":"2026-08-16","tags":["aprendizaje","inteligencia artificial","prompts"],"readingTime":10,"category":"estudio"},{"slug":"2026-08-15-ia-para-seo.html","title":"IA para SEO","description":"Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en buscadores","date":"2026-08-15","tags":["IA","SEO","posicionamiento"],"readingTime":5,"category":"marketing"},{"slug":"2026-08-15-crea-un-curso-online-con-chatgpt.html","title":"Crea un curso online con ChatGPT","description":"Aprende a utilizar ChatGPT para crear un curso online desde cero de manera efectiva","date":"2026-08-15","tags":["ChatGPT","curso online","educación en línea"],"readingTime":5,"category":"estudio"},{"slug":"2026-08-15-prompts-creativos.html","title":"Prompts Creativos","description":"Descubre los prompts más creativos para diseñadores gráficos y mejora tu trabajo","date":"2026-08-15","tags":["diseño gráfico","prompts","inteligencia artificial"],"readingTime":10,"category":"general"},{"slug":"2026-08-14-ideas-de-negocio-con-ia.html","title":"Ideas de Negocio con IA","description":"Aprende a generar ideas de negocio con inteligencia artificial en minutos","date":"2026-08-14","tags":["IA","negocios","emprendimiento"],"readingTime":10,"category":"emprendimiento"},{"slug":"2026-08-14-contenido-viral.html","title":"Contenido Viral","description":"Aprende a crear contenido viral con prompts avanzados","date":"2026-08-14","tags":["Contenido viral","Prompts avanzados","Redes sociales"],"readingTime":10,"category":"marketing"},{"slug":"2026-08-14-imagenes-con-ia.html","title":"Imágenes con IA","description":"Descubre cómo crear imágenes perfectas con inteligencia artificial","date":"2026-08-14","tags":["IA","Inteligencia Artificial","Imágenes"],"readingTime":10,"category":"general"},{"slug":"2026-08-13-prompts-infalibles.html","title":"Prompts infalibles","description":"Aprende a escribir prompts efectivos para IA con ejemplos prácticos","date":"2026-08-13","tags":["prompt engineering","inteligencia artificial","IA"],"readingTime":10,"category":"general"},{"slug":"2026-08-13-10-prompts-de-marketing.html","title":"10 Prompts de marketing","description":"Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias","date":"2026-08-13","tags":["marketing","prompts","inteligencia artificial"],"readingTime":10,"category":"marketing"},{"slug":"2026-08-13-domina-chatgpt.html","title":"Domina ChatGPT","description":"Aprende a utilizar ChatGPT en tu trabajo diario para aumentar la productividad","date":"2026-08-13","tags":["ChatGPT","Inteligencia Artificial","Productividad"],"readingTime":10,"category":"trabajo"},{"slug":"2026-07-28-evita-errores-comunes.html","title":"Evita errores comunes","description":"Aprende a escribir prompts efectivos para IA","date":"2026-07-28","tags":["prompt engineering","IA","errores comunes"],"readingTime":5,"category":"general"},{"slug":"2026-07-19-prompts-de-marketing.html","title":"Prompts de Marketing","description":"Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas","date":"2026-07-19","tags":["marketing","prompts","inteligencia artificial"],"readingTime":10,"category":"marketing"},{"slug":"2026-07-17-aprende-rapido.html","title":"Aprende Rápido","description":"Aprende cualquier cosa 10 veces más rápido con prompts","date":"2026-07-17","tags":["Inteligencia Artificial","Aprendizaje","Prompt Engineering"],"readingTime":10,"category":"estudio"}];
+const BLOG_POSTS = [{"slug":"2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html","title":"Cómo evaluar un prompt y verificar la respuesta de una IA","description":"Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.","date":"2026-09-08","tags":["prompt engineering","evaluación","verificación"],"readingTime":9,"category":"general"}];
 // BLOG_POSTS_END
 
 // Blog state

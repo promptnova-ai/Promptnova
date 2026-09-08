@@ -10,12 +10,17 @@ const staticUrls = [
   ["/privacidad.html", "0.3"],
   ["/terminos.html", "0.3"],
   ["/aviso-legal.html", "0.3"],
+  ["/editorial.html", "0.5"],
 ];
 const postFiles = fs
   .readdirSync(postsDir)
   .filter((file) => file.endsWith(".html"))
   .sort()
   .reverse();
+const indexPath = path.join(postsDir, "index.json");
+const indexSlugs = fs.existsSync(indexPath)
+  ? new Set(JSON.parse(fs.readFileSync(indexPath, "utf8")).map((post) => post.slug))
+  : new Set(postFiles);
 
 const urls = [
   ...staticUrls.map(([url, priority]) => ({
@@ -23,7 +28,7 @@ const urls = [
     lastmod: today,
     priority,
   })),
-  ...postFiles.map((file) => ({
+  ...postFiles.filter((file) => indexSlugs.has(file)).map((file) => ({
     loc: `${SITE_BASE}/posts/${file}`,
     lastmod: file.slice(0, 10),
     priority: "0.6",
