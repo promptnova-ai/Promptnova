@@ -146,8 +146,8 @@ function normalizePost(data) {
   if (!title || !description || !html) {
     throw new Error("Groq devolvió un artículo incompleto");
   }
-  if (wordCount < 1200) {
-    throw new Error(`Groq devolvió un artículo demasiado corto (${wordCount} palabras; mínimo 1200)`);
+  if (wordCount < 1000) {
+    throw new Error(`Groq devolvió un artículo demasiado corto (${wordCount} palabras; mínimo 1000)`);
   }
   if ((html.match(/<pre[^>]*>\s*<code[^>]*>/gi) || []).length < 5) {
     throw new Error("Groq devolvió un artículo sin suficientes ejemplos de prompts (mínimo 5)");
@@ -168,7 +168,7 @@ async function generatePost(topic) {
     },
     body: {
       model: "openai/gpt-oss-120b",
-      max_tokens: 6000,
+      max_tokens: 4500,
       temperature: 0.8,
       response_format: {
         type: "json_schema",
@@ -216,7 +216,7 @@ Devuelve SOLO un objeto JSON con esta estructura exacta:
 El campo html debe contener:
 - Etiquetas h2, h3, p, ul, li, blockquote y una estructura fácil de escanear
 - Entre 5 y 8 ejemplos de prompts dentro de pre y code, explicando cuándo usar cada uno
-- Mínimo 1200 palabras originales, sin repetir la introducción entre secciones
+- Mínimo 1000 palabras originales, sin repetir la introducción entre secciones
 - Una sección sobre límites, errores frecuentes o verificación de resultados
 - Un caso práctico desarrollado de principio a fin y una checklist accionable
 - Una sección final de fuentes o documentación oficial consultada, solo con enlaces reales
@@ -558,6 +558,7 @@ function syncSitemap(index) {
     { loc: `${SITE_BASE}/privacidad.html`, priority: "0.3", lastmod: today },
     { loc: `${SITE_BASE}/terminos.html`, priority: "0.3", lastmod: today },
     { loc: `${SITE_BASE}/aviso-legal.html`, priority: "0.3", lastmod: today },
+    { loc: `${SITE_BASE}/editorial.html`, priority: "0.5", lastmod: today },
   ];
   const postsDir = path.join(process.cwd(), "posts");
   const postUrls = fs
@@ -565,6 +566,7 @@ function syncSitemap(index) {
     .filter((file) => file.endsWith(".html"))
     .sort()
     .reverse()
+    .filter((file) => !/<meta\s+name=["']robots["'][^>]*noindex/i.test(fs.readFileSync(path.join(postsDir, file), "utf8")))
     .map((file) => ({
       loc: `${SITE_BASE}/posts/${file}`,
       priority: "0.6",
