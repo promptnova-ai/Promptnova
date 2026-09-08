@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-08-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
+    "title": "Construye tu propio asistente personal con ChatGPT y prompts",
+    "description": "Aprende paso a paso a crear un asistente personal usando ChatGPT, con ejemplos de prompts, casos de uso y checklist práctico.",
+    "date": "2026-09-08",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "# Prompt 1 – Resumen de correo electrónico\nYou are an email assistant. Summarize the following email in 3 bullet points, keeping the tone formal and highlighting any action items.\n---\n{{email_body}}",
+      "# Prompt 2 – Generación de agenda diaria\nCreate a daily agenda for {{date}} based on the following events and priorities. Output in a markdown table with columns: Time, Activity, Priority.\n---\n{{events_list}}",
+      "# Prompt 3 – Búsqueda de información rápida\nAnswer the user question using only verified facts. Cite the source URL at the end of each sentence.\n---\n{{user_question}}",
+      "# Prompt 4 – Recordatorio proactivo\nGenerate a friendly reminder for the user about the upcoming deadline on {{deadline_date}}. Include a short motivational tip.\n---\n{{task_description}}",
+      "# Prompt 5 – Conversión de unidades y cálculos simples\nConvert the following quantities to the metric system and provide a brief explanation of the conversion method.\n---\n{{raw_input}}",
+      "# Prompt 6 – Generación de respuestas personalizadas\nAct as a friendly personal assistant named Alex. Reply to the user query below, using a conversational tone and ending with a question to keep the dialogue flowing.\n---\n{{user_query}}",
+      "pip install openai",
+      "email_prompt = \"You are an email assistant...\"\nagenda_prompt = \"Create a daily agenda...\"",
+      "1. Recepción del correo → Llamada a email_prompt → Obtención de tareas.\n2. Consulta al calendario → Llamada a agenda_prompt → Generación de agenda.\n3. Verificación de fechas límite → Llamada a recordatorio_prompt → Envío de notificación.",
+      "import openai, os\nopenai.api_key = os.getenv(\"OPENAI_API_KEY\")\n\ndef call_gpt(prompt, user_input):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-4o-mini\",\n        messages=[{\"role\": \"system\", \"content\": prompt},\n                  {\"role\": \"user\", \"content\": user_input}],\n        temperature=0.2,\n    )\n    return response.choices[0].message.content.strip()\n\n# 1. Resumir correo\nemail_body = \"...\"  # texto del correo real\ntasks = call_gpt(email_prompt, email_body)\nprint(\"Tareas extraídas:\", tasks)\n\n# 2. Generar agenda\nevents = \"...\"  # JSON con eventos del día\nagenda = call_gpt(agenda_prompt, events)\nprint(\"Agenda del día:\\n\", agenda)\n\n# 3. Recordatorio\ndeadline = \"2026-09-15\"\nreminder = call_gpt(recordatorio_prompt, f\"{deadline}\\n{tasks}\")\nprint(reminder)"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html",
     "title": "Cómo evaluar un prompt y verificar la respuesta de una IA",
     "description": "Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.",
