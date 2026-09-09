@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-09-como-crear-prompts-que-generen-imagenes-perfectas-con-ia.html",
+    "title": "Cómo crear prompts que generen imágenes perfectas con IA",
+    "description": "Aprende a diseñar prompts efectivos para generar imágenes IA de alta calidad, con ejemplos, checklist y buenas prácticas.",
+    "date": "2026-09-09",
+    "tags": [
+      "IA",
+      "prompt engineering",
+      "generación de imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "# Prompt 1 – Retrato fotorealista\nA portrait of a young woman with freckles, soft natural lighting, shallow depth of field, 85mm lens, cinematic color grading, high detail, --ar 3:4 --v 5",
+      "# Prompt 2 – Ilustración estilo cómic\nA dynamic comic book panel showing a superhero landing on a rooftop, bold line art, saturated colors, dramatic shadows, halftone texture, --ar 16:9 --style comic",
+      "# Prompt 3 – Paisaje de fantasía épica\nA sprawling fantasy landscape with floating islands, crystal waterfalls, neon aurora sky, ultra wide view, highly detailed, concept art, --ar 21:9 --v 5",
+      "# Prompt 4 – Producto en estudio\nA high‑end smartwatch on a reflective black surface, 3‑point lighting, macro shot, focus on bezel and screen, product photography, --ar 1:1 --v 5",
+      "# Prompt 5 – Arte abstracto minimalista\nAbstract minimal composition with geometric shapes, pastel palette, soft gradients, negative space, high resolution, --ar 4:3 --style abstract",
+      "# Prompt 6 – Escena histórica en óleo\nOil painting of a 19th‑century market square, bustling crowd, cobblestone streets, warm daylight, impressionist brushwork, --ar 3:2 --style oil",
+      "# Prompt 7 – Diseño UI/UX futurista\nFuturistic mobile app interface, holographic buttons, dark mode, neon cyan accents, clean typography, high fidelity mockup, --ar 9:16 --v 5",
+      "# Prompt 8 – Fotografía de alimentos gourmet\nClose‑up of a gourmet mushroom risotto, steam rising, wooden table, natural window light, shallow depth of field, appetizing colors, --ar 4:5 --v 5",
+      "# Portada de libro sci‑fi\nFuturistic megacity at night during a violent electric storm, towering neon skyscrapers, dark clouds swirling, a sleek silver spaceship hovering in the foreground, cinematic lighting, high detail, concept art, --ar 2:3 --v 5",
+      "# Versión ajustada\nFuturistic megacity at night during a violent electric storm, towering neon skyscrapers, dark clouds swirling, a sleek silver spaceship clearly visible hovering in the foreground, cinematic lighting, high detail, concept art, --ar 2:3 --v 5"
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-09-08-aprende-cualquier-tema-10x-mas-rapido-con-prompts-de-ia.html",
     "title": "Aprende cualquier tema 10x más rápido con prompts de IA",
     "description": "Descubre cómo crear prompts efectivos para acelerar tu aprendizaje 10 veces usando IA, con ejemplos, checklist y casos prácticos.",
