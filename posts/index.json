@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-09-09-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
+    "date": "2026-09-09",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Prompt: \"Escribe un artículo sobre IA.\"",
+      "Prompt incorrecto: \"Resume el informe de ventas del Q3.\"\nPrompt correcto: \"Resume el siguiente fragmento del informe de ventas del Q3: [pega el texto].\"",
+      "Prompt: \"Proporciona una tabla Markdown con los principales algoritmos de clustering y sus características.\"",
+      "Prompt: \"Explica la diferencia entre aprendizaje supervisado y no supervisado para estudiantes de secundaria.\"",
+      "#1 Generación de contenido SEO\nPrompt: \"Escribe un artículo de 800 palabras sobre los beneficios del teletrabajo, con encabezados H2, una conclusión y al menos tres estadísticas (cita fuentes ficticias). Usa tono cercano y dirige el texto a emprendedores.\"\n---\n#2 Creación de tabla comparativa\nPrompt: \"Genera una tabla en formato Markdown que compare los principales modelos de lenguaje (GPT‑4, Claude‑2, Gemini) en cuanto a tamaño, número de parámetros y casos de uso recomendados.\"\n---\n#3 Resumen de documento largo\nPrompt: \"Resume los siguientes 1500 caracteres del informe financiero (pega el texto) en tres párrafos, destacando ingresos, gastos y proyecciones.\"\n---\n#4 Conversión a JSON estructurado\nPrompt: \"Convierte la siguiente lista de productos en un array JSON con campos: nombre, precio, categoría y disponibilidad. Lista: Apple iPhone 14 – $799 – Smartphone – En stock; Samsung Galaxy S23 – $749 – Smartphone – Agotado.\"\n---\n#5 Código de ejemplo en Python\nPrompt: \"Escribe una función en Python que reciba una lista de números y devuelva la media, manejando listas vacías sin lanzar excepción. Incluye docstring y pruebas unitarias simples.\"\n---\n#6 Redacción de correo formal\nPrompt: \"Redacta un correo electrónico dirigido al departamento de recursos humanos solicitando una revisión salarial, manteniendo tono respetuoso y citando logros del último año.\"\n---\n#7 Generación de preguntas de examen\nPrompt: \"Crea diez preguntas de opción múltiple sobre la teoría de grafos, con cuatro alternativas cada una y la respuesta correcta marcada.\"\n---\n#8 Guía paso a paso para usuarios novatos\nPrompt: \"Elabora una guía paso a paso (con viñetas) para crear una cuenta en ChatGPT, indicando capturas de pantalla ficticias y consejos de seguridad.\"",
+      "Prompt inicial: \"Crea una lista de los pasos del proceso de onboarding en una startup de software. Cada paso debe incluir título, descripción y tiempo estimado. Usa formato JSON.\"",
+      "Prompt refinado: \"Genera un array JSON llamado 'onboarding' con 6 objetos. Cada objeto debe contener: 'paso' (título corto), 'descripcion' (máximo 30 palabras) y 'tiempo' (en días). Usa los siguientes ejemplos como guía: {\\\"paso\\\": \\\"Registro en la plataforma\\\", \\\"descripcion\\\": \\\"Crear cuenta y verificar email\\\", \\\"tiempo\\\": \\\"0.5\\\"}.\""
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-09-09-como-crear-prompts-que-generen-imagenes-perfectas-con-ia.html",
     "title": "Cómo crear prompts que generen imágenes perfectas con IA",
     "description": "Aprende a diseñar prompts efectivos para generar imágenes IA de alta calidad, con ejemplos, checklist y buenas prácticas.",
