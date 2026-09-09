@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-09-09-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html",
+    "title": "IA para SEO: 7 prompts que impulsan tu posicionamiento",
+    "description": "Descubre cómo usar prompts de IA para optimizar tu SEO, con ejemplos listos, caso práctico y checklist para mejorar el ranking sin promesas falsas.",
+    "date": "2026-09-09",
+    "tags": [
+      "IA",
+      "SEO",
+      "prompts",
+      "marketing digital"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Genera una lista de 20 palabras clave long‑tail relacionadas con \"marketing de contenidos\" para un blog dirigido a emprendedores en Latinoamérica. Incluye volumen de búsqueda estimado y nivel de competencia.",
+      "Escribe un esquema SEO‑friendly para un artículo de 1500 palabras titulado \"Cómo usar la IA para mejorar el SEO local\". Incluye encabezados H2, H3 y una breve descripción de cada sección, incorporando al menos tres palabras clave de la lista anterior.",
+      "Redacta una meta descripción de 150 caracteres que incluya la frase clave \"IA para SEO\" y que incite al clic. Evita el uso de comillas y emojis.",
+      "Reescribe el siguiente párrafo para que tenga un nivel de legibilidad de 8ª grado, manteniendo la información clave y usando palabras clave \"optimización de contenido\" y \"inteligencia artificial\":\n[pega aquí el párrafo original]",
+      "Escribe cinco preguntas frecuentes con sus respuestas breves (máximo 60 palabras) sobre \"uso de IA en SEO\". Formatea las respuestas para que puedan ser usadas en un bloque de datos estructurados tipo FAQPage.",
+      "Analiza el siguiente artículo y señala al menos tres oportunidades de mejora SEO: uso de encabezados, densidad de palabras clave y enlaces internos. Proporciona ejemplos concretos de cómo reescribirlos.\n[pega aquí el contenido del artículo]",
+      "Genera el código JSON‑LD para un artículo de blog titulado \"IA para SEO: 7 prompts que impulsan tu posicionamiento\", con autor \"Juan Pérez\", fecha de publicación \"2026-09-09\" y palabras clave \"IA, SEO, prompts\"."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-09-09-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los errores más frecuentes al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
