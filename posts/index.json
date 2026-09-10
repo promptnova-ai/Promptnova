@@ -1,5 +1,35 @@
 [
   {
+    "slug": "2026-09-10-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html",
+    "title": "Cómo usar ChatGPT para crear un curso online desde cero",
+    "description": "Aprende paso a paso a diseñar y lanzar un curso online usando ChatGPT, con ejemplos de prompts, caso práctico y checklist accionable.",
+    "date": "2026-09-10",
+    "tags": [
+      "ChatGPT",
+      "cursos online",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Identifica el perfil de estudiante ideal para un curso de introducción a la fotografía digital y enumera tres objetivos de aprendizaje medibles.\"",
+      "\"Genera un esquema de 5 módulos para un curso de fotografía digital, cada módulo con 4 lecciones y una breve descripción de cada lección.\"",
+      "\"Escribe el guion de la lección 'Exposición: apertura, velocidad e ISO' para un curso de fotografía digital. Incluye una introducción de 150 palabras, tres ejemplos prácticos y una actividad de auto‑evaluación.\"",
+      "\"Proporciona una lista de 5 recursos gratuitos (videos, artículos, plantillas) para profundizar en la exposición fotográfica, con enlaces directos y una breve descripción de cada uno.\"",
+      "# Prompt 1: Definir público objetivo\n\"Describe el perfil demográfico y los conocimientos previos de estudiantes interesados en aprender fotografía digital desde cero. Incluye edad, nivel educativo y motivaciones principales.\"\n# Cuándo usar: al inicio del proyecto para orientar tono y profundidad.",
+      "# Prompt 2: Generar título atractivo para lección\n\"Crea cinco títulos llamativos de 8‑10 palabras para una lección sobre 'Uso creativo del modo manual en cámaras DSLR'.\"\n# Cuándo usar: antes de estructurar la lección, para captar la atención del alumno.",
+      "# Prompt 3: Escribir explicación de concepto técnico\n\"Explica de forma sencilla y con analogías cotidianas qué es la profundidad de campo en fotografía, usando no más de 200 palabras.\"\n# Cuándo usar: al desarrollar la sección teórica de una lección.",
+      "# Prompt 4: Diseñar actividad práctica\n\"Diseña una actividad práctica de 10 minutos donde el estudiante deba capturar tres fotos que demuestren diferentes profundidades de campo, indicando los ajustes de cámara recomendados.\"\n# Cuándo usar: al cerrar la lección con una tarea aplicable.",
+      "# Prompt 5: Crear evaluación de opción múltiple\n\"Genera 5 preguntas de opción múltiple para evaluar la comprensión de la exposición fotográfica, con tres distractores plausibles y la respuesta correcta marcada.\"\n# Cuándo usar: al final del módulo para medir el aprendizaje.",
+      "# Prompt 6: Resumir lección en bullet points\n\"Resume la lección sobre 'Balance de blancos' en cinco puntos clave, listos para una diapositiva de repaso.\"\n# Cuándo usar: para crear material de repaso rápido para los estudiantes.\"",
+      "\"Identifica el perfil de estudiante ideal para un curso de introducción a la fotografía digital y enumera tres objetivos de aprendizaje medibles.\"",
+      "\"Genera un esquema de 5 módulos para un curso de fotografía digital, cada módulo con 4 lecciones y una breve descripción de cada lección.\"",
+      "\"Escribe el guion de la lección 'Apertura: cómo controla la cantidad de luz' con introducción, ejemplos y actividad de práctica.\"",
+      "\"Proporciona una lista de 5 recursos gratuitos (videos, artículos, plantillas) para profundizar en la apertura, con enlaces directos y una breve descripción.\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-09-09-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html",
     "title": "IA para SEO: 7 prompts que impulsan tu posicionamiento",
     "description": "Descubre cómo usar prompts de IA para optimizar tu SEO, con ejemplos listos, caso práctico y checklist para mejorar el ranking sin promesas falsas.",
