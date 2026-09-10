@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html",
+    "title": "Los mejores prompts para redactar emails profesionales con IA",
+    "description": "Descubre prompts listos para usar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos prácticos y checklist.",
+    "date": "2026-09-10",
+    "tags": [
+      "IA",
+      "email profesional",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "\"Escribe un email de presentación para un cliente potencial del sector fintech. El remitente es el director de ventas de una startup que ofrece una plataforma de análisis de datos. El tono debe ser profesional pero cercano, incluir una breve descripción del producto, un beneficio clave y una llamada a la acción para agendar una videollamada de 15 minutos. No excedas 200 palabras.\"",
+      "\"Redacta un email de seguimiento después de la reunión del 12 de octubre con el equipo de marketing de XYZ Corp. Resume los puntos acordados: propuesta de campaña, fechas de entrega y presupuesto preliminar. Agradece la participación y solicita confirmación del plan de acción antes del viernes. Mantén un tono cordial y profesional, con párrafos breves y viñetas para los acuerdos.\"",
+      "\"Genera una respuesta empática a la queja de un cliente que recibió un producto defectuoso. El email debe disculparse, reconocer el problema, ofrecer una solución (reemplazo o reembolso) y proporcionar un código de descuento del 10% para su próxima compra. Usa un tono respetuoso y evita frases genéricas.\"",
+      "\"Crea una invitación por email para un webinar interno sobre 'Inteligencia artificial en la gestión de proyectos'. El evento será el 20 de noviembre a las 10:00 h, con duración de 45 minutos. Incluye objetivo del webinar, agenda resumida y enlace de registro. El tono debe ser motivador y dirigido a empleados de nivel medio y senior.\"",
+      "\"Escribe un email de agradecimiento a María López, quien entrevistó para el puesto de Analista de Datos. Menciona dos aspectos de la conversación que resultaron interesantes, reitera el entusiasmo por la posición y adjunta un link a mi portafolio. Mantén el mensaje breve (menos de 150 palabras) y profesional.\"",
+      "\"Redacta un email anunciando la actualización de la política de trabajo remoto a partir del 1 de diciembre. Explica los cambios principales, los motivos y los pasos a seguir para solicitar días de trabajo remoto. Usa un tono informativo y estructurado, con encabezados internos para cada sección.\"",
+      "\"Redacta un email de propuesta de colaboración para la agencia Creativa XYZ. El remitente es el jefe de desarrollo de productos de nuestra empresa, que ofrece una solución SaaS de automatización de campañas. El mensaje debe incluir: 1) breve presentación, 2) propuesta de valor (integración API), 3) caso de éxito similar, 4) invitación a una demo de 30 min, y 5) cierre cordial con datos de contacto. No más de 250 palabras.\"",
+      "\"Reescribe el párrafo de beneficios en formato de viñetas, manteniendo la misma información.\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-09-10-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html",
     "title": "Cómo usar ChatGPT para crear un curso online desde cero",
     "description": "Aprende paso a paso a diseñar y lanzar un curso online usando ChatGPT, con ejemplos de prompts, caso práctico y checklist accionable.",
