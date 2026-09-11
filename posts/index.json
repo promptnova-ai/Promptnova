@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-11-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
+    "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
+    "description": "Aprende a redactar prompts que entreguen respuestas precisas y consistentes, con ejemplos listos para usar y una checklist de verificación.",
+    "date": "2026-09-11",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un resumen de 150 palabras del artículo \"Inteligencia Artificial y Ética\" publicado en Nature en 2023. Usa un tono académico y destaca tres argumentos principales.",
+      "Genera una tabla markdown con tres columnas (Producto, Precio, Disponibilidad) y cinco filas para una tienda ficticia de gadgets. Los precios deben estar en euros y la disponibilidad debe ser \"En stock\" o \"Agotado\".",
+      "Enumera diez ideas de contenido para un blog de marketing digital dirigido a pymes, indicando para cada idea el objetivo (educar, convertir, retener) y una frase de gancho de máximo 15 palabras.",
+      "Escribe un correo de seguimiento de 120 palabras a un cliente potencial que mostró interés en nuestro software de gestión de proyectos, manteniendo un tono profesional pero cercano.",
+      "Imagina que eres un historiador especializado en la Revolución Francesa. Redacta una breve entrevista (pregunta y respuesta) sobre las causas económicas del 1789, usando un estilo divulgativo.",
+      "Proporciona un plan de 4 semanas para aprender Python desde cero, con actividades diarias (máximo 2 h por día) y recursos gratuitos en línea.",
+      "Redacta una política de privacidad de 800 palabras para una aplicación móvil que recopila datos de ubicación y contactos, cumpliendo con el RGPD.",
+      "Describe, en formato de lista numerada, los pasos para configurar un pipeline CI/CD en GitHub Actions para un proyecto Node.js, incluyendo los comandos exactos.",
+      "Crear un calendario editorial de 12 artículos para un blog de ropa sostenible. Cada artículo debe incluir: título (máximo 60 caracteres), palabra clave principal, objetivo SEO (informacional, transaccional o comercial) y una breve descripción de 80 palabras.",
+      "Crear un calendario editorial de 12 artículos para un blog de ropa sostenible. Cada artículo debe incluir:\n1. Título (máximo 60 caracteres).\n2. Palabra clave principal.\n3. Objetivo SEO (elige entre: informacional, transaccional, comercial).\n4. Breve descripción de 80 palabras.\nAsegúrate de especificar el objetivo SEO para cada fila."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html",
     "title": "Los mejores prompts para redactar emails profesionales con IA",
     "description": "Descubre prompts listos para usar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos prácticos y checklist.",
