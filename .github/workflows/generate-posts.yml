@@ -14,7 +14,7 @@ concurrency:
 jobs:
   generate-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -37,7 +37,7 @@ jobs:
         env:
          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          for attempt in 1 2 3; do
+          for attempt in 1 2; do
             node scripts/generate-post.js && exit 0
             echo "Generation attempt $attempt failed; retrying..."
             sleep $((attempt * 10))
@@ -57,3 +57,10 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+
+      - name: Notificar si falló todo
+        if: failure()
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+            -d "{\"content\":\"❌ PromptNova: no se pudo generar/publicar el post de hoy (run: ${{ github.run_id }})\"}" \
+            "${{ secrets.DISCORD_WEBHOOK_URL }}"
