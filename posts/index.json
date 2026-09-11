@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-09-11-automatiza-tu-negocio-con-prompts-inteligentes-y-acelera-tu-.html",
+    "title": "Automatiza tu negocio con prompts inteligentes y acelera tu productividad",
+    "description": "Descubre cómo usar prompts de IA para automatizar procesos, con ejemplos listos para copiar, casos prácticos y checklist accionable.",
+    "date": "2026-09-11",
+    "tags": [
+      "automatización",
+      "prompt engineering",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Actúa como agente de soporte de una tienda de ropa online. Responde de forma cordial y breve a la siguiente consulta del cliente, ofreciendo una solución y un paso a seguir:\n\nCliente: \"Mi pedido llegó con una talla incorrecta. ¿Cómo lo cambio?\"",
+      "Resume en 5 viñetas los puntos clave de la siguiente transcripción de reunión, destacando decisiones, responsables y plazos:\n\n[Transcripción completa]",
+      "Estructura una página de aterrizaje para el servicio \"consultoría de transformación digital\". Incluye título H1, tres párrafos de 80‑100 palabras, dos listas con viñetas y una llamada a la acción, usando palabras clave: transformación digital, innovación empresarial, estrategia tecnológica.",
+      "Clasifica el siguiente ticket en una de estas categorías: Facturación, Soporte Técnico, Ventas, Otros. Proporciona la categoría y una breve justificación.\n\nTicket: \"No entiendo por qué mi factura de este mes tiene un cargo extra por servicio premium que nunca solicité\"",
+      "Escribe un script en Python que use la librería requests para obtener los últimos 10 tweets de la cuenta @OpenAI y los guarde en un archivo CSV con columnas: id, texto, fecha.",
+      "Redacta una política de privacidad para una aplicación móvil que recoja datos de ubicación y contactos, cumpliendo con el GDPR. Usa un lenguaje claro, incluye secciones de datos recogidos, finalidad, derechos del usuario y contacto del responsable.",
+      "Elabora un calendario de contenidos para el blog de una empresa de software B2B durante el mes de octubre. Propón 4 temas, cada uno con título, objetivo, palabra clave principal y formato (artículo, infografía, video).",
+      "Actúa como entrevistador senior para el puesto de \"Data Engineer\". Formula 5 preguntas técnicas y 3 de comportamiento, y después evalúa brevemente las respuestas hipotéticas del candidato.",
+      "Eres un asistente financiero. Redacta un correo de factura para el cliente \"{nombre}\" con los siguientes datos: número de proyecto, horas trabajadas ({horas}), tarifa por hora ({tarifa}), total a pagar. Incluye un agradecimiento y los datos de pago. Formato en texto plano."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-09-11-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
     "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
     "description": "Aprende a redactar prompts que entreguen respuestas precisas y consistentes, con ejemplos listos para usar y una checklist de verificación.",
