@@ -165,7 +165,7 @@ function normalizePost(data) {
 }
 
 // ── generación con un modelo concreto (reintentos por errores transitorios) ──
-async function generateWithModel(topic, model, maxAttempts = 3) {
+async function generateWithModel(topic, model, maxAttempts = 2) {
   const requestPayload = {
     method: "POST",
     headers: {
@@ -245,7 +245,7 @@ El campo html debe contener:
     };
     try {
       const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 60000);
+      const timeout = setTimeout(() => controller.abort(), 30000);
       response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         ...request,
         signal: controller.signal,
@@ -610,31 +610,14 @@ async function main() {
     .map((p) => p.topic)
     .filter(Boolean);
 
-  // Reintento por tema: si un tema concreto falla con todos los modelos,
-  // se prueba con otro tema antes de rendirse del todo.
-  const MAX_TOPIC_ATTEMPTS = 3;
-  const triedTopics = [];
-  let data, topic, lastError;
+  // Nota: no reintentamos por tema aquí a propósito — el workflow ya
+  // reejecuta este script hasta 2 veces si falla, y cada ejecución elige
+  // un tema aleatorio nuevo. Añadir otra capa de reintentos aquí solo
+  // suma tiempo y arriesga superar el timeout del job.
+  const topic = randomTopic(recentTopics);
+  console.log(`🤖 Generando post sobre: "${topic}"`);
 
-  for (let i = 0; i < MAX_TOPIC_ATTEMPTS; i++) {
-    topic = randomTopic(recentTopics.concat(triedTopics));
-    triedTopics.push(topic);
-    console.log(`🤖 Generando post sobre: "${topic}" (intento de tema ${i + 1}/${MAX_TOPIC_ATTEMPTS})`);
-    try {
-      data = await generatePost(topic);
-      lastError = null;
-      break;
-    } catch (error) {
-      lastError = error;
-      console.error(`⚠️  Tema "${topic}" falló con todos los modelos: ${error.message}`);
-    }
-  }
-
-  if (lastError) {
-    // Ningún tema funcionó con ningún modelo: esto sí debe marcar el Action como fallido.
-    throw lastError;
-  }
-
+  const data = await generatePost(topic);
   const updatedIndex = savePost(data, topic);
 
   // A partir de aquí el post YA está guardado. Un fallo en estas fases
