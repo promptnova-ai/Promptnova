@@ -1,5 +1,190 @@
 [
   {
+    "slug": "2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html",
+    "title": "Los mejores prompts para redactar emails profesionales con IA",
+    "description": "Descubre prompts listos para usar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos prácticos y checklist.",
+    "date": "2026-09-10",
+    "tags": [
+      "IA",
+      "email profesional",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "\"Escribe un email de presentación para un cliente potencial del sector fintech. El remitente es el director de ventas de una startup que ofrece una plataforma de análisis de datos. El tono debe ser profesional pero cercano, incluir una breve descripción del producto, un beneficio clave y una llamada a la acción para agendar una videollamada de 15 minutos. No excedas 200 palabras.\"",
+      "\"Redacta un email de seguimiento después de la reunión del 12 de octubre con el equipo de marketing de XYZ Corp. Resume los puntos acordados: propuesta de campaña, fechas de entrega y presupuesto preliminar. Agradece la participación y solicita confirmación del plan de acción antes del viernes. Mantén un tono cordial y profesional, con párrafos breves y viñetas para los acuerdos.\"",
+      "\"Genera una respuesta empática a la queja de un cliente que recibió un producto defectuoso. El email debe disculparse, reconocer el problema, ofrecer una solución (reemplazo o reembolso) y proporcionar un código de descuento del 10% para su próxima compra. Usa un tono respetuoso y evita frases genéricas.\"",
+      "\"Crea una invitación por email para un webinar interno sobre 'Inteligencia artificial en la gestión de proyectos'. El evento será el 20 de noviembre a las 10:00 h, con duración de 45 minutos. Incluye objetivo del webinar, agenda resumida y enlace de registro. El tono debe ser motivador y dirigido a empleados de nivel medio y senior.\"",
+      "\"Escribe un email de agradecimiento a María López, quien entrevistó para el puesto de Analista de Datos. Menciona dos aspectos de la conversación que resultaron interesantes, reitera el entusiasmo por la posición y adjunta un link a mi portafolio. Mantén el mensaje breve (menos de 150 palabras) y profesional.\"",
+      "\"Redacta un email anunciando la actualización de la política de trabajo remoto a partir del 1 de diciembre. Explica los cambios principales, los motivos y los pasos a seguir para solicitar días de trabajo remoto. Usa un tono informativo y estructurado, con encabezados internos para cada sección.\"",
+      "\"Redacta un email de propuesta de colaboración para la agencia Creativa XYZ. El remitente es el jefe de desarrollo de productos de nuestra empresa, que ofrece una solución SaaS de automatización de campañas. El mensaje debe incluir: 1) breve presentación, 2) propuesta de valor (integración API), 3) caso de éxito similar, 4) invitación a una demo de 30 min, y 5) cierre cordial con datos de contacto. No más de 250 palabras.\"",
+      "\"Reescribe el párrafo de beneficios en formato de viñetas, manteniendo la misma información.\""
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
+    "slug": "2026-09-10-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html",
+    "title": "Cómo usar ChatGPT para crear un curso online desde cero",
+    "description": "Aprende paso a paso a diseñar y lanzar un curso online usando ChatGPT, con ejemplos de prompts, caso práctico y checklist accionable.",
+    "date": "2026-09-10",
+    "tags": [
+      "ChatGPT",
+      "cursos online",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Identifica el perfil de estudiante ideal para un curso de introducción a la fotografía digital y enumera tres objetivos de aprendizaje medibles.\"",
+      "\"Genera un esquema de 5 módulos para un curso de fotografía digital, cada módulo con 4 lecciones y una breve descripción de cada lección.\"",
+      "\"Escribe el guion de la lección 'Exposición: apertura, velocidad e ISO' para un curso de fotografía digital. Incluye una introducción de 150 palabras, tres ejemplos prácticos y una actividad de auto‑evaluación.\"",
+      "\"Proporciona una lista de 5 recursos gratuitos (videos, artículos, plantillas) para profundizar en la exposición fotográfica, con enlaces directos y una breve descripción de cada uno.\"",
+      "# Prompt 1: Definir público objetivo\n\"Describe el perfil demográfico y los conocimientos previos de estudiantes interesados en aprender fotografía digital desde cero. Incluye edad, nivel educativo y motivaciones principales.\"\n# Cuándo usar: al inicio del proyecto para orientar tono y profundidad.",
+      "# Prompt 2: Generar título atractivo para lección\n\"Crea cinco títulos llamativos de 8‑10 palabras para una lección sobre 'Uso creativo del modo manual en cámaras DSLR'.\"\n# Cuándo usar: antes de estructurar la lección, para captar la atención del alumno.",
+      "# Prompt 3: Escribir explicación de concepto técnico\n\"Explica de forma sencilla y con analogías cotidianas qué es la profundidad de campo en fotografía, usando no más de 200 palabras.\"\n# Cuándo usar: al desarrollar la sección teórica de una lección.",
+      "# Prompt 4: Diseñar actividad práctica\n\"Diseña una actividad práctica de 10 minutos donde el estudiante deba capturar tres fotos que demuestren diferentes profundidades de campo, indicando los ajustes de cámara recomendados.\"\n# Cuándo usar: al cerrar la lección con una tarea aplicable.",
+      "# Prompt 5: Crear evaluación de opción múltiple\n\"Genera 5 preguntas de opción múltiple para evaluar la comprensión de la exposición fotográfica, con tres distractores plausibles y la respuesta correcta marcada.\"\n# Cuándo usar: al final del módulo para medir el aprendizaje.",
+      "# Prompt 6: Resumir lección en bullet points\n\"Resume la lección sobre 'Balance de blancos' en cinco puntos clave, listos para una diapositiva de repaso.\"\n# Cuándo usar: para crear material de repaso rápido para los estudiantes.\"",
+      "\"Identifica el perfil de estudiante ideal para un curso de introducción a la fotografía digital y enumera tres objetivos de aprendizaje medibles.\"",
+      "\"Genera un esquema de 5 módulos para un curso de fotografía digital, cada módulo con 4 lecciones y una breve descripción de cada lección.\"",
+      "\"Escribe el guion de la lección 'Apertura: cómo controla la cantidad de luz' con introducción, ejemplos y actividad de práctica.\"",
+      "\"Proporciona una lista de 5 recursos gratuitos (videos, artículos, plantillas) para profundizar en la apertura, con enlaces directos y una breve descripción.\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
+    "slug": "2026-09-09-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html",
+    "title": "IA para SEO: 7 prompts que impulsan tu posicionamiento",
+    "description": "Descubre cómo usar prompts de IA para optimizar tu SEO, con ejemplos listos, caso práctico y checklist para mejorar el ranking sin promesas falsas.",
+    "date": "2026-09-09",
+    "tags": [
+      "IA",
+      "SEO",
+      "prompts",
+      "marketing digital"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Genera una lista de 20 palabras clave long‑tail relacionadas con \"marketing de contenidos\" para un blog dirigido a emprendedores en Latinoamérica. Incluye volumen de búsqueda estimado y nivel de competencia.",
+      "Escribe un esquema SEO‑friendly para un artículo de 1500 palabras titulado \"Cómo usar la IA para mejorar el SEO local\". Incluye encabezados H2, H3 y una breve descripción de cada sección, incorporando al menos tres palabras clave de la lista anterior.",
+      "Redacta una meta descripción de 150 caracteres que incluya la frase clave \"IA para SEO\" y que incite al clic. Evita el uso de comillas y emojis.",
+      "Reescribe el siguiente párrafo para que tenga un nivel de legibilidad de 8ª grado, manteniendo la información clave y usando palabras clave \"optimización de contenido\" y \"inteligencia artificial\":\n[pega aquí el párrafo original]",
+      "Escribe cinco preguntas frecuentes con sus respuestas breves (máximo 60 palabras) sobre \"uso de IA en SEO\". Formatea las respuestas para que puedan ser usadas en un bloque de datos estructurados tipo FAQPage.",
+      "Analiza el siguiente artículo y señala al menos tres oportunidades de mejora SEO: uso de encabezados, densidad de palabras clave y enlaces internos. Proporciona ejemplos concretos de cómo reescribirlos.\n[pega aquí el contenido del artículo]",
+      "Genera el código JSON‑LD para un artículo de blog titulado \"IA para SEO: 7 prompts que impulsan tu posicionamiento\", con autor \"Juan Pérez\", fecha de publicación \"2026-09-09\" y palabras clave \"IA, SEO, prompts\"."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
+    "slug": "2026-09-09-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts para IA y aprende estrategias prácticas para evitarlos y obtener mejores resultados.",
+    "date": "2026-09-09",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Prompt: \"Escribe un artículo sobre IA.\"",
+      "Prompt incorrecto: \"Resume el informe de ventas del Q3.\"\nPrompt correcto: \"Resume el siguiente fragmento del informe de ventas del Q3: [pega el texto].\"",
+      "Prompt: \"Proporciona una tabla Markdown con los principales algoritmos de clustering y sus características.\"",
+      "Prompt: \"Explica la diferencia entre aprendizaje supervisado y no supervisado para estudiantes de secundaria.\"",
+      "#1 Generación de contenido SEO\nPrompt: \"Escribe un artículo de 800 palabras sobre los beneficios del teletrabajo, con encabezados H2, una conclusión y al menos tres estadísticas (cita fuentes ficticias). Usa tono cercano y dirige el texto a emprendedores.\"\n---\n#2 Creación de tabla comparativa\nPrompt: \"Genera una tabla en formato Markdown que compare los principales modelos de lenguaje (GPT‑4, Claude‑2, Gemini) en cuanto a tamaño, número de parámetros y casos de uso recomendados.\"\n---\n#3 Resumen de documento largo\nPrompt: \"Resume los siguientes 1500 caracteres del informe financiero (pega el texto) en tres párrafos, destacando ingresos, gastos y proyecciones.\"\n---\n#4 Conversión a JSON estructurado\nPrompt: \"Convierte la siguiente lista de productos en un array JSON con campos: nombre, precio, categoría y disponibilidad. Lista: Apple iPhone 14 – $799 – Smartphone – En stock; Samsung Galaxy S23 – $749 – Smartphone – Agotado.\"\n---\n#5 Código de ejemplo en Python\nPrompt: \"Escribe una función en Python que reciba una lista de números y devuelva la media, manejando listas vacías sin lanzar excepción. Incluye docstring y pruebas unitarias simples.\"\n---\n#6 Redacción de correo formal\nPrompt: \"Redacta un correo electrónico dirigido al departamento de recursos humanos solicitando una revisión salarial, manteniendo tono respetuoso y citando logros del último año.\"\n---\n#7 Generación de preguntas de examen\nPrompt: \"Crea diez preguntas de opción múltiple sobre la teoría de grafos, con cuatro alternativas cada una y la respuesta correcta marcada.\"\n---\n#8 Guía paso a paso para usuarios novatos\nPrompt: \"Elabora una guía paso a paso (con viñetas) para crear una cuenta en ChatGPT, indicando capturas de pantalla ficticias y consejos de seguridad.\"",
+      "Prompt inicial: \"Crea una lista de los pasos del proceso de onboarding en una startup de software. Cada paso debe incluir título, descripción y tiempo estimado. Usa formato JSON.\"",
+      "Prompt refinado: \"Genera un array JSON llamado 'onboarding' con 6 objetos. Cada objeto debe contener: 'paso' (título corto), 'descripcion' (máximo 30 palabras) y 'tiempo' (en días). Usa los siguientes ejemplos como guía: {\\\"paso\\\": \\\"Registro en la plataforma\\\", \\\"descripcion\\\": \\\"Crear cuenta y verificar email\\\", \\\"tiempo\\\": \\\"0.5\\\"}.\""
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
+    "slug": "2026-09-09-como-crear-prompts-que-generen-imagenes-perfectas-con-ia.html",
+    "title": "Cómo crear prompts que generen imágenes perfectas con IA",
+    "description": "Aprende a diseñar prompts efectivos para generar imágenes IA de alta calidad, con ejemplos, checklist y buenas prácticas.",
+    "date": "2026-09-09",
+    "tags": [
+      "IA",
+      "prompt engineering",
+      "generación de imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "# Prompt 1 – Retrato fotorealista\nA portrait of a young woman with freckles, soft natural lighting, shallow depth of field, 85mm lens, cinematic color grading, high detail, --ar 3:4 --v 5",
+      "# Prompt 2 – Ilustración estilo cómic\nA dynamic comic book panel showing a superhero landing on a rooftop, bold line art, saturated colors, dramatic shadows, halftone texture, --ar 16:9 --style comic",
+      "# Prompt 3 – Paisaje de fantasía épica\nA sprawling fantasy landscape with floating islands, crystal waterfalls, neon aurora sky, ultra wide view, highly detailed, concept art, --ar 21:9 --v 5",
+      "# Prompt 4 – Producto en estudio\nA high‑end smartwatch on a reflective black surface, 3‑point lighting, macro shot, focus on bezel and screen, product photography, --ar 1:1 --v 5",
+      "# Prompt 5 – Arte abstracto minimalista\nAbstract minimal composition with geometric shapes, pastel palette, soft gradients, negative space, high resolution, --ar 4:3 --style abstract",
+      "# Prompt 6 – Escena histórica en óleo\nOil painting of a 19th‑century market square, bustling crowd, cobblestone streets, warm daylight, impressionist brushwork, --ar 3:2 --style oil",
+      "# Prompt 7 – Diseño UI/UX futurista\nFuturistic mobile app interface, holographic buttons, dark mode, neon cyan accents, clean typography, high fidelity mockup, --ar 9:16 --v 5",
+      "# Prompt 8 – Fotografía de alimentos gourmet\nClose‑up of a gourmet mushroom risotto, steam rising, wooden table, natural window light, shallow depth of field, appetizing colors, --ar 4:5 --v 5",
+      "# Portada de libro sci‑fi\nFuturistic megacity at night during a violent electric storm, towering neon skyscrapers, dark clouds swirling, a sleek silver spaceship hovering in the foreground, cinematic lighting, high detail, concept art, --ar 2:3 --v 5",
+      "# Versión ajustada\nFuturistic megacity at night during a violent electric storm, towering neon skyscrapers, dark clouds swirling, a sleek silver spaceship clearly visible hovering in the foreground, cinematic lighting, high detail, concept art, --ar 2:3 --v 5"
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
+    "slug": "2026-09-08-aprende-cualquier-tema-10x-mas-rapido-con-prompts-de-ia.html",
+    "title": "Aprende cualquier tema 10x más rápido con prompts de IA",
+    "description": "Descubre cómo crear prompts efectivos para acelerar tu aprendizaje 10 veces usando IA, con ejemplos, checklist y casos prácticos.",
+    "date": "2026-09-08",
+    "tags": [
+      "aprendizaje rápido",
+      "prompt engineering",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Resume en 3 párrafos el concepto de transformada de Fourier explicando su utilidad en procesamiento de señales y dando un ejemplo práctico sencillo.\"",
+      "\"Crea una tabla comparativa entre la teoría de la relatividad especial y la teoría cuántica, indicando: principios básicos, ecuaciones clave, dominios de aplicación y limitaciones.\"",
+      "\"Genera 5 preguntas de opción múltiple sobre la fotosíntesis. Después de cada pregunta, incluye la respuesta correcta y una breve explicación de por qué es la correcta.\"",
+      "\"Resuelve paso a paso la integral ∫(2x³‑5x+1)dx y explica cada paso como si fuera para un estudiante de bachillerato.\"",
+      "\"Simula una entrevista de 5 preguntas para el puesto de Analista de Datos, incluye la respuesta ideal y una breve valoración de la respuesta del candidato.\"",
+      "\"Genera un mapa mental en formato texto para el tema 'Estrategias de marketing digital', con niveles jerárquicos y palabras clave en cada rama.\"",
+      "\"Crea 3 ejercicios de cálculo diferencial de nivel universitario, cada uno con su solución paso a paso y una pista opcional para quien se quede atascado.\"",
+      "\"Resume en 200 palabras el artículo 'Deep Learning for Natural Language Processing' de 2022, resaltando objetivo, metodología y principales hallazgos.\"",
+      "\"Proporciona una visión general de Python en 5 párrafos: historia, filosofía, casos de uso principales y diferencias con otros lenguajes.\"",
+      "\"Enumera y explica con ejemplos breves los 10 conceptos sintácticos más importantes de Python para principiantes.\"",
+      "\"Crea 4 ejercicios de programación en Python que involucren bucles y condicionales, con soluciones paso a paso.\"",
+      "\"Genera una tabla comparativa entre listas, tuplas y diccionarios en Python, indicando mutabilidad, sintaxis y casos de uso típicos.\"",
+      "\"Propón un mini‑proyecto de 3 días para crear una agenda de contactos en Python, incluye funcionalidades básicas y una lista de pasos.\"",
+      "\"Explica 5 técnicas de depuración en Python y muestra ejemplos de cómo usar la librería 'logging' para registrar eventos.\"",
+      "\"Formula 5 preguntas tipo test sobre todo lo aprendido en la semana, incluye respuestas y explicaciones breves.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-09-08-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
+    "title": "Construye tu propio asistente personal con ChatGPT y prompts",
+    "description": "Aprende paso a paso a crear un asistente personal usando ChatGPT, con ejemplos de prompts, casos de uso y checklist práctico.",
+    "date": "2026-09-08",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "# Prompt 1 – Resumen de correo electrónico\nYou are an email assistant. Summarize the following email in 3 bullet points, keeping the tone formal and highlighting any action items.\n---\n{{email_body}}",
+      "# Prompt 2 – Generación de agenda diaria\nCreate a daily agenda for {{date}} based on the following events and priorities. Output in a markdown table with columns: Time, Activity, Priority.\n---\n{{events_list}}",
+      "# Prompt 3 – Búsqueda de información rápida\nAnswer the user question using only verified facts. Cite the source URL at the end of each sentence.\n---\n{{user_question}}",
+      "# Prompt 4 – Recordatorio proactivo\nGenerate a friendly reminder for the user about the upcoming deadline on {{deadline_date}}. Include a short motivational tip.\n---\n{{task_description}}",
+      "# Prompt 5 – Conversión de unidades y cálculos simples\nConvert the following quantities to the metric system and provide a brief explanation of the conversion method.\n---\n{{raw_input}}",
+      "# Prompt 6 – Generación de respuestas personalizadas\nAct as a friendly personal assistant named Alex. Reply to the user query below, using a conversational tone and ending with a question to keep the dialogue flowing.\n---\n{{user_query}}",
+      "pip install openai",
+      "email_prompt = \"You are an email assistant...\"\nagenda_prompt = \"Create a daily agenda...\"",
+      "1. Recepción del correo → Llamada a email_prompt → Obtención de tareas.\n2. Consulta al calendario → Llamada a agenda_prompt → Generación de agenda.\n3. Verificación de fechas límite → Llamada a recordatorio_prompt → Envío de notificación.",
+      "import openai, os\nopenai.api_key = os.getenv(\"OPENAI_API_KEY\")\n\ndef call_gpt(prompt, user_input):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-4o-mini\",\n        messages=[{\"role\": \"system\", \"content\": prompt},\n                  {\"role\": \"user\", \"content\": user_input}],\n        temperature=0.2,\n    )\n    return response.choices[0].message.content.strip()\n\n# 1. Resumir correo\nemail_body = \"...\"  # texto del correo real\ntasks = call_gpt(email_prompt, email_body)\nprint(\"Tareas extraídas:\", tasks)\n\n# 2. Generar agenda\nevents = \"...\"  # JSON con eventos del día\nagenda = call_gpt(agenda_prompt, events)\nprint(\"Agenda del día:\\n\", agenda)\n\n# 3. Recordatorio\ndeadline = \"2026-09-15\"\nreminder = call_gpt(recordatorio_prompt, f\"{deadline}\\n{tasks}\")\nprint(reminder)"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html",
     "title": "Cómo evaluar un prompt y verificar la respuesta de una IA",
     "description": "Método práctico para diseñar, probar y evaluar prompts con criterios claros, ejemplos comparables y verificación de respuestas.",

@@ -3,6 +3,17 @@ import path from "path";
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const SITE_BASE_PATH = "/";
+const SITE_BASE = "https://promptnova.me";
+
+// ── FIX A: lista de modelos con fallback ──
+// Si el primer modelo falla del todo (agotó sus reintentos), se prueba
+// el siguiente. Así un modelo retirado/renombrado o un pico de errores
+// en Groq no tumba la publicación del día.
+const MODELS = [
+  "openai/gpt-oss-120b",
+  "llama-3.3-70b-versatile",
+  "llama-3.1-8b-instant",
+];
 
 const TOPICS = [
   "Los mejores prompts para escribir emails profesionales con IA",
@@ -23,11 +34,10 @@ const TOPICS = [
 ];
 
 // ── CLASIFICACIÓN AUTOMÁTICA ──
-// Mapeo de palabras clave → categoría
 const CATEGORY_RULES = [
   {
     cat: "programacion",
-    keywords: ["developer", "código", "codigo", "api", "software", "programar", "programación", "programacion", "developer", "script", "web", "app", "github", "función", "base de datos", "backend", "frontend"],
+    keywords: ["developer", "código", "codigo", "api", "software", "programar", "programación", "programacion", "script", "web", "app", "github", "función", "base de datos", "backend", "frontend"],
   },
   {
     cat: "marketing",
@@ -53,23 +63,15 @@ const CATEGORY_RULES = [
 
 function classifyPost(title, tags = []) {
   const text = `${title} ${tags.join(" ")}`.toLowerCase();
-
-  // Contar coincidencias por categoría
   const scores = CATEGORY_RULES.map((rule) => ({
     cat: rule.cat,
     score: rule.keywords.filter((kw) => text.includes(kw)).length,
   }));
-
-  // Ordenar por puntuación y coger la mayor
   scores.sort((a, b) => b.score - a.score);
-
-  // Si no hay ninguna coincidencia clara, devolver 'general'
   return scores[0].score > 0 ? scores[0].cat : "general";
 }
 
 // ── EXTRACCIÓN DE PROMPTS ──
-// Busca bloques <pre><code>...</code></pre> dentro del HTML del artículo
-// y devuelve el texto plano de cada uno, listo para el botón "Copiar".
 function decodeEntities(str) {
   return str
     .replace(/&lt;/g, "<")
@@ -79,8 +81,6 @@ function decodeEntities(str) {
     .replace(/&amp;/g, "&");
 }
 
-// Groq a veces mete la etiqueta ("Ejemplo 1: Redacción de correos...") en su propio
-// bloque <pre><code>, separado del prompt real. Esto filtra esas etiquetas sueltas.
 function isJustALabel(text) {
   const words = text.trim().split(/\s+/).length;
   return /^ejemplo\s*\d*\s*[:.\-]?/i.test(text.trim()) && words <= 8;
@@ -113,8 +113,8 @@ function today() {
   return new Date().toISOString().split("T")[0];
 }
 
-function randomTopic(recentTopics = []) {
-  const available = TOPICS.filter((t) => !recentTopics.includes(t));
+function randomTopic(excludeTopics = []) {
+  const available = TOPICS.filter((t) => !excludeTopics.includes(t));
   const pool = available.length > 0 ? available : TOPICS;
   return pool[Math.floor(Math.random() * pool.length)];
 }
@@ -123,6 +123,10 @@ function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// ── FIX B: validación "dura" vs "blanda" ──
+// Palabras y nº de prompts son bloqueantes (son lo que realmente hace
+// útil al artículo). La sección de límites/verificación, si falta, se
+// autocompleta en vez de descartar todo el artículo.
 function normalizePost(data) {
   if (!data || typeof data !== "object") {
     throw new Error("Groq devolvió un artículo vacío o inválido");
@@ -130,7 +134,7 @@ function normalizePost(data) {
 
   const title = typeof data.title === "string" ? data.title.trim() : "";
   const description = typeof data.description === "string" ? data.description.trim() : "";
-  const html = typeof data.html === "string" ? data.html.trim() : "";
+  let html = typeof data.html === "string" ? data.html.trim() : "";
   const tags = Array.isArray(data.tags)
     ? data.tags.filter((tag) => typeof tag === "string" && tag.trim()).map((tag) => tag.trim())
     : [];
@@ -153,13 +157,15 @@ function normalizePost(data) {
     throw new Error("Groq devolvió un artículo sin suficientes ejemplos de prompts (mínimo 5)");
   }
   if (!/<h2[^>]*>[^<]*(limitaciones|errores|comprobar|verificar|medir)/i.test(html)) {
-    throw new Error("Groq devolvió un artículo sin una sección de límites o verificación");
+    console.log("⚠️  Sección de límites/verificación ausente — se añade automáticamente");
+    html += `\n<h2>Límites y verificación</h2>\n<p>Antes de usar estos prompts en un contexto real, revisa siempre la salida manualmente: los modelos pueden inventar datos, cifras o referencias. Ajusta el prompt y vuelve a comprobar el resultado hasta que se ajuste a lo que necesitas.</p>`;
   }
 
   return { title, description, tags: tags.length > 0 ? tags : ["IA"], readingTime, html };
 }
 
-async function generatePost(topic) {
+// ── generación con un modelo concreto (reintentos por errores transitorios) ──
+async function generateWithModel(topic, model, maxAttempts = 3) {
   const requestPayload = {
     method: "POST",
     headers: {
@@ -167,7 +173,7 @@ async function generatePost(topic) {
       Authorization: `Bearer ${GROQ_API_KEY}`,
     },
     body: {
-      model: "openai/gpt-oss-120b",
+      model,
       max_tokens: 4500,
       temperature: 0.8,
       response_format: {
@@ -229,14 +235,12 @@ El campo html debe contener:
 
   let response;
   let lastError;
-  for (let attempt = 1; attempt <= 5; attempt++) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     const request = {
       ...requestPayload,
       body: JSON.stringify({
         ...requestPayload.body,
-        ...(attempt >= 3
-          ? { response_format: { type: "json_object" } }
-          : {}),
+        ...(attempt >= 2 ? { response_format: { type: "json_object" } } : {}),
       }),
     };
     try {
@@ -249,7 +253,7 @@ El campo html debe contener:
       clearTimeout(timeout);
     } catch (error) {
       lastError = error;
-      if (attempt < 5) await wait(Math.min(30000, 2000 * 2 ** (attempt - 1)));
+      if (attempt < maxAttempts) await wait(Math.min(30000, 2000 * 2 ** (attempt - 1)));
       continue;
     }
 
@@ -275,7 +279,7 @@ El campo html debe contener:
         }
       } catch (error) {
         lastError = error;
-        if (attempt < 5) {
+        if (attempt < maxAttempts) {
           await wait(Math.min(30000, 2000 * 2 ** (attempt - 1)));
           continue;
         }
@@ -285,22 +289,36 @@ El campo html debe contener:
 
     const errorBody = await response.text();
     const retryableJsonError = response.status === 400 && errorBody.includes('"code":"json_validate_failed"');
-    lastError = new Error(`Groq API error ${response.status}: ${errorBody}`);
+    lastError = new Error(`Groq API error ${response.status} (modelo ${model}): ${errorBody}`);
     const retryableStatus = [408, 425, 429, 500, 502, 503, 504].includes(response.status);
-    if ((retryableStatus || retryableJsonError) && attempt < 5) {
+    if ((retryableStatus || retryableJsonError) && attempt < maxAttempts) {
       const retryAfter = Number(response.headers.get("retry-after"));
       const delay = Number.isFinite(retryAfter) ? retryAfter * 1000 : Math.min(30000, 2000 * 2 ** (attempt - 1));
       await wait(delay);
       continue;
     }
+    // Error no reintentable (p.ej. modelo no encontrado, request inválido):
+    // se corta aquí mismo para pasar rápido al siguiente modelo de la lista.
     break;
   }
 
-  if (!response) throw new Error(`No se pudo conectar con Groq: ${lastError?.message}`);
-
+  if (!response) throw new Error(`No se pudo conectar con Groq (modelo ${model}): ${lastError?.message}`);
   if (!response.ok) throw lastError;
+  throw lastError || new Error(`Groq no devolvió un artículo válido (modelo ${model})`);
+}
 
-  throw lastError || new Error("Groq no devolvió un artículo válido");
+// ── FIX A (continuación): recorre la lista de modelos ──
+async function generatePost(topic) {
+  let lastError;
+  for (const model of MODELS) {
+    try {
+      return await generateWithModel(topic, model);
+    } catch (error) {
+      console.error(`⚠️  Falló con modelo "${model}": ${error.message}`);
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("Todos los modelos fallaron");
 }
 
 function savePost(data, topic) {
@@ -320,7 +338,6 @@ function savePost(data, topic) {
   const filename = `${date}-${slug}.html`;
   const filepath = path.join(postsDir, filename);
 
-  // Clasificar automáticamente la categoría
   const category = classifyPost(data.title, data.tags);
   console.log(`🏷️  Categoría detectada: ${category}`);
 
@@ -454,9 +471,9 @@ function savePost(data, topic) {
       date,
       tags: data.tags,
       readingTime: data.readingTime,
-      category,                          // ← campo añadido anteriormente
-      prompts,                           // ← campo nuevo: array de prompts listos para copiar
-      topic,                             // ← tema original elegido, para no repetirlo pronto
+      category,
+      prompts,
+      topic,
     });
   }
 
@@ -468,10 +485,6 @@ function savePost(data, topic) {
 }
 
 // ── SINCRONIZAR index.html ──
-// Mantiene el array BLOG_POSTS embebido y la grilla estática de las primeras 6
-// tarjetas del blog en index.html, para que el contenido esté visible sin
-// depender de JavaScript ni de una petición de red aparte (requisito para que
-// AdSense no marque la portada como "pantalla sin contenido del editor").
 const CAT_LABELS_SYNC = {
   trabajo: "💼 Trabajo", marketing: "📣 Marketing", programacion: "💻 Programación",
   estudio: "📚 Estudio", personal: "❤️ Personal", emprendimiento: "🚀 Emprendimiento", general: "🌐 General",
@@ -519,12 +532,10 @@ function syncIndexHtml(index) {
   }
   let html = fs.readFileSync(indexHtmlPath, "utf8");
 
-  // Solo los campos que el cliente necesita (sin `prompts`, no se usa en index.html)
   const slim = index.map(({ slug, title, description, date, tags, readingTime, category }) => ({
     slug, title, description, date, tags, readingTime, category,
   }));
 
-  // 1) Reemplazar el array BLOG_POSTS embebido
   const blogPostsRegex = /(\/\/ BLOG_POSTS_START\s*\n\s*const BLOG_POSTS = )[\s\S]*?(;\s*\n\s*\/\/ BLOG_POSTS_END)/;
   if (blogPostsRegex.test(html)) {
     html = html.replace(blogPostsRegex, `$1${JSON.stringify(slim)}$2`);
@@ -532,7 +543,6 @@ function syncIndexHtml(index) {
     console.log("⚠️  No se encontraron los marcadores BLOG_POSTS_START/END en index.html — se omite ese paso");
   }
 
-  // 2) Reemplazar la grilla estática pre-renderizada (primeras 6 tarjetas)
   const staticGridRegex = /(<!-- BLOG_GRID_STATIC_START -->)[\s\S]*?(<!-- BLOG_GRID_STATIC_END -->)/;
   if (staticGridRegex.test(html)) {
     const newStaticHtml = renderBlogGridStatic(slim.slice(0, 6));
@@ -546,19 +556,16 @@ function syncIndexHtml(index) {
 }
 
 // ── SITEMAP ──
-// Regenera sitemap.xml con todos los posts actuales cada vez que se publica uno nuevo.
-const SITE_BASE = "https://promptnova.me";
-
 function syncSitemap(index) {
   const sitemapPath = path.join(process.cwd(), "sitemap.xml");
-  const today = new Date().toISOString().slice(0, 10);
+  const todayDate = new Date().toISOString().slice(0, 10);
 
   const staticUrls = [
-    { loc: `${SITE_BASE}/`, priority: "1.0", lastmod: today },
-    { loc: `${SITE_BASE}/privacidad.html`, priority: "0.3", lastmod: today },
-    { loc: `${SITE_BASE}/terminos.html`, priority: "0.3", lastmod: today },
-    { loc: `${SITE_BASE}/aviso-legal.html`, priority: "0.3", lastmod: today },
-    { loc: `${SITE_BASE}/editorial.html`, priority: "0.5", lastmod: today },
+    { loc: `${SITE_BASE}/`, priority: "1.0", lastmod: todayDate },
+    { loc: `${SITE_BASE}/privacidad.html`, priority: "0.3", lastmod: todayDate },
+    { loc: `${SITE_BASE}/terminos.html`, priority: "0.3", lastmod: todayDate },
+    { loc: `${SITE_BASE}/aviso-legal.html`, priority: "0.3", lastmod: todayDate },
+    { loc: `${SITE_BASE}/editorial.html`, priority: "0.5", lastmod: todayDate },
   ];
   const postsDir = path.join(process.cwd(), "posts");
   const postUrls = fs
@@ -570,7 +577,7 @@ function syncSitemap(index) {
     .map((file) => ({
       loc: `${SITE_BASE}/posts/${file}`,
       priority: "0.6",
-      lastmod: file.slice(0, 10) || today,
+      lastmod: file.slice(0, 10) || todayDate,
     }));
 
   const all = [...staticUrls, ...postUrls];
@@ -588,6 +595,7 @@ function syncSitemap(index) {
   console.log(`🗺️  sitemap.xml actualizado — ${all.length} URLs`);
 }
 
+// ── FIX C + D: fases independientes y reintento por tema ──
 async function main() {
   if (!GROQ_API_KEY) {
     throw new Error("Falta la variable de entorno GROQ_API_KEY");
@@ -602,13 +610,45 @@ async function main() {
     .map((p) => p.topic)
     .filter(Boolean);
 
-  const topic = randomTopic(recentTopics);
-  console.log(`🤖 Generando post sobre: "${topic}"`);
+  // Reintento por tema: si un tema concreto falla con todos los modelos,
+  // se prueba con otro tema antes de rendirse del todo.
+  const MAX_TOPIC_ATTEMPTS = 3;
+  const triedTopics = [];
+  let data, topic, lastError;
 
-  const data = await generatePost(topic);
+  for (let i = 0; i < MAX_TOPIC_ATTEMPTS; i++) {
+    topic = randomTopic(recentTopics.concat(triedTopics));
+    triedTopics.push(topic);
+    console.log(`🤖 Generando post sobre: "${topic}" (intento de tema ${i + 1}/${MAX_TOPIC_ATTEMPTS})`);
+    try {
+      data = await generatePost(topic);
+      lastError = null;
+      break;
+    } catch (error) {
+      lastError = error;
+      console.error(`⚠️  Tema "${topic}" falló con todos los modelos: ${error.message}`);
+    }
+  }
+
+  if (lastError) {
+    // Ningún tema funcionó con ningún modelo: esto sí debe marcar el Action como fallido.
+    throw lastError;
+  }
+
   const updatedIndex = savePost(data, topic);
-  syncIndexHtml(updatedIndex);
-  syncSitemap(updatedIndex);
+
+  // A partir de aquí el post YA está guardado. Un fallo en estas fases
+  // no debe borrar ese éxito ni marcar el run como "nada se publicó".
+  try {
+    syncIndexHtml(updatedIndex);
+  } catch (e) {
+    console.error(`⚠️  syncIndexHtml falló (el post ya está guardado): ${e.message}`);
+  }
+  try {
+    syncSitemap(updatedIndex);
+  } catch (e) {
+    console.error(`⚠️  syncSitemap falló (el post ya está guardado): ${e.message}`);
+  }
 }
 
 main().catch((err) => {

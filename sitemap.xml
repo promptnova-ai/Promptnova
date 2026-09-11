@@ -2,31 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova.me/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova.me/privacidad.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/terminos.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/aviso-legal.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/editorial.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://promptnova.me/posts/2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-10-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-09-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-09-errores-comunes-al-escribir-prompts-y-como-evitarlos.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-09-como-crear-prompts-que-generen-imagenes-perfectas-con-ia.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-08-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://promptnova.me/posts/2026-09-08-como-evaluar-prompts-y-verificar-respuestas.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-08-aprende-cualquier-tema-10x-mas-rapido-con-prompts-de-ia.html</loc>
     <lastmod>2026-09-08</lastmod>
     <priority>0.6</priority>
   </url>
