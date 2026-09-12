@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-09-12-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
+    "title": "Prompts avanzados para crear contenido viral en redes sociales",
+    "description": "Descubre cómo diseñar prompts avanzados que impulsen la viralidad de tus publicaciones en redes sociales, con ejemplos, caso práctico y checklist accionable.",
+    "date": "2026-09-12",
+    "tags": [
+      "prompt engineering",
+      "viral marketing",
+      "redes sociales",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Prompt:\n\"Escribe un post de Instagram de 150 palabras que cuente la historia de un emprendedor que descubre una solución inesperada para su problema de logística. Usa la estructura de tres actos y termina con una llamada a la acción que invite a comentar su propia experiencia. Usa tono cercano y emojis relevantes.\"",
+      "Prompt:\n\"Genera un tweet thread de 5 tuits que explique cómo crear contenido viral en TikTok. Cada tuit debe iniciar con un número (1‑5) y terminar con un emoji que refuerce la idea. Incluye ejemplos rápidos y una conclusión que invite a retuitear.\"",
+      "Prompt:\n\"Redacta una publicación de LinkedIn de 200 palabras que explique por qué los videos cortos aumentan el alcance en un 73% según el informe de Hootsuite 2023. Incluye la cita en formato blockquote y un enlace a la fuente.\"",
+      "Prompt:\n\"Crea un Reel de 30 segundos dirigido a millennials interesados en fitness, que muestre una rutina de entrenamiento en casa sin equipamiento. Usa lenguaje motivador, incluye un desafío de 7 días y finaliza con la frase '¿Te unes?'\"",
+      "Prompt:\n\"Escribe una descripción para una publicación de Facebook que anuncie un nuevo sabor de helado. Describe el sabor usando metáforas sensoriales y termina con la pregunta: '¿Cuál es tu recuerdo favorito asociado a este sabor?'\"",
+      "Prompt:\n\"Genera un tweet de 280 caracteres para promocionar un cupón de 20% de descuento válido solo durante las próximas 24 horas. Usa emojis de reloj y fuego, y termina con el hashtag #OfertaFlash.\"",
+      "Prompt:\n\"Redacta un carrusel de Instagram de 5 diapositivas que explique, con tono empático, cómo 3 minutos de meditación diaria pueden mejorar la productividad. Cada diapositiva debe incluir un titular corto, una breve explicación y un llamado a deslizar. Finaliza con una invitación a descargar la app y usar el código 'ZEN10' para obtener 10 % de descuento.\"",
+      "Prompt:\n\"Escribe el guion de un video de 15 s para TikTok que muestre a una persona estresada transformándose en calma tras usar la app. Incluye instrucciones visuales, texto en pantalla y una canción trending sin derechos. Cierra con la frase 'Descarga ahora y siente la diferencia'.\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-09-11-automatiza-tu-negocio-con-prompts-inteligentes-y-acelera-tu-.html",
     "title": "Automatiza tu negocio con prompts inteligentes y acelera tu productividad",
     "description": "Descubre cómo usar prompts de IA para automatizar procesos, con ejemplos listos para copiar, casos prácticos y checklist accionable.",
