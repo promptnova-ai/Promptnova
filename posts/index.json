@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-09-12-los-prompts-mas-creativos-para-disenadores-graficos.html",
+    "title": "Los prompts más creativos para diseñadores gráficos",
+    "description": "Descubre prompts innovadores que impulsan la creatividad visual de los diseñadores gráficos y aprende a usarlos paso a paso.",
+    "date": "2026-09-12",
+    "tags": [
+      "diseño gráfico",
+      "prompt engineering",
+      "creatividad AI"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "\"Genera diez conceptos visuales para una campaña de marketing de una app de meditación. Cada concepto debe incluir: estilo gráfico (minimalista, retro, futurista), paleta de colores, tipografía sugerida y una breve descripción de la composición.\"",
+      "\"Crea una lista de referencias visuales para un proyecto de branding de una marca de café artesanal. Incluye imágenes de empaques, tipografías, texturas y paletas de colores que transmitan calidez, sostenibilidad y sofisticación. Proporciona enlaces a recursos libres de derechos.\"",
+      "\"Describe la composición de un cartel promocional para un festival de música electrónica. Detalla la posición de los elementos clave (título, fecha, artistas, patrocinadores), la jerarquía visual y el uso de efectos de luz neon.\"",
+      "\"Recomienda tres tipografías sans‑serif para un proyecto de identidad visual de una startup fintech. Cada tipografía debe ir acompañada de una breve justificación de su legibilidad, personalidad y pares recomendados.\"",
+      "\"Propón una paleta de cinco colores que evoque confianza y energía para una campaña de reclutamiento de ingenieros de software. Incluye códigos HEX y una breve explicación del impacto psicológico de cada tono.\"",
+      "\"Genera tres descripciones de una ilustración vectorial de un robot amigable en estilo flat, estilo line art y estilo low‑poly. Cada descripción debe incluir la cantidad de trazos, uso de sombras y sugerencias de colores.\"",
+      "\"Describe un conjunto de cinco pantallas para una app de recetas saludables, indicando la disposición de imágenes, botones y tipografía. Incluye notas sobre la navegación y micro‑interacciones.\"",
+      "\"Escribe tres versiones de un tagline de 8 palabras para una marca de ropa sostenible que comunique estilo y compromiso ambiental. Cada versión debe usar un tono diferente: inspirador, humorístico y técnico.\"",
+      "\"Genera ocho conceptos de logotipo para DataPulse, una empresa de análisis de datos en tiempo real. Cada concepto debe incluir: estilo (geométrico, orgánico, futurista), paleta de colores (azules, verdes, neón), tipografía sugerida y una breve justificación del simbolismo.\"",
+      "\"Crea una lista de referencias visuales para un branding tech que combine estética futurista y minimalista. Incluye enlaces a imágenes libres de derechos que muestren tipografías sans‑serif, patrones de datos y colores neón.\"",
+      "\"Propón una paleta de cuatro colores (HEX) para DataPulse que transmita confianza, innovación y velocidad. Añade dos tipografías (una para títulos y otra para cuerpo) con enlaces a Google Fonts.\"",
+      "\"Describe paso a paso cómo dibujar un logotipo basado en una onda sinusoidal que forme la letra ‘D’ de DataPulse, usando la paleta seleccionada y la tipografía Montserrat. Incluye instrucciones de trazado vectorial y uso de sombras.\""
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-09-12-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
     "title": "Prompts avanzados para crear contenido viral en redes sociales",
     "description": "Descubre cómo diseñar prompts avanzados que impulsen la viralidad de tus publicaciones en redes sociales, con ejemplos, caso práctico y checklist accionable.",
