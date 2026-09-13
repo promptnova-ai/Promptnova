@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-09-13-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html",
+    "title": "Genera ideas de negocio en minutos con IA: guía práctica",
+    "description": "Aprende paso a paso a usar IA para crear ideas de negocio en minutos, con prompts listos, ejemplos, checklist y cómo validar resultados.",
+    "date": "2026-09-13",
+    "tags": [
+      "IA",
+      "ideas de negocio",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Prompt 1 – Idea rápida para ecommerce niche\n\"Genera cinco ideas de negocio para una tienda online que venda productos sostenibles para mascotas, con un presupuesto inicial de 5.000 USD y que pueda lanzar en 30 días. Presenta cada idea en una tabla con columnas: nombre, propuesta de valor, canal de venta y coste estimado.\"",
+      "Prompt 2 – Servicio B2B basado en IA\n\"Imagina un servicio SaaS que ayude a pequeñas agencias de marketing a crear copys publicitarios usando IA. Describe tres funcionalidades clave, el modelo de precios y dos estrategias de adquisición de clientes.\"",
+      "Prompt 3 – Modelo de negocio circular\n\"Propón una idea de negocio que convierta residuos de café en productos de belleza. Incluye: proceso de reciclado, mercado objetivo, canales de distribución y estimación de ingresos en el primer año.\"",
+      "Prompt 4 – Startup de salud mental post‑pandemia\n\"Sugiere tres conceptos de negocio que utilicen IA para ofrecer apoyo de salud mental a jóvenes adultos que trabajan remotamente. Detalla la tecnología necesaria, el modelo de suscripción y los riesgos regulatorios.\"",
+      "Prompt 5 – Idea para comunidad de nicho\n\"Crea una propuesta de negocio para una plataforma de membresía que conecte a coleccionistas de vinilos raros. Define los beneficios exclusivos, la estructura de precios y una campaña de lanzamiento de 90 días.\"",
+      "Prompt 6 – Innovación en educación online\n\"Diseña una solución basada en IA que personalice rutas de aprendizaje para estudiantes de secundaria en materias STEM. Incluye: tipos de contenido, métricas de seguimiento y modelo de monetización.\"",
+      "Prompt 7 – Negocio de experiencias inmersivas\n\"Propón una startup que ofrezca tours virtuales de ciudades históricas usando realidad aumentada y IA para generar narrativas dinámicas. Indica los costos de desarrollo, socios estratégicos y canales de venta.\"",
+      "Prompt 8 – Solución de logística para pymes\n\"Genera una idea de negocio que use IA para optimizar rutas de entrega de pequeñas tiendas locales, con integración a plataformas de e‑commerce populares. Describe la arquitectura del sistema y la propuesta de valor para el cliente.\"",
+      "\"Imagina un servicio SaaS que ayude a pequeñas agencias de marketing a crear copys publicitarios usando IA, con un presupuesto de desarrollo menor a 8.000 USD. Describe tres funcionalidades clave, el modelo de precios y dos estrategias de adquisición de clientes.\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-09-12-los-prompts-mas-creativos-para-disenadores-graficos.html",
     "title": "Los prompts más creativos para diseñadores gráficos",
     "description": "Descubre prompts innovadores que impulsan la creatividad visual de los diseñadores gráficos y aprende a usarlos paso a paso.",
