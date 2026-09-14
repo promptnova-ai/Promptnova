@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-09-14-los-10-prompts-imprescindibles-para-expertos-en-marketing-di.html",
+    "title": "Los 10 prompts imprescindibles para expertos en marketing digital",
+    "description": "Descubre los 10 prompts que los profesionales del marketing usan para crear campañas, segmentar audiencias y optimizar copy, con ejemplos y checklist.",
+    "date": "2026-09-14",
+    "tags": [
+      "marketing",
+      "prompt engineering",
+      "IA",
+      "copywriting",
+      "casos prácticos"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "\"Genera tres conceptos creativos para una campaña de lanzamiento de un nuevo smartwatch dirigido a jóvenes profesionales entre 25 y 35 años. Incluye tagline, tono y canales recomendados.\"",
+      "\"Escribe cinco variantes de texto para un anuncio de Facebook de 125 caracteres que promocione un curso de marketing digital con un 20% de descuento. Prioriza la urgencia y el beneficio concreto.\"",
+      "\"Con base en los siguientes datos de clientes (lista adjunta), identifica tres segmentos principales y describe sus intereses, comportamientos de compra y canales de comunicación preferidos.\"",
+      "\"Genera una lista de 15 palabras clave de cola larga relacionadas con \"software de gestión de proyectos\" con volumen de búsqueda mensual estimado y nivel de competencia.\"",
+      "\"Escribe un borrador de newsletter de 300 palabras para una startup de fintech que anuncia una nueva funcionalidad de pago instantáneo. Incluye asunto, saludo, cuerpo y llamado a la acción.\"",
+      "\"Desarrolla un guion de 90 segundos para un video explicativo de un producto de energía solar residencial. Usa un tono cercano y destaca tres beneficios principales.\"",
+      "\"Clasifica los siguientes 20 comentarios de Instagram como positivo, neutral o negativo y resume los principales motivos de cada categoría.\"",
+      "\"Crea un calendario editorial de 4 semanas para un blog de marketing B2B. Incluye títulos, formato (post, infografía, podcast), palabras clave y fechas de publicación.\"",
+      "\"Revisa el siguiente texto de una landing page y sugiere tres mejoras para aumentar la tasa de conversión. Enfócate en el headline, la propuesta de valor y el llamado a la acción.\"",
+      "\"Resume los principales KPIs de la campaña de email marketing del último trimestre (tasa de apertura, CTR, conversiones) en un párrafo ejecutivo de 150 palabras para la dirección.\""
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-09-13-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html",
     "title": "Genera ideas de negocio en minutos con IA: guía práctica",
     "description": "Aprende paso a paso a usar IA para crear ideas de negocio en minutos, con prompts listos, ejemplos, checklist y cómo validar resultados.",
