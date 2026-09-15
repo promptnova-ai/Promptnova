@@ -1,5 +1,32 @@
 [
   {
+    "slug": "2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.",
+    "date": "2026-09-15",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA",
+      "productividad",
+      "ejemplos"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "/* Prompt de ejemplo */\n---\nContexto:\nYou are a senior backend engineer familiar with Node.js and Express.\n---\nTarea:\nGenerate a skeleton for a REST endpoint that receives a JSON payload with fields `name` (string) and `age` (integer) and returns a 201 response.\n---",
+      "/* Prompt con few‑shot */\nYou are an assistant that returns JSON snippets for code generation.\n\nEjemplo 1:\nInput: Create a Python function that calculates factorial.\nOutput: {\"language\":\"python\",\"code\":\"def factorial(n):\\n    return 1 if n==0 else n*factorial(n-1)\"}\n\nEjemplo 2:\nInput: Write a Bash one‑liner to list all .txt files recursively.\nOutput: {\"language\":\"bash\",\"code\":\"find . -type f -name \\\"*.txt\\\"\"}\n\nAhora genera la respuesta para:\nInput: {{user_input}}\nOutput:",
+      "/* Prompt con límite de ítems */\nLista hasta 5 mejores prácticas para escribir pruebas unitarias en JavaScript. Cada práctica debe incluir un título y una breve descripción.",
+      "/* Prompt con role‑play */\nEres un senior DevOps engineer. Explica paso a paso cómo configurar un pipeline CI/CD en GitHub Actions para desplegar una aplicación Docker en AWS ECS.",
+      "/* Prompt chain‑of‑thought */\nQuiero optimizar una consulta SQL que une tres tablas y filtra por fecha. Primero, describe brevemente los posibles cuellos de botella y luego propone una versión mejorada de la consulta.",
+      "/* Prompt con formato */\nGenera un fragmento de Markdown que describa una tabla comparativa entre PostgreSQL y MySQL, con columnas \"Características\", \"PostgreSQL\" y \"MySQL\".",
+      "---\nContexto:\nYou are an expert backend developer proficient in Node.js, Express, and MongoDB.\n---\nTarea:\nGenerate a complete Express router for a resource called `tasks`. Include routes for GET /tasks, POST /tasks, GET /tasks/:id, PUT /tasks/:id, DELETE /tasks/:id. Each route must contain basic error handling and use async/await.\n---",
+      "// router/tasks.js\nconst express = require('express');\nconst router = express.Router();\nconst Task = require('../models/Task');\n\n// GET /tasks\nrouter.get('/', async (req, res) => {\n  try {\n    const tasks = await Task.find();\n    res.json(tasks);\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\n// POST /tasks\nrouter.post('/', async (req, res) => {\n  try {\n    const task = new Task(req.body);\n    const saved = await task.save();\n    res.status(201).json(saved);\n  } catch (err) {\n    res.status(400).json({ error: err.message });\n  }\n});\n\n// GET /tasks/:id\nrouter.get('/:id', async (req, res) => {\n  try {\n    const task = await Task.findById(req.params.id);\n    if (!task) return res.status(404).json({ error: 'Not found' });\n    res.json(task);\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\n// PUT /tasks/:id\nrouter.put('/:id', async (req, res) => {\n  try {\n    const updated = await Task.findByIdAndUpdate(req.params.id, req.body, { new: true });\n    if (!updated) return res.status(404).json({ error: 'Not found' });\n    res.json(updated);\n  } catch (err) {\n    res.status(400).json({ error: err.message });\n  }\n});\n\n// DELETE /tasks/:id\nrouter.delete('/:id', async (req, res) => {\n  try {\n    const deleted = await Task.findByIdAndDelete(req.params.id);\n    if (!deleted) return res.status(404).json({ error: 'Not found' });\n    res.json({ message: 'Deleted' });\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\nmodule.exports = router;",
+      "// Verificación automática (Node.js)\nconst { execSync } = require('child_process');\nfunction lintAndTest(file) {\n  try { execSync(`eslint ${file}`); console.log('Lint OK'); }\n  catch (e) { console.error('Lint errors', e.stdout.toString()); }\n  try { execSync(`npm test -- ${file}`); console.log('Tests passed'); }\n  catch (e) { console.error('Test failures', e.stdout.toString()); }\n}\nlintAndTest('router/tasks.js');"
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-09-14-los-10-prompts-imprescindibles-para-expertos-en-marketing-di.html",
     "title": "Los 10 prompts imprescindibles para expertos en marketing digital",
     "description": "Descubre los 10 prompts que los profesionales del marketing usan para crear campañas, segmentar audiencias y optimizar copy, con ejemplos y checklist.",
@@ -1978,28 +2005,5 @@
     ],
     "topic": "Prompts Perfectos",
     "wordCount": 485
-  },
-  {
-    "slug": "2026-06-28-prompts-avanzados.html",
-    "title": "Prompts Avanzados",
-    "description": "Crea contenido viral con prompts avanzados en redes sociales",
-    "date": "2026-06-28",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 3,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe un título que combine la palabra 'verano' con una emoción positiva, utilizando un máximo de 10 palabras\"",
-      "\"Enumera 5 beneficios del ejercicio físico regular, utilizando viñetas y un lenguaje accesible\"",
-      "\"Cuenta la historia de un personaje que supera una adversidad, utilizando un máximo de 200 palabras y un tono inspirador\"",
-      "\"Describe un lugar imaginario donde la tecnología y la naturaleza coexisten en armonía, utilizando un máximo de 150 palabras\"",
-      "\"Explica el concepto de sostenibilidad ambiental de manera que un niño de 10 años pueda entenderlo, utilizando un lenguaje claro y conciso\"",
-      "\"Crea un personaje que represente la resiliencia y la determinación, utilizando un máximo de 100 palabras y un tono motivador\""
-    ],
-    "topic": "Prompts Avanzados",
-    "wordCount": 558
   }
 ]

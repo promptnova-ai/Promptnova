@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt engineering para developers: trucos que no conocías | PromptNova</title>
+  <meta name="description" content="Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.">
+  <meta name="author" content="PromptNova">
+  <meta property="og:title" content="Prompt engineering para developers: trucos que no conocías | PromptNova">
+  <meta property="og:description" content="Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://promptnova.me/posts/2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html">
+  <link rel="canonical" href="https://promptnova.me/posts/2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/consent.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Prompt engineering para developers: trucos que no conocías","description":"Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.","author":{"@type":"Organization","name":"PromptNova"},"datePublished":"2026-09-15","dateModified":"2026-09-15","mainEntityOfPage":"https://promptnova.me/posts/2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html"}</script>
+</head>
+<body>
+
+  <nav role="navigation" aria-label="Navegación principal">
+    <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+    <div class="nav-links">
+      <a href="./#inicio">Inicio</a>
+      <a href="./#posts">Prompts</a>
+      <a href="./#categorias">Categorías</a>
+      <a href="./#blog" class="active">Blog</a>
+      <a href="./editorial.html">Criterio editorial</a>
+      <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="./#inicio" onclick="closeMenu()">Inicio</a>
+    <a href="./#posts" onclick="closeMenu()">Prompts</a>
+    <a href="./#categorias" onclick="closeMenu()">Categorías</a>
+    <a href="./#blog" onclick="closeMenu()">Blog</a>
+    <a href="./editorial.html">Criterio editorial</a>
+    <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+  </div>
+
+  <main class="post-container">
+    <div class="post-header">
+      <a href="./" class="post-back">← Volver al inicio</a>
+      <span class="post-tag">prompt engineering</span>
+      <h1>Prompt engineering para developers: trucos que no conocías</h1>
+      <p class="post-meta">
+        <time datetime="2026-09-15">2026-09-15</time> · 
+        5 min de lectura · 
+        <span class="tag">prompt engineering</span> <span class="tag">developers</span> <span class="tag">IA</span> <span class="tag">productividad</span> <span class="tag">ejemplos</span>
+      </p>
+    </div>
+
+    <div class="post-content">
+      <article>
+  <h2>Introducción</h2>
+  <p>El <strong>prompt engineering</strong> ha pasado de ser una curiosidad de investigadores a una herramienta esencial para cualquier developer que integra modelos de lenguaje en sus aplicaciones. No basta con lanzar una pregunta genérica; la forma en que estructuramos la solicitud determina la precisión, la velocidad y la utilidad del resultado. En este artículo encontrarás trucos poco conocidos, ejemplos listos para copiar y una guía paso a paso para aplicar estos conceptos en proyectos reales.</p>
+
+  <h2>Trucos de Prompt Engineering para developers</h2>
+
+  <h3>1. Delimita claramente el contexto y la tarea</h3>
+  <p>Los modelos responden mejor cuando saben dónde empieza y termina la información relevante. Usa delimitadores como <code>---</code> o <code>```</code> para separar el contexto del enunciado.</p>
+  <pre><code>/* Prompt de ejemplo */
+---
+Contexto:
+You are a senior backend engineer familiar with Node.js and Express.
+---
+Tarea:
+Generate a skeleton for a REST endpoint that receives a JSON payload with fields `name` (string) and `age` (integer) and returns a 201 response.
+---
+</code></pre>
+  <p>Este formato evita que el modelo mezcle la descripción del rol con la petición concreta.</p>
+
+  <h3>2. Usa “few‑shot” para guiar el formato de salida</h3>
+  <p>Proporciona ejemplos de la estructura que esperas. El modelo replica el patrón mostrado, reduciendo la necesidad de post‑procesamiento.</p>
+  <pre><code>/* Prompt con few‑shot */
+You are an assistant that returns JSON snippets for code generation.
+
+Ejemplo 1:
+Input: Create a Python function that calculates factorial.
+Output: {"language":"python","code":"def factorial(n):\n    return 1 if n==0 else n*factorial(n-1)"}
+
+Ejemplo 2:
+Input: Write a Bash one‑liner to list all .txt files recursively.
+Output: {"language":"bash","code":"find . -type f -name \"*.txt\""}
+
+Ahora genera la respuesta para:
+Input: {{user_input}}
+Output:</code></pre>
+  <p>Reemplaza <code>{{user_input}}</code> con la petición del usuario y el modelo producirá JSON listo para consumir.</p>
+
+  <h3>3. Limita la longitud del output con tokens de control</h3>
+  <p>Indica explícitamente la extensión máxima o el número de ítems que deseas. Esto evita respuestas excesivamente largas que consumen tokens.</p>
+  <pre><code>/* Prompt con límite de ítems */
+Lista hasta 5 mejores prácticas para escribir pruebas unitarias en JavaScript. Cada práctica debe incluir un título y una breve descripción.</code></pre>
+  <p>El modelo entiende la restricción y genera exactamente cinco elementos.</p>
+
+  <h3>4. Emplea “role‑play” para obtener respuestas más técnicas</h3>
+  <p>Al asignar un rol especializado (por ejemplo, "senior devops engineer"), el modelo adapta su vocabulario y nivel de detalle.</p>
+  <pre><code>/* Prompt con role‑play */
+Eres un senior DevOps engineer. Explica paso a paso cómo configurar un pipeline CI/CD en GitHub Actions para desplegar una aplicación Docker en AWS ECS.</code></pre>
+  <p>El resultado suele ser más estructurado y orientado a la implementación.</p>
+
+  <h3>5. Utiliza “chain‑of‑thought” para razonamiento complejo</h3>
+  <p>Cuando la tarea requiere varios pasos, pide al modelo que explique su razonamiento antes de dar la respuesta final.</p>
+  <pre><code>/* Prompt chain‑of‑thought */
+Quiero optimizar una consulta SQL que une tres tablas y filtra por fecha. Primero, describe brevemente los posibles cuellos de botella y luego propone una versión mejorada de la consulta.</code></pre>
+  <p>Obtienes tanto el diagnóstico como la solución en un mismo bloque.</p>
+
+  <h3>6. Incluye instrucciones de formato explícito</h3>
+  <p>Si necesitas Markdown, HTML o JSON, díselo al modelo para evitar conversiones posteriores.</p>
+  <pre><code>/* Prompt con formato */
+Genera un fragmento de Markdown que describa una tabla comparativa entre PostgreSQL y MySQL, con columnas "Características", "PostgreSQL" y "MySQL".</code></pre>
+  <p>El modelo entrega directamente el Markdown solicitado.</p>
+
+  <h2>Casos de uso concretos</h2>
+  <p>A continuación, presentamos tres situaciones habituales en las que los developers pueden aplicar estos trucos.</p>
+  <ul>
+    <li><strong>Generación de boilerplate</strong>: crear rápidamente la estructura de un proyecto en el lenguaje de preferencia.</li>
+    <li><strong>Documentación automática</strong>: transformar comentarios de código en documentos Markdown o HTML.</li>
+    <li><strong>Refactorización guiada</strong>: pedir al modelo que proponga mejoras específicas manteniendo la lógica original.</li>
+  </ul>
+
+  <h2>Ejemplo práctico: Generar una API REST completa con OpenAI</h2>
+  <p>Supongamos que necesitas una API CRUD en Node.js/Express que maneje recursos <em>tasks</em>. Seguiremos los pasos desde la definición del prompt hasta la validación del código.</p>
+  <h3>Paso 1: Definir el contexto y la petición</h3>
+  <pre><code>---
+Contexto:
+You are an expert backend developer proficient in Node.js, Express, and MongoDB.
+---
+Tarea:
+Generate a complete Express router for a resource called `tasks`. Include routes for GET /tasks, POST /tasks, GET /tasks/:id, PUT /tasks/:id, DELETE /tasks/:id. Each route must contain basic error handling and use async/await.
+---
+</code></pre>
+  <p>Ejecutamos el prompt contra la API de OpenAI (modelo gpt‑4‑turbo) y obtenemos el siguiente código:</p>
+  <pre><code>// router/tasks.js
+const express = require('express');
+const router = express.Router();
+const Task = require('../models/Task');
+
+// GET /tasks
+router.get('/', async (req, res) => {
+  try {
+    const tasks = await Task.find();
+    res.json(tasks);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /tasks
+router.post('/', async (req, res) => {
+  try {
+    const task = new Task(req.body);
+    const saved = await task.save();
+    res.status(201).json(saved);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// GET /tasks/:id
+router.get('/:id', async (req, res) => {
+  try {
+    const task = await Task.findById(req.params.id);
+    if (!task) return res.status(404).json({ error: 'Not found' });
+    res.json(task);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// PUT /tasks/:id
+router.put('/:id', async (req, res) => {
+  try {
+    const updated = await Task.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!updated) return res.status(404).json({ error: 'Not found' });
+    res.json(updated);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// DELETE /tasks/:id
+router.delete('/:id', async (req, res) => {
+  try {
+    const deleted = await Task.findByIdAndDelete(req.params.id);
+    if (!deleted) return res.status(404).json({ error: 'Not found' });
+    res.json({ message: 'Deleted' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+module.exports = router;
+</code></pre>
+  <h3>Paso 2: Verificar y ajustar</h3>
+  <p>Antes de copiar el código, revisamos tres criterios:</p>
+  <ul>
+    <li>¿Todas las rutas solicitadas están presentes?</li>
+    <li>¿Se usan <code>async/await</code> y se captura cada excepción?</li>
+    <li>¿Los nombres de variables siguen la convención del proyecto?</li>
+  </ul>
+  <p>En este caso, el output cumple con los criterios, por lo que lo añadimos al repositorio.</p>
+
+  <h2>Checklist accionable</h2>
+  <ul>
+    <li>✅ Define claramente el rol y el contexto del modelo.</li>
+    <li>✅ Usa delimitadores (<code>---</code>, <code>```</code>) para separar secciones.</li>
+    <li>✅ Proporciona ejemplos few‑shot cuando necesites un formato estructurado.</li>
+    <li>✅ Limita la longitud del output si el coste de tokens es una preocupación.</li>
+    <li>✅ Solicita el formato final (JSON, Markdown, HTML) dentro del prompt.</li>
+    <li>✅ Valida el código generado con pruebas unitarias o linting.</li>
+    <li>✅ Revisa que no haya datos sensibles o información confidencial en la respuesta.</li>
+    <li>✅ Documenta los prompts que funcionaron para reutilizarlos en futuros tickets.</li>
+  </ul>
+
+  <h2>Límites, errores frecuentes y verificación de resultados</h2>
+  <p>Aunque los trucos mejoran la calidad, existen limitaciones inherentes a los modelos de lenguaje:</p>
+  <ul>
+    <li><strong>Alucinaciones</strong>: el modelo puede inventar nombres de variables o dependencias que no existen.</li>
+    <li><strong>Sesgo de contexto</strong>: si el contexto es demasiado amplio, la respuesta puede volverse vaga.</li>
+    <li><strong>Límites de longitud</strong>: los prompts demasiado extensos pueden truncarse o generar respuestas incompletas.</li>
+  </ul>
+  <p>Para detectar estos problemas, sigue una rutina de verificación:</p>
+  <pre><code>// Verificación automática (Node.js)
+const { execSync } = require('child_process');
+function lintAndTest(file) {
+  try { execSync(`eslint ${file}`); console.log('Lint OK'); }
+  catch (e) { console.error('Lint errors', e.stdout.toString()); }
+  try { execSync(`npm test -- ${file}`); console.log('Tests passed'); }
+  catch (e) { console.error('Test failures', e.stdout.toString()); }
+}
+lintAndTest('router/tasks.js');
+</code></pre>
+  <p>Si el lint o los tests fallan, vuelve al prompt y añade una instrucción de "no usar librerías externas" o "mantener la sintaxis ES6".</p>
+  <blockquote>Recuerda que el modelo no tiene acceso a tu entorno de ejecución; siempre debes validar cualquier código generado antes de desplegarlo en producción.</blockquote>
+
+  <h2>Fuentes y documentación oficial</h2>
+  <ul>
+    <li><a href="https://platform.openai.com/docs/guides/prompt-engineering">OpenAI Prompt Engineering Guide</a></li>
+    <li><a href="https://github.com/openai/openai-cookbook">OpenAI Cookbook (GitHub)</a></li>
+    <li><a href="https://js.langchain.com/docs/">LangChain JavaScript Documentation</a></li>
+    <li><a href="https://eslint.org/docs/latest/user-guide/getting-started">ESLint Documentation</a></li>
+    <li><a href="https://nodejs.org/en/docs/">Node.js Official Docs</a></li>
+  </ul>
+</article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+        <p>Tu copiloto en el universo de la inteligencia artificial.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="./#posts">Todos los prompts</a></li>
+          <li><a href="./#blog">Blog</a></li>
+          <li><a href="./editorial.html">Criterio editorial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="./privacidad.html">Política de Privacidad</a></li>
+          <li><a href="./terminos.html">Términos de Uso</a></li>
+          <li><a href="./aviso-legal.html">Aviso Legal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© PromptNova 2026 — Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const btn = document.querySelector('.hamburger');
+      const isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    function closeMenu() {
+      document.getElementById('mobile-menu').classList.remove('open');
+      document.querySelector('.hamburger').setAttribute('aria-expanded', 'false');
+    }
+  </script>
+</body>
+</html>
