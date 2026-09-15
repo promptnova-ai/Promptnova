@@ -1,5 +1,36 @@
 [
   {
+    "slug": "2026-09-15-domina-chatgpt-en-tu-dia-a-dia-laboral-y-multiplica-tu-produ.html",
+    "title": "Domina ChatGPT en tu día a día laboral y multiplica tu productividad",
+    "description": "Aprende paso a paso cómo integrar ChatGPT en tu trabajo, con ejemplos de prompts, casos prácticos, checklist y advertencias de límites. Guía completa y SEO friendly.",
+    "date": "2026-09-15",
+    "tags": [
+      "ChatGPT",
+      "productividad",
+      "IA",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Actúa como redactor de contenidos SEO. Redacta un artículo de 800 palabras sobre \"beneficios del teletrabajo\", incluye al menos tres subtítulos H2, una tabla comparativa en Markdown y una conclusión de 50 palabras. Entrega el texto sin comentarios adicionales.",
+      "Resume el siguiente informe de 5 páginas en tres párrafos, destacando los hallazgos clave, las recomendaciones y los riesgos principales. Usa viñetas para los riesgos.",
+      "Eres un creador de contenido para blogs de tecnología. Propón diez títulos atractivos sobre IA generativa, cada uno con una breve descripción de 30 palabras.",
+      "Redacta un correo formal a un cliente que ha solicitado una extensión de plazo. Explica la razón, propone una nueva fecha y ofrece una compensación mínima. Mantén un tono cortés y conciso.",
+      "Compara en una tabla Markdown los planes de suscripción de OpenAI (Free, Plus, Enterprise). Incluye columnas de precio mensual, tokens incluidos, velocidad de respuesta y soporte.",
+      "Revisa el siguiente párrafo y sugiere mejoras de claridad, gramática y tono profesional. Marca los cambios con *asteriscos*.",
+      "Actúa como gestor de proyectos. Crea una checklist de 10 pasos para lanzar un webinar, incluye responsables y plazos estimados.",
+      "Traduce al español el siguiente texto técnico, manteniendo la terminología de ingeniería de software y adaptando los ejemplos al público hispanohablante.",
+      "Analiza los siguientes 20 tweets sobre nuestro nuevo producto y clasifícalos como positivo, neutral o negativo. Resume las principales quejas y elogios en dos párrafos.",
+      "Estos son los datos de ventas (CSV):\nFecha,Producto,Unidades,PrecioUnitario,Región\n2024-06-01,Producto A,120,15.00,Centro\n2024-06-02,Producto B,80,22.00,Norte\n... (continúa con 8 filas)",
+      "Con los datos anteriores, genera un resumen ejecutivo de 200 palabras que incluya: total de ingresos, producto más vendido, región con mayor crecimiento y una recomendación para el próximo trimestre.",
+      "Presenta los ingresos mensuales en una tabla Markdown con columnas: Mes, Ingresos, % Variación respecto al mes anterior.",
+      "Escribe tres conclusiones basadas en el resumen y propone dos acciones concretas para mejorar la venta del Producto B.",
+      "Combina los bloques anteriores en un documento con la siguiente estructura: Título, Resumen ejecutivo, Tabla de ingresos, Conclusiones, Próximos pasos. Usa encabezados H2 y H3 y conserva el formato Markdown."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: trucos que no conocías",
     "description": "Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.",
@@ -1985,25 +2016,5 @@
     ],
     "topic": "Aprende Rápido",
     "wordCount": 524
-  },
-  {
-    "slug": "2026-07-06-prompts-perfectos.html",
-    "title": "Prompts Perfectos",
-    "description": "Aprende a escribir prompts efectivos para IA",
-    "date": "2026-07-06",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar inteligencia artificial en la toma de decisiones?",
-      "Describe un escenario en el que un robot tenga que tomar una decisión ética. ¿Qué factores debería considerar el robot al tomar su decisión?",
-      "¿Cómo se puede utilizar el aprendizaje automático para mejorar la eficiencia en la industria manufacturera? Proporciona ejemplos concretos de aplicaciones y resultados."
-    ],
-    "topic": "Prompts Perfectos",
-    "wordCount": 485
   }
 ]
