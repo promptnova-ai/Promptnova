@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-09-15-construye-tu-propio-asistente-personal-con-chatgpt-paso-a-pa.html",
+    "title": "Construye tu propio asistente personal con ChatGPT paso a paso",
+    "description": "Aprende a crear un asistente personal usando ChatGPT y prompts, con ejemplos listos, caso práctico y checklist.",
+    "date": "2026-09-15",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering",
+      "IA",
+      "automatización"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "# Prompt 1 – Definir el rol del asistente\nEres un asistente personal llamado Ayudín. Tu objetivo es responder preguntas, organizar agendas y ofrecer recordatorios breves. Mantén siempre un tono amable y conciso.\n# Cuándo usarlo\nAl iniciar la conversación o al resetear el contexto, para que el modelo conozca su personalidad y limitaciones.",
+      "# Prompt 2 – Gestión de agenda\nActúa como un gestor de agenda. Cuando el usuario mencione una fecha y una tarea, devuelve un JSON con los campos: \"fecha\", \"tarea\" y \"prioridad\" (alta, media, baja).\n# Cuándo usarlo\nPara convertir texto natural en datos estructurados que puedas guardar en una base de datos o calendario.",
+      "# Prompt 3 – Resumen de conversación\nResume los últimos tres intercambios en no más de 50 palabras, destacando decisiones y acciones pendientes.\n# Cuándo usarlo\nAl final de una sesión larga, para ofrecer al usuario un recapitulativo que facilite la continuidad.",
+      "# Prompt 4 – Búsqueda de información externa\nSimula una búsqueda web: responde con una lista de tres fuentes confiables (URL) que traten el tema solicitado, sin inventar contenido.\n# Cuándo usarlo\nCuando la respuesta requiera datos actualizados o referencias verificables.",
+      "# Prompt 5 – Manejo de errores y reintentos\nSi no entiendes la petición, responde: \"Lo siento, no he captado bien. ¿Podrías reformularlo?\" y registra el intento.\n# Cuándo usarlo\nComo fallback antes de abortar la conversación, para mejorar la experiencia del usuario.",
+      "import openai, json, sqlite3\n\nopenai.api_key = \"TU_CLAVE_API\"\n\ndef llama_chat(messages):\n    resp = openai.ChatCompletion.create(\n        model=\"gpt-4o-mini\",\n        messages=messages,\n        temperature=0.2\n    )\n    return resp.choices[0].message.content\n\n# 1. Rol\nsystem = {\"role\": \"system\", \"content\": \"Eres un asistente personal llamado Ayudín. ...\"}\n\n# 2. Entrada del usuario\nuser = {\"role\": \"user\", \"content\": \"Reúnete con Marta el 12 de junio a las 10 am para revisar el proyecto\"}\n\n# 3. Prompt de agenda\nagenda_prompt = {\"role\": \"assistant\", \"content\": \"Actúa como un gestor de agenda...\"}\n\nresponse = llama_chat([system, user, agenda_prompt])\ndata = json.loads(response)\n\n# 4. Guardar en SQLite\nconn = sqlite3.connect('agenda.db')\ncur = conn.cursor()\ncur.execute('CREATE TABLE IF NOT EXISTS tareas(fecha TEXT, tarea TEXT, prioridad TEXT)')\ncur.execute('INSERT INTO tareas VALUES (?,?,?)', (data['fecha'], data['tarea'], data['prioridad']))\nconn.commit()\nconn.close()"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-09-15-domina-chatgpt-en-tu-dia-a-dia-laboral-y-multiplica-tu-produ.html",
     "title": "Domina ChatGPT en tu día a día laboral y multiplica tu productividad",
     "description": "Aprende paso a paso cómo integrar ChatGPT en tu trabajo, con ejemplos de prompts, casos prácticos, checklist y advertencias de límites. Guía completa y SEO friendly.",
@@ -1994,27 +2018,5 @@
     ],
     "topic": "Prompts de Marketing",
     "wordCount": 613
-  },
-  {
-    "slug": "2026-07-17-aprende-rapido.html",
-    "title": "Aprende Rápido",
-    "description": "Aprende cualquier cosa 10 veces más rápido con prompts",
-    "date": "2026-07-17",
-    "tags": [
-      "Inteligencia Artificial",
-      "Aprendizaje",
-      "Prompt Engineering"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo práctico de su aplicación.",
-      "Describe los eventos clave de la Revolución Francesa y su impacto en la historia de Europa.",
-      "Explique el proceso de fotosíntesis en las plantas y su importancia para el medio ambiente.",
-      "Ejemplo de un prompt específico: Explica cómo funciona el motor de un automóvil, incluyendo los componentes principales y su función en el proceso de combustión.",
-      "Otro ejemplo: Describe las diferencias entre el aprendizaje supervisado y no supervisado en el contexto del aprendizaje automático, y proporciona un ejemplo de cada caso."
-    ],
-    "topic": "Aprende Rápido",
-    "wordCount": 524
   }
 ]
