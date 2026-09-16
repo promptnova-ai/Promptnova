@@ -1,5 +1,36 @@
 [
   {
+    "slug": "2026-09-16-domina-cualquier-tema-10-mas-rapido-con-prompts-inteligentes.html",
+    "title": "Domina cualquier tema 10× más rápido con prompts inteligentes",
+    "description": "Descubre cómo crear prompts que aceleren tu aprendizaje 10 veces, con ejemplos listos y una guía paso a paso.",
+    "date": "2026-09-16",
+    "tags": [
+      "prompt engineering",
+      "aprendizaje acelerado",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Actúa como experto en [área]. Proporciona un [formato] que cubra los conceptos clave de [tema] para un/a [nivel] en no más de [número] palabras.",
+      "Actúa como profesor de biología de nivel universitario. Resume los procesos de la fotosíntesis en 5 viñetas, resaltando la función de cada fase y usando un lenguaje sencillo.",
+      "Eres un mentor de desarrollo personal. Diseña un plan de 7 días para aprender los fundamentos de la meditación mindfulness, con una actividad práctica de 15 minutos por día y recursos gratuitos en línea.",
+      "Como experto en historia medieval, genera 10 preguntas de opción múltiple sobre la caída de Constantinopla, con una respuesta correcta y tres distractores plausibles.",
+      "Imagina que eres un analista financiero. Compara en una tabla de 3 columnas las diferencias entre \"valor presente neto\" y \"tasa interna de retorno\" con ejemplos numéricos simples.",
+      "Actúa como coach de aprendizaje. Crea un mapa mental en formato de lista jerárquica que organice los temas esenciales de la programación orientada a objetos en Python.",
+      "Como instructor de fotografía, elabora un tutorial de 5 pasos para capturar retratos con luz natural, indicando ajustes de cámara, posición del sujeto y consejos de composición.",
+      "Eres un bibliotecario digital. Proporciona tres fuentes académicas recientes (últimos 5 años) que respalden la teoría del aprendizaje activo, incluyendo DOI o URL verificable.",
+      "Actúa como mentor de fotografía. Sugiere una lista de 5 recursos gratuitos (videos, artículos, guías) que cubran exposición, enfoque, composición y luz natural, con enlaces directos.",
+      "Resume en 4 viñetas cómo funciona la exposición (ISO, apertura, velocidad de obturación) y su relación entre sí.",
+      "Genera 3 ejercicios prácticos de 10 minutos cada uno para practicar enfoque manual con un smartphone, indicando qué observar y cómo ajustar.",
+      "Como experto en composición, elabora una lista de 7 reglas clásicas (regla de los tercios, líneas guía, etc.) con ejemplos fotográficos breves.",
+      "Diseña un tutorial de 5 pasos para usar luz natural en retratos al aire libre, indicando hora del día, posición del sol y ajustes de cámara.",
+      "Genera 8 preguntas de opción múltiple que evalúen los conceptos aprendidos en fotografía básica, con respuestas y explicaciones.",
+      "Elabora una hoja de ruta de 4 semanas para profundizar en fotografía de paisajes, incluyendo lecturas, prácticas y métricas de éxito."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-09-15-construye-tu-propio-asistente-personal-con-chatgpt-paso-a-pa.html",
     "title": "Construye tu propio asistente personal con ChatGPT paso a paso",
     "description": "Aprende a crear un asistente personal usando ChatGPT y prompts, con ejemplos listos, caso práctico y checklist.",
@@ -1991,32 +2022,5 @@
     ],
     "topic": "Evita errores comunes",
     "wordCount": 507
-  },
-  {
-    "slug": "2026-07-19-prompts-de-marketing.html",
-    "title": "Prompts de Marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-19",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 4,
-    "category": "marketing",
-    "prompts": [
-      "Generar 5 titulares para un anuncio de una nueva marca de ropa deportiva",
-      "Describe las características y beneficios de un nuevo modelo de teléfono inteligente",
-      "Crea un correo electrónico de marketing para promocionar una oferta especial de una tienda en línea",
-      "Genera 3 publicaciones para Instagram para promocionar un nuevo producto de belleza",
-      "Crea un informe de mercado para analizar las tendencias y oportunidades en el sector de la tecnología",
-      "Genera un artículo de blog sobre las tendencias actuales en el sector del marketing digital",
-      "Crea un guión para un video de marketing que promocione un nuevo servicio de streaming",
-      "Genera 5 correos electrónicos para una campaña de email marketing que promocione un nuevo producto de software",
-      "Crea un informe de análisis de competidores para evaluar la posición de una empresa en el mercado",
-      "Genera 3 anuncios para Facebook que promocionen un nuevo producto de electrónica"
-    ],
-    "topic": "Prompts de Marketing",
-    "wordCount": 613
   }
 ]
