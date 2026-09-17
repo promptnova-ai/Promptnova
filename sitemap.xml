@@ -2,28 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://promptnova.me/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://promptnova.me/privacidad.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/terminos.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/aviso-legal.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://promptnova.me/editorial.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-16-domina-cualquier-tema-10-mas-rapido-con-prompts-inteligentes.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-15-domina-chatgpt-en-tu-dia-a-dia-laboral-y-multiplica-tu-produ.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-15-construye-tu-propio-asistente-personal-con-chatgpt-paso-a-pa.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-14-los-10-prompts-imprescindibles-para-expertos-en-marketing-di.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-13-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-12-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-12-los-prompts-mas-creativos-para-disenadores-graficos.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-11-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://promptnova.me/posts/2026-09-11-automatiza-tu-negocio-con-prompts-inteligentes-y-acelera-tu-.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://promptnova.me/posts/2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html</loc>

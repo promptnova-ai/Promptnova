@@ -1,5 +1,275 @@
 [
   {
+    "slug": "2026-09-16-domina-cualquier-tema-10-mas-rapido-con-prompts-inteligentes.html",
+    "title": "Domina cualquier tema 10× más rápido con prompts inteligentes",
+    "description": "Descubre cómo crear prompts que aceleren tu aprendizaje 10 veces, con ejemplos listos y una guía paso a paso.",
+    "date": "2026-09-16",
+    "tags": [
+      "prompt engineering",
+      "aprendizaje acelerado",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "Actúa como experto en [área]. Proporciona un [formato] que cubra los conceptos clave de [tema] para un/a [nivel] en no más de [número] palabras.",
+      "Actúa como profesor de biología de nivel universitario. Resume los procesos de la fotosíntesis en 5 viñetas, resaltando la función de cada fase y usando un lenguaje sencillo.",
+      "Eres un mentor de desarrollo personal. Diseña un plan de 7 días para aprender los fundamentos de la meditación mindfulness, con una actividad práctica de 15 minutos por día y recursos gratuitos en línea.",
+      "Como experto en historia medieval, genera 10 preguntas de opción múltiple sobre la caída de Constantinopla, con una respuesta correcta y tres distractores plausibles.",
+      "Imagina que eres un analista financiero. Compara en una tabla de 3 columnas las diferencias entre \"valor presente neto\" y \"tasa interna de retorno\" con ejemplos numéricos simples.",
+      "Actúa como coach de aprendizaje. Crea un mapa mental en formato de lista jerárquica que organice los temas esenciales de la programación orientada a objetos en Python.",
+      "Como instructor de fotografía, elabora un tutorial de 5 pasos para capturar retratos con luz natural, indicando ajustes de cámara, posición del sujeto y consejos de composición.",
+      "Eres un bibliotecario digital. Proporciona tres fuentes académicas recientes (últimos 5 años) que respalden la teoría del aprendizaje activo, incluyendo DOI o URL verificable.",
+      "Actúa como mentor de fotografía. Sugiere una lista de 5 recursos gratuitos (videos, artículos, guías) que cubran exposición, enfoque, composición y luz natural, con enlaces directos.",
+      "Resume en 4 viñetas cómo funciona la exposición (ISO, apertura, velocidad de obturación) y su relación entre sí.",
+      "Genera 3 ejercicios prácticos de 10 minutos cada uno para practicar enfoque manual con un smartphone, indicando qué observar y cómo ajustar.",
+      "Como experto en composición, elabora una lista de 7 reglas clásicas (regla de los tercios, líneas guía, etc.) con ejemplos fotográficos breves.",
+      "Diseña un tutorial de 5 pasos para usar luz natural en retratos al aire libre, indicando hora del día, posición del sol y ajustes de cámara.",
+      "Genera 8 preguntas de opción múltiple que evalúen los conceptos aprendidos en fotografía básica, con respuestas y explicaciones.",
+      "Elabora una hoja de ruta de 4 semanas para profundizar en fotografía de paisajes, incluyendo lecturas, prácticas y métricas de éxito."
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
+    "slug": "2026-09-15-construye-tu-propio-asistente-personal-con-chatgpt-paso-a-pa.html",
+    "title": "Construye tu propio asistente personal con ChatGPT paso a paso",
+    "description": "Aprende a crear un asistente personal usando ChatGPT y prompts, con ejemplos listos, caso práctico y checklist.",
+    "date": "2026-09-15",
+    "tags": [
+      "ChatGPT",
+      "asistente personal",
+      "prompt engineering",
+      "IA",
+      "automatización"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "# Prompt 1 – Definir el rol del asistente\nEres un asistente personal llamado Ayudín. Tu objetivo es responder preguntas, organizar agendas y ofrecer recordatorios breves. Mantén siempre un tono amable y conciso.\n# Cuándo usarlo\nAl iniciar la conversación o al resetear el contexto, para que el modelo conozca su personalidad y limitaciones.",
+      "# Prompt 2 – Gestión de agenda\nActúa como un gestor de agenda. Cuando el usuario mencione una fecha y una tarea, devuelve un JSON con los campos: \"fecha\", \"tarea\" y \"prioridad\" (alta, media, baja).\n# Cuándo usarlo\nPara convertir texto natural en datos estructurados que puedas guardar en una base de datos o calendario.",
+      "# Prompt 3 – Resumen de conversación\nResume los últimos tres intercambios en no más de 50 palabras, destacando decisiones y acciones pendientes.\n# Cuándo usarlo\nAl final de una sesión larga, para ofrecer al usuario un recapitulativo que facilite la continuidad.",
+      "# Prompt 4 – Búsqueda de información externa\nSimula una búsqueda web: responde con una lista de tres fuentes confiables (URL) que traten el tema solicitado, sin inventar contenido.\n# Cuándo usarlo\nCuando la respuesta requiera datos actualizados o referencias verificables.",
+      "# Prompt 5 – Manejo de errores y reintentos\nSi no entiendes la petición, responde: \"Lo siento, no he captado bien. ¿Podrías reformularlo?\" y registra el intento.\n# Cuándo usarlo\nComo fallback antes de abortar la conversación, para mejorar la experiencia del usuario.",
+      "import openai, json, sqlite3\n\nopenai.api_key = \"TU_CLAVE_API\"\n\ndef llama_chat(messages):\n    resp = openai.ChatCompletion.create(\n        model=\"gpt-4o-mini\",\n        messages=messages,\n        temperature=0.2\n    )\n    return resp.choices[0].message.content\n\n# 1. Rol\nsystem = {\"role\": \"system\", \"content\": \"Eres un asistente personal llamado Ayudín. ...\"}\n\n# 2. Entrada del usuario\nuser = {\"role\": \"user\", \"content\": \"Reúnete con Marta el 12 de junio a las 10 am para revisar el proyecto\"}\n\n# 3. Prompt de agenda\nagenda_prompt = {\"role\": \"assistant\", \"content\": \"Actúa como un gestor de agenda...\"}\n\nresponse = llama_chat([system, user, agenda_prompt])\ndata = json.loads(response)\n\n# 4. Guardar en SQLite\nconn = sqlite3.connect('agenda.db')\ncur = conn.cursor()\ncur.execute('CREATE TABLE IF NOT EXISTS tareas(fecha TEXT, tarea TEXT, prioridad TEXT)')\ncur.execute('INSERT INTO tareas VALUES (?,?,?)', (data['fecha'], data['tarea'], data['prioridad']))\nconn.commit()\nconn.close()"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
+    "slug": "2026-09-15-domina-chatgpt-en-tu-dia-a-dia-laboral-y-multiplica-tu-produ.html",
+    "title": "Domina ChatGPT en tu día a día laboral y multiplica tu productividad",
+    "description": "Aprende paso a paso cómo integrar ChatGPT en tu trabajo, con ejemplos de prompts, casos prácticos, checklist y advertencias de límites. Guía completa y SEO friendly.",
+    "date": "2026-09-15",
+    "tags": [
+      "ChatGPT",
+      "productividad",
+      "IA",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Actúa como redactor de contenidos SEO. Redacta un artículo de 800 palabras sobre \"beneficios del teletrabajo\", incluye al menos tres subtítulos H2, una tabla comparativa en Markdown y una conclusión de 50 palabras. Entrega el texto sin comentarios adicionales.",
+      "Resume el siguiente informe de 5 páginas en tres párrafos, destacando los hallazgos clave, las recomendaciones y los riesgos principales. Usa viñetas para los riesgos.",
+      "Eres un creador de contenido para blogs de tecnología. Propón diez títulos atractivos sobre IA generativa, cada uno con una breve descripción de 30 palabras.",
+      "Redacta un correo formal a un cliente que ha solicitado una extensión de plazo. Explica la razón, propone una nueva fecha y ofrece una compensación mínima. Mantén un tono cortés y conciso.",
+      "Compara en una tabla Markdown los planes de suscripción de OpenAI (Free, Plus, Enterprise). Incluye columnas de precio mensual, tokens incluidos, velocidad de respuesta y soporte.",
+      "Revisa el siguiente párrafo y sugiere mejoras de claridad, gramática y tono profesional. Marca los cambios con *asteriscos*.",
+      "Actúa como gestor de proyectos. Crea una checklist de 10 pasos para lanzar un webinar, incluye responsables y plazos estimados.",
+      "Traduce al español el siguiente texto técnico, manteniendo la terminología de ingeniería de software y adaptando los ejemplos al público hispanohablante.",
+      "Analiza los siguientes 20 tweets sobre nuestro nuevo producto y clasifícalos como positivo, neutral o negativo. Resume las principales quejas y elogios en dos párrafos.",
+      "Estos son los datos de ventas (CSV):\nFecha,Producto,Unidades,PrecioUnitario,Región\n2024-06-01,Producto A,120,15.00,Centro\n2024-06-02,Producto B,80,22.00,Norte\n... (continúa con 8 filas)",
+      "Con los datos anteriores, genera un resumen ejecutivo de 200 palabras que incluya: total de ingresos, producto más vendido, región con mayor crecimiento y una recomendación para el próximo trimestre.",
+      "Presenta los ingresos mensuales en una tabla Markdown con columnas: Mes, Ingresos, % Variación respecto al mes anterior.",
+      "Escribe tres conclusiones basadas en el resumen y propone dos acciones concretas para mejorar la venta del Producto B.",
+      "Combina los bloques anteriores en un documento con la siguiente estructura: Título, Resumen ejecutivo, Tabla de ingresos, Conclusiones, Próximos pasos. Usa encabezados H2 y H3 y conserva el formato Markdown."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
+    "slug": "2026-09-15-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre trucos de prompt engineering para programadores, con ejemplos listos, casos prácticos y una checklist accionable para mejorar tus prompts con IA.",
+    "date": "2026-09-15",
+    "tags": [
+      "prompt engineering",
+      "developers",
+      "IA",
+      "productividad",
+      "ejemplos"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "/* Prompt de ejemplo */\n---\nContexto:\nYou are a senior backend engineer familiar with Node.js and Express.\n---\nTarea:\nGenerate a skeleton for a REST endpoint that receives a JSON payload with fields `name` (string) and `age` (integer) and returns a 201 response.\n---",
+      "/* Prompt con few‑shot */\nYou are an assistant that returns JSON snippets for code generation.\n\nEjemplo 1:\nInput: Create a Python function that calculates factorial.\nOutput: {\"language\":\"python\",\"code\":\"def factorial(n):\\n    return 1 if n==0 else n*factorial(n-1)\"}\n\nEjemplo 2:\nInput: Write a Bash one‑liner to list all .txt files recursively.\nOutput: {\"language\":\"bash\",\"code\":\"find . -type f -name \\\"*.txt\\\"\"}\n\nAhora genera la respuesta para:\nInput: {{user_input}}\nOutput:",
+      "/* Prompt con límite de ítems */\nLista hasta 5 mejores prácticas para escribir pruebas unitarias en JavaScript. Cada práctica debe incluir un título y una breve descripción.",
+      "/* Prompt con role‑play */\nEres un senior DevOps engineer. Explica paso a paso cómo configurar un pipeline CI/CD en GitHub Actions para desplegar una aplicación Docker en AWS ECS.",
+      "/* Prompt chain‑of‑thought */\nQuiero optimizar una consulta SQL que une tres tablas y filtra por fecha. Primero, describe brevemente los posibles cuellos de botella y luego propone una versión mejorada de la consulta.",
+      "/* Prompt con formato */\nGenera un fragmento de Markdown que describa una tabla comparativa entre PostgreSQL y MySQL, con columnas \"Características\", \"PostgreSQL\" y \"MySQL\".",
+      "---\nContexto:\nYou are an expert backend developer proficient in Node.js, Express, and MongoDB.\n---\nTarea:\nGenerate a complete Express router for a resource called `tasks`. Include routes for GET /tasks, POST /tasks, GET /tasks/:id, PUT /tasks/:id, DELETE /tasks/:id. Each route must contain basic error handling and use async/await.\n---",
+      "// router/tasks.js\nconst express = require('express');\nconst router = express.Router();\nconst Task = require('../models/Task');\n\n// GET /tasks\nrouter.get('/', async (req, res) => {\n  try {\n    const tasks = await Task.find();\n    res.json(tasks);\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\n// POST /tasks\nrouter.post('/', async (req, res) => {\n  try {\n    const task = new Task(req.body);\n    const saved = await task.save();\n    res.status(201).json(saved);\n  } catch (err) {\n    res.status(400).json({ error: err.message });\n  }\n});\n\n// GET /tasks/:id\nrouter.get('/:id', async (req, res) => {\n  try {\n    const task = await Task.findById(req.params.id);\n    if (!task) return res.status(404).json({ error: 'Not found' });\n    res.json(task);\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\n// PUT /tasks/:id\nrouter.put('/:id', async (req, res) => {\n  try {\n    const updated = await Task.findByIdAndUpdate(req.params.id, req.body, { new: true });\n    if (!updated) return res.status(404).json({ error: 'Not found' });\n    res.json(updated);\n  } catch (err) {\n    res.status(400).json({ error: err.message });\n  }\n});\n\n// DELETE /tasks/:id\nrouter.delete('/:id', async (req, res) => {\n  try {\n    const deleted = await Task.findByIdAndDelete(req.params.id);\n    if (!deleted) return res.status(404).json({ error: 'Not found' });\n    res.json({ message: 'Deleted' });\n  } catch (err) {\n    res.status(500).json({ error: err.message });\n  }\n});\n\nmodule.exports = router;",
+      "// Verificación automática (Node.js)\nconst { execSync } = require('child_process');\nfunction lintAndTest(file) {\n  try { execSync(`eslint ${file}`); console.log('Lint OK'); }\n  catch (e) { console.error('Lint errors', e.stdout.toString()); }\n  try { execSync(`npm test -- ${file}`); console.log('Tests passed'); }\n  catch (e) { console.error('Test failures', e.stdout.toString()); }\n}\nlintAndTest('router/tasks.js');"
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
+    "slug": "2026-09-14-los-10-prompts-imprescindibles-para-expertos-en-marketing-di.html",
+    "title": "Los 10 prompts imprescindibles para expertos en marketing digital",
+    "description": "Descubre los 10 prompts que los profesionales del marketing usan para crear campañas, segmentar audiencias y optimizar copy, con ejemplos y checklist.",
+    "date": "2026-09-14",
+    "tags": [
+      "marketing",
+      "prompt engineering",
+      "IA",
+      "copywriting",
+      "casos prácticos"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "\"Genera tres conceptos creativos para una campaña de lanzamiento de un nuevo smartwatch dirigido a jóvenes profesionales entre 25 y 35 años. Incluye tagline, tono y canales recomendados.\"",
+      "\"Escribe cinco variantes de texto para un anuncio de Facebook de 125 caracteres que promocione un curso de marketing digital con un 20% de descuento. Prioriza la urgencia y el beneficio concreto.\"",
+      "\"Con base en los siguientes datos de clientes (lista adjunta), identifica tres segmentos principales y describe sus intereses, comportamientos de compra y canales de comunicación preferidos.\"",
+      "\"Genera una lista de 15 palabras clave de cola larga relacionadas con \"software de gestión de proyectos\" con volumen de búsqueda mensual estimado y nivel de competencia.\"",
+      "\"Escribe un borrador de newsletter de 300 palabras para una startup de fintech que anuncia una nueva funcionalidad de pago instantáneo. Incluye asunto, saludo, cuerpo y llamado a la acción.\"",
+      "\"Desarrolla un guion de 90 segundos para un video explicativo de un producto de energía solar residencial. Usa un tono cercano y destaca tres beneficios principales.\"",
+      "\"Clasifica los siguientes 20 comentarios de Instagram como positivo, neutral o negativo y resume los principales motivos de cada categoría.\"",
+      "\"Crea un calendario editorial de 4 semanas para un blog de marketing B2B. Incluye títulos, formato (post, infografía, podcast), palabras clave y fechas de publicación.\"",
+      "\"Revisa el siguiente texto de una landing page y sugiere tres mejoras para aumentar la tasa de conversión. Enfócate en el headline, la propuesta de valor y el llamado a la acción.\"",
+      "\"Resume los principales KPIs de la campaña de email marketing del último trimestre (tasa de apertura, CTR, conversiones) en un párrafo ejecutivo de 150 palabras para la dirección.\""
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
+    "slug": "2026-09-13-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html",
+    "title": "Genera ideas de negocio en minutos con IA: guía práctica",
+    "description": "Aprende paso a paso a usar IA para crear ideas de negocio en minutos, con prompts listos, ejemplos, checklist y cómo validar resultados.",
+    "date": "2026-09-13",
+    "tags": [
+      "IA",
+      "ideas de negocio",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Prompt 1 – Idea rápida para ecommerce niche\n\"Genera cinco ideas de negocio para una tienda online que venda productos sostenibles para mascotas, con un presupuesto inicial de 5.000 USD y que pueda lanzar en 30 días. Presenta cada idea en una tabla con columnas: nombre, propuesta de valor, canal de venta y coste estimado.\"",
+      "Prompt 2 – Servicio B2B basado en IA\n\"Imagina un servicio SaaS que ayude a pequeñas agencias de marketing a crear copys publicitarios usando IA. Describe tres funcionalidades clave, el modelo de precios y dos estrategias de adquisición de clientes.\"",
+      "Prompt 3 – Modelo de negocio circular\n\"Propón una idea de negocio que convierta residuos de café en productos de belleza. Incluye: proceso de reciclado, mercado objetivo, canales de distribución y estimación de ingresos en el primer año.\"",
+      "Prompt 4 – Startup de salud mental post‑pandemia\n\"Sugiere tres conceptos de negocio que utilicen IA para ofrecer apoyo de salud mental a jóvenes adultos que trabajan remotamente. Detalla la tecnología necesaria, el modelo de suscripción y los riesgos regulatorios.\"",
+      "Prompt 5 – Idea para comunidad de nicho\n\"Crea una propuesta de negocio para una plataforma de membresía que conecte a coleccionistas de vinilos raros. Define los beneficios exclusivos, la estructura de precios y una campaña de lanzamiento de 90 días.\"",
+      "Prompt 6 – Innovación en educación online\n\"Diseña una solución basada en IA que personalice rutas de aprendizaje para estudiantes de secundaria en materias STEM. Incluye: tipos de contenido, métricas de seguimiento y modelo de monetización.\"",
+      "Prompt 7 – Negocio de experiencias inmersivas\n\"Propón una startup que ofrezca tours virtuales de ciudades históricas usando realidad aumentada y IA para generar narrativas dinámicas. Indica los costos de desarrollo, socios estratégicos y canales de venta.\"",
+      "Prompt 8 – Solución de logística para pymes\n\"Genera una idea de negocio que use IA para optimizar rutas de entrega de pequeñas tiendas locales, con integración a plataformas de e‑commerce populares. Describe la arquitectura del sistema y la propuesta de valor para el cliente.\"",
+      "\"Imagina un servicio SaaS que ayude a pequeñas agencias de marketing a crear copys publicitarios usando IA, con un presupuesto de desarrollo menor a 8.000 USD. Describe tres funcionalidades clave, el modelo de precios y dos estrategias de adquisición de clientes.\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
+    "slug": "2026-09-12-los-prompts-mas-creativos-para-disenadores-graficos.html",
+    "title": "Los prompts más creativos para diseñadores gráficos",
+    "description": "Descubre prompts innovadores que impulsan la creatividad visual de los diseñadores gráficos y aprende a usarlos paso a paso.",
+    "date": "2026-09-12",
+    "tags": [
+      "diseño gráfico",
+      "prompt engineering",
+      "creatividad AI"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "\"Genera diez conceptos visuales para una campaña de marketing de una app de meditación. Cada concepto debe incluir: estilo gráfico (minimalista, retro, futurista), paleta de colores, tipografía sugerida y una breve descripción de la composición.\"",
+      "\"Crea una lista de referencias visuales para un proyecto de branding de una marca de café artesanal. Incluye imágenes de empaques, tipografías, texturas y paletas de colores que transmitan calidez, sostenibilidad y sofisticación. Proporciona enlaces a recursos libres de derechos.\"",
+      "\"Describe la composición de un cartel promocional para un festival de música electrónica. Detalla la posición de los elementos clave (título, fecha, artistas, patrocinadores), la jerarquía visual y el uso de efectos de luz neon.\"",
+      "\"Recomienda tres tipografías sans‑serif para un proyecto de identidad visual de una startup fintech. Cada tipografía debe ir acompañada de una breve justificación de su legibilidad, personalidad y pares recomendados.\"",
+      "\"Propón una paleta de cinco colores que evoque confianza y energía para una campaña de reclutamiento de ingenieros de software. Incluye códigos HEX y una breve explicación del impacto psicológico de cada tono.\"",
+      "\"Genera tres descripciones de una ilustración vectorial de un robot amigable en estilo flat, estilo line art y estilo low‑poly. Cada descripción debe incluir la cantidad de trazos, uso de sombras y sugerencias de colores.\"",
+      "\"Describe un conjunto de cinco pantallas para una app de recetas saludables, indicando la disposición de imágenes, botones y tipografía. Incluye notas sobre la navegación y micro‑interacciones.\"",
+      "\"Escribe tres versiones de un tagline de 8 palabras para una marca de ropa sostenible que comunique estilo y compromiso ambiental. Cada versión debe usar un tono diferente: inspirador, humorístico y técnico.\"",
+      "\"Genera ocho conceptos de logotipo para DataPulse, una empresa de análisis de datos en tiempo real. Cada concepto debe incluir: estilo (geométrico, orgánico, futurista), paleta de colores (azules, verdes, neón), tipografía sugerida y una breve justificación del simbolismo.\"",
+      "\"Crea una lista de referencias visuales para un branding tech que combine estética futurista y minimalista. Incluye enlaces a imágenes libres de derechos que muestren tipografías sans‑serif, patrones de datos y colores neón.\"",
+      "\"Propón una paleta de cuatro colores (HEX) para DataPulse que transmita confianza, innovación y velocidad. Añade dos tipografías (una para títulos y otra para cuerpo) con enlaces a Google Fonts.\"",
+      "\"Describe paso a paso cómo dibujar un logotipo basado en una onda sinusoidal que forme la letra ‘D’ de DataPulse, usando la paleta seleccionada y la tipografía Montserrat. Incluye instrucciones de trazado vectorial y uso de sombras.\""
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
+    "slug": "2026-09-12-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
+    "title": "Prompts avanzados para crear contenido viral en redes sociales",
+    "description": "Descubre cómo diseñar prompts avanzados que impulsen la viralidad de tus publicaciones en redes sociales, con ejemplos, caso práctico y checklist accionable.",
+    "date": "2026-09-12",
+    "tags": [
+      "prompt engineering",
+      "viral marketing",
+      "redes sociales",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Prompt:\n\"Escribe un post de Instagram de 150 palabras que cuente la historia de un emprendedor que descubre una solución inesperada para su problema de logística. Usa la estructura de tres actos y termina con una llamada a la acción que invite a comentar su propia experiencia. Usa tono cercano y emojis relevantes.\"",
+      "Prompt:\n\"Genera un tweet thread de 5 tuits que explique cómo crear contenido viral en TikTok. Cada tuit debe iniciar con un número (1‑5) y terminar con un emoji que refuerce la idea. Incluye ejemplos rápidos y una conclusión que invite a retuitear.\"",
+      "Prompt:\n\"Redacta una publicación de LinkedIn de 200 palabras que explique por qué los videos cortos aumentan el alcance en un 73% según el informe de Hootsuite 2023. Incluye la cita en formato blockquote y un enlace a la fuente.\"",
+      "Prompt:\n\"Crea un Reel de 30 segundos dirigido a millennials interesados en fitness, que muestre una rutina de entrenamiento en casa sin equipamiento. Usa lenguaje motivador, incluye un desafío de 7 días y finaliza con la frase '¿Te unes?'\"",
+      "Prompt:\n\"Escribe una descripción para una publicación de Facebook que anuncie un nuevo sabor de helado. Describe el sabor usando metáforas sensoriales y termina con la pregunta: '¿Cuál es tu recuerdo favorito asociado a este sabor?'\"",
+      "Prompt:\n\"Genera un tweet de 280 caracteres para promocionar un cupón de 20% de descuento válido solo durante las próximas 24 horas. Usa emojis de reloj y fuego, y termina con el hashtag #OfertaFlash.\"",
+      "Prompt:\n\"Redacta un carrusel de Instagram de 5 diapositivas que explique, con tono empático, cómo 3 minutos de meditación diaria pueden mejorar la productividad. Cada diapositiva debe incluir un titular corto, una breve explicación y un llamado a deslizar. Finaliza con una invitación a descargar la app y usar el código 'ZEN10' para obtener 10 % de descuento.\"",
+      "Prompt:\n\"Escribe el guion de un video de 15 s para TikTok que muestre a una persona estresada transformándose en calma tras usar la app. Incluye instrucciones visuales, texto en pantalla y una canción trending sin derechos. Cierra con la frase 'Descarga ahora y siente la diferencia'.\""
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
+    "slug": "2026-09-11-automatiza-tu-negocio-con-prompts-inteligentes-y-acelera-tu-.html",
+    "title": "Automatiza tu negocio con prompts inteligentes y acelera tu productividad",
+    "description": "Descubre cómo usar prompts de IA para automatizar procesos, con ejemplos listos para copiar, casos prácticos y checklist accionable.",
+    "date": "2026-09-11",
+    "tags": [
+      "automatización",
+      "prompt engineering",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Actúa como agente de soporte de una tienda de ropa online. Responde de forma cordial y breve a la siguiente consulta del cliente, ofreciendo una solución y un paso a seguir:\n\nCliente: \"Mi pedido llegó con una talla incorrecta. ¿Cómo lo cambio?\"",
+      "Resume en 5 viñetas los puntos clave de la siguiente transcripción de reunión, destacando decisiones, responsables y plazos:\n\n[Transcripción completa]",
+      "Estructura una página de aterrizaje para el servicio \"consultoría de transformación digital\". Incluye título H1, tres párrafos de 80‑100 palabras, dos listas con viñetas y una llamada a la acción, usando palabras clave: transformación digital, innovación empresarial, estrategia tecnológica.",
+      "Clasifica el siguiente ticket en una de estas categorías: Facturación, Soporte Técnico, Ventas, Otros. Proporciona la categoría y una breve justificación.\n\nTicket: \"No entiendo por qué mi factura de este mes tiene un cargo extra por servicio premium que nunca solicité\"",
+      "Escribe un script en Python que use la librería requests para obtener los últimos 10 tweets de la cuenta @OpenAI y los guarde en un archivo CSV con columnas: id, texto, fecha.",
+      "Redacta una política de privacidad para una aplicación móvil que recoja datos de ubicación y contactos, cumpliendo con el GDPR. Usa un lenguaje claro, incluye secciones de datos recogidos, finalidad, derechos del usuario y contacto del responsable.",
+      "Elabora un calendario de contenidos para el blog de una empresa de software B2B durante el mes de octubre. Propón 4 temas, cada uno con título, objetivo, palabra clave principal y formato (artículo, infografía, video).",
+      "Actúa como entrevistador senior para el puesto de \"Data Engineer\". Formula 5 preguntas técnicas y 3 de comportamiento, y después evalúa brevemente las respuestas hipotéticas del candidato.",
+      "Eres un asistente financiero. Redacta un correo de factura para el cliente \"{nombre}\" con los siguientes datos: número de proyecto, horas trabajadas ({horas}), tarifa por hora ({tarifa}), total a pagar. Incluye un agradecimiento y los datos de pago. Formato en texto plano."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
+    "slug": "2026-09-11-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
+    "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
+    "description": "Aprende a redactar prompts que entreguen respuestas precisas y consistentes, con ejemplos listos para usar y una checklist de verificación.",
+    "date": "2026-09-11",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Escribe un resumen de 150 palabras del artículo \"Inteligencia Artificial y Ética\" publicado en Nature en 2023. Usa un tono académico y destaca tres argumentos principales.",
+      "Genera una tabla markdown con tres columnas (Producto, Precio, Disponibilidad) y cinco filas para una tienda ficticia de gadgets. Los precios deben estar en euros y la disponibilidad debe ser \"En stock\" o \"Agotado\".",
+      "Enumera diez ideas de contenido para un blog de marketing digital dirigido a pymes, indicando para cada idea el objetivo (educar, convertir, retener) y una frase de gancho de máximo 15 palabras.",
+      "Escribe un correo de seguimiento de 120 palabras a un cliente potencial que mostró interés en nuestro software de gestión de proyectos, manteniendo un tono profesional pero cercano.",
+      "Imagina que eres un historiador especializado en la Revolución Francesa. Redacta una breve entrevista (pregunta y respuesta) sobre las causas económicas del 1789, usando un estilo divulgativo.",
+      "Proporciona un plan de 4 semanas para aprender Python desde cero, con actividades diarias (máximo 2 h por día) y recursos gratuitos en línea.",
+      "Redacta una política de privacidad de 800 palabras para una aplicación móvil que recopila datos de ubicación y contactos, cumpliendo con el RGPD.",
+      "Describe, en formato de lista numerada, los pasos para configurar un pipeline CI/CD en GitHub Actions para un proyecto Node.js, incluyendo los comandos exactos.",
+      "Crear un calendario editorial de 12 artículos para un blog de ropa sostenible. Cada artículo debe incluir: título (máximo 60 caracteres), palabra clave principal, objetivo SEO (informacional, transaccional o comercial) y una breve descripción de 80 palabras.",
+      "Crear un calendario editorial de 12 artículos para un blog de ropa sostenible. Cada artículo debe incluir:\n1. Título (máximo 60 caracteres).\n2. Palabra clave principal.\n3. Objetivo SEO (elige entre: informacional, transaccional, comercial).\n4. Breve descripción de 80 palabras.\nAsegúrate de especificar el objetivo SEO para cada fila."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-09-10-los-mejores-prompts-para-redactar-emails-profesionales-con-i.html",
     "title": "Los mejores prompts para redactar emails profesionales con IA",
     "description": "Descubre prompts listos para usar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos prácticos y checklist.",
@@ -1752,97 +2022,5 @@
     ],
     "topic": "Evita errores comunes",
     "wordCount": 507
-  },
-  {
-    "slug": "2026-07-19-prompts-de-marketing.html",
-    "title": "Prompts de Marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus campañas",
-    "date": "2026-07-19",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 4,
-    "category": "marketing",
-    "prompts": [
-      "Generar 5 titulares para un anuncio de una nueva marca de ropa deportiva",
-      "Describe las características y beneficios de un nuevo modelo de teléfono inteligente",
-      "Crea un correo electrónico de marketing para promocionar una oferta especial de una tienda en línea",
-      "Genera 3 publicaciones para Instagram para promocionar un nuevo producto de belleza",
-      "Crea un informe de mercado para analizar las tendencias y oportunidades en el sector de la tecnología",
-      "Genera un artículo de blog sobre las tendencias actuales en el sector del marketing digital",
-      "Crea un guión para un video de marketing que promocione un nuevo servicio de streaming",
-      "Genera 5 correos electrónicos para una campaña de email marketing que promocione un nuevo producto de software",
-      "Crea un informe de análisis de competidores para evaluar la posición de una empresa en el mercado",
-      "Genera 3 anuncios para Facebook que promocionen un nuevo producto de electrónica"
-    ],
-    "topic": "Prompts de Marketing",
-    "wordCount": 613
-  },
-  {
-    "slug": "2026-07-17-aprende-rapido.html",
-    "title": "Aprende Rápido",
-    "description": "Aprende cualquier cosa 10 veces más rápido con prompts",
-    "date": "2026-07-17",
-    "tags": [
-      "Inteligencia Artificial",
-      "Aprendizaje",
-      "Prompt Engineering"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Explica el teorema de Pitágoras y proporciona un ejemplo práctico de su aplicación.",
-      "Describe los eventos clave de la Revolución Francesa y su impacto en la historia de Europa.",
-      "Explique el proceso de fotosíntesis en las plantas y su importancia para el medio ambiente.",
-      "Ejemplo de un prompt específico: Explica cómo funciona el motor de un automóvil, incluyendo los componentes principales y su función en el proceso de combustión.",
-      "Otro ejemplo: Describe las diferencias entre el aprendizaje supervisado y no supervisado en el contexto del aprendizaje automático, y proporciona un ejemplo de cada caso."
-    ],
-    "topic": "Aprende Rápido",
-    "wordCount": 524
-  },
-  {
-    "slug": "2026-07-06-prompts-perfectos.html",
-    "title": "Prompts Perfectos",
-    "description": "Aprende a escribir prompts efectivos para IA",
-    "date": "2026-07-06",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar inteligencia artificial en la toma de decisiones?",
-      "Describe un escenario en el que un robot tenga que tomar una decisión ética. ¿Qué factores debería considerar el robot al tomar su decisión?",
-      "¿Cómo se puede utilizar el aprendizaje automático para mejorar la eficiencia en la industria manufacturera? Proporciona ejemplos concretos de aplicaciones y resultados."
-    ],
-    "topic": "Prompts Perfectos",
-    "wordCount": 485
-  },
-  {
-    "slug": "2026-06-28-prompts-avanzados.html",
-    "title": "Prompts Avanzados",
-    "description": "Crea contenido viral con prompts avanzados en redes sociales",
-    "date": "2026-06-28",
-    "tags": [
-      "prompts",
-      "contenido viral",
-      "redes sociales"
-    ],
-    "readingTime": 3,
-    "category": "marketing",
-    "prompts": [
-      "\"Escribe un título que combine la palabra 'verano' con una emoción positiva, utilizando un máximo de 10 palabras\"",
-      "\"Enumera 5 beneficios del ejercicio físico regular, utilizando viñetas y un lenguaje accesible\"",
-      "\"Cuenta la historia de un personaje que supera una adversidad, utilizando un máximo de 200 palabras y un tono inspirador\"",
-      "\"Describe un lugar imaginario donde la tecnología y la naturaleza coexisten en armonía, utilizando un máximo de 150 palabras\"",
-      "\"Explica el concepto de sostenibilidad ambiental de manera que un niño de 10 años pueda entenderlo, utilizando un lenguaje claro y conciso\"",
-      "\"Crea un personaje que represente la resiliencia y la determinación, utilizando un máximo de 100 palabras y un tono motivador\""
-    ],
-    "topic": "Prompts Avanzados",
-    "wordCount": 558
   }
 ]
