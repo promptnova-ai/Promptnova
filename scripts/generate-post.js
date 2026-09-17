@@ -344,6 +344,7 @@ function savePost(data, topic) {
   const fullHtml = `<!DOCTYPE html>
 <html lang="es">
 <head>
+<script src="https://quge5.com/88/tag.min.js" data-zone="281989" async data-cfasync="false"></script>
   <meta charset="UTF-8">
   <base href="${SITE_BASE_PATH}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
