@@ -2,9 +2,7 @@ name: Generate Daily Posts
 
 on:
   schedule:
-    - cron: '0 7 * * *'
-    - cron: '0 13 * * *'
-    - cron: '0 19 * * *'
+    - cron: '0 7 * * *'   # se evalúa cada día a las 07:00 UTC, pero solo publica si ya pasaron 3 días
   workflow_dispatch:
 
 concurrency:
@@ -17,50 +15,75 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # necesario para poder leer el historial de posts/
+
+      - name: Check if 3 days have passed since last post
+        id: gate
+        run: |
+          LAST_DATE=$(git log -1 --format=%cd --date=short -- posts/ 2>/dev/null || true)
+          if [ -z "$LAST_DATE" ]; then
+            echo "No hay posts previos, se publica igualmente."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          NOW_EPOCH=$(date -u +%s)
+          LAST_EPOCH=$(date -u -d "$LAST_DATE" +%s)
+          DAYS_SINCE=$(( (NOW_EPOCH - LAST_EPOCH) / 86400 ))
+          echo "Último post: $LAST_DATE ($DAYS_SINCE días atrás)"
+          if [ "$DAYS_SINCE" -ge 3 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Setup Node.js
+        if: steps.gate.outputs.should_run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Install dependencies
+        if: steps.gate.outputs.should_run == 'true'
         run: npm install
 
       - name: Sync latest main before generation
+        if: steps.gate.outputs.should_run == 'true'
         run: git pull --rebase -X theirs origin main
 
       - name: Generate post with ChatGPT
+        if: steps.gate.outputs.should_run == 'true'
         env:
-         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          for attempt in 1 2; do
+          for attempt in 1 2 3; do
             node scripts/generate-post.js && exit 0
             echo "Generation attempt $attempt failed; retrying..."
-            sleep $((attempt * 10))
+            sleep $((attempt * 20))
           done
           exit 1
 
       - name: Commit and push new post
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           git config user.name "PromptNova Bot"
           git config user.email "bot@promptnova.com"
           git add posts/ posts/index.json index.html sitemap.xml
           git diff --cached --quiet || git commit -m "✨ Auto-post: $(date +'%Y-%m-%d %H:%M')"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4; do
             git pull --rebase origin main && git push && exit 0
             git rebase --abort || true
             echo "Publish attempt $attempt failed; retrying..."
-            sleep $((attempt * 10))
+            sleep $((attempt * 15))
           done
           exit 1
 
       - name: Notificar si falló todo
-        if: failure()
+        if: failure() && steps.gate.outputs.should_run == 'true'
         run: |
           curl -X POST -H "Content-Type: application/json" \
-            -d "{\"content\":\"❌ PromptNova: no se pudo generar/publicar el post de hoy (run: ${{ github.run_id }})\"}" \
+            -d "{\"content\":\"❌ PromptNova: no se pudo generar/publicar el post (run: ${{ github.run_id }}). Se reintentará mañana automáticamente.\"}" \
             "${{ secrets.DISCORD_WEBHOOK_URL }}"
