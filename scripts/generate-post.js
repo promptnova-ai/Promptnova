@@ -345,6 +345,7 @@ function savePost(data, topic) {
 <html lang="es">
 <head>
 <script src="https://quge5.com/88/tag.min.js" data-zone="11822422" async data-cfasync="false"></script>
+<script>(function(s){s.dataset.zone='11830791',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
   <meta charset="UTF-8">
   <base href="${SITE_BASE_PATH}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
