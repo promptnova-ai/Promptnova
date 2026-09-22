@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-09-22-como-crear-prompts-para-generar-imagenes-perfectas-con-ia.html",
+    "title": "Cómo crear prompts para generar imágenes perfectas con IA",
+    "description": "Guía práctica con ejemplos, checklist y casos de uso para diseñar prompts que produzcan imágenes IA de alta calidad.",
+    "date": "2026-09-22",
+    "tags": [
+      "IA",
+      "prompt engineering",
+      "generación de imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "\"un dragón azul emergiendo de una caverna de cristal, estilo ilustración de libro de fantasía, detalle hiperrealista, iluminación dramática, composición centrada, sin texto, colores fríos, resolución 4k\"",
+      "\"smartwatch de acero inoxidable sobre una superficie de mármol blanco, vista cenital, luz suave difusa, estilo fotográfico realista, sin sombras duras, sin logotipos visibles, 8k\"",
+      "\"escena urbana nocturna con neón, personas jóvenes usando smartphones, estilo cyberpunk, colores vibrantes, composición dinámica en diagonal, espacio negativo para colocar texto, sin marcas registradas\"",
+      "\"vehículo de exploración lunar con paneles solares, estilo concept art de videojuego, perspectiva a‑érea, detalle de metal pulido, luz de estrellas, atmósfera tenue, sin personajes\"",
+      "\"corte transversal de una hoja de roble mostrando vasos, estomas y nervios, estilo científico, etiquetas claras en blanco, fondo neutro, alta resolución, sin sombras\"",
+      "\"café parisino en los años 20, mesas de madera, gente elegante, estilo sepia con granulado, luz cálida de tarde, composición horizontal, sin texto\"",
+      "\"plato de sushi de salmón sobre una tabla de bambú, gotas de salsa brillantes, luz natural de ventana, estilo fotográfico de alta gama, fondo desenfocado, sin utensilios visibles\"",
+      "\"gráfica de barras flotantes en un espacio abstracto, colores degradados del azul al verde, estilo arte digital futurista, luz de fondo, sin texto, alta resolución\"",
+      "\"caja de entrega ecológica abierta con verduras frescas, estilo flat design, colores pastel, fondo blanco, sin texto, iluminación suave\"",
+      "\"caja de entrega ecológica abierta con verduras frescas (zanahoria, brócoli, pimiento rojo), estilo flat design, colores pastel, sombra ligera bajo la caja, fondo blanco, espacio negativo en la esquina superior derecha para texto, sin marcas\""
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-09-16-domina-cualquier-tema-10-mas-rapido-con-prompts-inteligentes.html",
     "title": "Domina cualquier tema 10× más rápido con prompts inteligentes",
     "description": "Descubre cómo crear prompts que aceleren tu aprendizaje 10 veces, con ejemplos listos y una guía paso a paso.",
@@ -1999,28 +2025,5 @@
     ],
     "topic": "10 Prompts de marketing",
     "wordCount": 962
-  },
-  {
-    "slug": "2026-07-28-evita-errores-comunes.html",
-    "title": "Evita errores comunes",
-    "description": "Aprende a escribir prompts efectivos para IA",
-    "date": "2026-07-28",
-    "tags": [
-      "prompt engineering",
-      "IA",
-      "errores comunes"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "¿Cuáles son las ventajas y desventajas de utilizar redes neuronales en el análisis de datos financieros?",
-      "Desarrolla un plan de marketing para lanzar un nuevo producto de tecnología en el mercado latinoamericano.",
-      "Explica la diferencia entre aprendizaje supervisado y no supervisado en el contexto del aprendizaje automático.",
-      "¿Qué pasa con la IA?",
-      "Desarrolla un plan para todo.",
-      "Explica todo sobre aprendizaje automático."
-    ],
-    "topic": "Evita errores comunes",
-    "wordCount": 507
   }
 ]
