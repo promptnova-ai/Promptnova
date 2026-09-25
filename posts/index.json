@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-09-25-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los fallos típicos al crear prompts, cómo corregirlos y una checklist práctica para obtener mejores resultados con IA.",
+    "date": "2026-09-25",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "# Ejemplo 1 – Evitar vaguedad\nPrompt: \"Escribe una introducción de 150 palabras para un blog de marketing digital dirigido a emprendedores, con tono motivador y ejemplos de campañas exitosas.\"\nCuándo usar: Cuando necesites un texto con objetivo y audiencia definidos.",
+      "# Ejemplo 2 – Añadir contexto\nPrompt: \"Resume los últimos tres informes de la Comisión Europea sobre energía renovable, enfocándote en datos de España y Francia, y menciona al menos dos tendencias emergentes.\"\nCuándo usar: Cuando la respuesta debe basarse en fuentes o periodos específicos.",
+      "# Ejemplo 3 – Eliminar contradicciones\nPrompt: \"Crea una guía paso a paso (máximo 5 pasos) para configurar una VPN en Windows 10, usando un lenguaje técnico pero con explicaciones simples para usuarios no expertos.\"\nCuándo usar: Cuando requieras precisión y claridad simultáneas.",
+      "# Ejemplo 4 – Definir jerga\nPrompt: \"Define 'API' en el contexto de desarrollo web y da un ejemplo de uso en una aplicación React. Usa un tono informal.\"\nCuándo usar: Cuando el término pueda confundirse con otros significados.",
+      "# Ejemplo 5 – Limitar longitud y formato\nPrompt: \"Genera una tabla markdown con tres columnas (País, PIB 2023, Crecimiento %) para los cinco países con mayor PIB en América Latina.\"\nCuándo usar: Cuando necesites datos estructurados y una longitud exacta.",
+      "# Ejemplo 6 – Especificar formato JSON\nPrompt: \"Devuelve un objeto JSON que contenga nombre, edad y hobbies de un personaje ficticio llamado Alex, con al menos tres hobbies.\"\nCuándo usar: Cuando la salida será procesada por otro programa.",
+      "# Ejemplo 7 – Incluir fase de verificación\nPrompt: \"Escribe una lista de cinco riesgos de ciberseguridad para pequeñas empresas y, después de cada riesgo, sugiere una medida de mitigación. Al final, resume los puntos clave en una frase.\"\nCuándo usar: Cuando quieras asegurarte de que cada ítem incluye la información esperada.",
+      "Prompt: \"Escribe una guía de viaje de tres párrafos para Madrid dirigida a viajeros solos que buscan experiencias culturales económicas. Incluye al menos dos museos gratuitos, una actividad al aire libre y una recomendación de comida típica con presupuesto bajo. Usa un tono cercano y brinda enlaces ficticios a sitios de referencia.\"",
+      "Madrid para viajeros solos con presupuesto limitado\n\nMadrid ofrece una combinación única de historia y modernidad que se adapta perfectamente a los viajeros en solitario que buscan experiencias culturales sin gastar mucho. Puedes comenzar el día visitando el Museo del Prado (entrada gratuita los lunes a partir de las 18 h) y el Museo Reina Sofía (entrada libre los miércoles a las 19 h). Ambos albergan obras maestras que harán de tu visita una experiencia inolvidable.\n\nPor la tarde, dirígete al Parque del Retiro, un oasis verde donde puedes disfrutar de un paseo en barca por el Estanque Grande o simplemente relajarte bajo la sombra de los árboles. El parque también alberga exposiciones temporales al aire libre gratuitas.\n\nPara la cena, prueba las tapas en el Mercado de San Miguel, donde encontrarás opciones por menos de 5 €, como la tortilla de patatas o las croquetas caseras. Más información en [Guía de tapas económicas](https://ejemplo.com/tapas-madrid)."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-09-22-como-crear-prompts-para-generar-imagenes-perfectas-con-ia.html",
     "title": "Cómo crear prompts para generar imágenes perfectas con IA",
     "description": "Guía práctica con ejemplos, checklist y casos de uso para diseñar prompts que produzcan imágenes IA de alta calidad.",
@@ -1998,32 +2023,5 @@
     ],
     "topic": "Domina ChatGPT",
     "wordCount": 629
-  },
-  {
-    "slug": "2026-08-13-10-prompts-de-marketing.html",
-    "title": "10 Prompts de marketing",
-    "description": "Descubre los 10 prompts más usados por expertos en marketing para mejorar tus estrategias",
-    "date": "2026-08-13",
-    "tags": [
-      "marketing",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 5,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología?",
-      "Genera 5 ideas de contenido para un blog sobre marketing digital que se centren en la optimización de motores de búsqueda.",
-      "Describe la personalidad de una marca de ropa sostenible que se centra en la reducción de residuos.",
-      "¿Cuáles son las estrategias de marketing de la competencia en el mercado de la industria de la tecnología?",
-      "¿Cuáles son las mejores prácticas para optimizar un sitio web para motores de búsqueda?",
-      "Genera 3 ideas de anuncios para una campaña publicitaria en redes sociales que se centren en la promoción de un nuevo producto.",
-      "¿Cuáles son las preferencias y comportamientos de la audiencia objetivo para un producto de tecnología?",
-      "Genera 5 ideas de estrategias de contenido para un blog de marketing que se centren en la educación y el entretenimiento.",
-      "¿Cuáles son las tendencias actuales en el mercado de la industria de la tecnología que pueden afectar a mi negocio?",
-      "¿Cuáles son los indicadores clave de desempeño (KPI) para medir el éxito de una campaña publicitaria en redes sociales?"
-    ],
-    "topic": "10 Prompts de marketing",
-    "wordCount": 962
   }
 ]
