@@ -1,5 +1,34 @@
 [
   {
+    "slug": "2026-09-28-ia-para-seo-prompts-que-posicionan-tu-contenido.html",
+    "title": "IA para SEO: Prompts que posicionan tu contenido",
+    "description": "Descubre cómo usar prompts de IA para mejorar tu SEO, con ejemplos listos, casos prácticos y una checklist para aplicar hoy mismo.",
+    "date": "2026-09-28",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "\"Genera 5 variantes de título SEO para un artículo sobre 'optimización de imágenes para web'. Cada título debe incluir la frase exacta 'optimización de imágenes' y no superar los 60 caracteres.\"",
+      "\"Escribe una meta descripción de 150 caracteres para un post titulado 'Guía definitiva de link building en 2024'. Incluye la palabra clave 'link building' y un llamado a la acción que invite a leer más.\"",
+      "\"Proporciona una estructura de encabezados (H2 y H3) para un artículo de 1500 palabras sobre 'estrategias de contenido evergreen'. Cada H2 debe contener una variante de la keyword y cada H3 debe ser una pregunta frecuente relacionada.\"",
+      "\"Reescribe el párrafo siguiente incorporando al menos 3 sinónimos de 'optimización' y 2 términos LSI relacionados con 'velocidad de carga' sin perder la claridad del mensaje.\"",
+      "\"Crea 7 preguntas frecuentes con sus respuestas breves (máximo 80 palabras) para un artículo sobre 'cómo usar schema.org para rich snippets'. Cada pregunta debe incluir una palabra clave secundaria como 'datos estructurados' o 'rich snippets'.\"",
+      "\"Proporciona texto alternativo (alt) descriptivo para una imagen que muestra un diagrama de arquitectura de sitio. Usa la keyword 'arquitectura de sitio SEO' y mantén la descripción en menos de 125 caracteres.\"",
+      "\"Analiza el siguiente texto y calcula la densidad de la keyword 'SEO técnico'. Indica si la densidad está dentro del rango recomendado (0.5%‑2%) y sugiere ajustes si es necesario.\"",
+      "\"A partir del esquema de encabezados proporcionado, sugiere 3 enlaces internos a artículos existentes del blog y 2 enlaces externos a fuentes autoritativas sobre 'optimización de velocidad'.\"",
+      "Genera 5 variantes de título SEO para un artículo sobre 'optimización de imágenes para web'. Cada título debe incluir la frase exacta 'optimización de imágenes' y no superar los 60 caracteres.",
+      "Escribe una meta descripción de 150 caracteres para un post titulado 'Optimización de imágenes para web: guía completa para mejorar la velocidad'. Incluye la palabra clave 'optimización de imágenes' y un llamado a la acción que invite a leer más.",
+      "Proporciona una estructura de encabezados (H2 y H3) para un artículo de 1500 palabras sobre 'optimización de imágenes para web'. Cada H2 debe contener una variante de la keyword y cada H3 debe ser una pregunta frecuente relacionada.",
+      "Crea 7 preguntas frecuentes con sus respuestas breves (máximo 80 palabras) para un artículo sobre 'optimización de imágenes para web'. Cada pregunta debe incluir una palabra clave secundaria como 'formato WebP' o 'compresión sin pérdida'.",
+      "A partir del esquema de encabezados proporcionado, sugiere 3 enlaces internos a artículos existentes del blog y 2 enlaces externos a fuentes autoritativas sobre 'optimización de imágenes'."
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-09-25-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los fallos típicos al crear prompts, cómo corregirlos y una checklist práctica para obtener mejores resultados con IA.",
@@ -2003,25 +2032,5 @@
     ],
     "topic": "Prompts infalibles",
     "wordCount": 539
-  },
-  {
-    "slug": "2026-08-13-domina-chatgpt.html",
-    "title": "Domina ChatGPT",
-    "description": "Aprende a utilizar ChatGPT en tu trabajo diario para aumentar la productividad",
-    "date": "2026-08-13",
-    "tags": [
-      "ChatGPT",
-      "Inteligencia Artificial",
-      "Productividad"
-    ],
-    "readingTime": 4,
-    "category": "trabajo",
-    "prompts": [
-      "Escribe un correo electrónico a un cliente para agradecer su compra y ofrecerle un descuento en su próxima compra.",
-      "Escribe un artículo sobre los beneficios de la meditación para la salud mental.",
-      "Investiga y escribe un informe sobre las tendencias actuales en el mercado de la tecnología."
-    ],
-    "topic": "Domina ChatGPT",
-    "wordCount": 629
   }
 ]
