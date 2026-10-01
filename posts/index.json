@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-10-01-crea-tu-curso-online-desde-cero-con-chatgpt-guia-practica.html",
+    "title": "Crea tu curso online desde cero con ChatGPT: guía práctica",
+    "description": "Descubre paso a paso cómo usar ChatGPT para diseñar, estructurar y lanzar un curso online, con prompts listos para copiar y consejos reales.",
+    "date": "2026-10-01",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Actúa como especialista en educación online y describe el perfil ideal de estudiantes para un curso de marketing digital dirigido a emprendedores principiantes. Incluye edad, nivel de conocimientos, motivaciones y principales obstáculos.\"",
+      "\"Redacta una declaración de objetivo para un curso titulado ‘Introducción al SEO para pymes’, que sea clara, medible y orientada a resultados. La declaración debe incluir lo que el alumno sabrá hacer al finalizar el curso.\"",
+      "\"Genera un temario dividido en 6 módulos para un curso de ‘Fotografía con smartphone’. Cada módulo debe contener 3‑4 lecciones y una breve descripción de los resultados de aprendizaje.\"",
+      "\"Escribe un guion de 5 minutos para la lección ‘Cómo elegir la luz adecuada en fotografía móvil’. Incluye una introducción, tres puntos clave con ejemplos y una conclusión con una llamada a la acción para el ejercicio práctico.\"",
+      "\"Crea 5 preguntas de opción múltiple con 4 alternativas cada una para evaluar la lección anterior. Proporciona la respuesta correcta y una breve explicación para cada opción.\"",
+      "\"Diseña una plantilla de hoja de cálculo en formato CSV para que los estudiantes planifiquen su calendario de publicaciones en Instagram. Incluye columnas para fecha, tema, tipo de contenido y métricas a medir.\"",
+      "\"Elabora una encuesta de 7 preguntas para evaluar la claridad, utilidad y dificultad percibida de un módulo de curso sobre SEO. Incluye preguntas de escala Likert y una pregunta abierta para sugerencias.\"",
+      "Módulo 1 – Fundamentos de Notion\n  • Lección 1: Navegación y bloques básicos\n  • Lección 2: Bases de datos simples\n  • Lección 3: Plantillas predefinidas\nMódulo 2 – Automatización y flujos de trabajo\n  • Lección 1: Relacionar bases de datos\n  • Lección 2: Fórmulas y filtros\n  • Lección 3: Integraciones con Zapier\nMódulo 3 – Gestión de proyectos avanzados\n  • Lección 1: Roadmaps visuales\n  • Lección 2: Seguimiento de OKR\n  • Lección 3: Revisión y retrospectiva\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-09-28-ia-para-seo-prompts-que-posicionan-tu-contenido.html",
     "title": "IA para SEO: Prompts que posicionan tu contenido",
     "description": "Descubre cómo usar prompts de IA para mejorar tu SEO, con ejemplos listos, casos prácticos y una checklist para aplicar hoy mismo.",
@@ -2009,28 +2033,5 @@
     ],
     "topic": "Contenido Viral",
     "wordCount": 542
-  },
-  {
-    "slug": "2026-08-13-prompts-infalibles.html",
-    "title": "Prompts infalibles",
-    "description": "Aprende a escribir prompts efectivos para IA con ejemplos prácticos",
-    "date": "2026-08-13",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "IA"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Escribe un poema sobre el amor con un estilo similar al de Pablo Neruda.",
-      "Genera un resumen de 200 palabras sobre el libro &quot;Don Quijote de la Mancha&quot; de Miguel de Cervantes.",
-      "Crea un diálogo entre dos personajes históricos, como Leonardo da Vinci y Albert Einstein, sobre el tema de la innovación.",
-      "Escribe un artículo sobre el impacto del cambio climático en la biodiversidad, considerando los datos más recientes y las opiniones de expertos en el campo.",
-      "Genera un informe sobre el estado actual de la educación en línea, incluyendo las tendencias y los desafíos que enfrentan las instituciones educativas.",
-      "Crea un guión para un video sobre la historia de la tecnología, desde la invención de la imprenta hasta la era de la inteligencia artificial."
-    ],
-    "topic": "Prompts infalibles",
-    "wordCount": 539
   }
 ]
