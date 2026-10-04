@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-10-04-los-mejores-prompts-de-ia-para-redactar-emails-profesionales.html",
+    "title": "Los mejores prompts de IA para redactar emails profesionales",
+    "description": "Descubre prompts listos para copiar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos de uso y checklist.",
+    "date": "2026-10-04",
+    "tags": [
+      "emails profesionales",
+      "IA",
+      "prompt engineering",
+      "redacción"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Redacta un email de presentación breve (150‑200 palabras) dirigido a un cliente potencial del sector fintech. Usa un tono cordial y profesional, menciona nuestro producto de análisis de datos y solicita una reunión de 30 minutos. Incluye un asunto atractivo y una llamada a la acción clara.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Escribe una respuesta empática a la siguiente queja: \\\"El último informe llegó con errores de cálculo y retrasado. Necesitamos una solución urgente.\\\". Mantén un tono conciliador, reconoce el problema, ofrece una solución concreta y propone una llamada de seguimiento. Limita la respuesta a 120 palabras.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Crea un email interno dirigido al jefe de IT solicitando acceso temporal a la base de datos de ventas para el proyecto Q3. Explica brevemente el objetivo, el periodo de acceso (2 semanas) y los beneficios esperados. Usa un tono respetuoso y conciso, con un asunto que indique urgencia moderada.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Redacta un email de seguimiento tras una entrevista de trabajo para el puesto de Analista de Datos. Agradece al entrevistador, destaca dos puntos fuertes mencionados durante la entrevista y reitera el interés por el puesto. Mantén el mensaje entre 100‑130 palabras y finaliza con una frase de cierre amable.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Elabora un email informando a todos los empleados sobre la nueva política de teletrabajo. Incluye los principales cambios, la fecha de entrada en vigor y un enlace a la documentación completa. Usa un tono informativo y motivador, con un asunto que destaque la novedad.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Genera un email invitando a profesionales del sector salud a nuestro webinar sobre IA en diagnóstico médico. Incluye fecha, hora, registro gratuito y tres beneficios clave de asistir. Usa un tono entusiasta y un asunto que incite a abrir el mensaje.\"\n}",
+      "{\n  \"role\": \"assistant\",\n  \"content\": \"Redacta un email de presentación de 180 palabras para María López, directora de innovación en EcoTech. Presenta nuestro motor de análisis predictivo que reduce el desperdicio en la cadena de suministro en un 15 %. Propón una reunión de 30 minutos la próxima semana. Incluye asunto atractivo y llamada a la acción clara.\"\n}"
+    ],
+    "topic": "Los mejores prompts para escribir emails profesionales con IA"
+  },
+  {
     "slug": "2026-10-01-crea-tu-curso-online-desde-cero-con-chatgpt-guia-practica.html",
     "title": "Crea tu curso online desde cero con ChatGPT: guía práctica",
     "description": "Descubre paso a paso cómo usar ChatGPT para diseñar, estructurar y lanzar un curso online, con prompts listos para copiar y consejos reales.",
@@ -2013,25 +2037,5 @@
     ],
     "topic": "Ideas de Negocio con IA",
     "wordCount": 530
-  },
-  {
-    "slug": "2026-08-14-contenido-viral.html",
-    "title": "Contenido Viral",
-    "description": "Aprende a crear contenido viral con prompts avanzados",
-    "date": "2026-08-14",
-    "tags": [
-      "Contenido viral",
-      "Prompts avanzados",
-      "Redes sociales"
-    ],
-    "readingTime": 3,
-    "category": "marketing",
-    "prompts": [
-      "Ejemplo 1: 'Crea un meme sobre la ironía de la vida moderna, utilizando un estilo de dibujo minimalista y un tono humorístico'",
-      "Ejemplo 2: 'Escribe un artículo sobre los beneficios del mindfulness para la salud mental, incluyendo estadísticas y citando a expertos en el campo'",
-      "Ejemplo 3: 'Desarrolla un guión para un video de 60 segundos sobre la importancia de reducir el plástico en el medio ambiente, utilizando animaciones y gráficos llamativos'"
-    ],
-    "topic": "Contenido Viral",
-    "wordCount": 542
   }
 ]
