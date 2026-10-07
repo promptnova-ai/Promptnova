@@ -1,5 +1,32 @@
 [
   {
+    "slug": "2026-10-07-como-escribir-prompts-que-nunca-fallan.html",
+    "title": "Cómo escribir prompts que nunca fallan",
+    "description": "Aprende a crear prompts claros, consistentes y medibles para obtener respuestas fiables de la IA. Guía práctica con ejemplos y checklist.",
+    "date": "2026-10-07",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "productividad",
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "#1 Resumen ejecutivo de un artículo científico\nResume en 150 palabras el artículo \"Deep Learning for NLP\" de 2023. Incluye objetivo, metodología, resultados clave y una conclusión breve. Formato: párrafo único.",
+      "#2 Generación de ideas de contenido SEO\nCrea 10 títulos atractivos para un blog de marketing digital enfocado en \"automatización de email\". Cada título debe tener entre 50 y 60 caracteres y contener la palabra clave principal.",
+      "#3 Código de ejemplo en Python\nEscribe una función en Python que reciba una lista de números y devuelva un diccionario con la cuenta de pares e impares. Incluye comentarios en español y pruebas unitarias con pytest.",
+      "#4 Guía paso a paso para usar una herramienta\nElabora una guía de 8 pasos para configurar GitHub Actions en un repositorio de Node.js. Cada paso debe incluir un comando de terminal y una breve explicación.",
+      "#5 Tabla comparativa de productos\nGenera una tabla en Markdown comparando tres plataformas de IA (OpenAI, Anthropic, Google Vertex). Columnas: Precio mensual, Límite de tokens, Principales casos de uso, Ventajas y desventajas.",
+      "#6 Redacción de correo formal\nRedacta un correo a un cliente para solicitar la renovación del contrato de soporte. Tono: profesional pero cercano. Incluye saludo, resumen del valor entregado y llamada a la acción.",
+      "#7 Brainstorming creativo para campaña\nPropón 5 conceptos creativos para una campaña de Instagram que promueva una línea de ropa sostenible. Cada concepto debe incluir un hashtag, una idea visual y un mensaje clave.",
+      "#8 Verificación de consistencia de datos\nRevisa la siguiente lista de datos JSON y señala cualquier inconsistencia en los tipos de campo o valores fuera de rango. Devuelve un informe en formato tabla.",
+      "Escribe una guía de estilo para redactores de un blog de tecnología. La guía debe contener:\n- Introducción (150 palabras)\n- Tono y voz: formal pero cercano, evitar jerga excesiva.\n- Estructura de artículos: título, subtítulo, introducción, cuerpo, conclusión y CTA.\n- Uso de enlaces: máximo 3 externos por artículo, siempre con texto ancla descriptivo.\n- Formato: Markdown, con encabezados H1‑H3 y listas ordenadas cuando corresponda.\nEntrega la guía completa en un bloque de código."
+    ],
+    "topic": "Cómo escribir prompts que nunca fallan"
+  },
+  {
     "slug": "2026-10-04-los-mejores-prompts-de-ia-para-redactar-emails-profesionales.html",
     "title": "Los mejores prompts de IA para redactar emails profesionales",
     "description": "Descubre prompts listos para copiar que mejoran la redacción de correos profesionales con IA, con ejemplos, casos de uso y checklist.",
@@ -2014,28 +2041,5 @@
     ],
     "topic": "Imágenes con IA",
     "wordCount": 468
-  },
-  {
-    "slug": "2026-08-14-ideas-de-negocio-con-ia.html",
-    "title": "Ideas de Negocio con IA",
-    "description": "Aprende a generar ideas de negocio con inteligencia artificial en minutos",
-    "date": "2026-08-14",
-    "tags": [
-      "IA",
-      "negocios",
-      "emprendimiento"
-    ],
-    "readingTime": 3,
-    "category": "emprendimiento",
-    "prompts": [
-      "Generar ideas de negocio para un producto de cuidado personal que se adapte a las necesidades de las personas mayores",
-      "Identificar oportunidades de negocio en el sector de la energía renovable en América Latina",
-      "Desarrollar un plan de negocio para un servicio de entrega de comida saludable en una ciudad grande",
-      "Utiliza prompts claros y específicos para obtener ideas de negocio relevantes",
-      "Analiza los resultados de la IA y ajusta tus prompts según sea necesario",
-      "Combina la IA con tu propia experiencia y conocimiento para desarrollar ideas de negocio sólidas"
-    ],
-    "topic": "Ideas de Negocio con IA",
-    "wordCount": 530
   }
 ]
