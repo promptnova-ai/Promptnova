@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-10-10-automatiza-tu-negocio-con-prompts-inteligentes-y-gana-eficie.html",
+    "title": "Automatiza tu negocio con prompts inteligentes y gana eficiencia",
+    "description": "Descubre cómo usar prompts de IA para automatizar tareas clave, mejorar la productividad y escalar tu negocio con ejemplos listos para copiar.",
+    "date": "2026-10-10",
+    "tags": [
+      "automatización",
+      "IA",
+      "prompts"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Actúa como copywriter especializado en e‑commerce. Usa la siguiente ficha técnica y genera una descripción de 150 palabras, con tono cercano y resaltando tres beneficios principales. Formato: párrafo único.\n\nFicha:\n- Nombre: Camiseta Orgánica EcoFit\n- Material: 100% algodón orgánico\n- Color: Azul marino\n- Talla: S‑XL\n- Característica única: tejido anti‑olor",
+      "Resume la siguiente transcripción de reunión (máx. 200 palabras). Incluye: objetivo del cliente, objeciones principales y próximos pasos acordados. Formato: viñetas.",
+      "Lee el mensaje del cliente y asigna una etiqueta de prioridad (Alta, Media, Baja) y una categoría (Facturación, Técnico, Producto). Devuelve JSON con los campos \"prioridad\" y \"categoría\".\n\nMensaje: \"Mi suscripción se canceló sin aviso y no puedo acceder al panel\"",
+      "Redacta un correo de seguimiento para el cliente \"Laura Gómez\" que mostró interés en el plan Premium, pero no confirmó la compra. Incluye una propuesta de descuento del 10% válida 7 días. Tono profesional pero cercano.",
+      "Analiza el siguiente bloque de texto y extrae los valores de \"Ingresos Netos\", \"EBITDA\" y \"Margen Bruto\". Devuelve los resultados en JSON con clave y valor numérico.\n\nInforme: \"En el Q3 2024, los ingresos netos fueron de 2,5 M€, el EBITDA alcanzó 750 k€ y el margen bruto se situó en el 45 %\"",
+      "Proporciona 10 ideas de artículos para un blog de marketing digital dirigido a pymes. Cada idea debe incluir título, objetivo y palabras clave principales. Formato: tabla Markdown.",
+      "Revisa la siguiente lista de campos y señala cuáles están incompletos o con formato incorrecto. Devuelve JSON con los nombres de los campos y el error detectado.\n\nDatos: {\"email\":\"juan@empresa\",\"tel\":\"+34 600123\",\"fecha_nac\":\"31/02/1990\"}",
+      "Extrae los campos \"Cliente\", \"Fecha\", \"Conceptos\" (lista de descripción y precio) y \"Total\" de la siguiente orden y devuélvelos en JSON.\n\nOrden: \"Cliente: ACME Corp.\\nFecha: 2024‑09‑15\\nConceptos:\\n - Hosting anual: 1200€\\n - Soporte premium: 300€\\nTotal: 1500€\"",
+      "Rellena la siguiente plantilla HTML con los datos JSON proporcionados. Mantén el formato de tabla y asegura que los importes tengan dos decimales.\n\nPlantilla: \"...{{Cliente}}...{{Fecha}}...{{Conceptos}}...{{Total}}...\"\nDatos: {\"Cliente\":\"ACME Corp.\",\"Fecha\":\"2024‑09‑15\",\"Conceptos\":[{\"desc\":\"Hosting anual\",\"precio\":1200},{\"desc\":\"Soporte premium\",\"precio\":300}],\"Total\":1500}",
+      "Genera el cuerpo del correo: \"Estimado ACME Corp., adjuntamos la factura correspondiente al 15/09/2024 por 1.500 €. Quedamos a su disposición para cualquier consulta. Saludos, Equipo Facturación\"."
+    ],
+    "topic": "Automatiza tu negocio con prompts inteligentes"
+  },
+  {
     "slug": "2026-10-07-como-escribir-prompts-que-nunca-fallan.html",
     "title": "Cómo escribir prompts que nunca fallan",
     "description": "Aprende a crear prompts claros, consistentes y medibles para obtener respuestas fiables de la IA. Guía práctica con ejemplos y checklist.",
@@ -2018,28 +2044,5 @@
     ],
     "topic": "Crea un curso online con ChatGPT",
     "wordCount": 652
-  },
-  {
-    "slug": "2026-08-14-imagenes-con-ia.html",
-    "title": "Imágenes con IA",
-    "description": "Descubre cómo crear imágenes perfectas con inteligencia artificial",
-    "date": "2026-08-14",
-    "tags": [
-      "IA",
-      "Inteligencia Artificial",
-      "Imágenes"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Genera una imagen de un paisaje de montaña con un lago en el centro y un cielo nublado.",
-      "Crea una imagen de un personaje de ficción con cabello azul y ojos verdes, vestido con un traje espacial.",
-      "Genera una imagen de una ciudad futurista con rascacielos y vehículos voladores.",
-      "Genera una imagen de un paisaje de playa con una puesta de sol en el horizonte y un grupo de personas caminando por la orilla.",
-      "Crea una imagen de un personaje de ficción con un traje de superhéroe y un fondo de ciudad en llamas.",
-      "Genera una imagen de una escena de ciencia ficción con un planeta distante y una nave espacial en el espacio."
-    ],
-    "topic": "Imágenes con IA",
-    "wordCount": 468
   }
 ]
