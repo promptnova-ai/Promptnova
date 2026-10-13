@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-10-13-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
+    "title": "Prompts avanzados para crear contenido viral en redes sociales",
+    "description": "Aprende a diseñar prompts que generen publicaciones virales, con ejemplos, checklist y casos prácticos",
+    "date": "2026-10-13",
+    "tags": [
+      "prompt engineering",
+      "marketing digital",
+      "contenidos virales"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "Prompt 1 – Tweet de datos curiosos\nEres un creador de contenido especializado en datos curiosos para Twitter. Genera un tweet de máximo 280 caracteres que incluya:\n- Un dato sorprendente sobre la neurociencia.\n- Un emoji que refuerce la sorpresa.\n- Un llamado a la acción que invite a retweetear con el hashtag #CerebroLocura.\nEjemplo de salida: \"¿Sabías que el cerebro humano produce 20 watts de energía, suficiente para iluminar una bombilla? 💡 ¡Comparte si te sorprendió! #CerebroLocura\"",
+      "Prompt 2 – Carrusel de Instagram sobre tendencias de moda\nActúa como un experto en moda urbana. Crea una secuencia de 5 diapositivas para un carrusel de Instagram que:\n1. Introduzca la tendencia \"corte láser\" con una frase impactante.\n2. Describa tres estilos de ropa que la incorporan.\n3. Incluya preguntas interactivas para los seguidores.\n4. Proponga un hashtag propio.\n5. Termine con un CTA para guardar el post.\nEntregame cada diapositiva como un párrafo breve sin formato markdown.",
+      "Prompt 3 – Guion de TikTok de 15 segundos sobre recetas rápidas\nEres un chef digital. Redacta un guion para un video de 15 segundos que muestre cómo preparar una tortilla de microondas en 3 pasos. Cada paso debe estar acompañado de un sonido sugerido (ej. *sizzle*, *pop*) y un texto en pantalla. Finaliza con un reto: \"Etiqueta a un amigo que necesita esto\".",
+      "Prompt 4 – Post de LinkedIn con storytelling empresarial\nImagina que eres el CEO de una startup fintech. Redacta una publicación de 300 palabras que cuente la historia del primer cliente que pagó con tu app, resaltando el problema, la solución y el impacto medible. Incluye una estadística verificable y un CTA para descargar el whitepaper.",
+      "Prompt 5 – Meme textual para Reddit (subreddit r/marketing)\nGenera una frase de meme que combine el concepto \"algoritmo\" con la frustración de un community manager. Usa la estructura típica de meme \"Cuando X, pero Y\" y termina con una referencia cultural reciente.",
+      "Prompt 6 – Encuesta de Instagram Stories para validar una idea de producto\nCrea tres preguntas de encuesta que un emprendedor pueda usar en Instagram Stories para validar si su público necesita una app de organización de tiempo. Cada pregunta debe ser cerrada (sí/no) y acompañada de un emoji que aumente la tasa de respuesta.",
+      "Prompt 7 – Texto para pin de Pinterest sobre decoración minimalista\nRedacta una descripción de 150 caracteres para un pin que muestre una sala minimalista con tonos neutros. Incluye palabras clave SEO (\"decoración minimalista\", \"ideas para el hogar\") y un llamado a visitar el blog para ver el tutorial completo.",
+      "Prompt 8 – Comentario viral para YouTube Shorts sobre tecnología\nEres un creador de contenido tech. Escribe un comentario de 200 caracteres que responda a un Short sobre IA generativa, usando humor y una pregunta que incite a otros usuarios a debatir. Añade un emoji de robot."
+    ],
+    "topic": "Prompts avanzados para crear contenido viral en redes sociales"
+  },
+  {
     "slug": "2026-10-10-automatiza-tu-negocio-con-prompts-inteligentes-y-gana-eficie.html",
     "title": "Automatiza tu negocio con prompts inteligentes y gana eficiencia",
     "description": "Descubre cómo usar prompts de IA para automatizar tareas clave, mejorar la productividad y escalar tu negocio con ejemplos listos para copiar.",
@@ -2023,26 +2047,5 @@
     ],
     "topic": "IA para SEO",
     "wordCount": 541
-  },
-  {
-    "slug": "2026-08-15-crea-un-curso-online-con-chatgpt.html",
-    "title": "Crea un curso online con ChatGPT",
-    "description": "Aprende a utilizar ChatGPT para crear un curso online desde cero de manera efectiva",
-    "date": "2026-08-15",
-    "tags": [
-      "ChatGPT",
-      "curso online",
-      "educación en línea"
-    ],
-    "readingTime": 4,
-    "category": "estudio",
-    "prompts": [
-      "Ejemplo de prompt: &quot;Define el objetivo y el alcance de un curso de introducción a la programación en Python para principiantes&quot;",
-      "Ejemplo de prompt: &quot;Crea un plan de estudios para un curso de 8 semanas sobre machine learning con Python&quot;",
-      "Ejemplo de prompt: &quot;Desarrolla un conjunto de notas de clase para una lección sobre redes neuronales artificiales&quot;",
-      "Ejemplo de prompt: &quot;Resumen del proceso de creación de un curso online con ChatGPT&quot;"
-    ],
-    "topic": "Crea un curso online con ChatGPT",
-    "wordCount": 652
   }
 ]
