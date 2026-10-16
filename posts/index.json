@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-10-16-los-prompts-mas-creativos-para-disenadores-graficos.html",
+    "title": "Los prompts más creativos para diseñadores gráficos",
+    "description": "Descubre cómo usar prompts creativos de IA para impulsar tu trabajo de diseño gráfico, con ejemplos, casos prácticos y checklist.",
+    "date": "2026-10-16",
+    "tags": [
+      "diseño gráfico",
+      "prompt engineering",
+      "IA creativa"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "\"Genera tres versiones de un banner publicitario para una marca de ropa urbana, combinando el estilo de los carteles de la Bauhaus, la paleta de colores pastel de los años 80 y la tipografía geométrica de Helvetica Neue. Incluye una breve descripción del concepto visual de cada versión.\"",
+      "\"Propón una paleta de cinco colores que evoque la sensación de nostalgia en un diseño editorial de una revista de historia. Incluye códigos HEX y una breve explicación de por qué cada tono aporta esa emoción.\"",
+      "\"Diseña la composición de una portada de libro de ciencia ficción ambientada en una metrópolis nocturna. Incluye una silueta de un personaje central, rascacielos iluminados, neón rosa y azul, y espacio para el título en la parte superior. Describe la disposición de cada elemento y su jerarquía visual.\"",
+      "\"Sugiere tres estilos tipográficos para el logotipo de una cafetería artesanal, inspirados en la caligrafía japonesa, la tipografía de los rótulos de los años 20 y el lettering hand‑drawn de los carteles vintage. Para cada estilo, indica ejemplos de fuentes gratuitas y cómo combinarlo con iconografía de café.\"",
+      "\"Genera mockups realistas de una campaña de redes sociales para una app de meditación. Muestra la pieza principal en pantalla de móvil, en una historia de Instagram y como banner de sitio web. Indica los tamaños exactos y los márgenes de seguridad para cada formato.\"",
+      "\"Genera tres conceptos de póster para un festival de música indie en Madrid. Cada concepto debe combinar graffiti callejero, estética de los álbumes de vinilo de los 70 y una paleta de colores vibrante (cian, magenta y amarillo). Incluye una breve descripción del ambiente y la tipografía propuesta.\"",
+      "\"Propón una paleta de cinco colores que transmita energía y creatividad, adecuada para un póster de festival nocturno. Incluye códigos HEX y una justificación de cada tono.\"",
+      "\"Diseña la composición de un póster vertical 60 × 90 cm para el festival. Incluye una ilustración central de un micrófono vintage, fondo con textura de ladrillos, espacio para la lista de artistas en la parte inferior y el logo del festival en la esquina superior derecha. Describe la jerarquía visual y los márgenes de seguridad.\"",
+      "\"Sugiere dos tipografías gratuitas que combinen bien con una estética de graffiti y música indie, una para el título y otra para la lista de artistas. Proporciona enlaces de descarga y ejemplos de uso.\""
+    ],
+    "topic": "Los prompts más creativos para diseñadores gráficos"
+  },
+  {
     "slug": "2026-10-13-prompts-avanzados-para-crear-contenido-viral-en-redes-social.html",
     "title": "Prompts avanzados para crear contenido viral en redes sociales",
     "description": "Aprende a diseñar prompts que generen publicaciones virales, con ejemplos, checklist y casos prácticos",
@@ -2027,25 +2052,5 @@
     ],
     "topic": "Prompts Creativos",
     "wordCount": 679
-  },
-  {
-    "slug": "2026-08-15-ia-para-seo.html",
-    "title": "IA para SEO",
-    "description": "Aprende a utilizar la inteligencia artificial para mejorar el posicionamiento de tu contenido en buscadores",
-    "date": "2026-08-15",
-    "tags": [
-      "IA",
-      "SEO",
-      "posicionamiento"
-    ],
-    "readingTime": 3,
-    "category": "marketing",
-    "prompts": [
-      "¿Cuáles son las palabras clave más relevantes para un artículo sobre \"mejora del rendimiento en el trabajo\"?",
-      "Genera un título y una descripción meta para un artículo sobre \"la importancia de la IA en el marketing digital\"",
-      "Analiza el contenido de la página web de un competidor y proporciona recomendaciones para mejorar su posicionamiento en los resultados de búsqueda"
-    ],
-    "topic": "IA para SEO",
-    "wordCount": 541
   }
 ]
