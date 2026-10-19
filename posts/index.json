@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-10-19-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html",
+    "title": "Genera ideas de negocio en minutos con IA: guía práctica",
+    "description": "Descubre paso a paso cómo usar la inteligencia artificial para crear ideas de negocio en minutos, con prompts listos para copiar y evitar errores comunes.",
+    "date": "2026-10-19",
+    "tags": [
+      "IA",
+      "ideas de negocio",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "emprendimiento",
+    "prompts": [
+      "Prompt 1 – Búsqueda de nichos emergentes\n\"Genera una lista de 10 nichos de mercado emergentes en el sector de la salud digital que tengan una barrera de entrada baja y potencial de crecimiento en los próximos 3 años. Incluye una breve descripción del problema que resuelve cada nicho.\"",
+      "Prompt 2 – Ideación basada en tendencias sociales\n\"A partir de las tendencias de consumo post‑pandemia, sugiere 7 ideas de negocio que combinen sostenibilidad y conveniencia para consumidores urbanos entre 25 y 40 años.\"",
+      "Prompt 3 – Modelo canvas resumido\n\"Para la idea 'plataforma de alquiler de equipos de cocina para chefs freelance', crea un modelo canvas con los 9 bloques, describiendo cada uno en una frase corta.\"",
+      "Prompt 4 – Análisis rápido de competencia\n\"Enumera los principales competidores en el mercado de suscripciones de kits de comida vegana en España y menciona una ventaja competitiva que cada uno no cubre.\"",
+      "Prompt 5 – Validación de hipótesis de precios\n\"Si ofrezco un servicio de coaching de productividad por suscripción mensual a 29 €, ¿qué objeciones de precio podrían presentar los usuarios y cómo contrarrestarlas?\"",
+      "Prompt 6 – Generación de nombres de marca\n\"Crea 10 nombres de marca para una startup que vende accesorios de bicicleta hechos de materiales reciclados. Los nombres deben ser cortos, memorables y con dominio .com disponible.\"",
+      "Prompt 7 – Estrategia de contenido inicial\n\"Diseña un plan de contenidos de 4 semanas para el blog de una empresa que vende kits de cultivo indoor, incluyendo títulos, formato (video, artículo) y objetivo de cada pieza.\"",
+      "Prompt 8 – Evaluación de riesgos regulatorios\n\"Identifica los principales riesgos regulatorios para una aplicación móvil que rastrea la ingesta de alcohol y sugiere medidas de cumplimiento en la UE.\""
+    ],
+    "topic": "Cómo usar la IA para generar ideas de negocio en minutos"
+  },
+  {
     "slug": "2026-10-16-los-prompts-mas-creativos-para-disenadores-graficos.html",
     "title": "Los prompts más creativos para diseñadores gráficos",
     "description": "Descubre cómo usar prompts creativos de IA para impulsar tu trabajo de diseño gráfico, con ejemplos, casos prácticos y checklist.",
@@ -2029,28 +2053,5 @@
     ],
     "topic": "Aprende 10 veces más rápido",
     "wordCount": 534
-  },
-  {
-    "slug": "2026-08-15-prompts-creativos.html",
-    "title": "Prompts Creativos",
-    "description": "Descubre los prompts más creativos para diseñadores gráficos y mejora tu trabajo",
-    "date": "2026-08-15",
-    "tags": [
-      "diseño gráfico",
-      "prompts",
-      "inteligencia artificial"
-    ],
-    "readingTime": 4,
-    "category": "general",
-    "prompts": [
-      "Diseña un logotipo para una empresa de tecnología que se especializa en la creación de soluciones de realidad aumentada. El logotipo debe incluir un elemento que represente la innovación y la tecnología.",
-      "Crea una ilustración que represente la ciudad del futuro. La ilustración debe incluir edificios altos, vehículos voladores y personas caminando por la calle. El estilo debe ser futurista y minimalista.",
-      "Diseña una fuente tipográfica personalizada para una revista de moda. La fuente debe ser elegante, sofisticada y fácil de leer. Debe incluir mayúsculas y minúsculas, así como números y símbolos básicos.",
-      "Diseña una campaña publicitaria para una marca de ropa deportiva. La campaña debe incluir anuncios impresos, digitales y de redes sociales. El mensaje debe ser inspirador y motivador, y debe incluir imágenes de personas practicando deportes y utilizando la ropa de la marca.",
-      "Crea una identidad de marca para una empresa de alimentos saludables. La identidad debe incluir un logotipo, una paleta de colores y una tipografía. El estilo debe ser fresco, natural y apetitoso.",
-      "Diseña una exposición de arte para un museo de arte contemporáneo. La exposición debe incluir obras de artistas locales e internacionales, y debe tener un tema unificador. El diseño debe ser innovador y minimalista, y debe incluir elementos interactivos y multimedia."
-    ],
-    "topic": "Prompts Creativos",
-    "wordCount": 679
   }
 ]
