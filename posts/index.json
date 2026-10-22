@@ -1,5 +1,32 @@
 [
   {
+    "slug": "2026-10-22-los-10-prompts-imprescindibles-para-expertos-en-marketing.html",
+    "title": "Los 10 prompts imprescindibles para expertos en marketing",
+    "description": "Descubre los prompts más efectivos que usan los profesionales del marketing para crear campañas, segmentar audiencias y optimizar resultados.",
+    "date": "2026-10-22",
+    "tags": [
+      "marketing",
+      "prompt engineering",
+      "IA",
+      "copywriting"
+    ],
+    "readingTime": 7,
+    "category": "marketing",
+    "prompts": [
+      "\"Genera 10 ideas de artículos de blog para una empresa SaaS que ayuda a pymes a gestionar sus finanzas, enfocadas en los retos de la contabilidad durante la temporada de impuestos. Cada idea debe incluir un título SEO-friendly y una breve descripción de 150 caracteres.\"",
+      "\"Escribe 5 versiones de copy para un anuncio de Facebook que promocione un curso online de marketing digital. El público objetivo son emprendedores de 25‑40 años, con tono cercano y llamado a la acción que incluya la frase 'Reserva tu plaza ahora' y una promesa de 'doblar tus conversiones en 30 días'.\"",
+      "\"Crea 3 perfiles de audiencia para una marca de ropa sostenible dirigida a mujeres entre 20 y 35 años. Cada perfil debe incluir datos demográficos, intereses, comportamientos de compra y un mensaje clave que resuene con sus valores.\"",
+      "\"Resume las 5 tendencias de contenido más populares en Instagram durante el último trimestre para la industria de la belleza, indicando hashtags, formatos (reel, story, carousel) y ejemplos de marcas que los están explotando.\"",
+      "\"Elabora un guion de 8 minutos para un video de YouTube que explique cómo usar una herramienta de email marketing para aumentar la tasa de apertura. Incluye introducción, 3 pasos clave, ejemplos prácticos y un llamado a la acción al final.\"",
+      "\"Redacta 3 meta‑descripciones de 155 caracteres para la página de producto 'Cámara DSLR 24MP' de una tienda de fotografía, resaltando la calidad de imagen, garantía de 2 años y envío gratuito.\"",
+      "\"Crea una serie de 4 emails de nurture para leads que descargaron un ebook sobre SEO. Cada email debe tener asunto, cuerpo de 150‑200 palabras y CTA que dirija a una landing page de consultoría gratuita.\"",
+      "\"Sugiere 3 pruebas A/B para la landing page de un software de gestión de proyectos. Cada prueba debe incluir la variable a cambiar (ej. título, imagen principal, formulario), la hipótesis y el KPI a medir.\"",
+      "\"Genera 5 testimonios de clientes satisfechos para una app de meditación, cada uno con nombre, edad, ocupación y una breve frase que destaque la mejora en su bienestar mental.\"",
+      "\"Redacta un brief creativo para una campaña de lanzamiento de una nueva línea de zapatillas eco‑friendly. Incluye objetivo de negocio, público objetivo, tono de comunicación, canales, entregables y deadline.\""
+    ],
+    "topic": "Los 10 prompts más usados por expertos en marketing"
+  },
+  {
     "slug": "2026-10-19-genera-ideas-de-negocio-en-minutos-con-ia-guia-practica.html",
     "title": "Genera ideas de negocio en minutos con IA: guía práctica",
     "description": "Descubre paso a paso cómo usar la inteligencia artificial para crear ideas de negocio en minutos, con prompts listos para copiar y evitar errores comunes.",
@@ -2030,28 +2057,5 @@
     ],
     "topic": "Asistente Personal",
     "wordCount": 544
-  },
-  {
-    "slug": "2026-08-16-aprende-10-veces-mas-rapido.html",
-    "title": "Aprende 10 veces más rápido",
-    "description": "Descubre cómo aprender cualquier cosa de manera rápida y efectiva con prompts",
-    "date": "2026-08-16",
-    "tags": [
-      "aprendizaje",
-      "inteligencia artificial",
-      "prompts"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Explica el concepto de inteligencia artificial de manera sencilla",
-      "Describe los pasos para crear un modelo de lenguaje desde cero",
-      "Proporciona un resumen de la historia de la computación en 5 minutos",
-      "Explica la diferencia entre el lenguaje de programación Python y Java",
-      "Describe cómo implementar un algoritmo de búsqueda en un arreglo",
-      "Proporciona un ejemplo de cómo utilizar la programación orientada a objetos en Python"
-    ],
-    "topic": "Aprende 10 veces más rápido",
-    "wordCount": 534
   }
 ]
