@@ -1,5 +1,35 @@
 [
   {
+    "slug": "2026-10-27-prompt-engineering-para-developers-trucos-que-no-conocias.html",
+    "title": "Prompt engineering para developers: trucos que no conocías",
+    "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos, errores comunes y una checklist práctica.",
+    "date": "2026-10-27",
+    "tags": [
+      "prompt engineering",
+      "desarrolladores",
+      "IA"
+    ],
+    "readingTime": 5,
+    "category": "programacion",
+    "prompts": [
+      "\"\"\"Eres un asistente experto en JavaScript.\nObjetivo: generar una función que convierta una fecha ISO a formato DD/MM/AAAA.\nRestricciones:\n- No usar librerías externas.\n- Incluir pruebas unitarias con Jest.\nSalida: código completo dentro de triple backticks.\n\"\"\"",
+      "\"Actúa como senior backend engineer especializado en Go. Explica paso a paso cómo crear un middleware de autenticación JWT, usando comentarios en inglés y siguiendo las convenciones de golint.\"",
+      "# Etapa 1: diseño\n\"Describe la arquitectura de una API RESTful para gestionar tareas, incluye endpoints, códigos de estado y diagramas de flujo en texto.\"\n\n# Etapa 2: implementación\n\"Con base en el diseño anterior, escribe la implementación en Python usando FastAPI. Incluye ejemplos de request/response.\"",
+      "\"Genera una función en Rust que calcule la factorial de un número entero. Limita la respuesta a 12 líneas de código, sin comentarios adicionales.\"",
+      "\"Escribe una clase en Java que represente un árbol binario de búsqueda. Además, genera un archivo JUnit con al menos tres casos de prueba que cubran inserción, búsqueda y eliminación.\"",
+      "\"Ejemplo 1:\nInput: \"Convertir 100 USD a EUR\"\nOutput: \"100 USD ≈ 92 EUR\"\n\nEjemplo 2:\nInput: \"Convertir 250 GBP a JPY\"\nOutput: \"250 GBP ≈ 38 500 JPY\"\n\nAhora, convierte: \"Convertir 75 CAD a CHF\"\n\"",
+      "\"Genera una consulta SQL que liste los usuarios activos en los últimos 30 días. Devuelve solo el código, encerrado entre triple backticks.\"",
+      "\"Después de generar la función, revisa si hay vulnerabilidades de inyección y sugiere mitigaciones.\"",
+      "\"Define la interfaz de una función llamada fetchTitles(urls: string[]): Promise<{url:string,title:string}> en TypeScript. La función debe usar fetch, manejar errores HTTP y devolver un array con los títulos. No incluyas implementación todavía.\"",
+      "interface FetchResult {\n  url: string;\n  title: string;\n}\n\nfunction fetchTitles(urls: string[]): Promise;",
+      "\"Implementa la función fetchTitles según la interfaz anterior. Usa node-fetch, limita la concurrencia a 3 peticiones simultáneas y devuelve los títulos dentro de triple backticks. Incluye comentarios breves.\"",
+      "```typescript\nimport fetch from 'node-fetch';\nimport pLimit from 'p-limit';\n\ninterface FetchResult {\n  url: string;\n  title: string;\n}\n\nexport async function fetchTitles(urls: string[]): Promise {\n  const limit = pLimit(3);\n  const tasks = urls.map(url => limit(async () => {\n    try {\n      const res = await fetch(url);\n      if (!res.ok) throw new Error(`HTTP ${res.status}`);\n      const html = await res.text();\n      const match = html.match(/([^/i);\n      const title = match ? match[1].trim() : 'Sin título';\n      return {url, title};\n    } catch (e) {\n      return {url, title: `Error: ${e.message}`};\n    }\n  }));\n  return Promise.all(tasks);\n}\n```",
+      "\"Genera un archivo de pruebas con mocha y chai para la función fetchTitles. Simula dos URLs: una válida que devuelve un título y otra que provoca un error 404. Usa nock para interceptar las peticiones.\"",
+      "```typescript\nimport { expect } from 'chai';\nimport nock from 'nock';\nimport { fetchTitles } from '../src/fetchTitles';\n\ndescribe('fetchTitles', () => {\n  afterEach(() => nock.cleanAll());\n\n  it('debe devolver títulos correctos', async () => {\n    nock('https://example.com')\n      .get('/')\n      .reply(200, 'Ejemplo');\n\n    const result = await fetchTitles(['https://example.com/']);\n    expect(result[0].title).to.equal('Ejemplo');\n  });\n\n  it('debe manejar errores HTTP', async () => {\n    nock('https://fail.com')\n      .get('/')\n      .reply(404);\n\n    const result = await fetchTitles(['https://fail.com/']);\n    expect(result[0].title).to.match(/^Error:/);\n  });\n});\n```"
+    ],
+    "topic": "Prompt engineering para developers: trucos que no conocías"
+  },
+  {
     "slug": "2026-10-22-los-10-prompts-imprescindibles-para-expertos-en-marketing.html",
     "title": "Los 10 prompts imprescindibles para expertos en marketing",
     "description": "Descubre los prompts más efectivos que usan los profesionales del marketing para crear campañas, segmentar audiencias y optimizar resultados.",
@@ -2037,25 +2067,5 @@
     ],
     "topic": "Emails Pro con IA",
     "wordCount": 509
-  },
-  {
-    "slug": "2026-08-16-asistente-personal.html",
-    "title": "Asistente Personal",
-    "description": "Construye un asistente personal con ChatGPT y prompts",
-    "date": "2026-08-16",
-    "tags": [
-      "Inteligencia Artificial",
-      "ChatGPT",
-      "Prompt Engineering"
-    ],
-    "readingTime": 3,
-    "category": "personal",
-    "prompts": [
-      "¿Cuál es el clima en Madrid hoy?",
-      "Recuerda que tengo una reunión importante a las 10:00 am mañana. ¿Puedes recordarme a las 9:00 am?",
-      "¿Puedes proporcionarme una lista de los 5 mejores restaurantes en Nueva York?"
-    ],
-    "topic": "Asistente Personal",
-    "wordCount": 544
   }
 ]
