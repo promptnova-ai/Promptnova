@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-10-31-domina-chatgpt-en-tu-trabajo-diario-guia-practica-paso-a-pas.html",
+    "title": "Domina ChatGPT en tu trabajo diario: guía práctica paso a paso",
+    "description": "Aprende a usar ChatGPT en tus tareas cotidianas con ejemplos, checklist y advertencias. Mejora productividad sin promesas falsas.",
+    "date": "2026-10-31",
+    "tags": [
+      "ChatGPT",
+      "productividad",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "trabajo",
+    "prompts": [
+      "Actúa como un asistente de recursos humanos. Redacta un email de bienvenida para un nuevo diseñador gráfico, incluyendo: 1) saludo cordial, 2) descripción breve del equipo, 3) enlaces a la guía de estilo y a la política de trabajo remoto, 4) invitación a una reunión de onboarding el lunes a las 10 am. Máximo 180 palabras.",
+      "Imagina que eres un analista de datos senior. Necesito un informe ejecutivo de 300 palabras que resuma los resultados del último trimestre de ventas en EE.UU., incluyendo: tendencia mensual, producto top‑5 y recomendación de acción para el equipo de ventas.",
+      "Eres un copywriter especializado en SaaS B2B. Genera cinco variantes de título para una landing page que promociona una herramienta de automatización de marketing, cada una con menos de 60 caracteres y tono persuasivo.",
+      "Simula ser un revisor técnico de código Python. Revisa el siguiente fragmento y señala tres mejoras de legibilidad, dos posibles bugs y sugiere una refactorización usando funciones auxiliares. Responde con formato markdown.",
+      "Actúa como un planificador de proyectos Agile. Crea una tabla en markdown con las tareas principales para lanzar una campaña de email marketing en dos semanas, asignando responsable, duración estimada y dependencia.",
+      "Eres un consultor de SEO. Genera una lista de diez palabras clave de cola larga para un blog sobre jardinería urbana, con volumen de búsqueda estimado y nivel de competencia (bajo, medio, alto).",
+      "Imagina que eres un traductor especializado en terminología legal. Traduce al español el siguiente párrafo del contrato de servicios, manteniendo la precisión jurídica y el tono formal.",
+      "Eres un copywriter de email marketing. Redacta un newsletter de 5 párrafos para promocionar el curso \"Diseño UX para principiantes\", dirigido a profesionales de TI que buscan cambiar de rol. Incluye asunto atractivo (máx. 50 caracteres), llamada a la acción con enlace ficticio y tono motivador.",
+      "Genera una tabla markdown con tres planes de precios para el curso: Básico (solo contenido), Pro (contenido + mentoría) y Premium (todo + certificado). Incluye precio, duración y beneficios."
+    ],
+    "topic": "Guía para dominar ChatGPT en tu trabajo diario"
+  },
+  {
     "slug": "2026-10-27-prompt-engineering-para-developers-trucos-que-no-conocias.html",
     "title": "Prompt engineering para developers: trucos que no conocías",
     "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos, errores comunes y una checklist práctica.",
@@ -2047,25 +2072,5 @@
     ],
     "topic": "Automatiza tu negocio",
     "wordCount": 593
-  },
-  {
-    "slug": "2026-08-16-emails-pro-con-ia.html",
-    "title": "Emails Pro con IA",
-    "description": "Aprende a escribir emails profesionales con inteligencia artificial",
-    "date": "2026-08-16",
-    "tags": [
-      "IA",
-      "Emails Profesionales",
-      "Prompt Engineering"
-    ],
-    "readingTime": 3,
-    "category": "trabajo",
-    "prompts": [
-      "Ejemplo 1: &quot;Escribe un email de presentación para un cliente potencial, incluyendo una breve descripción de nuestra empresa y nuestros servicios&quot;",
-      "Ejemplo 2: &quot;Genera un email de seguimiento para un cliente que ha expresado interés en nuestros productos, incluyendo una oferta especial y un enlace para más información&quot;",
-      "Ejemplo 3: &quot;Crea un email de agradecimiento para un cliente que ha realizado una compra, incluyendo un mensaje personalizado y un enlace para dejar una reseña&quot;"
-    ],
-    "topic": "Emails Pro con IA",
-    "wordCount": 509
   }
 ]
