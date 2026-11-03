@@ -1,5 +1,33 @@
 [
   {
+    "slug": "2026-11-03-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
+    "title": "Construye tu propio asistente personal con ChatGPT y prompts",
+    "description": "Aprende paso a paso a crear un asistente personal con ChatGPT usando prompts efectivos, casos prácticos, checklist y cómo validar resultados.",
+    "date": "2026-11-03",
+    "tags": [
+      "ChatGPT",
+      "asistentes personales",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "personal",
+    "prompts": [
+      "# Prompt 1 – Resumen rápido de texto\nEres un asistente conciso. Resume el siguiente texto en 3 frases sin perder información clave:\n\"{{texto}}\"",
+      "# Prompt 2 – Lista de tareas a partir de una descripción\nActúa como un planificador. Dado el siguiente objetivo, genera una lista de tareas accionables con prioridad:\n\"{{objetivo}}\"",
+      "# Prompt 3 – Conversación de seguimiento\nEres un asistente que mantiene contexto. Responde a la última pregunta del usuario basándote en el historial anterior:\n{{historial}}\nUsuario: {{pregunta_actual}}",
+      "# Prompt 4 – Conversión de unidades\nConvierte la siguiente medida al sistema métrico (o al que prefiera el usuario):\n\"{{medida}}\"",
+      "# Prompt 5 – Generación de correo electrónico formal\nRedacta un correo formal con tono respetuoso. Usa la siguiente información:\nAsunto: {{asunto}}\nDestinatario: {{destinatario}}\nCuerpo: {{cuerpo}}",
+      "# Prompt 6 – Respuesta con fuentes citadas\nResponde a la pregunta proporcionando al menos dos fuentes verificables (enlace o referencia):\n\"{{pregunta}}\"",
+      "# Prompt 7 – Diagnóstico de errores de código\nEres un depurador. Analiza el siguiente fragmento de código y sugiere la causa más probable del error:\n\"{{codigo}}\"",
+      "# Prompt 8 – Recordatorio de agenda con prioridad\nGenera un recordatorio amigable basado en la siguiente entrada del calendario, indicando prioridad y tiempo restante:\n\"{{evento}}\"",
+      "import os, openai\nopenai.api_key = os.getenv('OPENAI_API_KEY')\n\ndef chat(prompt):\n    response = openai.ChatCompletion.create(\n        model='gpt-4o-mini',\n        messages=[{'role':'system','content':'Eres un asistente profesional.'},\n                  {'role':'user','content':prompt}],\n        temperature=0.2,\n        max_tokens=500\n    )\n    return response.choices[0].message.content.strip()",
+      "prompt = f\"Eres un asistente que identifica la acción principal en correos. Extrae la acción y el plazo si existe. Correo:\\n'''{correo}'''\"\naccion = chat(prompt)",
+      "respuesta_prompt = f\"Redacta un correo de confirmación para el cliente. Acción: {accion}. Mantén tono cordial y profesional.\"\nrespuesta = chat(respuesta_prompt)",
+      "recordatorio_prompt = f\"Genera un recordatorio amigable para la siguiente tarea: {accion}.\"\nrecordatorio = chat(recordatorio_prompt)\n# Aquí se llamaría a la API de Calendar para crear el evento"
+    ],
+    "topic": "Cómo construir un asistente personal con ChatGPT y prompts"
+  },
+  {
     "slug": "2026-10-31-domina-chatgpt-en-tu-trabajo-diario-guia-practica-paso-a-pas.html",
     "title": "Domina ChatGPT en tu trabajo diario: guía práctica paso a paso",
     "description": "Aprende a usar ChatGPT en tus tareas cotidianas con ejemplos, checklist y advertencias. Mejora productividad sin promesas falsas.",
@@ -2049,28 +2077,5 @@
     ],
     "topic": "Errores comunes al escribir prompts y cómo evitarlos",
     "wordCount": 534
-  },
-  {
-    "slug": "2026-08-17-automatiza-tu-negocio.html",
-    "title": "Automatiza tu negocio",
-    "description": "Aprende a automatizar tu negocio con prompts inteligentes y IA",
-    "date": "2026-08-17",
-    "tags": [
-      "prompt engineering",
-      "inteligencia artificial",
-      "automatización"
-    ],
-    "readingTime": 3,
-    "category": "emprendimiento",
-    "prompts": [
-      "Escribe un artículo de blog sobre las tendencias actuales en el mercado de la tecnología.",
-      "Proporciona una solución para reducir los costos de producción en una fábrica de manufactura.",
-      "Analiza los datos de ventas de los últimos 6 meses y proporciona una proyección para el próximo trimestre.",
-      "Ejemplo de prompt para generar un informe de ventas: Escribe un informe detallado sobre las ventas del producto X en el mercado Y durante el último año.",
-      "Ejemplo de prompt para generar un plan de marketing: Desarrolla un plan de marketing para lanzar un nuevo producto en el mercado Z.",
-      "Ejemplo de prompt para generar un análisis de competidores: Analiza la estrategia de marketing de la competencia y proporciona recomendaciones para mejorar nuestra posición en el mercado."
-    ],
-    "topic": "Automatiza tu negocio",
-    "wordCount": 593
   }
 ]
