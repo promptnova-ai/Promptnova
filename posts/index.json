@@ -1,5 +1,36 @@
 [
   {
+    "slug": "2026-11-06-aprende-cualquier-tema-10-mas-rapido-con-prompts-efectivos.html",
+    "title": "Aprende cualquier tema 10× más rápido con prompts efectivos",
+    "description": "Descubre cómo crear prompts que multiplican tu velocidad de aprendizaje hasta 10 veces, con ejemplos, casos prácticos y checklist.",
+    "date": "2026-11-06",
+    "tags": [
+      "aprendizaje rápido",
+      "prompt engineering",
+      "IA educativa"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "/* 1. Resumen rápido de un concepto */\n\"Resume en 3 párrafos el concepto de \"memoria de trabajo\" en psicología cognitiva, usando un tono amigable y ejemplos cotidianos. Incluye una tabla con 3 diferencias clave respecto a la memoria a largo plazo.\"",
+      "/* 2. Guía paso a paso con ejercicios */\n\"Quiero aprender a crear una tabla dinámica en Excel desde cero. Soy usuario intermedio. Dame una guía paso a paso, cada paso con una captura de pantalla simulada (texto descriptivo) y al final 3 ejercicios prácticos con respuestas.\"",
+      "/* 3. Comparación de técnicas */\n\"Compara las técnicas de \"spaced repetition\" y \"interleaving\" para memorizar vocabulario de un idioma. Usa una tabla con columnas: Técnica, Principio, Ventajas, Desventajas, Ideal para.\"",
+      "/* 4. Código comentado */\n\"Escribe una función en Python que calcule la distancia de Levenshtein entre dos strings. Añade comentarios línea por línea explicando la lógica y al final incluye 2 casos de prueba con resultados esperados.\"",
+      "/* 5. Simulación de examen */\n\"Genera un mini‑examen de 5 preguntas de opción múltiple sobre la Revolución Francesa. Cada pregunta debe incluir 4 opciones, la respuesta correcta en negrita y una breve explicación del porqué.\"",
+      "/* 6. Roadmap de aprendizaje */\n\"Diseña un roadmap de 4 semanas para dominar el desarrollo de APIs REST con Node.js. Indica recursos (artículos, videos), tiempo estimado por tema y una actividad práctica al final de cada semana.\"",
+      "/* 7. Preguntas de auto‑evaluación */\n\"Crea 10 preguntas de verdadero/falso sobre los principios de la termodinámica, con una breve justificación para cada respuesta.\"",
+      "/* 8. Resumen visual */\n\"Elabora un esquema textual (usando viñetas y sangrías) que explique el proceso de fotosíntesis, resaltando los pasos clave y los compuestos involucrados. Incluye una analogía con una fábrica de energía.\"",
+      "\"Enséñame los conceptos básicos de Python (variables, tipos, operadores) en 5 párrafos. Cada párrafo debe incluir un ejemplo de código ejecutable y una breve explicación. Al final, dame 3 ejercicios de rellenar huecos con sus respuestas.\"",
+      "\"Genera una tabla comparativa de bucles (for, while) y condicionales (if, elif, else) en Python. Añade un ejemplo corto para cada fila y una práctica de 2 ejercicios con solución paso a paso.\"",
+      "\"Explica cómo crear funciones en Python, incluyendo argumentos posicionales, con valores por defecto y *args/**kwargs. Proporciona 2 ejemplos de funciones reales y 2 ejercicios de creación de funciones que devuelvan valores.\"",
+      "\"Escribe una guía de 4 pasos para ordenar una lista de diccionarios por una clave específica. Incluye código, salida esperada y 2 desafíos de ordenación inversa y filtrado.\"",
+      "\"Genera un tutorial que muestre cómo leer un CSV con la librería csv y cómo escribir un JSON con la librería json. Añade 2 ejercicios: uno de lectura y otro de escritura, con resultados esperados.\"",
+      "\"Crea una mini‑guía para cargar, inspeccionar y filtrar datos usando pandas. Incluye código de ejemplo, una tabla de salida y 3 preguntas de interpretación de datos.\"",
+      "\"Diseña un proyecto de 150 líneas de código que combine todo lo aprendido: leer un CSV, procesar datos con pandas, generar un reporte en JSON y crear una visualización simple con matplotlib. Proporciona una lista de pasos y criterios de evaluación.\""
+    ],
+    "topic": "Prompts para aprender cualquier cosa 10 veces más rápido"
+  },
+  {
     "slug": "2026-11-03-construye-tu-propio-asistente-personal-con-chatgpt-y-prompts.html",
     "title": "Construye tu propio asistente personal con ChatGPT y prompts",
     "description": "Aprende paso a paso a crear un asistente personal con ChatGPT usando prompts efectivos, casos prácticos, checklist y cómo validar resultados.",
@@ -2055,27 +2086,5 @@
     ],
     "topic": "Prompt engineering para developers: trucos que no conocías",
     "wordCount": 570
-  },
-  {
-    "slug": "2026-08-20-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
-    "title": "Errores comunes al escribir prompts y cómo evitarlos",
-    "description": "Descubre los errores más frecuentes al crear prompts y aprende estrategias prácticas para evitarlos y obtener mejores resultados con IA.",
-    "date": "2026-08-20",
-    "tags": [
-      "prompt engineering",
-      "IA",
-      "errores comunes"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "Escribe un artículo de 800 palabras dirigido a emprendedores que explique las tendencias de IA en la automatización de procesos para 2025.",
-      "Contexto: Hemos lanzado una app de meditación y queremos una campaña en redes.\nPrompt: Sugiere cinco ideas de contenido para Instagram que destaquen los beneficios del mindfulness.",
-      "Redacta un resumen de 150 palabras que destaque los principales avances técnicos del modelo GPT‑4.",
-      "Genera una tabla markdown con dos columnas: \"Método\" y \"Características principales\" para supervised learning y unsupervised learning.",
-      "Revisa la respuesta anterior y corrige cualquier inexactitud factual. Luego, resume los puntos clave en tres viñetas."
-    ],
-    "topic": "Errores comunes al escribir prompts y cómo evitarlos",
-    "wordCount": 534
   }
 ]
