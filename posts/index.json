@@ -1,5 +1,31 @@
 [
   {
+    "slug": "2026-11-10-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
+    "title": "Cómo crear prompts perfectos para generar imágenes con IA",
+    "description": "Descubre cómo diseñar prompts efectivos para generar imágenes perfectas con IA, con ejemplos, errores comunes y una guía práctica paso a paso.",
+    "date": "2026-11-10",
+    "tags": [
+      "IA",
+      "prompt engineering",
+      "generación de imágenes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "Prompt 1: \"Retrato hiperrealista de una mujer afrodescendente con piel brillante, ojos verdes, luz de ventana suave, fondo neutro blanco, estilo fotografía de estudio, ISO 100, f/1.8\"",
+      "Prompt 2: \"Escena de ciencia ficción nocturna, ciudad flotante de neón, drones patrullando, perspectiva cenital, estilo Blade Runner, paleta azul y magenta, lluvia ligera\"",
+      "Prompt 3: \"Ilustración infantil de un dragón amistoso leyendo un libro bajo un árbol de cerezo en primavera, colores pastel, estilo acuarela, línea suave\"",
+      "Prompt 4: \"Fotografía de producto: reloj de madera minimalista sobre una tabla de roble, luz natural difusa, fondo desenfocado, estilo editorial, composición regla de los tercios\"",
+      "Prompt 5: \"Cartel publicitario retro de los años 80, coche deportivo rojo brillante, carretera desértica al atardecer, tipografía neon, estilo synthwave\"",
+      "Prompt 6: \"Pintura al óleo de una escena bucólica: granjas españolas, campos de girasoles, cielo nublado, estilo 19.º siglo, pinceladas gruesas\"",
+      "Prompt 7: \"Diagramas técnicos en estilo minimalista, esquema de motor eléctrico, líneas negras sobre fondo blanco, anotaciones en tipografía Helvetica\"",
+      "Prompt 8: \"Fotografía de comida gourmet: sushi de salmón y aguacate, plato de cerámica negra, luz de ventana lateral, profundidad de campo reducida, estilo editorial gastronómico\"",
+      "\"Portada de ebook, figura humana sentada en posición de loto sobre una alfombra de musgo, bosque de bambú al fondo, luz dorada del amanecer, estilo ilustración plana vectorial, colores pastel verde menta y crema, tipografía sans serif centrada en la parte inferior\"",
+      "\"Portada de ebook, silueta humana en posición de loto sobre musgo, bosque de bambú estilizado, luz dorada tenue al amanecer, estilo ilustración plana vectorial, paleta pastel verde menta y crema, espacio vacío para título en la parte inferior\""
+    ],
+    "topic": "Prompts para generar imágenes perfectas con IA"
+  },
+  {
     "slug": "2026-11-06-aprende-cualquier-tema-10-mas-rapido-con-prompts-efectivos.html",
     "title": "Aprende cualquier tema 10× más rápido con prompts efectivos",
     "description": "Descubre cómo crear prompts que multiplican tu velocidad de aprendizaje hasta 10 veces, con ejemplos, casos prácticos y checklist.",
@@ -2064,27 +2090,5 @@
     ],
     "topic": "Cómo crear prompts infalibles: guía práctica paso a paso",
     "wordCount": 668
-  },
-  {
-    "slug": "2026-08-20-prompt-engineering-para-developers-trucos-que-no-conocias.html",
-    "title": "Prompt engineering para developers: trucos que no conocías",
-    "description": "Descubre técnicas avanzadas de prompt engineering para programadores, con ejemplos listos para copiar y mejorar tus IA.",
-    "date": "2026-08-20",
-    "tags": [
-      "prompt engineering",
-      "developers",
-      "IA"
-    ],
-    "readingTime": 3,
-    "category": "programacion",
-    "prompts": [
-      "\"\"\"\n  Contexto:\n  ---\n  Eres un asistente que ayuda a generar código Python para manipular datos en pandas.\n  ---\n  Tarea:\n  - Dada una tabla CSV, crea una función que filtre filas por una columna específica.\n  ---\n  Ejemplo de entrada:\n  {\\\"file\\\": \\\"ventas.csv\\\", \\\"columna\\\": \\\"region\\\", \\\"valor\\\": \\\"Norte\\\"}\n  \"\"\"",
-      "\"\"\"\n  Resuelve el siguiente problema paso a paso:\n  - Dado un array de números, devuelve los que sean primos.\n  - Primero, escribe la lógica para identificar un número primo.\n  - Después, aplica esa lógica al array.\n  \"\"\"",
-      "\"\"\"\n  // Paso 1: Explicar la estrategia\n  // Paso 2: Mostrar el código\n  const eliminarDuplicados = (arr) => {\n    // Usamos Set para garantizar unicidad\n    return [...new Set(arr)];\n  };\n  \"\"\"",
-      "\"\"\"\n  Genera la respuesta en JSON con los campos: nombre, edad, habilidades (lista).\n  Ejemplo:\n  {\\\"nombre\\\": \\\"Ana\\\", \\\"edad\\\": 29, \\\"habilidades\\\": [\\\"Python\\\", \\\"Docker\\\"]}\n  \"\"\"",
-      "\"\"\"\n  Paso 1: Extrae los requisitos funcionales de este documento.\n  Paso 2: Con los requisitos, genera un diagrama de flujo en mermaid.\n  Paso 3: A partir del diagrama, escribe el código skeleton en Python.\n  \"\"\""
-    ],
-    "topic": "Prompt engineering para developers: trucos que no conocías",
-    "wordCount": 570
   }
 ]
