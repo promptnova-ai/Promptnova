@@ -1,5 +1,30 @@
 [
   {
+    "slug": "2026-11-13-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
+    "title": "Errores comunes al escribir prompts y cómo evitarlos",
+    "description": "Descubre los errores más frecuentes al crear prompts de IA y aprende estrategias prácticas para evitarlos y mejorar tus resultados.",
+    "date": "2026-11-13",
+    "tags": [
+      "prompt engineering",
+      "IA",
+      "errores comunes"
+    ],
+    "readingTime": 5,
+    "category": "general",
+    "prompts": [
+      "/* 1. Prompt con contexto y tono */\nEscribe un artículo de 800 palabras dirigido a profesionales de marketing que explique los riesgos de sesgo algorítmico. Usa un tono formal, incluye al menos tres ejemplos reales y finaliza con una lista de buenas prácticas.",
+      "/* 2. Prompt que delimita formato */\nGenera una tabla Markdown con tres columnas: \"Herramienta\", \"Ventaja\" y \"Desventaja\". Incluye cinco herramientas de generación de texto y proporciona una breve descripción en cada celda.",
+      "/* 3. Prompt con paso a paso */\nDescribe paso a paso cómo entrenar un modelo de clasificación de sentimientos con Python y scikit‑learn. Cada paso debe contener un fragmento de código funcional y una breve explicación.",
+      "/* 4. Prompt que evita ambigüedad */\nResume en 150 palabras los principales hallazgos del artículo \"Attention Is All You Need\" (Vaswani et al., 2017). Enfócate en la arquitectura Transformer y menciona por qué revolucionó el campo del NLP.",
+      "/* 5. Prompt con límite de tokens */\nEscribe una introducción de máximo 120 palabras para un blog sobre ética de la IA. No excedas 200 tokens y termina con una pregunta que invite a comentar.",
+      "/* 6. Prompt con verificación de resultados */\nCrea una lista de cinco métricas para evaluar la calidad de respuestas generadas por un modelo de lenguaje. Después, escribe una breve guía de cómo validar cada métrica con ejemplos numéricos.",
+      "/* 7. Prompt que combina datos y narrativa */\nUtiliza los siguientes datos de ventas (Ene: 1200, Feb: 1350, Mar: 1580) y escribe un breve informe ejecutivo que destaque la tendencia, incluya una conclusión y sugiera una acción para el próximo trimestre.",
+      "/* 8. Prompt para depurar código */\nRevisa el siguiente fragmento de Python y corrige los errores sintácticos y lógicos. Añade comentarios explicando cada corrección.\n\n```python\nimport math\n\ndef area_circulo(radio):\n    return math.pi * radio**2\n\nprint(area_circulo('5'))\n```",
+      "Escribe un artículo de 1200 palabras dirigido a empleados de una startup que explique los errores más habituales al crear prompts para modelos de lenguaje. Incluye:\n- Una introducción breve.\n- Tres secciones con ejemplos reales (5‑8 bloques de código) que muestren cómo corregir cada error.\n- Un caso práctico paso a paso que cubra desde la idea inicial hasta el prompt final.\n- Una checklist accionable de 10 ítems.\n- Una sección de fuentes con enlaces a la documentación oficial de OpenAI y a la guía de Prompt Engineering de DeepLearning.ai.\nUtiliza un tono ameno, profesional y sin promesas de resultados garantizados. Formatea el artículo con HTML semántico (h2, h3, p, ul, li, blockquote, pre, code). No incluyas estilos inline."
+    ],
+    "topic": "Errores comunes al escribir prompts y cómo evitarlos"
+  },
+  {
     "slug": "2026-11-10-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
     "title": "Cómo crear prompts perfectos para generar imágenes con IA",
     "description": "Descubre cómo diseñar prompts efectivos para generar imágenes perfectas con IA, con ejemplos, errores comunes y una guía práctica paso a paso.",
@@ -2069,26 +2094,5 @@
     ],
     "topic": "Cómo crear prompts perfectos para generar imágenes con IA",
     "wordCount": 480
-  },
-  {
-    "slug": "2026-08-21-como-crear-prompts-infalibles-guia-practica-paso-a-paso.html",
-    "title": "Cómo crear prompts infalibles: guía práctica paso a paso",
-    "description": "Descubre técnicas y ejemplos para escribir prompts que siempre obtengan los resultados esperados en IA.",
-    "date": "2026-08-21",
-    "tags": [
-      "prompt engineering",
-      "IA",
-      "productividad"
-    ],
-    "readingTime": 4,
-    "category": "trabajo",
-    "prompts": [
-      "Rol: ...\nObjetivo: ...\nInstrucciones:\n- Paso 1\n- Paso 2\nFormato de salida: ...",
-      "Rol: Redactor creativo especializado en storytelling.\nObjetivo: Escribir una historia corta de 300 palabras sobre un robot que descubre la música.\nInstrucciones:\n- Introduce al personaje en el primer párrafo.\n- Describe la emoción que siente al escuchar la primera nota.\n- Concluye con un mensaje inspirador.\nFormato de salida: Texto plano sin viñetas.",
-      "Rol: Analista de datos senior.\nObjetivo: Generar un informe ejecutivo sobre el crecimiento de usuarios de una app en Q2 2024.\nInstrucciones:\n- Incluye una tabla con los porcentajes mensuales.\n- Resalta los tres factores clave que impulsaron el crecimiento.\n- Propón dos recomendaciones accionables.\nFormato de salida: Markdown con tabla y viñetas.",
-      "Rol: Coach de productividad.\nObjetivo: Crear una lista de hábitos diarios para mejorar la concentración.\nInstrucciones:\n- Cada hábito debe incluir una breve explicación (máximo 30 palabras).\n- Ordena los hábitos por prioridad, del más impactante al menos.\n- Añade un emoji al inicio de cada ítem.\nFormato de salida: Lista ordenada (1., 2., 3.) sin numeración adicional."
-    ],
-    "topic": "Cómo crear prompts infalibles: guía práctica paso a paso",
-    "wordCount": 668
   }
 ]

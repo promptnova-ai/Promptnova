@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script src="https://quge5.com/88/tag.min.js" data-zone="11822422" async data-cfasync="false"></script>
+<script>(function(s){s.dataset.zone='11830791',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+  <meta charset="UTF-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Errores comunes al escribir prompts y cómo evitarlos | PromptNova</title>
+  <meta name="description" content="Descubre los errores más frecuentes al crear prompts de IA y aprende estrategias prácticas para evitarlos y mejorar tus resultados.">
+  <meta name="author" content="PromptNova">
+  <meta property="og:title" content="Errores comunes al escribir prompts y cómo evitarlos | PromptNova">
+  <meta property="og:description" content="Descubre los errores más frecuentes al crear prompts de IA y aprende estrategias prácticas para evitarlos y mejorar tus resultados.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://promptnova.me/posts/2026-11-13-errores-comunes-al-escribir-prompts-y-como-evitarlos.html">
+  <link rel="canonical" href="https://promptnova.me/posts/2026-11-13-errores-comunes-al-escribir-prompts-y-como-evitarlos.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/consent.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Errores comunes al escribir prompts y cómo evitarlos","description":"Descubre los errores más frecuentes al crear prompts de IA y aprende estrategias prácticas para evitarlos y mejorar tus resultados.","author":{"@type":"Organization","name":"PromptNova"},"datePublished":"2026-11-13","dateModified":"2026-11-13","mainEntityOfPage":"https://promptnova.me/posts/2026-11-13-errores-comunes-al-escribir-prompts-y-como-evitarlos.html"}</script>
+</head>
+<body>
+
+  <nav role="navigation" aria-label="Navegación principal">
+    <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+    <div class="nav-links">
+      <a href="./#inicio">Inicio</a>
+      <a href="./#posts">Prompts</a>
+      <a href="./#categorias">Categorías</a>
+      <a href="./#blog" class="active">Blog</a>
+      <a href="./editorial.html">Criterio editorial</a>
+      <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="./#inicio" onclick="closeMenu()">Inicio</a>
+    <a href="./#posts" onclick="closeMenu()">Prompts</a>
+    <a href="./#categorias" onclick="closeMenu()">Categorías</a>
+    <a href="./#blog" onclick="closeMenu()">Blog</a>
+    <a href="./editorial.html">Criterio editorial</a>
+    <a href="./privacidad.html" target="_blank" rel="noopener noreferrer">Privacidad</a>
+  </div>
+
+  <main class="post-container">
+    <div class="post-header">
+      <a href="./" class="post-back">← Volver al inicio</a>
+      <span class="post-tag">prompt engineering</span>
+      <h1>Errores comunes al escribir prompts y cómo evitarlos</h1>
+      <p class="post-meta">
+        <time datetime="2026-11-13">2026-11-13</time> · 
+        5 min de lectura · 
+        <span class="tag">prompt engineering</span> <span class="tag">IA</span> <span class="tag">errores comunes</span>
+      </p>
+    </div>
+
+    <div class="post-content">
+      <article>
+  <h2>Introducción</h2>
+  <p>Los modelos de lenguaje como ChatGPT pueden producir resultados sorprendentes, pero su rendimiento depende en gran medida de la calidad del prompt. Un prompt confuso, vago o mal estructurado suele generar respuestas irrelevantes, incompletas o sesgadas. En este artículo analizamos los errores más habituales al redactar prompts y ofrecemos técnicas concretas para evitarlos, con ejemplos listos para copiar y un caso práctico paso a paso.</p>
+  
+  <h2>1. Principales errores al redactar prompts</h2>
+  <h3>1.1. Falta de contexto</h3>
+  <p>Cuando el modelo no dispone de la información necesaria, tiende a adivinar. Un prompt que dice "Escribe un artículo sobre IA" es demasiado amplio; el modelo no sabrá el tono, la audiencia o la extensión deseada.</p>
+  
+  <h3>1.2. Ambigüedad en la instrucción</h3>
+  <p>Los enunciados que pueden interpretarse de varias maneras provocan respuestas inconsistentes. Por ejemplo, "Explica la diferencia entre IA y ML" puede generar una definición muy breve o un análisis profundo, según lo que el modelo entienda como "explicar".</p>
+  
+  <h3>1.3. Instrucciones contradictorias</h3>
+  <p>Combinar peticiones opuestas, como "escribe un texto formal pero con lenguaje coloquial", confunde al modelo y suele producir un resultado intermedio que no satisface ninguna de las dos demandas.</p>
+  
+  <h3>1.4. Ignorar el límite de tokens</h3>
+  <p>Solicitar un artículo de 2000 palabras sin especificar la longitud máxima puede generar respuestas truncadas o incompletas, ya que el modelo tiene un límite de tokens por petición.</p>
+  
+  <h3>1.5. No indicar formato de salida</h3>
+  <p>Si necesitas una lista, una tabla o código, debes indicarlo explícitamente. De lo contrario, el modelo puede devolver párrafos corridos que tendrás que re‑formatear manualmente.</p>
+  
+  <h2>2. Ejemplos de prompts bien estructurados</h2>
+  <p>A continuación se presentan ocho ejemplos que ilustran cómo aplicar los principios anteriores. Cada bloque está listo para copiar.</p>
+  
+  <pre><code>/* 1. Prompt con contexto y tono */
+Escribe un artículo de 800 palabras dirigido a profesionales de marketing que explique los riesgos de sesgo algorítmico. Usa un tono formal, incluye al menos tres ejemplos reales y finaliza con una lista de buenas prácticas.</code></pre>
+  
+  <pre><code>/* 2. Prompt que delimita formato */
+Genera una tabla Markdown con tres columnas: "Herramienta", "Ventaja" y "Desventaja". Incluye cinco herramientas de generación de texto y proporciona una breve descripción en cada celda.</code></pre>
+  
+  <pre><code>/* 3. Prompt con paso a paso */
+Describe paso a paso cómo entrenar un modelo de clasificación de sentimientos con Python y scikit‑learn. Cada paso debe contener un fragmento de código funcional y una breve explicación.</code></pre>
+  
+  <pre><code>/* 4. Prompt que evita ambigüedad */
+Resume en 150 palabras los principales hallazgos del artículo "Attention Is All You Need" (Vaswani et al., 2017). Enfócate en la arquitectura Transformer y menciona por qué revolucionó el campo del NLP.</code></pre>
+  
+  <pre><code>/* 5. Prompt con límite de tokens */
+Escribe una introducción de máximo 120 palabras para un blog sobre ética de la IA. No excedas 200 tokens y termina con una pregunta que invite a comentar.</code></pre>
+  
+  <pre><code>/* 6. Prompt con verificación de resultados */
+Crea una lista de cinco métricas para evaluar la calidad de respuestas generadas por un modelo de lenguaje. Después, escribe una breve guía de cómo validar cada métrica con ejemplos numéricos.</code></pre>
+  
+  <pre><code>/* 7. Prompt que combina datos y narrativa */
+Utiliza los siguientes datos de ventas (Ene: 1200, Feb: 1350, Mar: 1580) y escribe un breve informe ejecutivo que destaque la tendencia, incluya una conclusión y sugiera una acción para el próximo trimestre.</code></pre>
+  
+  <pre><code>/* 8. Prompt para depurar código */
+Revisa el siguiente fragmento de Python y corrige los errores sintácticos y lógicos. Añade comentarios explicando cada corrección.
+
+```python
+import math
+
+def area_circulo(radio):
+    return math.pi * radio**2
+
+print(area_circulo('5'))
+```</code></pre>
+  
+  <h2>3. Caso práctico: de la idea al prompt final</h2>
+  <p>Supongamos que trabajas en una startup y necesitas generar una guía de buenas prácticas para redactar prompts que será publicada en el blog interno.</p>
+  <h3>3.1. Definir objetivo y audiencia</h3>
+  <ul>
+    <li>Objetivo: enseñar a empleados sin experiencia en IA a crear prompts claros.</li>
+    <li>Audiencia: equipos de producto y marketing.</li>
+    <li>Extensión: 1200 palabras.</li>
+    <li>Formato: artículo con secciones, ejemplos y checklist.</li>
+  </ul>
+  <h3>3.2. Recopilar requisitos</h3>
+  <p>Se decide incluir:</p>
+  <ul>
+    <li>Errores comunes.</li>
+    <li>Ejemplos de prompts correctos.</li>
+    <li>Procedimiento de validación.</li>
+    <li>Checklist para revisión.</li>
+  </ul>
+  <h3>3.3. Redactar el prompt maestro</h3>
+  <pre><code>Escribe un artículo de 1200 palabras dirigido a empleados de una startup que explique los errores más habituales al crear prompts para modelos de lenguaje. Incluye:
+- Una introducción breve.
+- Tres secciones con ejemplos reales (5‑8 bloques de código) que muestren cómo corregir cada error.
+- Un caso práctico paso a paso que cubra desde la idea inicial hasta el prompt final.
+- Una checklist accionable de 10 ítems.
+- Una sección de fuentes con enlaces a la documentación oficial de OpenAI y a la guía de Prompt Engineering de DeepLearning.ai.
+Utiliza un tono ameno, profesional y sin promesas de resultados garantizados. Formatea el artículo con HTML semántico (h2, h3, p, ul, li, blockquote, pre, code). No incluyas estilos inline.</code></pre>
+  <h3>3.4. Ejecutar y revisar</h3>
+  <p>Se envía el prompt a ChatGPT, se revisa la respuesta y se ajusta la longitud usando la instrucción "no excedas 2000 tokens". Finalmente, se valida que cada bloque de código sea ejecutable y que los enlaces apunten a recursos reales.</p>
+  
+  <h2>4. Checklist accionable</h2>
+  <ul>
+    <li>✅ Define claramente el objetivo y la audiencia.</li>
+    <li>✅ Proporciona contexto suficiente (tema, tono, extensión).</li>
+    <li>✅ Especifica el formato de salida (lista, tabla, código).</li>
+    <li>✅ Evita ambigüedades usando palabras precisas.</li>
+    <li>✅ No combines instrucciones contradictorias.</li>
+    <li>✅ Limita la longitud con un máximo de tokens o palabras.</li>
+    <li>✅ Incluye ejemplos de salida esperada.</li>
+    <li>✅ Prueba el prompt y revisa la respuesta.</li>
+    <li>✅ Ajusta según los errores detectados.</li>
+    <li>✅ Documenta versiones y cambios para futura referencia.</li>
+  </ul>
+  
+  <h2>5. Límites, errores frecuentes y verificación de resultados</h2>
+  <p>Incluso con un prompt perfectamente estructurado, los modelos pueden producir información desactualizada o inventar datos (hallucination). Por ello es esencial:</p>
+  <ul>
+    <li><strong>Verificar fuentes:</strong> siempre cruza datos con documentos oficiales.</li>
+    <li><strong>Controlar sesgos:</strong> revisa que el texto no favorezca inadvertidamente una perspectiva.</li>
+    <li><strong>Re‑evaluar token‑budget:</strong> si la respuesta se corta, reduce la longitud solicitada o divide la tarea en sub‑prompts.</li>
+    <li><strong>Usar validaciones automáticas:</strong> scripts que comprueben formato JSON, presencia de palabras clave o número de ítems.</li>
+  </ul>
+  <blockquote>“Un buen prompt no elimina la necesidad de revisión humana, pero sí reduce la carga de trabajo y aumenta la consistencia.”</blockquote>
+  
+  <h2>6. Fuentes y documentación oficial</h2>
+  <ul>
+    <li><a href="https://platform.openai.com/docs/guides/prompt-best-practices" target="_blank">OpenAI – Prompt Best Practices</a></li>
+    <li><a href="https://learn.deeplearning.ai/course/prompt-engineering" target="_blank">DeepLearning.ai – Prompt Engineering</a></li>
+    <li><a href="https://github.com/openai/openai-cookbook" target="_blank">OpenAI Cookbook (ejemplos de prompts)</a></li>
+    <li><a href="https://arxiv.org/abs/2005.14165" target="_blank">Brown et al., 2020 – Language Models are Few‑Shot Learners</a></li>
+  </ul>
+</article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="./#inicio" class="nav-logo">🪐 Prompt<span>Nova</span></a>
+        <p>Tu copiloto en el universo de la inteligencia artificial.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="./#posts">Todos los prompts</a></li>
+          <li><a href="./#blog">Blog</a></li>
+          <li><a href="./editorial.html">Criterio editorial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="./privacidad.html">Política de Privacidad</a></li>
+          <li><a href="./terminos.html">Términos de Uso</a></li>
+          <li><a href="./aviso-legal.html">Aviso Legal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© PromptNova 2026 — Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const btn = document.querySelector('.hamburger');
+      const isOpen = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    function closeMenu() {
+      document.getElementById('mobile-menu').classList.remove('open');
+      document.querySelector('.hamburger').setAttribute('aria-expanded', 'false');
+    }
+  </script>
+</body>
+</html>
