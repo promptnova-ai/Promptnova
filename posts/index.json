@@ -1,5 +1,28 @@
 [
   {
+    "slug": "2026-11-16-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html",
+    "title": "IA para SEO: 7 prompts que impulsan tu posicionamiento",
+    "description": "Descubre cómo usar la inteligencia artificial para crear prompts SEO efectivos que mejoren tu ranking sin promesas falsas.",
+    "date": "2026-11-16",
+    "tags": [
+      "IA",
+      "SEO",
+      "Prompt Engineering"
+    ],
+    "readingTime": 5,
+    "category": "marketing",
+    "prompts": [
+      "\"Genera una lista de 10 temas de blog para la palabra clave 'marketing de contenidos'. Cada tema debe corresponder a una intención de búsqueda diferente (informacional, transaccional, navegacional) y incluir una sugerencia de título SEO-friendly.\"",
+      "\"Escribe un esquema detallado para un artículo titulado 'Guía completa de link building en 2024'. Incluye al menos 5 encabezados H2 y 3 H3 bajo cada H2, integrando palabras clave como 'backlinks de calidad', 'anchor text' y 'autoridad de dominio'.\"",
+      "\"Redacta un párrafo de 120 palabras sobre 'optimización de meta description' que incluya la frase clave exacta 'optimización de meta description' dos veces y la variante 'meta description SEO' una vez, manteniendo un tono natural y persuasivo.\"",
+      "\"Crea 3 propuestas de meta title (máximo 60 caracteres) y 3 meta description (máximo 155 caracteres) para un artículo sobre 'estrategias de SEO local en 2024'. Cada propuesta debe incluir la palabra clave principal 'SEO local' y un llamado a la acción.\"",
+      "\"Escribe una respuesta de 40‑50 palabras a la pregunta '¿Cómo mejorar la velocidad de carga de una página web?' que pueda usarse como featured snippet. Incluye al menos un paso numerado y una palabra clave secundaria 'optimización de velocidad'.\"",
+      "\"Analiza el siguiente párrafo y sugiere tres mejoras para SEO: (1) añadir una palabra clave secundaria, (2) reescribir para mayor claridad, (3) incluir un enlace interno. Texto: 'El marketing de contenidos es esencial para atraer clientes...'\"",
+      "\"Crea una lista de 5 preguntas frecuentes relacionadas con 'automatización de SEO' basadas en búsquedas de Google (usando datos de Ahrefs o SEMrush). Proporciona una respuesta breve de 30‑40 palabras para cada pregunta, incluyendo la palabra clave principal.\""
+    ],
+    "topic": "IA para SEO: prompts que posicionan tu contenido"
+  },
+  {
     "slug": "2026-11-13-errores-comunes-al-escribir-prompts-y-como-evitarlos.html",
     "title": "Errores comunes al escribir prompts y cómo evitarlos",
     "description": "Descubre los errores más frecuentes al crear prompts de IA y aprende estrategias prácticas para evitarlos y mejorar tus resultados.",
@@ -2073,26 +2096,5 @@
     ],
     "topic": "Cómo usar la IA para generar ideas de negocio en minutos",
     "wordCount": 620
-  },
-  {
-    "slug": "2026-08-21-como-crear-prompts-perfectos-para-generar-imagenes-con-ia.html",
-    "title": "Cómo crear prompts perfectos para generar imágenes con IA",
-    "description": "Aprende a redactar prompts precisos para obtener imágenes IA de alta calidad en minutos.",
-    "date": "2026-08-21",
-    "tags": [
-      "IA",
-      "prompts",
-      "arte digital"
-    ],
-    "readingTime": 3,
-    "category": "general",
-    "prompts": [
-      "[[Sujeto principal]], [[Acción o estado]], [[Estilo artístico]], [[Iluminación]], [[Composición]], [[Detalles adicionales]]",
-      "Una cadena montañosa al atardecer, vista panorámica, estilo arte digital hiperrealista, luz dorada, perspectiva de gran angular, niebla ligera en el valle, sin edificios modernos",
-      "Retrato de una elfa guerrera, mirada intensa, estilo ilustración de cómic de los 90, iluminación de contraluz, plano medio, capa de hojas doradas, sin armas visibles",
-      "Calles de Tokio en 2099, neón azul y rosa, estilo película noir, lluvia ligera, toma a nivel de la calle, drones volando, sin personas"
-    ],
-    "topic": "Cómo crear prompts perfectos para generar imágenes con IA",
-    "wordCount": 480
   }
 ]
