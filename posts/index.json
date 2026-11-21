@@ -1,5 +1,37 @@
 [
   {
+    "slug": "2026-11-21-como-usar-chatgpt-para-crear-un-curso-online-desde-cero.html",
+    "title": "Cómo usar ChatGPT para crear un curso online desde cero",
+    "description": "Aprende paso a paso a diseñar, escribir y validar un curso online usando ChatGPT, con ejemplos de prompts y checklist accionable.",
+    "date": "2026-11-21",
+    "tags": [
+      "ChatGPT",
+      "curso online",
+      "prompt engineering"
+    ],
+    "readingTime": 5,
+    "category": "estudio",
+    "prompts": [
+      "\"Ayúdame a definir el perfil de estudiante ideal para un curso de introducción a la analítica de datos dirigido a profesionales de marketing con conocimientos básicos de Excel.\"",
+      "\"Genera una estructura de curso de 8 semanas sobre analítica de datos para marketing, con 2 lecciones por semana y objetivos de aprendizaje para cada lección.\"",
+      "Semana 1: Introducción y conceptos básicos\n  • Lección 1: ¿Qué es la analítica de datos?\n  • Lección 2: Herramientas gratuitas para principiantes\nObjetivo: Comprender el ciclo de vida de los datos en marketing.",
+      "\"Escribe un borrador de 800 palabras para la lección 'Herramientas gratuitas para principiantes' que incluya ejemplos de Google Analytics y Google Data Studio, con tono amigable y ejemplos prácticos.\"",
+      "\"Resume los puntos clave de la lección anterior en 5 viñetas de máximo 12 palabras cada una, listas para una presentación de PowerPoint.\"",
+      "\"Genera 3 preguntas abiertas que los estudiantes puedan responder después de la lección '¿Qué es la analítica de datos?'\"",
+      "\"Crea un caso práctico de 500 palabras donde una empresa de e‑commerce usa Google Analytics para optimizar su funnel de ventas, incluyendo datos ficticios y pasos de análisis.\"",
+      "\"Diseña un quiz de 10 preguntas de opción múltiple sobre los conceptos de la lección 'Herramientas gratuitas para principiantes', con 3 opciones por pregunta y la respuesta correcta marcada.\"",
+      "\"Genera 5 preguntas tipo verdadero/falso de nivel intermedio sobre métricas de engagement en redes sociales.\"",
+      "\"Revisa el borrador anterior y adapta el tono a un público universitario, manteniendo la claridad y evitando jerga excesiva.\"",
+      "\"Quiero diseñar un curso de 4 semanas para emprendedores que no saben usar IA en sus campañas de email. El objetivo es que al finalizar puedan crear 3 secuencias automatizadas usando ChatGPT.\"",
+      "\"Genera una tabla de contenidos con 4 módulos, 2 lecciones por módulo, y objetivo de aprendizaje para cada lección.\"",
+      "\"Escribe un borrador de 900 palabras sobre 'Cómo redactar líneas de asunto usando ChatGPT', incluye 3 ejemplos de prompts y resultados reales.\"",
+      "Prompt: \"Genera 5 líneas de asunto para una campaña de lanzamiento de un SaaS de gestión de proyectos, tono profesional y 50 caracteres máximo.\"",
+      "\"Crea un quiz de 8 preguntas de opción múltiple para evaluar la lección anterior, con retroalimentación breve para cada respuesta incorrecta.\"",
+      "\"Revisa todo el contenido del módulo 2 y adapta el tono a un público de emprendedores con nivel básico de marketing digital.\""
+    ],
+    "topic": "Cómo usar ChatGPT para crear un curso online desde cero"
+  },
+  {
     "slug": "2026-11-16-ia-para-seo-7-prompts-que-impulsan-tu-posicionamiento.html",
     "title": "IA para SEO: 7 prompts que impulsan tu posicionamiento",
     "description": "Descubre cómo usar la inteligencia artificial para crear prompts SEO efectivos que mejoren tu ranking sin promesas falsas.",
@@ -2076,25 +2108,5 @@
     ],
     "topic": "Domina ChatGPT en tu trabajo diario: guía práctica",
     "wordCount": 499
-  },
-  {
-    "slug": "2026-08-21-como-usar-la-ia-para-generar-ideas-de-negocio-en-minutos.html",
-    "title": "Cómo usar la IA para generar ideas de negocio en minutos",
-    "description": "Descubre cómo la inteligencia artificial te ayuda a crear ideas de negocio en pocos minutos con ejemplos prácticos y prompts listos para usar.",
-    "date": "2026-08-21",
-    "tags": [
-      "IA",
-      "ideas de negocio",
-      "prompt engineering"
-    ],
-    "readingTime": 4,
-    "category": "emprendimiento",
-    "prompts": [
-      "Prompt 1: \"Genera 10 ideas de negocio rentables en el sector de la alimentación saludable para personas entre 25 y 40 años, con un presupuesto inicial de 5.000 euros. Presenta cada idea en una tabla con columnas: Nombre, Propuesta de valor, Público objetivo, Costos iniciales estimados y Principales retos.\"",
-      "Prompt 2: \"Imagina 7 startups tecnológicas que resuelvan problemas de logística en ciudades medianas de América Latina. Cada propuesta debe incluir: descripción breve, tecnología clave, modelo de ingresos y un plan de lanzamiento de 3 meses.\"",
-      "Prompt 3: \"Lista 5 oportunidades de negocio basadas en IA para el sector educativo, enfocadas en estudiantes de educación secundaria. Incluye ejemplos de casos de uso, herramientas necesarias y métricas de éxito a 12 meses.\""
-    ],
-    "topic": "Cómo usar la IA para generar ideas de negocio en minutos",
-    "wordCount": 620
   }
 ]
